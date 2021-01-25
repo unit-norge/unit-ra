@@ -11,7 +11,7 @@ endif::[]
 :sectnums:
 :sectnumlevels: 9
 
-#TODO (Erik): Beskrivelse av Del og innhent data, verdistrøm + hvert steg#
+
 
 .Del og innhent data, verdistrøm
 image::{imagepath}Del og innhent data, verdistrøm.png[alt=Del og innhent data, verdistrøm image]
@@ -41,8 +41,8 @@ Data eier på to nivå: f. eks. studieavdelingen (er ikke dette behandlingsansva
 | Tilrettelegg for dataoppdagelse og datadeling <value-stream>
 | 
 
-| Avgi data <value-stream>
-| 
+| Share data <value-stream>
+| "Del data (operativt)" handler om utveksling av data gjennom etablerte kanaler og iht. avtaler. Dette forutsetter også håndtering av avvik og ikke-tilsiktede hendelser.
 
 
 | Sett opp avtaler, løsninger og tilganger etter henvendelse <value-stream>
@@ -62,7 +62,7 @@ Data eier på to nivå: f. eks. studieavdelingen (er ikke dette behandlingsansva
 | Data-konsument <business-role>
 | Den som innhenter eller mottar data fra andre aktører.
 
-| Innhent data <value-stream>
+| Collect data <value-stream>
 | 
 
 | Oppdag data og datakilder <value-stream>

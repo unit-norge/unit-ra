@@ -124,8 +124,8 @@ Data eier på to nivå: f. eks. studieavdelingen (er ikke dette behandlingsansva
 | Tilrettelegg for dataoppdagelse og datadeling <value-stream>
 | 
 
-| Avgi data <value-stream>
-| 
+| Share data <value-stream>
+| "Del data (operativt)" handler om utveksling av data gjennom etablerte kanaler og iht. avtaler. Dette forutsetter også håndtering av avvik og ikke-tilsiktede hendelser.
 
 
 | Sett opp avtaler, løsninger og tilganger etter henvendelse <value-stream>

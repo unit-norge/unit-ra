@@ -83,7 +83,7 @@ Kompetanse på bruk av åpne data
 | Data-konsument <business-role>
 | Den som innhenter eller mottar data fra andre aktører.
 
-| Innhent data <value-stream>
+| Collect data <value-stream>
 | 
 
 | Oppdag data og datakilder <value-stream>

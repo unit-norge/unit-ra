@@ -47,7 +47,11 @@ Data eier på to nivå: f. eks. studieavdelingen (er ikke dette behandlingsansva
 
 
 | Maskinporten <application-component>
-| Maskinporten sørger for sikker autentisering og tilgangskontroll for datautveksling mellom
+| [Torget]
+Maskinporten er en løsning for tilgangsstyring for virksomheter som utveksler data. Løsningen garanterer identiteten mellom virksomheter, og sørger for maskin-til-maskin autentisering.
+
+[Verktøykasse for deling av data]
+Maskinporten sørger for sikker autentisering og tilgangskontroll for datautveksling mellom
 virksomheter, maskin til maskin. Dette gir teknisk og organisatorisk samhandlingsevne.
 
 Mer om Maskinporten:
