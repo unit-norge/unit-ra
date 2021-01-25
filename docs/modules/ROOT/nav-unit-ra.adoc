@@ -1,0 +1,25 @@
+:lang: no
+// include::architecture-repository:common:partial$commonincludes.adoc[]
+
+// :lang: no ------------>
+ifeval::["{lang}" == "no"]
+
+//* xref:index.adoc[Om UNIT referansearkitekturer]
+* xref:unit-ra:ROOT:index.adoc[Om UNIT referansearkitekturer]
+* xref:unit-ra:Bøker:Referansearkitektur for deling av data i høyere utdanning og forsking.adoc[]
+
+endif::[]
+// :lang: no <-----------
+ 
+
+
+// :lang: en ------------>
+ifeval::["{lang}" == "en"]
+
+* xref:index.adoc[About unit-ra]
+
+** xref:index.adoc[Welcome]
+
+endif::[]
+// :lang: en <-----------
+

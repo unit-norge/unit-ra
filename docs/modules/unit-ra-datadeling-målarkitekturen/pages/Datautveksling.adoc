@@ -1,0 +1,21 @@
+= Datautveksling
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-målarkitekturen:
+endif::[]
+:toc: left
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 9
+
+Med utgangspunkt i
+https://nasjonal-arkitektur.github.io/architecture-repository/data-exchange-ra/book-data-exchange-ra.html[Referansearkitektur
+for datautveksling] beskriv de mønstrene som vi bruker
+
+:leveloffset: +1
+include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Datautveksling ved oppslag.adoc[]
+include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Datautveksling ved publisering – konsumering (hendelsesbasert).adoc[]
+:leveloffset: -1

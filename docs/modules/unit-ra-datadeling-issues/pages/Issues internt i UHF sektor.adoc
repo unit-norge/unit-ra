@@ -1,0 +1,29 @@
+= Issues internt i UHF sektor
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-issues:
+endif::[]
+:toc: left
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 9
+
+[arabic]
+. Klientregister inneholder den samme klientoversikten i IAM og i
+datadeling. Hvordan den totale oversikten skal vedlikeholdes må
+defineres. Skal det være repliserte, konsistente registre? Skal det være
+disjunkte subsett?
+. Tilgang til API-er kan ha basis i roller (da er man vel virkelig i
+overlapp med IGA)
+. Dersom forskjellige autorisasjonstjenere ikke kan dele tokens, har vi
+vel også det samme problemet vi har mot de nasjonale fellestjenestene at
+den ene domenen ikke kan forholde seg til tokens fra den andre domenen.
+. Sektoren har tre uavhengige SSO løsninger: IDporten, Feide og Azure
+AD. Dette gir både redusert brukervennlighet, og en sikkerhetsutfordring
+dersom man ikke kan garantere for at det er samme person i de ulike SSO
+dokenene.
+
+

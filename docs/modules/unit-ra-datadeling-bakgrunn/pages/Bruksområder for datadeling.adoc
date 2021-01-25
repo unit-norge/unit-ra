@@ -1,0 +1,59 @@
+= Bruksområder for datadeling
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-bakgrunn:
+endif::[]
+:toc: left
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 9
+
+Datadeling skal støtte virksomhetene innen høyere utdanning og forskning
+i sine oppgaver. Arbeid med referansearkitekturen tar derfor
+utgangspunkt i følgende bruksområder som første steg i en brukerfokusert
+tilnærming:
+
+* Innovativ, individuelt tilpasset læring
+* Livslang læring
+* Åpen forskning 
+* #Heidi: Skulle vi si noe om forskning som ikke er åpen#
+* Effektivisert administrasjon
+* Automatisert administrativ støtte 
+** Forskningssøknader 
+** Data Management Planning innen forskning og andre prosjekter 
+** Arkivering 
+** HR prosesser for onboarding og «terminering?» 
+
+Innen bruksområdene over ser vi sektoren produserer og ønsker å tilby
+følgende hovedkategori av data for deling:
+
+* Utdannings- og forskningsressurser til gjenbruk og viderebruk 
+** Forskningsresultater 
+** Forskningsdata 
+** Digitale læringsressurser 
+* Administrative data
+** Grunndata for driftsformål 
+** Data brukt og produsert i saksbehandling
+** Rapporteringsdata om egen saksbehandling og produksjon 
+* Analysedata om utdanning og forskning 
+
+Sektoren har også bruk for data fra andre. Vi ser behov for følgende
+kategori av data:
+
+* Grunndata i nasjonale felleskomponenter (f. eks. folkeregisteret og
+enhetsregisteret)
+* Autentiseringsdata fra utlandet 
+* Informasjon om grunnutdanning eller utdanning i utlandet 
+* Informasjon om forskning i utlandet og forskningsresultater fra
+utlandet 
+* Informasjon om forskning i privatnæringsliv og resultater
+fra forskning i privat næringsliv 
+* Informasjon om forskningsfinansiering i Norge (fra Forskningsrådet, m.
+fl.) 
+
+Bruksområdene over er utgangspunktet for forståelse av behovene som
+referansearkitekturen skal dekke.
+

@@ -1,0 +1,206 @@
+= Roller og ansvar for informasjonsforvaltning
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-forvaltning:
+endif::[]
+:toc: left
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 9
+
+Vi mener at følgende roller, dekker behovene samt holder kompleksiteten
+på et håndterbart nivå når det gjelder informasjonsforvaltning ved
+deling av data:
+
+* Tjenesteeier
+* Tjenesteansvarlig
+* Dataeier
+* Behandlingsansvarlig
+* Databehandler
+* Segmentansvarlig
+* Begrepseier
+* Datakonsumenter
+
+[cols=",",options="header",]
+|===
+|*Rolle:* |Tjenesteier
+|*Beskrivelse av rollen:* |Tjenesteeier er den
+organisasjon/virksomhet/enhet som eier en tjeneste.
+
+|*Ansvars-områder og oppgaver:* a|
+Er ansvarlig for at sine data/masterdata deles iht. Referansearkitektur
+(dvs. generiske grensesnitt og notifikasjoner, eksempel IntArk).
+
+Er ansvarlig for å definere tjenestenivå i henhold til brukeres behov, å
+kvalitetssikre faglig innhold i tjenesten og å gi faglig brukerstøtte.
+
+Er ansvarlig for at tjenesten følger gjeldende lover og regler, har
+myndighet til å foreta finansielle beslutninger og signere avtaler.
+
+Er ansvarlig for at det er utpekt en tjenesteansvarlig for tjenesten.
+
+|*Typiske roller/stillinger som rollen skal samarbeide med:*
+|Tjenesteeier vil i de fleste tilfellene være en eller flere ledere av
+de fagavdelingene som benytter seg av løsningens funksjonalitet og som
+oppnår gevinster ved å benytte tjenesten.
+|===
+
+[cols=",",options="header",]
+|===
+|*Rolle:* |Tjenesteansvarlig
+|*Beskrivelse av rollen:* a|
+Rollen har et helhetlig ansvar for at tjenesten dekke ønsker og behov
+for funksjonalitet som en kunde eller konsortium har til tjenesten.
+
+Tjenesteansvarlig er operativt ansvarlig og har større kunnskap om behov
+og praktisk bruk av tjenesten. Han/hun jobber i tett samarbeid med
+brukere/brukerrepresentanter. Tjenesteansvarlig og tjenesteeier kan være
+samme person for mindre/enklere tjenester.
+
+|*Ansvars-områder og oppgaver:* a|
+_Drive nettverk og kommunikasjon_ 
+
+ -ha kontakt med
+brukerne/kundene/oppdragsgiver/myndigheter/leverandører 
+
+-fremskaffe og formidle informasjon om tjenesten 
+
+_Sikre brukermedvirkning og koordinere utviklingen av tjenesten_ 
+
+-sørge for oppdatert dokumentasjon av tjenesten 
+
+-sørge for forankring av løpende beslutninger om utvikling av tjenesten 
+
+-koordinerer beslutningsprosessen 
+
+_Sørge for tilstrekkelig kvalitet og sikkerhet i tjenesten_ 
+
+-oppfølging av regelverk tilknyttet tjenesten  
+
+-ansvarlig for brukerstøtte [brukerstøtte er også en del av innkjøpte
+tjenester] 
+
+-ansvar for opplæring i tjenesten  
+
+-ansvar for å identifisere og håndtere risiko 
+
+_Tilrettelegge for gevinstrealisering_ 
+
+_Samarbeide med brukerne om forbedring av arbeidsprosesser_ 
+
+_Forvalte avtaler knyttet til tjenesten _
+
+_For innkjøpte tjenester gjelder også: _ 
+
+Forvalte tjenestens budsjett  
+
+Følge opp ekstern(e) leverandør(er) 
+
+|*Typiske roller/stillinger som rollen skal samarbeide med:*
+|Tjenesteeier, Datakonsument
+|===
+
+[cols=",",options="header",]
+|===
+|*Rolle:* |Dataeier
+|*Beskrivelse av rollen:* |Den virksomheten som forvalter opplysningene
+som skal deles fra sine fagsystemer, registre eller felleskomponenter.
+
+|*Ansvars-områder og oppgaver:* a|
+Leveranse og forvalting av data. Datakvalitet, sikkerhet,
+tilgjengelighet
+
+Motta, registrere, endre og fjerne forekomster.
+
+Sikre at bruk av data som eies av tredjepart samsvarer med vilkårene som
+gis.
+
+Overholde krav i arkivloven når det gjelder kassasjon. 
+
+Rådgivning og bistand i spørsmål som angår bruk av data 
+
+Kommunikasjon med alle interessenter
+
+Oppgaver:
+
+Innhente data
+
+Kvalitetsikre data
+
+Bearbeide, berike data
+
+Lagre data
+
+Lisensiere data
+
+|*Typiske roller/stillinger som rollen skal samarbeide med:* |
+|===
+
+[cols=",",options="header",]
+|===
+|*Rolle:* |Behandlingsansvarlig
+|*Beskrivelse av rollen:* |Behandlingsansvarlig er en fysisk eller
+juridisk person, en offentlig myndighet, en institusjon eller ethvert
+annet organ som alene eller sammen med andre bestemmer formålet med
+behandlingen av personopplysninger og hvilke midler som skal benyttes;
+
+|*Ansvars-områder og oppgaver:* |Uttømmende informasjon om rollen finnes
+hos Datatilsynet
+https://www.datatilsynet.no/rettigheter-og-plikter/virksomhetenes-plikter/databehandleravtale/behandlingsansvarlig-og-databehandler/hva-er-en-behandlingsansvarlig/[(behandlingsansvarlig)]
+
+|*Typiske roller/stillinger som rollen skal samarbeide med:* |
+|===
+
+[cols=",",options="header",]
+|===
+|*Rolle:* |Databehandler
+|*Beskrivelse av rollen:* |En databehandler er en fysisk eller juridisk
+person, offentlig myndighet, institusjon eller ethvert annet organ som
+behandler personopplysninger på vegne av den behandlingsansvarlige.
+
+|*Ansvars-områder og oppgaver:* |Uttømmende informasjon om rollen finnes
+hos Datatilsynet
+https://www.datatilsynet.no/rettigheter-og-plikter/virksomhetenes-plikter/databehandleravtale/behandlingsansvarlig-og-databehandler/hva-er-en-databehandler/[(databehandler)]
+
+|*Typiske roller/stillinger som rollen skal samarbeide med:* |
+|===
+
+[cols=",",options="header",]
+|===
+|*Rolle:* |Segmentansvarlig
+|*Beskrivelse av rollen:* |
+
+|*Ansvars-områder og oppgaver:* |
+
+|*Typiske roller/stillinger som rollen skal samarbeide med:* |
+
+|*Rolle:* |Begrepseier
+
+|*Beskrivelse av rollen:* |Rollen som har det faglige ansvaret for et
+begreps innhold.
+
+|*Ansvars-områder og oppgaver:* |
+
+|*Typiske roller/stillinger som rollen skal samarbeide med:* |
+|===
+
+[cols=",",options="header",]
+|===
+|*Rolle:* |Datakonsument
+|*Beskrivelse av rollen:* |Den virksomheten som mottar opplysninger fra
+datatilbyder til sitt formål/til et annet formål.
+
+|*Ansvars-områder og oppgaver:* a|
+Konsumenten har ansvar for å spesifisere hvilke opplysninger de trenger,
+og for å vurdere om disse kan deles uten hinder av taushetsplikt.
+
+Konsumenter med sammenfallende behov har ansvar for å samordne seg.
+
+|*Typiske roller/stillinger som rollen skal samarbeide med:*
+|Tjenesteansvarlig, Dataeier, Behandlingsansvarlig, Segmentansvarlig
+(skal Segmentansvarlig være felles kontaktpunkt?)
+|===
+

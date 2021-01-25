@@ -1,0 +1,15 @@
+= UNIT Referansearkitekturer
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: master@unit-ra:ROOT:
+endif::[]
+:toc: left
+:toclevels: 3
+:sectnums:
+:sectnumlevels: 9
+
+== Om UNIT Referansearkitekturer
+Velkommen...

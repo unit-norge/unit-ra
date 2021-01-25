@@ -1,0 +1,25 @@
+= Datautveksling ved oppslag
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-målarkitekturen:
+endif::[]
+:toc: left
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 9
+
+
+
+:leveloffset: +1
+include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Applikasjonsoversikt forespørsel.adoc[]
+include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Applikasjonsoversikt forespørsel integrert med IAM.adoc[]
+include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Applikasjonsoversikt forespørsel integrert nasjonalt.adoc[]
+include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Registrere API UHF.adoc[]
+include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Tilgjengeliggjøre data etter forspørsel løsningsmønster UHF.adoc[]
+include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Få tilgang til data - løsningsmønster UHF.adoc[]
+include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Innhente data - løsningsmønster UHF.adoc[]
+include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Avgi data - løsningsmønster UHF.adoc[]
+:leveloffset: -1

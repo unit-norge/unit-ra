@@ -1,0 +1,38 @@
+= Felleskomponenter
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-målarkitekturen:
+endif::[]
+:toc: left
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 9
+
+#(i sektoren hittil har «felles» betyd både at alle bruker samme instans,
+eller at alle har identiske instanser – vi må presisere hva som er
+hva etter hvert)#
+
+ 
+
+Innledende tekst om hva slags funksjonalitet vi trenger i
+felleskomponenter og hvorfor, motivert fra kapabilitetene over.
+
+//Erik
+#Jeg har laget et Archimate view som heter «Felleskomponenter»,
+men jeg vil ikke ha bildet, bare teksten som står i beskrivelse av
+kompontenene#
+
+* Autentiseringstjeneste​
+* API manager​
+* API katalog / datakatalog ​
+* API gateway​
+* Autorisasjonstjeneste / Nøkkelutsteder ​
+* Klient register​
+* Identity Governance Administration (IGA)​
+
+
+#Heidi NB: mangler komponenter for hendelsesstrømming/-publisering#
+

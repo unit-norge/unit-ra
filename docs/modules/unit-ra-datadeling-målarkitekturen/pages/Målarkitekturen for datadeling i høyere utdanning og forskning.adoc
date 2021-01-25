@@ -1,0 +1,24 @@
+= Målarkitekturen for datadeling i høyere utdanning og forskning
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-målarkitekturen:
+endif::[]
+:toc: left
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 9
+
+
+
+:leveloffset: +1
+include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Om arkitekturprinsippenes føringer for datadeling.adoc[]
+include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Hva er datadeling.adoc[]
+include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Modeller for datadeling.adoc[]
+include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Kapabiliteter.adoc[]
+include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Felleskomponenter.adoc[]
+include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Datautveksling.adoc[]
+include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Integrasjonsmønster for datadeling.adoc[]
+:leveloffset: -1

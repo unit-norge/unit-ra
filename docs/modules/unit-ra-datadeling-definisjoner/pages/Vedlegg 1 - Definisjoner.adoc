@@ -1,0 +1,30 @@
+= Vedlegg 1 - Definisjoner
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-definisjoner:
+endif::[]
+:toc: left
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 9
+
+*  *Datakvalitet*:
++
+Datakvalitet innebærer at data skal være korrekte, komplette,
+oppdaterte og konsistente og har evnen til å støtte de
+informasjonsformål de brukes til [kilde: data.norge.no, SKATTEETATEN]
+
+* *Masterdata*: 
++
+Master data is the consistent and uniform set of
+identifiers and extended attributes that describes the core entities of
+the enterprise including customers, prospects, citizens, suppliers,
+sites, hierarchies, and chart of accounts.  footnote:[Gartner definisjon hentet fra https://www.gartner.com/en/information-technology/glossary/master-data-management-mdm
+2021.01.07]
+
+:leveloffset: +1
+include::main@unit-ra:unit-ra-datadeling-definisjoner:page$Definisjoner.adoc[]
+:leveloffset: -1

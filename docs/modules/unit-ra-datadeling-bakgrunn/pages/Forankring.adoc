@@ -1,0 +1,19 @@
+= Forankring
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-bakgrunn:
+endif::[]
+:toc: left
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 9
+
+Referansearkitekturen er utarbeidet i et samarbeidsprosjekt Datadeling
+med prosjektdeltagelse fra Unit, NTNU, UiO og Uninett. Styringsgruppen
+består av medlemmer fra Unit, UiB, OsloMet, USIT, NMBU og Uninett.
+
+Noe om forankring av referansearkitekturen
+

@@ -1,0 +1,19 @@
+= Vedlegg 2 - Behov for avklaringer og utfordringer i sektorens kontekst
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-issues:
+endif::[]
+:toc: left
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 9
+
+
+
+:leveloffset: +1
+include::main@unit-ra:unit-ra-datadeling-issues:page$Issues mot nasjonale felleskompontenter (Maskinporten, ID Porten og Altinn autorisasjon).adoc[]
+include::main@unit-ra:unit-ra-datadeling-issues:page$Issues internt i UHF sektor.adoc[]
+:leveloffset: -1

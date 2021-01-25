@@ -1,0 +1,88 @@
+= Få tilgang til data - løsningsmønster UHF
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-målarkitekturen:
+endif::[]
+:toc: left
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 9
+
+En arbeidsflyt en konsument av data må gjennomføre for å få tildelt rettigheter til data gjennom et API. Det omfatter å få kjennskap til aktuelt API gjennom API-katalogen, autentisere konsumenten, inngå avtale om bruk av data, samt å registrere tilganger hos den tekniske komponenten som skal utføre tjenestekallet. Dersom det dreier seg om tilgang til et åpent tilgjengelig API, kan enkelte delaktiviteter i prosessene hoppes over, men for å kunne logge informasjon om bruk av APIer bør alle konsumenter av et API registreres i klientregisteret.
+
+
+.Få tilgang til data - løsningsmønster UHF
+image::{imagepath}Få tilgang til data - løsningsmønster UHF.png[alt=Få tilgang til data - løsningsmønster UHF image]
+
+
+
+[cols ="1,3", options="header"]
+.Elementer i view for Få tilgang til data - løsningsmønster UHF
+|===
+
+| Element
+| Beskrivelse
+
+| Data-konsument <business-role>
+| Den som innhenter eller mottar data fra andre aktører.
+
+| Få tilgang til API <business-process>
+| Prosessen med å skaffe seg tilgang til tilbudte data fra annen aktør. Omfatte å finne API-er, inngå nødvendige avtaler og få tilganger.
+
+| Inngå avtale om tilgang til data <business-process>
+| Prosess for å inngå avtale om tilgang og bruk av data.
+
+| Registrer klient med tildelt tilgang <business-process>
+| Prosess for konsument å registerere (provisjonering av) den klienten som skal ha tilgang til API-et ved bruk av sikkerhetsbillett. Dette forutsetter at konsumenten har avtale om bruk av sikkerhetsbillettjenesten og at tilbyder har gitt konsumenten tilgang.
+
+Dersom det er en leverandør som har blitt delegert rettigheter som databehandler på vegne av konsument er det leverandøren som registrer sin klient.
+
+| Finn/få kjennskap til API <business-process>
+| Prosessen med å finne eller få kjennskap til tilgjengelige API-er gjennom relevante kataloger og søkeløsninger.
+
+| Autentisere konsument <business-process>
+| Prosessen med å autentisere en konsument.
+
+| Beskrivelse API <data-object>
+| Dataobjekt som er en maskinlesbar beskrivelse av REST API-er iht. Open API Specification. Dette er formatet som benyttes for å registrere et API i felles API-katalog
+
+Ønsker å bruke Open API spesifikasjon
+
+| API-søk <application-service>
+| Tjeneste for å søke etter og finne tilgjengelige API-er
+
+| Få tilgang til data (konsument) <capability>
+| Evnen til å skaffe seg tilgang til tilbudte data fra annen aktør. 
+
+| UHF API katalog <application-component>
+| Oversikt over alle API som er registrert 
+
+| UHF tildel rettigheter til klienter <application-service>
+| 
+
+| API tilgangs-forespørsel <application-service>
+| API eieren får forespørsel om den vil gi konsumenten tilgang til APIet.
+
+| UHF Oauth2 autorisasjonstjener <application-component>
+| Autorisasjonstjeneter realiserer tilgangskontroll gjennom å utstede OpenID Connect eller OAuth 2 grants og tokens. En autorisasjonstjener er også brukt til å realisere tilgangs policy. 
+
+Scope (rettighet) og Audience (identifikator eller ressurs-server f. eks. FS)
+
+Per i dag er Scopes er grovkornet
+Rich authorization requsts (ny spesifikasjon) for å utvide scope begrep i IETF
+underenhet og behandlingssted, behandlingsgrunnlag og roller jobbes det med.
+
+| UHF Klientregister <application-component>
+| Oversikt over alle klienter som er blitt tildelt tilgang til ressurser.
+
+
+| OAUTH scopes <data-object>
+| Hvordan får Dataobjekt som som kan beskrives som en ressurs-definisjon, og et token er som regel knyttet til ett eller flere scopes. Scopes benyttes til å styre tilganger til API-er og operasjoner, samt eventuelt hva slags responser man får fra API-er.
+
+Fra eHelse: Regler for et API som beskriver hvilke tilganger en datakonsument (representert ved organisasjonsnummer) og deres klienter skal ha tilgang til (utstedt token for).
+
+|===
+

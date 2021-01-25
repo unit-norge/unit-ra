@@ -1,0 +1,67 @@
+= Muliggjørende kapabiliteter
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-målarkitekturen:
+endif::[]
+:toc: left
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 9
+
+Informasjonen som skal forvaltes finnes i en faglig kontekst som vi kaller «domener». Fageksperter bør ha eierskap til begrepsdefinisjoner innen egen domene. Domenene bør også være ansvarlig for forvaltning av egen informasjon. Vi har benyttet EUNIS kapabilitetsmodellen som kilde til definisjon av fagdomener der ansvar for forvaltning av informasjon skal være.
+
+.Muliggjørende kapabiliteter
+image::{imagepath}Muliggjørende kapabiliteter.png[alt=Muliggjørende kapabiliteter image]
+
+
+
+[cols ="1,3", options="header"]
+.Elementer i view for Muliggjørende kapabiliteter
+|===
+
+| Element
+| Beskrivelse
+
+| Muliggjørende kapabiliteter <capability>
+| #AKSJON: NTNU oppdaterer definisjon#
+
+Hva organisasjonen gjør for å sikre at den fremmer og forbedrer sin profil og omdømme regionalt, nasjonalt og internasjonalt. Gjennom publisering av forskning og kompetanse, prestasjoner og oppnåelser til en rekke medier og nettverk, samtidig som de reagerer på direkte henvendelser fra pressen, og maksimerer positiv dekning i media.
+
+EUNIS: Enabling Capabilities
+
+| Informasjonsforvaltning <capability>
+| Aktiviteter og tiltak for å sikre best mulig kvalitet, utnytting og sikring av informasjon i en virksomhet [kilde data.norge.no]. Administrert Informasjon inkluderer strukturerte og ustrukturerte data med omfang som definert av retningslinjene for datasikkerhet og datahåndtering.
+
+EUNIS: Information management
+
+
+| Informasjons-registrering, rettighetsklarering og publisering <capability>
+| AKSJON:  NTNU foreslår definisjon
+
+Hva organisasjonen gjør for å skaffe, vedlikeholde og administrere innhold på tvers av både digitale og fysiske plattformer.
+
+EUNIS: Enterprise Content Management
+
+| Forvaltning av informasjons- og datasikkerhet <capability>
+| Hva organisasjonen gjør for å vurdere, merke, overvåke, administrere og vedlikeholde informasjonssikkerhet, og gripe inn / eskalere i tilfelle brudd på informasjonssikkerhetspolitikken. Dette vil omfatte overholdelse av reguleringer, lovgivning og intern risikostyring.
+
+EUNIS: Information & Data Security Management
+
+| Informasjons-gjenfinning <capability>
+| Hva organisasjonen gjør for å lokalisere, indeksere, katalogisere og publisere informasjon for både intern og ekstern bruk. Dette kan omfatte data som ikke oppbevares av organisasjonen.
+
+EUNIS: Information Search & discovery
+
+| Forvaltning av datakvalitet <capability>
+| Hva organisasjonen gjør for å sikre at data er korrekte, komplette, oppdaterte og konsistente og har evnen til å støtte de informasjonsformål de brukes til.
+
+| Juridiske tjenester <capability>
+| Alle aktiviteter som har som mål å sikre tilgjengeligheten av effektive juridiske tjenester.
+
+EUNIS: Legal services
+
+|===
+

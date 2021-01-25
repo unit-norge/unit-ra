@@ -1,0 +1,111 @@
+= Tilgjengeliggjøre data etter forspørsel løsningsmønster UHF
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-målarkitekturen:
+endif::[]
+:toc: left
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 9
+
+En arbeidsflyt som datatilbyder må gjennomføre for å tildele rettigheter til en konsument som ber om tilgang til data. En datatilbyder mottar forespørsel om tilgang til et API på vegne av en organisasjon eller bruker. Dataeieren tar stilling til om konsumenten skal få tilgang til data gjennom APIet. Tilgang registreres knyttet til konsumentens klient (applikasjonen som benytter APIet) i klientregisteret. 
+
+[Kan behandlingsansvarlig handle automatisert basert på forhåndsdefinerte instruks?]
+
+.Tilgjengeliggjøre data etter forspørsel løsningsmønster UHF
+image::{imagepath}Tilgjengeliggjøre data etter forspørsel løsningsmønster UHF.png[alt=Tilgjengeliggjøre data etter forspørsel løsningsmønster UHF image]
+
+
+
+[cols ="1,3", options="header"]
+.Elementer i view for Tilgjengeliggjøre data etter forspørsel løsningsmønster UHF
+|===
+
+| Element
+| Beskrivelse
+
+| Tilganger konsument <data-object>
+| Oversikt over hvilke API og OAUTH-scopes en virksomhet (representert ved organisasjonsnummer) skal ha tilgang til (utstedt token for).
+
+| Datatilbyder <business-role>
+| Tilbyder av data til andre aktører.
+
+API Eiere  (kan eie Data som API gir tilgang til, eller system som tilbyr APIet)??
+
+Når virksomheten tilbyr åpne data, vil det være virksomheten som eier dataene. (men det bør vel definere et domen-eier innenfor virksomheten)
+
+Data eier på to nivå: f. eks. studieavdelingen (er ikke dette behandlingsansvarlig?) spør studenten om de gir samtykke til å gi tilgang til data om studenten som hen eier.
+
+
+| Tilgjengeliggjør data etter forselpørsel <business-process>
+| Prosessen med å tilby data gjennom et API til aktører utenfor egen virksomhet.
+
+| Tildele tilganger til API <business-process>
+| Prosess for å registrere hvilke databrukere som skal få tilgang
+Sette policy, og grov tilgangsstyring gjennom maskinporten.
+
+
+| Inngå avtale om tilgang til data <business-process>
+| Prosess for å inngå avtale om tilgang og bruk av data.
+
+| Registrere brukere av samtykke <business-process>
+| Prosess for å registrere konsumenter som skal ha mulighet for å innhente samtykker som gir tilgang til en tjeneste.
+
+Dette utføres kun om det er behov for samtykke for tilgang til dataene.
+
+| Maskinporten <application-component>
+| Maskinporten sørger for sikker autentisering og tilgangskontroll for datautveksling mellom
+virksomheter, maskin til maskin. Dette gir teknisk og organisatorisk samhandlingsevne.
+
+Mer om Maskinporten:
+https://www.digdir.no/digitale-felleslosninger/maskinporten/869
+
+| Altinn autorisasjon <application-component>
+| Torget:
+Autorisasjonskomponenten i Altinn som gir muligheter til å delegere rettigheter til andre organisasjoner eller personer. Rettigheter til bruk av autorisasjonskomponenten baserer seg på registrerte roller i Enhetsregisteret.
+Altinn autorisasjon leverer også tjenester for å registrere og kontrollere samtykke gitt av person eller virksomhet.
+
+Verktøykasse for deling av data:
+Altinn autorisasjon gir teknisk samhandlingsevne ved at bruker logger inn med elektronisk ID,
+autorisasjonskomponenten sjekker at bruker har de tilgangene som kreves for å ta i bruk aktuell tjeneste.
+
+Dersom en privatperson skal ta i bruk en tjeneste på vegne av en virksomhet, gjøres det et oppslag mot Enhetsregisteret for å bekrefte at personen har en rolle på vegne av virksomheten. Dette gir organisatorisk samhandlingsevne.
+
+Mer om Altinn autorisasjon:
+https://www.altinndigital.no/produkter/styring-av-tilgang/
+
+
+| Registrere samtykkebasert tilgang <application-service>
+| Tjeneste for å registerer konsumenter som kan innhente samtykke som gir grunnlag for utlevering fra datatilbyder.
+
+| Aktører som kan innhente samtykke for bruk av API <data-object>
+| Oversikt over aktører som skal ha mulighet til å innhente samtykke som grunnlag for å få tilgang til data gjennom et API. 
+URL til konsumenten det kan innhentes samtykke for må inngå i beskrivelsen.
+
+| Tilgjengeliggjøre data etter forespørsel <capability>
+| 
+
+| API tilgangs-forespørsel <application-service>
+| API eieren får forespørsel om den vil gi konsumenten tilgang til APIet.
+
+| Godkjenn tilgang <application-service>
+| 
+
+| UHF tildel rettigheter til klienter <application-service>
+| 
+
+| Ressursportal <application-component>
+| 
+
+| Forespør dataeier <application-service>
+| Harmoniserers med rolledefinisjoner.
+
+Kan en databehandler besvare forespørselen automatisk på grunnlag av forhåndsdefinerte instruks?
+
+
+
+|===
+
