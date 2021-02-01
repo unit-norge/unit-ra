@@ -12,5 +12,5 @@ endif::[]
 :sectnumlevels: 9
 
 //heidi:
-#input fra tjenestedesignprosess rundt muliggjørende økosystem#
+#input fra tjenestedesignprosess rundt muliggjørende økosystem (NB script test)#
 
