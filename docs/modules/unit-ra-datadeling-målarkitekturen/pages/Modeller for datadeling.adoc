@@ -29,12 +29,9 @@ juridisk-, organisatorisk-, semantisk- og teknisk samhandlingsevner og
 hjelper dermed de som benytter modellene til å lykkes med digital
 samhandling.
 
-https://nasjonal-arkitektur.github.io/architecture-repository/about-topic-areas/about-topic-areas.html[Nasjonale
-referansearkitekturer innen datadeling og datautveksling] er fremdeles
-under utvikling. Vi gjenbruker her noen av modellene uendret, og
-tilpasser noen for høyere utdanning og forskning. Den overordnede
-verdistrømmen for datadeling og relaterte kapabiliteter #avbildet under#
-er uendret.
+https://www.digdir.no/apne-data/nasjonal-verktoykasse-deling-av-data/2243[Verktøykassen for deling av data] inneholder den overordnende modell for datadeling og kapabilitetene som datatilbydere og datakonsumenter trenger for å dele data. Vi legger disse modellene til grunn.
+
+
 
 :leveloffset: +1
 include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Del og innhent data, verdistrøm.adoc[]
