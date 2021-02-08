@@ -26,9 +26,7 @@ image::{imagepath}Muliggjørende kapabiliteter.png[alt=Muliggjørende kapabilite
 | Beskrivelse
 
 | Muliggjørende kapabiliteter <capability>
-| AKSJON: NTNU oppdaterer definisjon
-
-Hva organisasjonen gjør for å sikre at den fremmer og forbedrer sin profil og omdømme regionalt, nasjonalt og internasjonalt. Gjennom publisering av forskning og kompetanse, prestasjoner og oppnåelser til en rekke medier og nettverk, samtidig som de reagerer på direkte henvendelser fra pressen, og maksimerer positiv dekning i media.
+| Det som kreves for å sikre at organisasjonen er i stand til å gi generell økonomisk, administrativ, fysisk og teknisk støtte til komersiell aktivitet, strategi og styring samt primærvirksomheter (kjerneaktiviteter) slik som undervisning og læring, forskning, nyskapning og formidling.
 
 EUNIS: Enabling Capabilities
 
@@ -39,9 +37,7 @@ EUNIS: Information management
 
 
 | Informasjons-registrering, rettighetsklarering og publisering <capability>
-| AKSJON:  NTNU foreslår definisjon
-
-Hva organisasjonen gjør for å skaffe, vedlikeholde og administrere innhold på tvers av både digitale og fysiske plattformer.
+| Hva oranisasjonen gjør for å lokalisere, indeksere, katalogisere og publisere informasjon for både intern og ekstern bruk.
 
 EUNIS: Enterprise Content Management
 

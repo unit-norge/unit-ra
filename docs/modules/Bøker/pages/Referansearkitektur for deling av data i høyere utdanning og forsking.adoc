@@ -16,11 +16,7 @@ endif::[]
 image:{imagepath}image1.jpeg[]
 
 
-Thu Feb 04 2021 12:51:46 GMT+0100 (CET)
-
-test tekst
-
-:leveloffset: +1
+Mon Feb 08 2021 17:10:54 GMT+0100 (CET):leveloffset: +1
 include::main@unit-ra:unit-ra-datadeling-bakgrunn:page$Bakgrunn.adoc[]
 include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Målarkitekturen for datadeling i høyere utdanning og forskning.adoc[]
 include::main@unit-ra:unit-ra-datadeling-forvaltning:page$Forvaltning av målarkitekturen.adoc[]

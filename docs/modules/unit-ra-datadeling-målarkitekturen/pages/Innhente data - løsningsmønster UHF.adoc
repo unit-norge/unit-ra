@@ -121,27 +121,6 @@ Mer om Altinn autorisasjon:
 https://www.altinndigital.no/produkter/styring-av-tilgang/
 
 
-| API Gateway hos dataeier / OAuth resource server <application-component>
-| API gateway beskytter ressurser og monitorerer tilgang. Den håndhever tilgangsstyring ved å validere aksesstokens og utfører eventuell fin-granulert tilgangskontroll. Den håndhever også volumbegrenseninger og samler data om bruken av APIer (logging). 
-
-
-Komponent som beskytter ressursene og monitorerer tilgang inklusivt:
-
-*  Validere tilgangstoken
-*  Beskytte mot inntrenging og andre trusler
-• Håndtere volumbegrensninger og andre abonnementsordninger
-• Håndheve tilgangsstyring
-• Samle inn data om bruken av API-er
-• [orkestrering mellom interntjeneser??]
-
-Prinsipp fra Steiner:
-Oppgaver både sikkerhetsperspektiv og forvaltningsperspektivet
-Dersom gatway skal stå for sikkerheten, MÅ VÆRE SIKKER PÅ at API ikke kan nås utenom gateway
-Noen må passe VELDIG godt på gatewayen og holder den oppdatert.
-
-Det må være et tydeligvalg om hvem (gateway eller API) har ansvar for sikkerhetsmessig.
-
-
 | UHF Oauth2 autorisasjonstjener <application-component>
 | Autorisasjonstjeneter realiserer tilgangskontroll gjennom å utstede OpenID Connect eller OAuth 2 grants og tokens. En autorisasjonstjener er også brukt til å realisere tilgangs policy. 
 

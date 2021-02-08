@@ -44,14 +44,12 @@ EUNIS: Commerical activity
 EUNIS: Teaching and learning
 
 | Leveranse av undervisning og læring <capability>
-| AKSJON: NTNU kommer med oppdatert forslag
-
-Hva organisasjonen gjør for å velge, allokere og administrere plassering av studenter i lærings- og praksismiljøer utenfor organisasjonen som en del av læreplanen.
+| Alle aktiviteter som har som mål å levere en god læringsopplevelse til studentene i organisasjonen. Dette inkluderer formidling av undervisningsaktiviteter, så vel som andre aktiviteter som støtter en meningsfullt læringsmiljø.
 
 EUNIS: Teaching and Learning Delivery
 
 | Undervisnings- og læringsinnhold <capability>
-| AKSJON: NTNU - Teaching and learning content - NTNU sier "" ?? - mangler?
+| Ressurser i et bredt spekter av formater for å støtte læring og undervisning i organisasjonen. Dette inkluderer fysiske og digitale ressurser som virtuelle læringsmiljø og forelesningsfangst, tilgang til spesialiserte rom, bibliotek og andre relaterte fysiske og digitale tjenester.
 
 EUNIS: Teaching and Learning Content
 
@@ -66,7 +64,7 @@ EUNIS: Student Administration
 EUNIS: Curriculum Management
 
 | Student-vurdering <capability>
-| AKSJON: NTNU kommer med definisjon
+| Alle aktiviteter som har som mål å vurdere om en student har oppnådd læringsmålene.
 
 | Forskning <capability>
 | Alle egenskaper som kreves for å sikre at organisasjonen er i stand til å utvikle, levere, støtte og administrere forskning.
@@ -88,7 +86,7 @@ EUNIS: Dataset management
 
 EUNIS: Output Management
 
-| Forskningsproduksjon <capability>
+| Forskningsproduksjon i prosjekt <capability>
 | Hva organisasjonen gjør for å produsere forskning. Dette er utførelsen av forskningsprosjektet.
 
 | Forskningspublisering <capability>
@@ -108,6 +106,16 @@ EUNIS: Publication Management
 | Alle aktiviteter rettet mot å skaffe og forvalte midler til å gjennomføre forskningsprosjekter.
 
 EUNIS: Research funding
+
+| Personadministrasjon <capability>
+| Human Resource Management
+
+What the organization does to ensure a positive work environment, foucs on individual and collective relationsships, indlucding unions, resolve workplace issues through intervention when necessary.
+
+
+
+| Identitets-håndtering og tilgangsstyring <capability>
+| What the organization does to manage data on IT systems and applications about users. Managed data includes user objects, identity attributes, security entitlements and authentication factors.
 
 |===
 
