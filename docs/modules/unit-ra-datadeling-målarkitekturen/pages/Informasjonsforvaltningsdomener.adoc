@@ -108,11 +108,9 @@ EUNIS: Publication Management
 EUNIS: Research funding
 
 | Personadministrasjon <capability>
-| Human Resource Management
+| What the organization does to ensure a positive work environment, foucs on individual and collective relationsships, indlucding unions, resolve workplace issues through intervention when necessary.
 
-What the organization does to ensure a positive work environment, foucs on individual and collective relationsships, indlucding unions, resolve workplace issues through intervention when necessary.
-
-
+EUNIS: Human Resource Management
 
 | Identitets-håndtering og tilgangsstyring <capability>
 | What the organization does to manage data on IT systems and applications about users. Managed data includes user objects, identity attributes, security entitlements and authentication factors.
