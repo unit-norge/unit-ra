@@ -44,7 +44,7 @@ EUNIS: Commerical activity
 EUNIS: Teaching and learning
 
 | Leveranse av undervisning og læring <capability>
-| Alle aktiviteter som har som mål å levere en god læringsopplevelse til studentene i organisasjonen. Dette inkluderer formidling av undervisningsaktiviteter, så vel som andre aktiviteter som støtter en meningsfullt læringsmiljø.
+| Alle aktiviteter som har som mål å levere en god læringsopplevelse til studentene i organisasjonen. Dette inkluderer formidling av undervisningsaktiviteter, så vel som andre aktiviteter som støtter et meningsfullt læringsmiljø.
 
 EUNIS: Teaching and Learning Delivery
 
