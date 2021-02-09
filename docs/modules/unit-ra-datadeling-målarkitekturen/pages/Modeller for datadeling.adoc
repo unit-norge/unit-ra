@@ -33,6 +33,3 @@ https://www.digdir.no/apne-data/nasjonal-verktoykasse-deling-av-data/2243[Verkt�
 
 
 
-:leveloffset: +1
-include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Del og innhent data, verdistrøm.adoc[]
-:leveloffset: -1
