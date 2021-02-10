@@ -16,7 +16,7 @@ endif::[]
 :leveloffset: +1
 include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Dataobjekter eOppslag UHF.adoc[]
 include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Føderert API management.adoc[]
-include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Applikasjonsoversikt forespørsel integrert med IAM.adoc[]
+include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$API management integrert med IAM.adoc[]
 include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Applikasjonsoversikt forespørsel integrert nasjonalt.adoc[]
 include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Registrere API UHF.adoc[]
 include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Tilgjengeliggjøre data etter forspørsel løsningsmønster UHF.adoc[]
