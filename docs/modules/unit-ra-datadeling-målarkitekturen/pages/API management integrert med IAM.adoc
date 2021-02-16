@@ -31,7 +31,7 @@ image::{imagepath}API management integrert med IAM.png[alt=API management integr
 | Komponenter som utgjør datakonsument, det vil si Universitetet, Høyskolens eller andre, sitt grensesnitt for datadeling
 
 | Sluttbruker <business-actor>
-| 
+| Personen som skal tildeles tilgang til beskyttede ressurser basert på identitet, roller og annen kontekst.
 
 | Beskyttet tjeneste / klient hos datakonsument  <application-component>
 | Tjeneste som IAM beskytter tilgang til. Tjenesten kan også være en konsument av data gjennom API, det vil si Universitet, Høyskole eller andre som gir tilgang til data fra datatilbyder.
@@ -42,7 +42,7 @@ Komponenten tilbyr:
   * tilgang til ressurser hos datatilbyder 
 
 | Identitetstilbyder <business-role>
-| 
+| En identitetstilbyder er en virksomhet som er godkjent til å utstede elektroniske identiteter for entydig identifikasjon av en fysisk person på et gitt sikkerhetsnivå.
 
 | UHF Infrastruktur <grouping>
 | Felleskomponenter i UHF-infrastrukturen for datadeling
@@ -55,7 +55,7 @@ Komponenten tilbyr:
 Definisjon av regler for tilgang til et eller flere API
 
 | Attributter / grunndata <data-object>
-| 
+| Opplysninger om personer som skal benyttes i tilgangsstyring.
 
 | UHF Oauth2 autorisasjonstjener <application-component>
 | Autorisasjonstjenester realiserer tilgangskontroll gjennom å utstede OAuth 2 grants og tokens. 
