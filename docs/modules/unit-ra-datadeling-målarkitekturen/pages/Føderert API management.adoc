@@ -24,6 +24,7 @@ Designen avbildet er laget for å støtte følgende karakteristikk:
 * Deling av data på tvers av institusjoner er støttet gjennom felles ressursportal
 
 
+
 .Føderert API management
 image::{imagepath}Føderert API management.png[alt=Føderert API management image]
 
