@@ -13,7 +13,7 @@ endif::[]
 
 ​​Det er behov for datadeling og API Management på tvers av sektorer. Høyere utdanning og forskning ønsker utstrakt bruk av nasjonale felleskomponenter, som omtalt i Digitaliseringsrundskrivet. For å oppnå dette må både sektorens og den nasjonale infrastrukturen videreutvikles.​ 
 
-Føderert tilgangsstyring for datadeling på tvers av sektorer er ønskelig, og det krever blant annet standardisering av tilgangstokens for å oppnå gjennomgående tillitskjeder. ​Det er også ønskelig at brukere kan gi samtykke til sine data et sted nasjonalt, inklusivt til kilder i høyere utdanning og forskning. Det hadde vært ønskelig om en felles Norsk samtykketjeneste kunne være integrert med funksjonalitet som vi forvente skal realiseres i IAM løsningent til høyere utdanning og forskning.
+Føderert tilgangsstyring for datadeling på tvers av sektorer er ønskelig, og det krever blant annet standardisering av tilgangstokens for å oppnå gjennomgående tillitskjeder. ​Det er også ønskelig at brukere kan styre samtykke til sine data fra et sted nasjonalt, inklusivt til data i kilder i høyere utdanning og forskning. Det hadde vært ønskelig om en felles Norsk samtykketjeneste kunne være integrert med funksjonalitet som vi forvente skal realiseres i IAM løsningent til høyere utdanning og forskning.
 
 Figuren viser kun kobling til maskinporten direkte som er mulig i dag.  Det er planlagt automatisert høsting av API katalogen fra høyere utdanning og forskning til Felles API-katalog som visst i figuren. Samtykke til kilder i vår sektor fra Altinn autorisasjon er foreløpig ikke imlementert, så ingen kobling til Altinn autorisasjon er visst i figuren. ​
 
@@ -83,7 +83,7 @@ UHF API katalog kan inneholde
   * Informasjon om hvordan få support og hjelp fra utsteder
 
 | Nasjonal infrastruktur <grouping>
-| 
+| Nasjonale felleskomponenter for datadeling
 
 | Maskinporten <application-component>
 | [Torget]
