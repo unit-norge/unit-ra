@@ -44,7 +44,7 @@ image::{imagepath}Føderert API management.png[alt=Føderert API management imag
 | Tjeneste som utsteder sikkerhetsbilletter. Sikkerhetsbillett utstedes basert på tildelte rettigheter og eventuelle representasjonsforhold.
 
 | Ressursportal <application-component>
-| 
+| Test
 
 | UHF Oauth2 autorisasjonstjener <application-component>
 | Autorisasjonstjenester realiserer tilgangskontroll gjennom å utstede OpenID Connect eller OAuth 2 grants og tokens. 

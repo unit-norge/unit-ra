@@ -40,7 +40,7 @@ image::{imagepath}API management integrert med nasjonale felleskomponenter.png[a
 | Tildel autoriserte rettigheter basert på roller 
 
 | Ressursportal <application-component>
-| 
+| Test
 
 | UHF Oauth2 autorisasjonstjener <application-component>
 | Autorisasjonstjenester realiserer tilgangskontroll gjennom å utstede OpenID Connect eller OAuth 2 grants og tokens. 

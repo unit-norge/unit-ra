@@ -105,7 +105,7 @@ URL til konsumenten det kan innhentes samtykke for må inngå i beskrivelsen.
 | Tildel autoriserte rettigheter basert på roller 
 
 | Ressursportal <application-component>
-| 
+| Test
 
 | Forespør dataeier <application-service>
 | Harmoniserers med rolledefinisjoner.

@@ -48,7 +48,7 @@ Komponenten tilbyr:
 | Felleskomponenter i UHF-infrastrukturen for datadeling
 
 | Ressursportal <application-component>
-| 
+| Test
 
 | Roller og tilgangsregler <data-object>
 | Definisjon av roller som blir brukt til å styre autorisasjon for å gi tilgang for en klient til et eller flere API.
