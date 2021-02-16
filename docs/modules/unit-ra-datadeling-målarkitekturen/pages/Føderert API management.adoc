@@ -44,16 +44,16 @@ image::{imagepath}Føderert API management.png[alt=Føderert API management imag
 | Tjeneste som utsteder sikkerhetsbilletter. Sikkerhetsbillett utstedes basert på tildelte rettigheter og eventuelle representasjonsforhold.
 
 | Ressursportal <application-component>
-| Test
+| Ressursportalen holder oversik over og tildeler tilganger til beskyttede ressurser i høyere utdanning og forskningssektoren i henhold til føringer fra eierne av disse ressursene. Tilganger er gitt i form av OAuth2 grants og tokens. Ressursportalen er en del av den felles infrastrukturen for føderert API management for høyere utdanning og forskning. Den registrerer og holder oversikt over API, holder oversikt over klienter som har blitt tildelt tilgang til API og hvilke tilganger det gjelder. Ressursportalen benytter Jason Web Token formattert OAuth2 sikkerhetstoken for å gi tilgang til ressurser gjennom API gateway nær de beskyttede ressursene.
 
 | UHF Oauth2 autorisasjonstjener <application-component>
-| Autorisasjonstjenester realiserer tilgangskontroll gjennom å utstede OpenID Connect eller OAuth 2 grants og tokens. 
+| Autorisasjonstjenester realiserer tilgangskontroll gjennom å utstede OAuth 2 grants og tokens. 
 En autorisasjonstjener er også brukt til å realisere tilgangs policy. 
 
 Scope (rettighet) og Audience (identifikator eller ressurs-server f. eks. FS)
 
 ////
-Per i dag er Scopes er grovkornet
+Per i dag er Scopes grovkornet
 Rich authorization requsts (ny spesifikasjon) for å utvide scope begrep i IETF
 underenhet og behandlingssted, behandlingsgrunnlag og roller jobbes det med.
 ////
@@ -93,14 +93,14 @@ UHF API katalog kan inneholde
 | Programtjeneste for å registrere og vedlikeholde API som er tilgjengelige i Universitets og Høyskole-sektoren
 
 | UHF tildel rettigheter til klienter <application-service>
-| Tildel autoriserte rettigheter basert på roller 
+| Tildel autoriserte rettigheter basert på roller, annen policy eller manuel behandling av dataforvalter gjennom tjenesten "Forespør dataforvalter".
 
 | UiX <grouping>
 | 
 
 | Kildedata <data-object>
 | Dataprodukt som tilbys av datatilbyder
-Produktet kan være fra en kilde sammensatt av flere innen et domene
+Produktet kan være fra en kilde eller sammensatt av flere innen et domene
 
 | API Gateway hos datatilbyder / OAuth resource server <application-component>
 | API gateway beskytter ressurser og monitorerer tilgang. 
@@ -116,25 +116,18 @@ Komponent som beskytter ressursene og monitorerer tilgang inklusivt:
   * Samle inn data om bruken av API-er
   * Orkestrering mellom interntjenester
 
-////
-Prinsipp fra Steiner:
-Oppgaver både sikkerhetsperspektiv og forvaltningsperspektivet
-Dersom gatway skal stå for sikkerheten, MÅ VÆRE SIKKER PÅ at API ikke kan nås utenom gateway
-Noen må passe VELDIG godt på gatewayen og holder den oppdatert.
 
-Det må være et tydeligvalg om hvem (gateway eller API) har ansvar for sikkerhetsmessig.
-////
 
 | Kildedata <data-object>
 | Dataprodukt som tilbys av datatilbyder
-Produktet kan være fra en kilde sammensatt av flere innen et domene
+Produktet kan være fra en kilde eller sammensatt av flere innen et domene
 
 | UiO <grouping>
 | 
 
 | Kildedata <data-object>
 | Dataprodukt som tilbys av datatilbyder
-Produktet kan være fra en kilde sammensatt av flere innen et domene
+Produktet kan være fra en kilde eller sammensatt av flere innen et domene
 
 | API Gateway hos datatilbyder / OAuth resource server <application-component>
 | API gateway beskytter ressurser og monitorerer tilgang. 
@@ -150,18 +143,11 @@ Komponent som beskytter ressursene og monitorerer tilgang inklusivt:
   * Samle inn data om bruken av API-er
   * Orkestrering mellom interntjenester
 
-////
-Prinsipp fra Steiner:
-Oppgaver både sikkerhetsperspektiv og forvaltningsperspektivet
-Dersom gatway skal stå for sikkerheten, MÅ VÆRE SIKKER PÅ at API ikke kan nås utenom gateway
-Noen må passe VELDIG godt på gatewayen og holder den oppdatert.
 
-Det må være et tydeligvalg om hvem (gateway eller API) har ansvar for sikkerhetsmessig.
-////
 
 | Kildedata <data-object>
 | Dataprodukt som tilbys av datatilbyder
-Produktet kan være fra en kilde sammensatt av flere innen et domene
+Produktet kan være fra en kilde eller sammensatt av flere innen et domene
 
 |===
 

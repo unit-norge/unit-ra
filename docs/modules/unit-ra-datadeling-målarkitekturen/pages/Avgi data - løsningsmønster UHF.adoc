@@ -103,14 +103,7 @@ Komponent som beskytter ressursene og monitorerer tilgang inklusivt:
   * Samle inn data om bruken av API-er
   * Orkestrering mellom interntjenester
 
-////
-Prinsipp fra Steiner:
-Oppgaver både sikkerhetsperspektiv og forvaltningsperspektivet
-Dersom gatway skal stå for sikkerheten, MÅ VÆRE SIKKER PÅ at API ikke kan nås utenom gateway
-Noen må passe VELDIG godt på gatewayen og holder den oppdatert.
 
-Det må være et tydeligvalg om hvem (gateway eller API) har ansvar for sikkerhetsmessig.
-////
 
 |===
 
