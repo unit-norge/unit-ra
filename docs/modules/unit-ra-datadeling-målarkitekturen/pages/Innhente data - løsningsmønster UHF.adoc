@@ -11,7 +11,7 @@ endif::[]
 :sectnums:
 :sectnumlevels: 9
 
-En arbeidsflyt en konsument utfører når det utføres et tjenestekall for å innhente data gjennom et API. API-adressen hentes i API-katalogen. Tilgang til APIet byttes inn mot et kjøretids-token i autoriseringstjenesten. Tjenestekall til APIet utføres gjennom API gateway der tokenet benyttes for å få tilgang. Dersom det er et åpent API er det kun relevante prossessteg som utføres.
+En prosessflyt en konsument utfører når det utføres et tjenestekall for å innhente data gjennom et API. API-adressen hentes i API-katalogen. Tilgang til APIet byttes inn mot et kjøretids-token i autoriseringstjenesten. Tjenestekall til APIet utføres gjennom API gateway der tokenet benyttes for å få tilgang. Dersom det er et åpent API er det kun relevante prossessteg som utføres.
 
 
 .Innhente data - løsningsmønster UHF
@@ -25,6 +25,60 @@ image::{imagepath}Innhente data - løsningsmønster UHF.png[alt=Innhente data - 
 
 | Element
 | Beskrivelse
+
+| UHF Infrastruktur <grouping>
+| 
+
+| Datautvekslings-tjeneste <application-service>
+| Tjeneste for utveksling av data over aktuell transportprotokoll, f.eks, gjennom asynkrone medlinger eller synkrone API-oppslag.
+
+| Samtykkeregistererings-tjeneste <application-service>
+| Tjeneste for å innhente samtykke fra den registrert som dataene gjelder. Dette kan være en person eller en virksomhet.
+
+| Adressetjeneste <application-service>
+| Tjeneste som gir mulighet til å slå opp teknisk endepunkt
+
+| Virksomhetssertifikat <data-object>
+| En virksomhets elektroniske ID. Benyttes for å autentisere virksomheten overfor tokentjenesten.
+
+| Tokentjeneste <application-service>
+| Tjeneste som utsteder sikkerhetsbilletter. Sikkerhetsbillett utstedes basert på tildelte rettigheter og eventuelle representasjonsforhold.
+
+| Oppslag representasjons-forhold <application-service>
+| Tjeneste som benyttes av tokentjenesten for å kontrollere om det foreligger et delegert representasjonsforhold fra konsument til leverendør i autorisasjonstjenesten til Altinn.
+
+| Tilganger konsument <data-object>
+| Oversikt over hvilke API og OAUTH-scopes en virksomhet (representert ved organisasjonsnummer) skal ha tilgang til (utstedt token for).
+
+| UHF Oauth2 autorisasjonstjener <application-component>
+| Autorisasjonstjenester realiserer tilgangskontroll gjennom å utstede OpenID Connect eller OAuth 2 grants og tokens. 
+En autorisasjonstjener er også brukt til å realisere tilgangs policy. 
+
+Scope (rettighet) og Audience (identifikator eller ressurs-server f. eks. FS)
+
+////
+Per i dag er Scopes er grovkornet
+Rich authorization requsts (ny spesifikasjon) for å utvide scope begrep i IETF
+underenhet og behandlingssted, behandlingsgrunnlag og roller jobbes det med.
+////
+
+| UHF API katalog <application-component>
+| Oversikt over alle API som er registrert 
+
+UHF API katalog kan inneholde
+  * Navn på API
+  * Tekstlig beskrivelse av API
+  * Informasjonsmodell / Datamodell for API som tilbys 
+  * Kildeinformasjon for data, begrepsinformasjon
+  * Informasjon om tilgang, juridiske og tekniske begrensinger for bruk
+  * Eksempelkode, interaktiv API-konsoll og sandkasse for test
+  * Informasjon om hvordan få support og hjelp fra utsteder
+
+| Endepunkt (adresse) <data-object>
+| Dataobjekt som representerer teknisk adresse til et API eller ressurs.
+
+| Nasjonal Infrastruktur <grouping>
+| 
 
 | Maskinporten <application-component>
 | [Torget]
@@ -40,20 +94,8 @@ https://www.digdir.no/digitale-felleslosninger/maskinporten/869
 | Data-konsument <business-role>
 | Den som innhenter eller mottar data fra andre aktører.
 
-| Tokentjeneste <application-service>
-| Tjeneste som utsteder sikkerhetsbilletter. Sikkerhetsbillett utstedes basert på tildelte rettigheter og eventuelle representasjonsforhold.
-
-| Virksomhetssertifikat <data-object>
-| En virksomhets elektroniske ID. Benyttes for å autentisere virksomheten overfor tokentjenesten.
-
 | Innhente data <capability>
 | Evnen til å innhente data fra en annen aktør.
-
-| Endepunkt (adresse) <data-object>
-| Dataobjekt som representerer teknisk adresse til et API eller ressurs.
-
-| Oppslag representasjons-forhold <application-service>
-| Tjeneste som benyttes av tokentjenesten for å kontrollere om det foreligger et delegert representasjonsforhold fra konsument til leverendør i autorisasjonstjenesten til Altinn.
 
 | Slå opp data gjennom et API  <business-process>
 | Prosessen med å slå opp og hente data gjennom et API.
@@ -76,9 +118,6 @@ https://www.digdir.no/digitale-felleslosninger/maskinporten/869
 | Junction <junction>
 | 
 
-| Tilganger konsument <data-object>
-| Oversikt over hvilke API og OAUTH-scopes en virksomhet (representert ved organisasjonsnummer) skal ha tilgang til (utstedt token for).
-
 | Altinn autorisasjon <application-component>
 | [Torget]
 Autorisasjonskomponenten i Altinn som gir muligheter til å delegere rettigheter til andre organisasjoner eller personer. Rettigheter til bruk av autorisasjonskomponenten baserer seg på registrerte roller i Enhetsregisteret.
@@ -97,15 +136,6 @@ https://www.altinndigital.no/produkter/styring-av-tilgang/
 | Felles API-katalog <application-component>
 | Del av Felles datakatalog som gir mulighet for å søke etter API-er og lese API-spesifikasjoner https://fellesdatakatalog.brreg.no/apis
 
-| Adressetjeneste <application-service>
-| Tjeneste som gir mulighet til å slå opp teknisk endepunkt
-
-| Datautvekslings-tjeneste <application-service>
-| Tjeneste for utveksling av data over aktuell transportprotokoll, f.eks, gjennom asynkrone medlinger eller synkrone API-oppslag.
-
-| Samtykkeregistererings-tjeneste <application-service>
-| Tjeneste for å innhente samtykke fra den registrert som dataene gjelder. Dette kan være en person eller en virksomhet.
-
 | Altinn autorisasjon <application-component>
 | [Torget]
 Autorisasjonskomponenten i Altinn som gir muligheter til å delegere rettigheter til andre organisasjoner eller personer. Rettigheter til bruk av autorisasjonskomponenten baserer seg på registrerte roller i Enhetsregisteret.
@@ -120,18 +150,6 @@ Dersom en privatperson skal ta i bruk en tjeneste på vegne av en virksomhet, gj
 Mer om Altinn autorisasjon:
 https://www.altinndigital.no/produkter/styring-av-tilgang/
 
-
-| UHF Oauth2 autorisasjonstjener <application-component>
-| Autorisasjonstjeneter realiserer tilgangskontroll gjennom å utstede OpenID Connect eller OAuth 2 grants og tokens. En autorisasjonstjener er også brukt til å realisere tilgangs policy. 
-
-Scope (rettighet) og Audience (identifikator eller ressurs-server f. eks. FS)
-
-Per i dag er Scopes er grovkornet
-Rich authorization requsts (ny spesifikasjon) for å utvide scope begrep i IETF
-underenhet og behandlingssted, behandlingsgrunnlag og roller jobbes det med.
-
-| UHF API katalog <application-component>
-| Oversikt over alle API som er registrert 
 
 |===
 

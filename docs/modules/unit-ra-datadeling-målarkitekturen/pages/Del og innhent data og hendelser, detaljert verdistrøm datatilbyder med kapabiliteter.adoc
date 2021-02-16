@@ -109,7 +109,10 @@ Rutine for mottak av henvendelser om tilgang til data for å sikre at henvendels
 Konsumentene må dokumentere sitt formål og behandlingsgrunnlag, og argumentere for hvilke informasjonselementer de mener de skal ha tilgang til for det gitte formålet.
 
 | Datatilbyder <business-role>
-| Tilbyder av data til andre aktører.
+| Tilbyder av data til andre aktører.  
+
+Datatibyder har definisjonsrett og har rettigheter til å behandle data
+Datatilbyder kan sette sammen data som tilbyderen har til et dataprodukt som tilbys datakonsumenter gjennom et API
 
 API Eiere  (kan eie Data som API gir tilgang til, eller system som tilbyr APIet)??
 

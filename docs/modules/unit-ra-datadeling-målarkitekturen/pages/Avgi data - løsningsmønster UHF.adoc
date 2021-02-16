@@ -11,7 +11,7 @@ endif::[]
 :sectnums:
 :sectnumlevels: 9
 
-En arbeidsflyt en tilbyder av data utfører for å svare på en dataforespørsel. Tilbyder mottar forespørsel om oppslag med et aksesstoken. Klienten som forespør autentiseres og token valideres. Eventuelt mer fin-granulert tilgangskontroll utføres og data returneres. Tilgang kontrolleres kun dersom det er snakk om et sikret API.
+En prosessflyt en tilbyder av data utfører for å svare på en dataforespørsel. Tilbyder mottar forespørsel om oppslag med et aksesstoken. Klienten som forespør autentiseres og token valideres. Eventuelt mer fin-granulert tilgangskontroll utføres og data returneres. Tilgang kontrolleres kun dersom det er snakk om et sikret API.
 
 
 .Avgi data - løsningsmønster UHF
@@ -46,7 +46,10 @@ https://www.altinndigital.no/produkter/styring-av-tilgang/
 
 
 | Datatilbyder <business-role>
-| Tilbyder av data til andre aktører.
+| Tilbyder av data til andre aktører.  
+
+Datatibyder har definisjonsrett og har rettigheter til å behandle data
+Datatilbyder kan sette sammen data som tilbyderen har til et dataprodukt som tilbys datakonsumenter gjennom et API
 
 API Eiere  (kan eie Data som API gir tilgang til, eller system som tilbyr APIet)??
 
@@ -69,7 +72,7 @@ Eksempler på rettigheter kan komme av samtykker fra person eller virksomhet, el
 | Prosessen med å gi svar på forespørselen.
 
 | Kontroller tilgang <business-process>
-| Kontroll og håndheving av konsumentens rettigheter til å få forespurte data.  I tillegg til "validering av sikkerhetsbillet", kan det være behov for kontroll mot virksomhetsinterne policies.
+| Kontroll og håndheving av konsumentens rettigheter til å få forespurte data.  I tillegg til "validering av sikkerhetsbillett", kan det være behov for kontroll mot virksomhetsinterne policies.
 
 | Autentisere konsument <business-process>
 | Prosessen med å autentisere en konsument.
@@ -86,26 +89,28 @@ Eksempler på rettigheter kan komme av samtykker fra person eller virksomhet, el
 | Avgi data <capability>
 | Evne til å avgi data på forespørsel. Kan omfatte tilgangsstyring.
 
-| API Gateway hos dataeier / OAuth resource server <application-component>
-| API gateway beskytter ressurser og monitorerer tilgang. Den håndhever tilgangsstyring ved å validere aksesstokens og utfører eventuell fin-granulert tilgangskontroll. Den håndhever også volumbegrenseninger og samler data om bruken av APIer (logging). 
-
+| API Gateway hos datatilbyder / OAuth resource server <application-component>
+| API gateway beskytter ressurser og monitorerer tilgang. 
+Den håndhever tilgangsstyring ved å validere aksesstokens og utfører eventuell fin-granulert tilgangskontroll. 
+Den håndhever også volumbegrenseninger og samler data om bruken av APIer (logging). 
 
 Komponent som beskytter ressursene og monitorerer tilgang inklusivt:
 
-*  Validere tilgangstoken
-*  Beskytte mot inntrenging og andre trusler
-• Håndtere volumbegrensninger og andre abonnementsordninger
-• Håndheve tilgangsstyring
-• Samle inn data om bruken av API-er
-• [orkestrering mellom interntjeneser??]
+  *  Validere tilgangstoken
+  *  Beskytte mot inntrenging og andre trusler
+  * Håndtere volumbegrensninger og andre abonnementsordninger
+  * Håndheve tilgangsstyring
+  * Samle inn data om bruken av API-er
+  * Orkestrering mellom interntjenester
 
+////
 Prinsipp fra Steiner:
 Oppgaver både sikkerhetsperspektiv og forvaltningsperspektivet
 Dersom gatway skal stå for sikkerheten, MÅ VÆRE SIKKER PÅ at API ikke kan nås utenom gateway
 Noen må passe VELDIG godt på gatewayen og holder den oppdatert.
 
 Det må være et tydeligvalg om hvem (gateway eller API) har ansvar for sikkerhetsmessig.
-
+////
 
 |===
 

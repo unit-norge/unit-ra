@@ -11,7 +11,7 @@ endif::[]
 :sectnums:
 :sectnumlevels: 9
 
-En arbeidsflyt som datatilbyder må gjennomføre for å tildele rettigheter til en konsument som ber om tilgang til data. En datatilbyder mottar forespørsel om tilgang til et API på vegne av en organisasjon eller bruker. Dataeieren tar stilling til om konsumenten skal få tilgang til data gjennom APIet. Tilgang registreres knyttet til konsumentens klient (applikasjonen som benytter APIet) i klientregisteret. 
+En prosessflyt som datatilbyder må gjennomføre for å tildele rettigheter til en konsument som ber om tilgang til data. En datatilbyder mottar forespørsel om tilgang til et API på vegne av en organisasjon eller bruker. Dataeieren tar stilling til om konsumenten skal få tilgang til data gjennom APIet. Tilgang registreres knyttet til konsumentens klient (applikasjonen som benytter APIet) i klientregisteret. 
 
 [Kan behandlingsansvarlig handle automatisert basert på forhåndsdefinerte instruks?]
 
@@ -31,7 +31,10 @@ image::{imagepath}Tilgjengeliggjøre data etter forspørsel løsningsmønster UH
 | Oversikt over hvilke API og OAUTH-scopes en virksomhet (representert ved organisasjonsnummer) skal ha tilgang til (utstedt token for).
 
 | Datatilbyder <business-role>
-| Tilbyder av data til andre aktører.
+| Tilbyder av data til andre aktører.  
+
+Datatibyder har definisjonsrett og har rettigheter til å behandle data
+Datatilbyder kan sette sammen data som tilbyderen har til et dataprodukt som tilbys datakonsumenter gjennom et API
 
 API Eiere  (kan eie Data som API gir tilgang til, eller system som tilbyr APIet)??
 
@@ -99,7 +102,7 @@ URL til konsumenten det kan innhentes samtykke for må inngå i beskrivelsen.
 | 
 
 | UHF tildel rettigheter til klienter <application-service>
-| 
+| Tildel autoriserte rettigheter basert på roller 
 
 | Ressursportal <application-component>
 | 

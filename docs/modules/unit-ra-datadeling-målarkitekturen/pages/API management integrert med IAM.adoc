@@ -11,7 +11,9 @@ endif::[]
 :sectnums:
 :sectnumlevels: 9
 
+Infrastruktur for Identitetshåndtering og tilgangsstyring (IAM) utfyller API management og må fungere sammen. IAM utføres av komponenter i den øvre delen av viewet. API managaement utføres av kompontenter i den nedre delen av viewet. Ressursportalen og tjenesten for tildeling av rettigheter til klienter deltar i begge funksjoner. 
 
+IAM styrer sluttbrukeres tilgang til tjenester, basert på både autentisering av deres identitet og deres roller hos institusjoner. API management styrer tilgang til data gjennom API basert på policy eller godkjenning fra dataforvalter. Avgjørelsen om å godkjenne tilgang til data kan godt være basert på en sluttbrukers rolle hos en institusjon.​
 
 .API management integrert med IAM
 image::{imagepath}API management integrert med IAM.png[alt=API management integrert med IAM image]
@@ -25,72 +27,88 @@ image::{imagepath}API management integrert med IAM.png[alt=API management integr
 | Element
 | Beskrivelse
 
+| Datakonsument  <grouping>
+| Komponenter som utgjør datakonsument, det vil si Universitetet, Høyskolens eller andre, sitt grensesnitt for datadeling
+
 | Sluttbruker <business-actor>
 | 
 
-| Klient <application-component>
-| 
+| Beskyttet tjeneste / klient hos datakonsument  <application-component>
+| Tjeneste som IAM beskytter tilgang til. Tjenesten kan også være en konsument av data gjennom API, det vil si Universitet, Høyskole eller andre som gir tilgang til data fra datatilbyder.
+
+Komponenten tilbyr:
+  * autentisering  gjennom en Autentiseringstjeneste
+  * oppslag i felleskomponeneter for tilgang til datatilbyders dataprodukter
+  * tilgang til ressurser hos datatilbyder 
 
 | Identitetstilbyder <business-role>
 | 
 
 | UHF Infrastruktur <grouping>
-| 
+| Felleskomponenter i UHF-infrastrukturen for datadeling
 
 | Ressursportal <application-component>
 | 
 
 | Roller og tilgangsregler <data-object>
-| 
+| Definisjon av roller som blir brukt til å styre autorisasjon for å gi tilgang for en klient til et eller flere API.
+Definisjon av regler for tilgang til et eller flere API
 
-| Attributter /grunndata <data-object>
+| Attributter / grunndata <data-object>
 | 
 
 | UHF Oauth2 autorisasjonstjener <application-component>
-| Autorisasjonstjeneter realiserer tilgangskontroll gjennom å utstede OpenID Connect eller OAuth 2 grants og tokens. En autorisasjonstjener er også brukt til å realisere tilgangs policy. 
+| Autorisasjonstjenester realiserer tilgangskontroll gjennom å utstede OpenID Connect eller OAuth 2 grants og tokens. 
+En autorisasjonstjener er også brukt til å realisere tilgangs policy. 
 
 Scope (rettighet) og Audience (identifikator eller ressurs-server f. eks. FS)
 
+////
 Per i dag er Scopes er grovkornet
 Rich authorization requsts (ny spesifikasjon) for å utvide scope begrep i IETF
 underenhet og behandlingssted, behandlingsgrunnlag og roller jobbes det med.
+////
 
 | UHF Klientregister <application-component>
 | Oversikt over alle klienter som er blitt tildelt tilgang til ressurser.
 
 
 | UHF tildel rettigheter til klienter <application-service>
-| 
+| Tildel autoriserte rettigheter basert på roller 
 
-| UiX <grouping>
-| 
-
-| Kildedata <data-object>
-| 
+| UiX / Datatilbyder <grouping>
+| Komponenter som utgjør datatilbyder, det vil si Universitetet eller Høyskolens, grensesnitt for datadeling
 
 | Kildedata <data-object>
-| 
+| Dataprodukt som tilbys av datatilbyder
+Produktet kan være fra en kilde sammensatt av flere innen et domene
 
-| API Gateway hos dataeier / OAuth resource server <application-component>
-| API gateway beskytter ressurser og monitorerer tilgang. Den håndhever tilgangsstyring ved å validere aksesstokens og utfører eventuell fin-granulert tilgangskontroll. Den håndhever også volumbegrenseninger og samler data om bruken av APIer (logging). 
+| Kildedata <data-object>
+| Dataprodukt som tilbys av datatilbyder
+Produktet kan være fra en kilde sammensatt av flere innen et domene
 
+| API Gateway hos datatilbyder / OAuth resource server <application-component>
+| API gateway beskytter ressurser og monitorerer tilgang. 
+Den håndhever tilgangsstyring ved å validere aksesstokens og utfører eventuell fin-granulert tilgangskontroll. 
+Den håndhever også volumbegrenseninger og samler data om bruken av APIer (logging). 
 
 Komponent som beskytter ressursene og monitorerer tilgang inklusivt:
 
-*  Validere tilgangstoken
-*  Beskytte mot inntrenging og andre trusler
-• Håndtere volumbegrensninger og andre abonnementsordninger
-• Håndheve tilgangsstyring
-• Samle inn data om bruken av API-er
-• [orkestrering mellom interntjeneser??]
+  *  Validere tilgangstoken
+  *  Beskytte mot inntrenging og andre trusler
+  * Håndtere volumbegrensninger og andre abonnementsordninger
+  * Håndheve tilgangsstyring
+  * Samle inn data om bruken av API-er
+  * Orkestrering mellom interntjenester
 
+////
 Prinsipp fra Steiner:
 Oppgaver både sikkerhetsperspektiv og forvaltningsperspektivet
 Dersom gatway skal stå for sikkerheten, MÅ VÆRE SIKKER PÅ at API ikke kan nås utenom gateway
 Noen må passe VELDIG godt på gatewayen og holder den oppdatert.
 
 Det må være et tydeligvalg om hvem (gateway eller API) har ansvar for sikkerhetsmessig.
-
+////
 
 | Autentiseringstjeneste <application-service>
 | Tjeneste som benyttes av tilbyder for å autentisere aktuell konsument.

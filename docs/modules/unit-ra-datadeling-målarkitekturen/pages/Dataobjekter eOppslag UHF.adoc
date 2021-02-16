@@ -78,13 +78,16 @@ Fra eHelse: Regler for et API som beskriver hvilke tilganger en datakonsument (r
 Viktig innholde er bl.a. URL
 
 | UHF Oauth2 autorisasjonstjener <application-component>
-| Autorisasjonstjeneter realiserer tilgangskontroll gjennom å utstede OpenID Connect eller OAuth 2 grants og tokens. En autorisasjonstjener er også brukt til å realisere tilgangs policy. 
+| Autorisasjonstjenester realiserer tilgangskontroll gjennom å utstede OpenID Connect eller OAuth 2 grants og tokens. 
+En autorisasjonstjener er også brukt til å realisere tilgangs policy. 
 
 Scope (rettighet) og Audience (identifikator eller ressurs-server f. eks. FS)
 
+////
 Per i dag er Scopes er grovkornet
 Rich authorization requsts (ny spesifikasjon) for å utvide scope begrep i IETF
 underenhet og behandlingssted, behandlingsgrunnlag og roller jobbes det med.
+////
 
 |===
 

@@ -26,49 +26,62 @@ image::{imagepath}API management integrert med nasjonale felleskomponenter.png[a
 | Beskrivelse
 
 | UHF Infrastruktur <grouping>
-| 
+| Felleskomponenter i UHF-infrastrukturen for datadeling
 
 | Tokentjeneste <application-service>
 | Tjeneste som utsteder sikkerhetsbilletter. Sikkerhetsbillett utstedes basert på tildelte rettigheter og eventuelle representasjonsforhold.
 
 | Registrere API i UHF sektoren <application-service>
-| 
+| Programtjeneste for å registrere og vedlikeholde API som er tilgjengelige i Universitets og Høyskole-sektoren
 
 | UHF tildel rettigheter til klienter <application-service>
-| 
+| Tildel autoriserte rettigheter basert på roller 
 
 | Ressursportal <application-component>
 | 
 
 | UHF Oauth2 autorisasjonstjener <application-component>
-| Autorisasjonstjeneter realiserer tilgangskontroll gjennom å utstede OpenID Connect eller OAuth 2 grants og tokens. En autorisasjonstjener er også brukt til å realisere tilgangs policy. 
+| Autorisasjonstjenester realiserer tilgangskontroll gjennom å utstede OpenID Connect eller OAuth 2 grants og tokens. 
+En autorisasjonstjener er også brukt til å realisere tilgangs policy. 
 
 Scope (rettighet) og Audience (identifikator eller ressurs-server f. eks. FS)
 
+////
 Per i dag er Scopes er grovkornet
 Rich authorization requsts (ny spesifikasjon) for å utvide scope begrep i IETF
 underenhet og behandlingssted, behandlingsgrunnlag og roller jobbes det med.
+////
 
 | UHF Klientregister <application-component>
 | Oversikt over alle klienter som er blitt tildelt tilgang til ressurser.
 
 
 | UHF API manager  <application-component>
-| Administrativ komponent som kontrollerer policy og livssyklus for definisjon og forvaltning av API. Tilganger gjennom et API defineres i API manager og tildeles av autorisasjonstjener. Ansvaret til API manager inkluderer:
- 
-* Sentralisert API administrasjon og forvaltning av API-katalogen
-* Håndtering av registrerings- og introduksjonsprosesser for API utviklere
-* Håndtere livssyklusen til et API
+| Administrativ komponent som kontrollerer policy og livssyklus for definisjon og forvaltning av API. 
+Tilganger gjennom et API defineres i API manager og tildeles av autorisasjonstjener. 
+
+Ansvaret til API manager inkluderer:
+  * Sentralisert API Gateway som håndterer sikkerhetsretningslinjer, og sender kall til bakenforliggende API 
+  * Sentralisert publisering av API spesifikasjon (OpenAPI/RAML), dokumentasjon
+  * Sentralisert API administrasjon og forvaltning av API-katalogen
+  * Håndtering av registrerings- og introduksjonsprosesser for API utviklere
+  * Håndtere livssyklusen til et API, uvikling, test, utrulling, nye versjoner, nedlegging
+  * Ivareta registrering, forvaltning og og utvikling av klientrettigheter
+  * Rapportering og analyse for å monitorere bruk og last 
 
 
-Ivareta registrering, forvaltning og og utvikling av klientrettigheter
-
-Hva tilbyr API av datamodell
-Hvordan ønsker API å sikre seg selv
-En klient må forholde seg til 
 
 | UHF API katalog <application-component>
 | Oversikt over alle API som er registrert 
+
+UHF API katalog kan inneholde
+  * Navn på API
+  * Tekstlig beskrivelse av API
+  * Informasjonsmodell / Datamodell for API som tilbys 
+  * Kildeinformasjon for data, begrepsinformasjon
+  * Informasjon om tilgang, juridiske og tekniske begrensinger for bruk
+  * Eksempelkode, interaktiv API-konsoll og sandkasse for test
+  * Informasjon om hvordan få support og hjelp fra utsteder
 
 | Nasjonal infrastruktur <grouping>
 | 
