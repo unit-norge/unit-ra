@@ -54,13 +54,8 @@ image::{imagepath}Innhente data - løsningsmønster UHF.png[alt=Innhente data - 
 | Autorisasjonstjenester realiserer tilgangskontroll gjennom å utstede OAuth 2 grants og tokens. 
 En autorisasjonstjener er også brukt til å realisere tilgangs policy. 
 
-Scope (rettighet) og Audience (identifikator eller ressurs-server f. eks. FS)
 
-////
-Per i dag er Scopes grovkornet
-Rich authorization requsts (ny spesifikasjon) for å utvide scope begrep i IETF
-underenhet og behandlingssted, behandlingsgrunnlag og roller jobbes det med.
-////
+
 
 | UHF API katalog <application-component>
 | Oversikt over alle API som er registrert 

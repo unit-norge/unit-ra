@@ -79,13 +79,8 @@ UHF API katalog kan inneholde
 | Autorisasjonstjenester realiserer tilgangskontroll gjennom å utstede OAuth 2 grants og tokens. 
 En autorisasjonstjener er også brukt til å realisere tilgangs policy. 
 
-Scope (rettighet) og Audience (identifikator eller ressurs-server f. eks. FS)
 
-////
-Per i dag er Scopes grovkornet
-Rich authorization requsts (ny spesifikasjon) for å utvide scope begrep i IETF
-underenhet og behandlingssted, behandlingsgrunnlag og roller jobbes det med.
-////
+
 
 | UHF Klientregister <application-component>
 | Oversikt over alle klienter som er blitt tildelt tilgang til ressurser.
