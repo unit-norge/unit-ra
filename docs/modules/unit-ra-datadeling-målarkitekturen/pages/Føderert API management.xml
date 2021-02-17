@@ -4,7 +4,7 @@
 <article xmlns="http://docbook.org/ns/docbook" xmlns:xl="http://www.w3.org/1999/xlink" version="5.0" xml:lang="en">
 <info>
 <title>Føderert API management</title>
-<date>2021-02-10</date>
+<date>2021-02-16</date>
 </info>
 <simpara>Føderert API Management innebærer at et domene (føderasjon) kan gi brukere i andre domener man har et tillitsforhold til (ofte kalt fødereringspartnere) tilgang til sine egne data gjennom APIer. Dette er et prinsipp for API Management som har etablert seg de siste årene. Det er flere grunner for dette, blant annet at store virksomheter i dag gjerne har virksomhetsdata lagret distribuert og gjerne fordelt mellom systemer som kjører på lokale servere (on-premise) og i skybaserte-løsninger som kjører på egen infrastruktur.</simpara>
 <simpara>Det sterke politiske fokuset på deling av data gjennom orden i eget hus og nasjonale og sektorvise digitaliseringsstrategier understøtter også behovet for et API Management regime som understøtter deling av data til 3. part for innovasjon, og fokus på sammenhengende brukerreiser (eksemplifisert ved de syv livshendelser og tjenestekjeder) som forutsetter at data kan deles mellom virksomheter som betjener slike brukerreiser.</simpara>
@@ -15,7 +15,7 @@
 <simpara>Intstitusjonene er sikret råderett over egne data gjennom tilgangstjeneste i resssursportalen og API gateway hos institusjonen som kan styre og holde oversikt over datatilgang</simpara>
 </listitem>
 <listitem>
-<simpara>Institusjonene har valgfrihet over API Gateway såfremt funsjoner og grensesnitt er ivaretatt</simpara>
+<simpara>Institusjonene har valgfrihet over API Gateway såfremt funksjoner og grensesnitt er ivaretatt</simpara>
 </listitem>
 <listitem>
 <simpara>Deling av data på tvers av institusjoner er støttet gjennom felles ressursportal</simpara>
@@ -44,7 +44,7 @@
 <tbody>
 <row>
 <entry align="left" valign="top"><simpara>UHF Infrastruktur &lt;grouping&gt;</simpara></entry>
-<entry align="left" valign="top"></entry>
+<entry align="left" valign="top"><simpara>Felleskomponenter i UHF-infrastrukturen for datadeling</simpara></entry>
 </row>
 <row>
 <entry align="left" valign="top"><simpara>Tokentjeneste &lt;application-service&gt;</simpara></entry>
@@ -52,13 +52,12 @@
 </row>
 <row>
 <entry align="left" valign="top"><simpara>Ressursportal &lt;application-component&gt;</simpara></entry>
-<entry align="left" valign="top"></entry>
+<entry align="left" valign="top"><simpara>Ressursportalen holder oversik over og tildeler tilganger til beskyttede ressurser i høyere utdanning og forskningssektoren i henhold til føringer fra eierne av disse ressursene. Tilganger er gitt i form av OAuth2 grants og tokens. Ressursportalen er en del av den felles infrastrukturen for føderert API management for høyere utdanning og forskning. Den registrerer og holder oversikt over API, holder oversikt over klienter som har blitt tildelt tilgang til API og hvilke tilganger det gjelder. Ressursportalen benytter Jason Web Token formattert OAuth2 sikkerhetstoken for å gi tilgang til ressurser gjennom API gateway nær de beskyttede ressursene.</simpara></entry>
 </row>
 <row>
 <entry align="left" valign="top"><simpara>UHF Oauth2 autorisasjonstjener &lt;application-component&gt;</simpara></entry>
-<entry align="left" valign="top"><simpara>Autorisasjonstjeneter realiserer tilgangskontroll gjennom å utstede OpenID Connect eller OAuth 2 grants og tokens. En autorisasjonstjener er også brukt til å realisere tilgangs policy.</simpara><simpara>Scope (rettighet) og Audience (identifikator eller ressurs-server f. eks. FS)</simpara><simpara>Per i dag er Scopes er grovkornet
-Rich authorization requsts (ny spesifikasjon) for å utvide scope begrep i IETF
-underenhet og behandlingssted, behandlingsgrunnlag og roller jobbes det med.</simpara></entry>
+<entry align="left" valign="top"><simpara>Autorisasjonstjenester realiserer tilgangskontroll gjennom å utstede OAuth 2 grants og tokens.
+En autorisasjonstjener er også brukt til å realisere tilgangs policy.</simpara></entry>
 </row>
 <row>
 <entry align="left" valign="top"><simpara>UHF Klientregister &lt;application-component&gt;</simpara></entry>
@@ -66,23 +65,34 @@ underenhet og behandlingssted, behandlingsgrunnlag og roller jobbes det med.</si
 </row>
 <row>
 <entry align="left" valign="top"><simpara>UHF API manager  &lt;application-component&gt;</simpara></entry>
-<entry align="left" valign="top"><simpara>Administrativ komponent som kontrollerer policy og livssyklus for definisjon og forvaltning av API. Tilganger gjennom et API defineres i API manager og tildeles av autorisasjonstjener. Ansvaret til API manager inkluderer:</simpara><simpara>* Sentralisert API administrasjon og forvaltning av API-katalogen
-* Håndtering av registrerings- og introduksjonsprosesser for API utviklere
-* Håndtere livssyklusen til et API</simpara><simpara>Ivareta registrering, forvaltning og og utvikling av klientrettigheter</simpara><simpara>Hva tilbyr API av datamodell
-Hvordan ønsker API å sikre seg selv
-En klient må forholde seg til</simpara></entry>
+<entry align="left" valign="top"><simpara>Administrativ komponent som kontrollerer policy og livssyklus for definisjon og forvaltning av API.
+Tilganger gjennom et API defineres i API manager og tildeles av autorisasjonstjener.</simpara><simpara>Ansvaret til API manager inkluderer:
+  * Sentralisert API Gateway som håndterer sikkerhetsretningslinjer, og sender kall til bakenforliggende API
+  * Sentralisert publisering av API spesifikasjon (OpenAPI/RAML), dokumentasjon
+  * Sentralisert API administrasjon og forvaltning av API-katalogen
+  * Håndtering av registrerings- og introduksjonsprosesser for API utviklere
+  * Håndtere livssyklusen til et API, uvikling, test, utrulling, nye versjoner, nedlegging
+  * Ivareta registrering, forvaltning og og utvikling av klientrettigheter
+  * Rapportering og analyse for å monitorere bruk og last</simpara></entry>
 </row>
 <row>
 <entry align="left" valign="top"><simpara>UHF API katalog &lt;application-component&gt;</simpara></entry>
-<entry align="left" valign="top"><simpara>Oversikt over alle API som er registrert</simpara></entry>
+<entry align="left" valign="top"><simpara>Oversikt over alle API som er registrert</simpara><simpara>UHF API katalog kan inneholde
+  * Navn på API
+  * Tekstlig beskrivelse av API
+  * Informasjonsmodell / Datamodell for API som tilbys
+  * Kildeinformasjon for data, begrepsinformasjon
+  * Informasjon om tilgang, juridiske og tekniske begrensinger for bruk
+  * Eksempelkode, interaktiv API-konsoll og sandkasse for test
+  * Informasjon om hvordan få support og hjelp fra utsteder</simpara></entry>
 </row>
 <row>
 <entry align="left" valign="top"><simpara>Registrere API i UHF sektoren &lt;application-service&gt;</simpara></entry>
-<entry align="left" valign="top"></entry>
+<entry align="left" valign="top"><simpara>Programtjeneste for å registrere og vedlikeholde API som er tilgjengelige i Universitets og Høyskole-sektoren</simpara></entry>
 </row>
 <row>
 <entry align="left" valign="top"><simpara>UHF tildel rettigheter til klienter &lt;application-service&gt;</simpara></entry>
-<entry align="left" valign="top"></entry>
+<entry align="left" valign="top"><simpara>Tildel autoriserte rettigheter basert på roller, annen policy eller manuel behandling av dataforvalter gjennom tjenesten "Forespør dataforvalter".</simpara></entry>
 </row>
 <row>
 <entry align="left" valign="top"><simpara>UiX &lt;grouping&gt;</simpara></entry>
@@ -90,23 +100,24 @@ En klient må forholde seg til</simpara></entry>
 </row>
 <row>
 <entry align="left" valign="top"><simpara>Kildedata &lt;data-object&gt;</simpara></entry>
-<entry align="left" valign="top"></entry>
+<entry align="left" valign="top"><simpara>Dataprodukt som tilbys av datatilbyder
+Produktet kan være fra en kilde eller sammensatt av flere innen et domene</simpara></entry>
 </row>
 <row>
-<entry align="left" valign="top"><simpara>API Gateway hos dataeier / OAuth resource server &lt;application-component&gt;</simpara></entry>
-<entry align="left" valign="top"><simpara>API gateway beskytter ressurser og monitorerer tilgang. Den håndhever tilgangsstyring ved å validere aksesstokens og utfører eventuell fin-granulert tilgangskontroll. Den håndhever også volumbegrenseninger og samler data om bruken av APIer (logging).</simpara><simpara>Komponent som beskytter ressursene og monitorerer tilgang inklusivt:</simpara><simpara>*  Validere tilgangstoken
-*  Beskytte mot inntrenging og andre trusler
-• Håndtere volumbegrensninger og andre abonnementsordninger
-• Håndheve tilgangsstyring
-• Samle inn data om bruken av API-er
-• [orkestrering mellom interntjeneser??]</simpara><simpara>Prinsipp fra Steiner:
-Oppgaver både sikkerhetsperspektiv og forvaltningsperspektivet
-Dersom gatway skal stå for sikkerheten, MÅ VÆRE SIKKER PÅ at API ikke kan nås utenom gateway
-Noen må passe VELDIG godt på gatewayen og holder den oppdatert.</simpara><simpara>Det må være et tydeligvalg om hvem (gateway eller API) har ansvar for sikkerhetsmessig.</simpara></entry>
+<entry align="left" valign="top"><simpara>API Gateway hos datatilbyder / OAuth resource server &lt;application-component&gt;</simpara></entry>
+<entry align="left" valign="top"><simpara>API gateway beskytter ressurser og monitorerer tilgang.
+Den håndhever tilgangsstyring ved å validere aksesstokens og utfører eventuell fin-granulert tilgangskontroll.
+Den håndhever også volumbegrenseninger og samler data om bruken av APIer (logging).</simpara><simpara>Komponent som beskytter ressursene og monitorerer tilgang inklusivt:</simpara><simpara>  *  Validere tilgangstoken
+  *  Beskytte mot inntrenging og andre trusler
+  * Håndtere volumbegrensninger og andre abonnementsordninger
+  * Håndheve tilgangsstyring
+  * Samle inn data om bruken av API-er
+  * Orkestrering mellom interntjenester</simpara></entry>
 </row>
 <row>
 <entry align="left" valign="top"><simpara>Kildedata &lt;data-object&gt;</simpara></entry>
-<entry align="left" valign="top"></entry>
+<entry align="left" valign="top"><simpara>Dataprodukt som tilbys av datatilbyder
+Produktet kan være fra en kilde eller sammensatt av flere innen et domene</simpara></entry>
 </row>
 <row>
 <entry align="left" valign="top"><simpara>UiO &lt;grouping&gt;</simpara></entry>
@@ -114,23 +125,24 @@ Noen må passe VELDIG godt på gatewayen og holder den oppdatert.</simpara><simp
 </row>
 <row>
 <entry align="left" valign="top"><simpara>Kildedata &lt;data-object&gt;</simpara></entry>
-<entry align="left" valign="top"></entry>
+<entry align="left" valign="top"><simpara>Dataprodukt som tilbys av datatilbyder
+Produktet kan være fra en kilde eller sammensatt av flere innen et domene</simpara></entry>
 </row>
 <row>
-<entry align="left" valign="top"><simpara>API Gateway hos dataeier / OAuth resource server &lt;application-component&gt;</simpara></entry>
-<entry align="left" valign="top"><simpara>API gateway beskytter ressurser og monitorerer tilgang. Den håndhever tilgangsstyring ved å validere aksesstokens og utfører eventuell fin-granulert tilgangskontroll. Den håndhever også volumbegrenseninger og samler data om bruken av APIer (logging).</simpara><simpara>Komponent som beskytter ressursene og monitorerer tilgang inklusivt:</simpara><simpara>*  Validere tilgangstoken
-*  Beskytte mot inntrenging og andre trusler
-• Håndtere volumbegrensninger og andre abonnementsordninger
-• Håndheve tilgangsstyring
-• Samle inn data om bruken av API-er
-• [orkestrering mellom interntjeneser??]</simpara><simpara>Prinsipp fra Steiner:
-Oppgaver både sikkerhetsperspektiv og forvaltningsperspektivet
-Dersom gatway skal stå for sikkerheten, MÅ VÆRE SIKKER PÅ at API ikke kan nås utenom gateway
-Noen må passe VELDIG godt på gatewayen og holder den oppdatert.</simpara><simpara>Det må være et tydeligvalg om hvem (gateway eller API) har ansvar for sikkerhetsmessig.</simpara></entry>
+<entry align="left" valign="top"><simpara>API Gateway hos datatilbyder / OAuth resource server &lt;application-component&gt;</simpara></entry>
+<entry align="left" valign="top"><simpara>API gateway beskytter ressurser og monitorerer tilgang.
+Den håndhever tilgangsstyring ved å validere aksesstokens og utfører eventuell fin-granulert tilgangskontroll.
+Den håndhever også volumbegrenseninger og samler data om bruken av APIer (logging).</simpara><simpara>Komponent som beskytter ressursene og monitorerer tilgang inklusivt:</simpara><simpara>  *  Validere tilgangstoken
+  *  Beskytte mot inntrenging og andre trusler
+  * Håndtere volumbegrensninger og andre abonnementsordninger
+  * Håndheve tilgangsstyring
+  * Samle inn data om bruken av API-er
+  * Orkestrering mellom interntjenester</simpara></entry>
 </row>
 <row>
 <entry align="left" valign="top"><simpara>Kildedata &lt;data-object&gt;</simpara></entry>
-<entry align="left" valign="top"></entry>
+<entry align="left" valign="top"><simpara>Dataprodukt som tilbys av datatilbyder
+Produktet kan være fra en kilde eller sammensatt av flere innen et domene</simpara></entry>
 </row>
 </tbody>
 </tgroup>

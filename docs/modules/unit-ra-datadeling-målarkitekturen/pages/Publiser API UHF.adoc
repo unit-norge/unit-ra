@@ -13,6 +13,8 @@ endif::[]
 
 En prosessflyt som datatilbyder må gjennomføre for å gjøre et API synlig og tilgjengelig gjennom kataloger og søkeløsninger. Metadata om APIet blir registrert i API-katalogen. Metadata inkluderer begreper og datamodeller omfattet av datasettet som APIet tilgjengeliggjør, samt tilganger (scopes) knyttet til APIet som kan tildeles konsumenter.
 
+APIet registrert i UHF API katalog blir høstet inn i Felles API katalog. Vi ønsker at tilganger (scopes) skal i tillegg registreres i Maskinporten slik at konsumenter utenfor UHF sektoren kan oppdage APIet og be om tilgang på et senere tidspunkt.
+
 
 .Publiser API UHF
 image::{imagepath}Publiser API UHF.png[alt=Publiser API UHF image]
