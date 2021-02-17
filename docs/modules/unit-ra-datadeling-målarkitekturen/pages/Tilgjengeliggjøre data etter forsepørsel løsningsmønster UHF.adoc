@@ -1,4 +1,4 @@
-= Tilgjengeliggjøre data etter forspørsel løsningsmønster UHF
+= Tilgjengeliggjøre data etter forsepørsel løsningsmønster UHF
 :wysiwig_editing: 1
 ifeval::[{wysiwig_editing} == 1]
 :imagepath: ../images/
@@ -13,13 +13,13 @@ endif::[]
 
 En prosessflyt som datatilbyder må gjennomføre for å tildele rettigheter til en konsument som ber om tilgang til data. En datatilbyder mottar forespørsel om tilgang til et API på vegne av en organisasjon eller bruker. Dataeieren tar stilling til om konsumenten skal få tilgang til data gjennom APIet. Tilgang registreres knyttet til konsumentens klient (applikasjonen som benytter APIet) i klientregisteret. 
 
-.Tilgjengeliggjøre data etter forspørsel løsningsmønster UHF
-image::{imagepath}Tilgjengeliggjøre data etter forspørsel løsningsmønster UHF.png[alt=Tilgjengeliggjøre data etter forspørsel løsningsmønster UHF image]
+.Tilgjengeliggjøre data etter forsepørsel løsningsmønster UHF
+image::{imagepath}Tilgjengeliggjøre data etter forsepørsel løsningsmønster UHF.png[alt=Tilgjengeliggjøre data etter forsepørsel løsningsmønster UHF image]
 
 
 
 [cols ="1,3", options="header"]
-.Elementer i view for Tilgjengeliggjøre data etter forspørsel løsningsmønster UHF
+.Elementer i view for Tilgjengeliggjøre data etter forsepørsel løsningsmønster UHF
 |===
 
 | Element
