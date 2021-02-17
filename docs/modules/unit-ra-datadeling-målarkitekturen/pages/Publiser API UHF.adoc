@@ -1,4 +1,4 @@
-= Publiser API
+= Publiser API UHF
 :wysiwig_editing: 1
 ifeval::[{wysiwig_editing} == 1]
 :imagepath: ../images/
@@ -16,13 +16,13 @@ En prosessflyt som datatilbyder må gjennomføre for å gjøre et API synlig og 
 APIet registrert i UHF API katalog blir høstet inn i Felles API katalog. Vi ønsker at tilganger (scopes) skal i tillegg registreres i Maskinporten slik at konsumenter utenfor UHF sektoren kan oppdage APIet og be om tilgang på et senere tidspunkt.
 
 
-.Publiser API
-image::{imagepath}Publiser API.png[alt=Publiser API image]
+.Publiser API UHF
+image::{imagepath}Publiser API UHF.png[alt=Publiser API UHF image]
 
 
 
 [cols ="1,3", options="header"]
-.Elementer i view for Publiser API
+.Elementer i view for Publiser API UHF
 |===
 
 | Element
@@ -53,7 +53,7 @@ virksomheter, maskin til maskin. Dette gir teknisk og organisatorisk samhandling
 Mer om Maskinporten:
 https://www.digdir.no/digitale-felleslosninger/maskinporten/869
 
-| Registrere API i UH/F sektoren <application-service>
+| Registrere API i UHF sektoren <application-service>
 | Programtjeneste for å registrere og vedlikeholde API som er tilgjengelige i Universitets og Høyskole-sektoren
 
 | API Beskrivelse  <data-object>
@@ -82,7 +82,6 @@ Definere hvilke scopes finnes koblet til et API
 Tilganger gjennom et API defineres i API manager og tildeles av autorisasjonstjener. 
 
 Ansvaret til API manager inkluderer:
-
   * Sentralisert API Gateway som håndterer sikkerhetsretningslinjer, og sender kall til bakenforliggende API 
   * Sentralisert publisering av API spesifikasjon (OpenAPI/RAML), dokumentasjon
   * Sentralisert API administrasjon og forvaltning av API-katalogen
@@ -93,11 +92,10 @@ Ansvaret til API manager inkluderer:
 
 
 
-| UH/F API katalog <application-component>
-| Oversikt over alle API som er registrert i UH/F sektoren
+| UHF API katalog <application-component>
+| Oversikt over alle API som er registrert 
 
-UH/F API katalog kan inneholde
-
+UHF API katalog kan inneholde
   * Navn på API
   * Tekstlig beskrivelse av API
   * Informasjonsmodell / Datamodell for API som tilbys 

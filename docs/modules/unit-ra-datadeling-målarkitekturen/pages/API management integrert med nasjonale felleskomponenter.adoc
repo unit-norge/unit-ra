@@ -60,6 +60,7 @@ En autorisasjonstjener er også brukt til å realisere tilgangs policy.
 Tilganger gjennom et API defineres i API manager og tildeles av autorisasjonstjener. 
 
 Ansvaret til API manager inkluderer:
+
   * Sentralisert API Gateway som håndterer sikkerhetsretningslinjer, og sender kall til bakenforliggende API 
   * Sentralisert publisering av API spesifikasjon (OpenAPI/RAML), dokumentasjon
   * Sentralisert API administrasjon og forvaltning av API-katalogen
@@ -74,7 +75,8 @@ Ansvaret til API manager inkluderer:
 | Oversikt over alle API som er registrert i UH/F sektoren
 
 UH/F API katalog kan inneholde
-* Navn på API
+
+  * Navn på API
   * Tekstlig beskrivelse av API
   * Informasjonsmodell / Datamodell for API som tilbys 
   * Kildeinformasjon for data, begrepsinformasjon

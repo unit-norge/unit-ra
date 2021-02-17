@@ -22,6 +22,7 @@ Et slikt regime muliggjør deling av data for å oppnå sammenhengende brukerrei
 Virksomhetene i Universiteter, Høyskoler og Forskning har mange fellestrekk og noen fellestjenester på tvers. Deres autonomi gjør likevel at de er ulike på enkelte områder, for eksempel når det gjelder teknisk infrastruktur.  Disse likhetene og forskjellene understreker behovet for en føderert API Management-løsning.  En slik løsning er mer fleksibel med tanke på tekniske løsninger og produktvalg lokalt.
 
 Designen avbildet er laget for å støtte følgende karakteristikk: 
+
 * Intstitusjonene er sikret råderett over egne data gjennom tilgangstjeneste i ressursportalen og API gateway hos institusjonen som kan styre og holde oversikt over datatilgang 
 * Institusjonene har valgfrihet over API Gateway såfremt funksjoner og grensesnitt er ivaretatt 
 *	 Deling av data på tvers av institusjoner er støttet gjennom felles ressursportal  
@@ -64,6 +65,7 @@ En autorisasjonstjener er også brukt til å realisere tilgangs policy.
 Tilganger gjennom et API defineres i API manager og tildeles av autorisasjonstjener. 
 
 Ansvaret til API manager inkluderer:
+
   * Sentralisert API Gateway som håndterer sikkerhetsretningslinjer, og sender kall til bakenforliggende API 
   * Sentralisert publisering av API spesifikasjon (OpenAPI/RAML), dokumentasjon
   * Sentralisert API administrasjon og forvaltning av API-katalogen
@@ -78,7 +80,8 @@ Ansvaret til API manager inkluderer:
 | Oversikt over alle API som er registrert i UH/F sektoren
 
 UH/F API katalog kan inneholde
-* Navn på API
+
+  * Navn på API
   * Tekstlig beskrivelse av API
   * Informasjonsmodell / Datamodell for API som tilbys 
   * Kildeinformasjon for data, begrepsinformasjon
