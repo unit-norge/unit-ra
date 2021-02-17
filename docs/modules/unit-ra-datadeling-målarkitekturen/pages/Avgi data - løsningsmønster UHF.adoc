@@ -51,13 +51,6 @@ https://www.altinndigital.no/produkter/styring-av-tilgang/
 Datatibyder har definisjonsrett og har rettigheter til å behandle data
 Datatilbyder kan sette sammen data som tilbyderen har til et dataprodukt som tilbys datakonsumenter gjennom et API
 
-API Eiere  (kan eie Data som API gir tilgang til, eller system som tilbyr APIet)??
-
-Når virksomheten tilbyr åpne data, vil det være virksomheten som eier dataene. (men det bør vel definere et domen-eier innenfor virksomheten)
-
-Data eier på to nivå: f. eks. studieavdelingen (er ikke dette behandlingsansvarlig?) spør studenten om de gir samtykke til å gi tilgang til data om studenten som hen eier.
-
-
 | Tilgangskontroll-tjeneste <application-service>
 | Tjeneste for å sjekke rettigheter til data. Kan være eksterne eller interne tjenester. Disse rettigheter kan være mer finkornet enn tilgangene administrert av autorisasjonstjeneren.
 Eksempler på rettigheter kan komme av samtykker fra person eller virksomhet, eller rollebasert fra vergemål, familierelasjon el.

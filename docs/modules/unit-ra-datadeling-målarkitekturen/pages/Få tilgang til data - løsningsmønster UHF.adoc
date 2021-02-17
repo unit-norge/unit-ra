@@ -87,9 +87,9 @@ En autorisasjonstjener er også brukt til å realisere tilgangs policy.
 
 
 | OAUTH scopes <data-object>
-| Hvordan får Dataobjekt som som kan beskrives som en ressurs-definisjon, og et token er som regel knyttet til ett eller flere scopes. Scopes benyttes til å styre tilganger til API-er og operasjoner, samt eventuelt hva slags responser man får fra API-er.
+| En OAuth Scope er en mekanisme for å begrense konsumentens tilgang til datasettet eksponert gjennom et API. Foreløpig er dette grovkornet tilgangskontroll som for eksempel lese eller skrivetilgang til datasettet. Standardsorganet IETF jobber med å spesifisere mer fingranulert tilgangsmekanismer.
 
-Fra eHelse: Regler for et API som beskriver hvilke tilganger en datakonsument (representert ved organisasjonsnummer) og deres klienter skal ha tilgang til (utstedt token for).
+
 
 |===
 
