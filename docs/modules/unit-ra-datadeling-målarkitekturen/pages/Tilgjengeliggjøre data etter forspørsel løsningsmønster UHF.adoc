@@ -13,8 +13,6 @@ endif::[]
 
 En prosessflyt som datatilbyder må gjennomføre for å tildele rettigheter til en konsument som ber om tilgang til data. En datatilbyder mottar forespørsel om tilgang til et API på vegne av en organisasjon eller bruker. Dataeieren tar stilling til om konsumenten skal få tilgang til data gjennom APIet. Tilgang registreres knyttet til konsumentens klient (applikasjonen som benytter APIet) i klientregisteret. 
 
-[Kan behandlingsansvarlig handle automatisert basert på forhåndsdefinerte instruks?]
-
 .Tilgjengeliggjøre data etter forspørsel løsningsmønster UHF
 image::{imagepath}Tilgjengeliggjøre data etter forspørsel løsningsmønster UHF.png[alt=Tilgjengeliggjøre data etter forspørsel løsningsmønster UHF image]
 
@@ -28,7 +26,7 @@ image::{imagepath}Tilgjengeliggjøre data etter forspørsel løsningsmønster UH
 | Beskrivelse
 
 | Tilganger konsument <data-object>
-| Oversikt over hvilke API og OAUTH-scopes en virksomhet (representert ved organisasjonsnummer) skal ha tilgang til (utstedt token for).
+| Oversikt over tilganger gitt til konsumenter utenfor UHF sektoren tildelt gjennom Maskinporten. Oversikten spesifiserer hvilke API og OAUTH-scopes en virksomhet (representert ved organisasjonsnummer) skal ha tilgang til (utstedt token for).
 
 | Datatilbyder <business-role>
 | Tilbyder av data til andre aktører.  
@@ -41,7 +39,7 @@ Datatilbyder kan sette sammen data som tilbyderen har til et dataprodukt som til
 
 | Tildele tilganger til API <business-process>
 | Prosess for å registrere hvilke databrukere som skal få tilgang
-Sette policy, og grov tilgangsstyring gjennom maskinporten.
+Sette policy, og grov tilgangsstyring.
 
 
 | Inngå avtale om tilgang til data <business-process>
@@ -81,29 +79,29 @@ https://www.altinndigital.no/produkter/styring-av-tilgang/
 | Registrere samtykkebasert tilgang <application-service>
 | Tjeneste for å registerer konsumenter som kan innhente samtykke som gir grunnlag for utlevering fra datatilbyder.
 
+Tjenesten tilbyr i dag ikke samtykke til UHF sektorens datakilder integrert i tjenesten. Dette er ønsket funksjonaltet.
+
 | Aktører som kan innhente samtykke for bruk av API <data-object>
 | Oversikt over aktører som skal ha mulighet til å innhente samtykke som grunnlag for å få tilgang til data gjennom et API. 
 URL til konsumenten det kan innhentes samtykke for må inngå i beskrivelsen.
 
 | Tilgjengeliggjøre data etter forespørsel <capability>
-| 
+| Evnen til å gjøre data tilgjengelig for aktører utenfor egen virksomhet på forespørsel.
 
 | API tilgangs-forespørsel <application-service>
 | API eieren får forespørsel om den vil gi konsumenten tilgang til APIet.
 
 | Godkjenn tilgang <application-service>
-| 
+| Tjeneste for å vurdere og eventuelt gi tilgang til en konsument som ber om tilgang. En tjeneste i UHF Ressursportalen benyttes som lar dataforvalteren beslutte tilgang, enten gjennom en automatisert policy eller gjennom en manuell behandling. 
 
 | UHF tildel rettigheter til klienter <application-service>
-| Tildel autoriserte rettigheter basert på roller, annen policy eller manuel behandling av dataforvalter gjennom tjenesten "Forespør dataforvalter".
+| Tildel autoriserte rettigheter basert på roller, annen policy eller manuel behandling av dataforvalter gjennom tjenesten "Forespør dataforvalter". Om klienten er fra UHF sektoren blir tildelt rettighetene lagret i UHF klientregisteret i Ressusportalen. Om klienten er fra utenfor UHF sektoren må tildelte rettighetene lagres et sted der Maskinporten har oversikten. 
 
 | Ressursportal <application-component>
 | Ressursportalen holder oversik over og tildeler tilganger til beskyttede ressurser i høyere utdanning og forskningssektoren i henhold til føringer fra eierne av disse ressursene. Tilganger er gitt i form av OAuth2 grants og tokens. Ressursportalen er en del av den felles infrastrukturen for føderert API management for høyere utdanning og forskning. Den registrerer og holder oversikt over API, holder oversikt over klienter som har blitt tildelt tilgang til API og hvilke tilganger det gjelder. Ressursportalen benytter Jason Web Token formattert OAuth2 sikkerhetstoken for å gi tilgang til ressurser gjennom API gateway nær de beskyttede ressursene.
 
 | Forespør dataforvalter <application-service>
-| Harmoniserers med rolledefinisjoner.
-
-En dataforvalter kan besvare forespørselen automatisk på grunnlag av forhåndsdefinerte instruks. Det kan også besvares manuelt om ønskelig.
+| En tjeneste som lar dataforvalteren beslutte datatilgang, enten gjennom en automatisert policy eller gjennom en manuell behandling. 
 
 
 

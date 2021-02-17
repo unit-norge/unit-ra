@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?asciidoc-toc maxdepth="4"?>
+<?asciidoc-numbered maxdepth="9"?>
+<article xmlns="http://docbook.org/ns/docbook" xmlns:xl="http://www.w3.org/1999/xlink" version="5.0" xml:lang="en">
+<info>
+<title>Publiser API UHF</title>
+<date>2021-02-17</date>
+</info>
+<simpara>En prosessflyt som datatilbyder må gjennomføre for å gjøre et API synlig og tilgjengelig gjennom kataloger og søkeløsninger. Metadata om APIet blir registrert i API-katalogen. Metadata inkluderer begreper og datamodeller omfattet av datasettet som APIet tilgjengeliggjør, samt tilganger (scopes) knyttet til APIet som kan tildeles konsumenter.</simpara>
+<simpara>APIet registrert i UHF API katalog blir høstet inn i Felles API katalog. Vi ønsker at tilganger (scopes) skal i tillegg registreres i Maskinporten slik at konsumenter utenfor UHF sektoren kan oppdage APIet og be om tilgang på et senere tidspunkt.</simpara>
+<figure>
+<title>Publiser API UHF</title>
+<mediaobject>
+<imageobject>
+<imagedata fileref="../images/Publiser%20API%20UHF.png"/>
+</imageobject>
+<textobject><phrase>Publiser API UHF image</phrase></textobject>
+</mediaobject>
+</figure>
+<table frame="all" rowsep="1" colsep="1">
+<title>Elementer i view for Publiser API UHF</title>
+<tgroup cols="2">
+<colspec colname="col_1" colwidth="25*"/>
+<colspec colname="col_2" colwidth="75*"/>
+<thead>
+<row>
+<entry align="left" valign="top">Element</entry>
+<entry align="left" valign="top">Beskrivelse</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara>OAUTH scopes &lt;data-object&gt;</simpara></entry>
+<entry align="left" valign="top"><simpara>En OAuth Scope er en mekanisme for å begrense konsumentens tilgang til datasettet eksponert gjennom et API. Foreløpig er dette grovkornet tilgangskontroll som for eksempel lese eller skrivetilgang til datasettet. Standardsorganet IETF jobber med å spesifisere mer fingranulert tilgangsmekanismer.</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Token-egenskaper &lt;data-object&gt;</simpara></entry>
+<entry align="left" valign="top"><simpara>Egenskaper som f.eks. gyldighetstid ved tilgangstoken som er Maskinportens variant av sikkerhetsbillett.</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Datatilbyder &lt;business-role&gt;</simpara></entry>
+<entry align="left" valign="top"><simpara>Tilbyder av data til andre aktører.</simpara><simpara>Datatibyder har definisjonsrett og har rettigheter til å behandle data
+Datatilbyder kan sette sammen data som tilbyderen har til et dataprodukt som tilbys datakonsumenter gjennom et API</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Maskinporten &lt;application-component&gt;</simpara></entry>
+<entry align="left" valign="top"><simpara>[Torget]
+Maskinporten er en løsning for tilgangsstyring for virksomheter som utveksler data. Løsningen garanterer identiteten mellom virksomheter, og sørger for maskin-til-maskin autentisering.</simpara><simpara>[Verktøykasse for deling av data]
+Maskinporten sørger for sikker autentisering og tilgangskontroll for datautveksling mellom
+virksomheter, maskin til maskin. Dette gir teknisk og organisatorisk samhandlingsevne.</simpara><simpara>Mer om Maskinporten:
+<link xl:href="https://www.digdir.no/digitale-felleslosninger/maskinporten/869">https://www.digdir.no/digitale-felleslosninger/maskinporten/869</link></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Registrere API i UHF sektoren &lt;application-service&gt;</simpara></entry>
+<entry align="left" valign="top"><simpara>Programtjeneste for å registrere og vedlikeholde API som er tilgjengelige i Universitets og Høyskole-sektoren</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>API Beskrivelse  &lt;data-object&gt;</simpara></entry>
+<entry align="left" valign="top"><simpara>Open API spesifikasjon (har vi føringer på format her)?</simpara><simpara>VI ønsker oss beskrivelse av datamodell og begreper som finnes i begrepskatalog og datamodell katalog (per default bruker vi det nasjonale, men kan hende vi må bruke noe for sektoren om ikke funksjonalitet er dekket</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>UHF definer rettighetter knyttet til APIer &lt;application-service&gt;</simpara></entry>
+<entry align="left" valign="top"><simpara>UHF sentralisert selvbetjeningstjeneste for administrasjon av integrasjoner og APIer.
+Tjeneste "administrasjonssentre" vil ha rettigheter til å registrere på vegne av andre f.eks. API-katalogen
+Definere hvilke scopes finnes koblet til et API</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Publiser API &lt;capability&gt;</simpara></entry>
+<entry align="left" valign="top"><simpara>Evnen til å gjøre et API synlig og tilgjengelig gjennom kataloger og søkeløsninger slik at det kan oppdages av potensielle konsumenter.</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Registrere API &lt;business-process&gt;</simpara></entry>
+<entry align="left" valign="top"><simpara>Prosess med å registere API i relevante tjenester, api-katalog, Maskinporten, Kapabilitetsoversikt</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Felles API-katalog &lt;application-component&gt;</simpara></entry>
+<entry align="left" valign="top"><simpara>Del av Felles datakatalog som gir mulighet for å søke etter API-er og lese API-spesifikasjoner <link xl:href="https://fellesdatakatalog.brreg.no/apis">https://fellesdatakatalog.brreg.no/apis</link></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>UHF API manager  &lt;application-component&gt;</simpara></entry>
+<entry align="left" valign="top"><simpara>Administrativ komponent som kontrollerer policy og livssyklus for definisjon og forvaltning av API.
+Tilganger gjennom et API defineres i API manager og tildeles av autorisasjonstjener.</simpara><simpara>Ansvaret til API manager inkluderer:
+  * Sentralisert API Gateway som håndterer sikkerhetsretningslinjer, og sender kall til bakenforliggende API
+  * Sentralisert publisering av API spesifikasjon (OpenAPI/RAML), dokumentasjon
+  * Sentralisert API administrasjon og forvaltning av API-katalogen
+  * Håndtering av registrerings- og introduksjonsprosesser for API utviklere
+  * Håndtere livssyklusen til et API, uvikling, test, utrulling, nye versjoner, nedlegging
+  * Ivareta registrering, forvaltning og og utvikling av klientrettigheter
+  * Rapportering og analyse for å monitorere bruk og last</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>UHF API katalog &lt;application-component&gt;</simpara></entry>
+<entry align="left" valign="top"><simpara>Oversikt over alle API som er registrert</simpara><simpara>UHF API katalog kan inneholde
+  * Navn på API
+  * Tekstlig beskrivelse av API
+  * Informasjonsmodell / Datamodell for API som tilbys
+  * Kildeinformasjon for data, begrepsinformasjon
+  * Informasjon om tilgang, juridiske og tekniske begrensinger for bruk
+  * Eksempelkode, interaktiv API-konsoll og sandkasse for test
+  * Informasjon om hvordan få support og hjelp fra utsteder</simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</article>

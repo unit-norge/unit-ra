@@ -70,7 +70,7 @@ UHF API katalog kan inneholde
   * Informasjon om hvordan få support og hjelp fra utsteder
 
 | UHF tildel rettigheter til klienter <application-service>
-| Tildel autoriserte rettigheter basert på roller, annen policy eller manuel behandling av dataforvalter gjennom tjenesten "Forespør dataforvalter".
+| Tildel autoriserte rettigheter basert på roller, annen policy eller manuel behandling av dataforvalter gjennom tjenesten "Forespør dataforvalter". Om klienten er fra UHF sektoren blir tildelt rettighetene lagret i UHF klientregisteret i Ressusportalen. Om klienten er fra utenfor UHF sektoren må tildelte rettighetene lagres et sted der Maskinporten har oversikten. 
 
 | API tilgangs-forespørsel <application-service>
 | API eieren får forespørsel om den vil gi konsumenten tilgang til APIet.
