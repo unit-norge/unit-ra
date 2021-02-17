@@ -11,9 +11,31 @@ endif::[]
 :sectnums:
 :sectnumlevels: 9
 
-Infrastruktur for Identitetshåndtering og tilgangsstyring (IAM) utfyller API management og må fungere sammen. IAM utføres av komponenter i den øvre delen av viewet. API managaement utføres av kompontenter i den nedre delen av viewet. Ressursportalen og tjenesten for tildeling av rettigheter til klienter deltar i begge funksjoner. 
+Infrastruktur for identitetshåndtering og tilgangsstyring (IAM) utfyller API management og må 
+fungere sammen. 
 
-IAM styrer sluttbrukeres tilgang til tjenester, basert på både autentisering av deres identitet og deres roller hos institusjoner. API management styrer tilgang til data gjennom API basert på policy eller godkjenning fra dataforvalter. Avgjørelsen om å godkjenne tilgang til data kan godt være basert på en sluttbrukers rolle hos en institusjon.​
+Autentisering er det som sjekker at brukeren er kjent for virksomhenten og forsikrer 
+at brukeren er den vedkommende gir seg ut for å være når brukeren ber om tilgang til ressurser.
+
+Autorisering identifiserer hvilke tilganger en bruker skal ha til virksomhetens ressurser.
+Autorisasjon kan tildeles roller. Brukere kan tildeles roller og gjennom dette få
+autorisasjon til virksomhetens ressurser som er knyttet til rollen.
+
+IAM utfører autentisering ved bruk av komponenter i den øvre delen av viewet. 
+
+API management utføres av komponenter i den nedre delen av viewet. 
+
+Ressursportalen og tjenesten for tildeling av rettigheter til klienter deltar i begge funksjoner.
+
+IAM autoriserer sluttbrukeres tilgang til tjenester. Dette er basert på både autentisering 
+av deres identitet, det vil si hvem brukeren er, og de roller brukeren er tildelt hos en 
+eller flere institusjoner. 
+
+API management styrer tilgang til data gjennom API basert på policy eller godkjenning 
+fra dataforvalter. Brukers tilgang til beskyttet tjeneste hos datakonsument kan være 
+tilstrekkelig til at bruker ikke trenger å autoriseres eksplisitt hos datatilbyder. Avgjørelsen om å godkjenne tilgang til data kan godt være basert på 
+en sluttbrukers rolle hos en institusjon.
+​
 
 .API management integrert med IAM
 image::{imagepath}API management integrert med IAM.png[alt=API management integrert med IAM image]
