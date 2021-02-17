@@ -44,16 +44,16 @@ image::{imagepath}Føderert API management.png[alt=Føderert API management imag
 | Tjeneste som utsteder sikkerhetsbilletter. Sikkerhetsbillett utstedes basert på tildelte rettigheter og eventuelle representasjonsforhold.
 
 | Ressursportal <application-component>
-| Ressursportalen holder oversik over og tildeler tilganger til beskyttede ressurser i høyere utdanning og forskningssektoren i henhold til føringer fra eierne av disse ressursene. Tilganger er gitt i form av OAuth2 grants og tokens. Ressursportalen er en del av den felles infrastrukturen for føderert API management for høyere utdanning og forskning. Den registrerer og holder oversikt over API, holder oversikt over klienter som har blitt tildelt tilgang til API og hvilke tilganger det gjelder. Ressursportalen benytter Jason Web Token formattert OAuth2 sikkerhetstoken for å gi tilgang til ressurser gjennom API gateway nær de beskyttede ressursene.
+| Ressursportalen holder oversikt over og tildeler tilganger til beskyttede ressurser i høyere utdanning og forskningssektoren i henhold til føringer fra eierne av disse ressursene. Tilganger er gitt i form av OAuth2 grants og tokens. Ressursportalen er en del av den felles infrastrukturen for føderert API management for høyere utdanning og forskning. Den registrerer og holder oversikt over API, holder oversikt over klienter som har blitt tildelt tilgang til API og hvilke tilganger det gjelder. Ressursportalen benytter Jason Web Token formattert OAuth2 sikkerhetstoken for å gi tilgang til ressurser gjennom API gateway nær de beskyttede ressursene.
 
-| UHF Oauth2 autorisasjonstjener <application-component>
+| UH/F Oauth2 autorisasjonstjener <application-component>
 | Autorisasjonstjenester realiserer tilgangskontroll gjennom å utstede OAuth 2 grants og tokens. 
 En autorisasjonstjener er også brukt til å realisere tilgangs policy. 
 
 
 
 
-| UHF Klientregister <application-component>
+| UH/F Klientregister <application-component>
 | Oversikt over alle klienter som er blitt tildelt tilgang til ressurser.
 
 
@@ -72,10 +72,10 @@ Ansvaret til API manager inkluderer:
 
 
 
-| UHF API katalog <application-component>
-| Oversikt over alle API som er registrert 
+| UH/F API katalog <application-component>
+| Oversikt over alle API som er registrert i UH/F sektoren
 
-UHF API katalog kan inneholde
+UH/F API katalog kan inneholde
   * Navn på API
   * Tekstlig beskrivelse av API
   * Informasjonsmodell / Datamodell for API som tilbys 
@@ -84,11 +84,11 @@ UHF API katalog kan inneholde
   * Eksempelkode, interaktiv API-konsoll og sandkasse for test
   * Informasjon om hvordan få support og hjelp fra utsteder
 
-| Registrere API i UHF sektoren <application-service>
+| Registrere API i UH/F sektoren <application-service>
 | Programtjeneste for å registrere og vedlikeholde API som er tilgjengelige i Universitets og Høyskole-sektoren
 
-| UHF tildel rettigheter til klienter <application-service>
-| Tildel autoriserte rettigheter basert på roller, annen policy eller manuel behandling av dataforvalter gjennom tjenesten "Forespør dataforvalter". Om klienten er fra UHF sektoren blir tildelt rettighetene lagret i UHF klientregisteret i Ressusportalen. Om klienten er fra utenfor UHF sektoren må tildelte rettighetene lagres et sted der Maskinporten har oversikten. 
+| UH/F tildel rettigheter til klienter <application-service>
+| Tildel autoriserte rettigheter basert på roller, annen policy eller manuell behandling av dataforvalter gjennom tjenesten "Forespør dataforvalter". Om klienten er fra UH/F sektoren blir tildelt rettighetene lagret i UH/F klientregisteret i Ressusportalen. Om klienten er fra utenfor UH/F sektoren må tildelte rettighetene lagres et sted der Maskinporten har oversikten. 
 
 | UiX <grouping>
 | 

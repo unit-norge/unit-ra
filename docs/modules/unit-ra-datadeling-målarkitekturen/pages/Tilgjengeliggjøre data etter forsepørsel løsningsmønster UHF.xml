@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?asciidoc-toc maxdepth="4"?>
+<?asciidoc-numbered maxdepth="9"?>
+<article xmlns="http://docbook.org/ns/docbook" xmlns:xl="http://www.w3.org/1999/xlink" version="5.0" xml:lang="en">
+<info>
+<title>Tilgjengeliggjøre data etter forsepørsel løsningsmønster UHF</title>
+<date>2021-02-17</date>
+</info>
+<simpara>En prosessflyt som datatilbyder må gjennomføre for å tildele rettigheter til en konsument som ber om tilgang til data. En datatilbyder mottar forespørsel om tilgang til et API på vegne av en organisasjon eller bruker. Dataeieren tar stilling til om konsumenten skal få tilgang til data gjennom APIet. Tilgang registreres knyttet til konsumentens klient (applikasjonen som benytter APIet) i klientregisteret.</simpara>
+<figure>
+<title>Tilgjengeliggjøre data etter forsepørsel løsningsmønster UHF</title>
+<mediaobject>
+<imageobject>
+<imagedata fileref="../images/Tilgjengeliggjøre%20data%20etter%20forsepørsel%20løsningsmønster%20UHF.png"/>
+</imageobject>
+<textobject><phrase>Tilgjengeliggjøre data etter forsepørsel løsningsmønster UHF image</phrase></textobject>
+</mediaobject>
+</figure>
+<table frame="all" rowsep="1" colsep="1">
+<title>Elementer i view for Tilgjengeliggjøre data etter forsepørsel løsningsmønster UHF</title>
+<tgroup cols="2">
+<colspec colname="col_1" colwidth="25*"/>
+<colspec colname="col_2" colwidth="75*"/>
+<thead>
+<row>
+<entry align="left" valign="top">Element</entry>
+<entry align="left" valign="top">Beskrivelse</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara>Tilganger konsument &lt;data-object&gt;</simpara></entry>
+<entry align="left" valign="top"><simpara>Oversikt over tilganger gitt til konsumenter utenfor UHF sektoren tildelt gjennom Maskinporten. Oversikten spesifiserer hvilke API og OAUTH-scopes en virksomhet (representert ved organisasjonsnummer) skal ha tilgang til (utstedt token for).</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Datatilbyder &lt;business-role&gt;</simpara></entry>
+<entry align="left" valign="top"><simpara>Tilbyder av data til andre aktører.</simpara><simpara>Datatibyder har definisjonsrett og har rettigheter til å behandle data
+Datatilbyder kan sette sammen data som tilbyderen har til et dataprodukt som tilbys datakonsumenter gjennom et API</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Tilgjengeliggjør data etter forselpørsel &lt;business-process&gt;</simpara></entry>
+<entry align="left" valign="top"><simpara>Prosessen med å tilby data gjennom et API til aktører utenfor egen virksomhet.</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Tildele tilganger til API &lt;business-process&gt;</simpara></entry>
+<entry align="left" valign="top"><simpara>Prosess for å registrere hvilke databrukere som skal få tilgang
+Sette policy, og grov tilgangsstyring.</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Inngå avtale om tilgang til data &lt;business-process&gt;</simpara></entry>
+<entry align="left" valign="top"><simpara>Prosess for å inngå avtale om tilgang og bruk av data.</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Registrere brukere av samtykke &lt;business-process&gt;</simpara></entry>
+<entry align="left" valign="top"><simpara>Prosess for å registrere konsumenter som skal ha mulighet for å innhente samtykker som gir tilgang til en tjeneste.</simpara><simpara>Dette utføres kun om det er behov for samtykke for tilgang til dataene.</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Maskinporten &lt;application-component&gt;</simpara></entry>
+<entry align="left" valign="top"><simpara>[Torget]
+Maskinporten er en løsning for tilgangsstyring for virksomheter som utveksler data. Løsningen garanterer identiteten mellom virksomheter, og sørger for maskin-til-maskin autentisering.</simpara><simpara>[Verktøykasse for deling av data]
+Maskinporten sørger for sikker autentisering og tilgangskontroll for datautveksling mellom
+virksomheter, maskin til maskin. Dette gir teknisk og organisatorisk samhandlingsevne.</simpara><simpara>Mer om Maskinporten:
+<link xl:href="https://www.digdir.no/digitale-felleslosninger/maskinporten/869">https://www.digdir.no/digitale-felleslosninger/maskinporten/869</link></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Altinn autorisasjon &lt;application-component&gt;</simpara></entry>
+<entry align="left" valign="top"><simpara>[Torget]
+Autorisasjonskomponenten i Altinn som gir muligheter til å delegere rettigheter til andre organisasjoner eller personer. Rettigheter til bruk av autorisasjonskomponenten baserer seg på registrerte roller i Enhetsregisteret.
+Altinn autorisasjon leverer også tjenester for å registrere og kontrollere samtykke gitt av person eller virksomhet.</simpara><simpara>[Verktøykasse for deling av data]
+Altinn autorisasjon gir teknisk samhandlingsevne ved at bruker logger inn med elektronisk ID,
+autorisasjonskomponenten sjekker at bruker har de tilgangene som kreves for å ta i bruk aktuell tjeneste.</simpara><simpara>Dersom en privatperson skal ta i bruk en tjeneste på vegne av en virksomhet, gjøres det et oppslag mot Enhetsregisteret for å bekrefte at personen har en rolle på vegne av virksomheten. Dette gir organisatorisk samhandlingsevne.</simpara><simpara>Mer om Altinn autorisasjon:
+<link xl:href="https://www.altinndigital.no/produkter/styring-av-tilgang/">https://www.altinndigital.no/produkter/styring-av-tilgang/</link></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Registrere samtykkebasert tilgang &lt;application-service&gt;</simpara></entry>
+<entry align="left" valign="top"><simpara>Tjeneste for å registerer konsumenter som kan innhente samtykke som gir grunnlag for utlevering fra datatilbyder.</simpara><simpara>Tjenesten tilbyr i dag ikke samtykke til UHF sektorens datakilder integrert i tjenesten. Dette er ønsket funksjonaltet.</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Aktører som kan innhente samtykke for bruk av API &lt;data-object&gt;</simpara></entry>
+<entry align="left" valign="top"><simpara>Oversikt over aktører som skal ha mulighet til å innhente samtykke som grunnlag for å få tilgang til data gjennom et API.
+URL til konsumenten det kan innhentes samtykke for må inngå i beskrivelsen.</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Tilgjengeliggjøre data etter forespørsel &lt;capability&gt;</simpara></entry>
+<entry align="left" valign="top"><simpara>Evnen til å gjøre data tilgjengelig for aktører utenfor egen virksomhet på forespørsel.</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>API tilgangs-forespørsel &lt;application-service&gt;</simpara></entry>
+<entry align="left" valign="top"><simpara>API eieren får forespørsel om den vil gi konsumenten tilgang til APIet.</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Godkjenn tilgang &lt;application-service&gt;</simpara></entry>
+<entry align="left" valign="top"><simpara>Tjeneste for å vurdere og eventuelt gi tilgang til en konsument som ber om tilgang. En tjeneste i UHF Ressursportalen benyttes som lar dataforvalteren beslutte tilgang, enten gjennom en automatisert policy eller gjennom en manuell behandling.</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>UHF tildel rettigheter til klienter &lt;application-service&gt;</simpara></entry>
+<entry align="left" valign="top"><simpara>Tildel autoriserte rettigheter basert på roller, annen policy eller manuel behandling av dataforvalter gjennom tjenesten "Forespør dataforvalter". Om klienten er fra UHF sektoren blir tildelt rettighetene lagret i UHF klientregisteret i Ressusportalen. Om klienten er fra utenfor UHF sektoren må tildelte rettighetene lagres et sted der Maskinporten har oversikten.</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Ressursportal &lt;application-component&gt;</simpara></entry>
+<entry align="left" valign="top"><simpara>Ressursportalen holder oversik over og tildeler tilganger til beskyttede ressurser i høyere utdanning og forskningssektoren i henhold til føringer fra eierne av disse ressursene. Tilganger er gitt i form av OAuth2 grants og tokens. Ressursportalen er en del av den felles infrastrukturen for føderert API management for høyere utdanning og forskning. Den registrerer og holder oversikt over API, holder oversikt over klienter som har blitt tildelt tilgang til API og hvilke tilganger det gjelder. Ressursportalen benytter Jason Web Token formattert OAuth2 sikkerhetstoken for å gi tilgang til ressurser gjennom API gateway nær de beskyttede ressursene.</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Forespør dataforvalter &lt;application-service&gt;</simpara></entry>
+<entry align="left" valign="top"><simpara>En tjeneste som lar dataforvalteren beslutte datatilgang, enten gjennom en automatisert policy eller gjennom en manuell behandling.</simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</article>

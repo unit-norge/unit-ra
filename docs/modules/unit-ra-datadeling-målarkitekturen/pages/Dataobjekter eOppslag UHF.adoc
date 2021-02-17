@@ -77,7 +77,7 @@ https://www.altinndigital.no/produkter/styring-av-tilgang/
 | Dataobjekt som beskriver en datakonsument som har rett til å innhente samtykke om å slå opp data.
 Viktig innholde er bl.a. URL
 
-| UHF Oauth2 autorisasjonstjener <application-component>
+| UH/F Oauth2 autorisasjonstjener <application-component>
 | Autorisasjonstjenester realiserer tilgangskontroll gjennom å utstede OAuth 2 grants og tokens. 
 En autorisasjonstjener er også brukt til å realisere tilgangs policy. 
 

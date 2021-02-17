@@ -50,17 +50,17 @@ image::{imagepath}Innhente data - løsningsmønster UHF.png[alt=Innhente data - 
 | Tilganger konsument <data-object>
 | Oversikt over tilganger gitt til konsumenter utenfor UHF sektoren tildelt gjennom Maskinporten. Oversikten spesifiserer hvilke API og OAUTH-scopes en virksomhet (representert ved organisasjonsnummer) skal ha tilgang til (utstedt token for).
 
-| UHF Oauth2 autorisasjonstjener <application-component>
+| UH/F Oauth2 autorisasjonstjener <application-component>
 | Autorisasjonstjenester realiserer tilgangskontroll gjennom å utstede OAuth 2 grants og tokens. 
 En autorisasjonstjener er også brukt til å realisere tilgangs policy. 
 
 
 
 
-| UHF API katalog <application-component>
-| Oversikt over alle API som er registrert 
+| UH/F API katalog <application-component>
+| Oversikt over alle API som er registrert i UH/F sektoren
 
-UHF API katalog kan inneholde
+UH/F API katalog kan inneholde
   * Navn på API
   * Tekstlig beskrivelse av API
   * Informasjonsmodell / Datamodell for API som tilbys 
