@@ -61,7 +61,7 @@ En autorisasjonstjener er også brukt til å realisere tilgangs policy.
 | Oversikt over alle API som er registrert i UH/F sektoren
 
 UH/F API katalog kan inneholde
-  * Navn på API
+* Navn på API
   * Tekstlig beskrivelse av API
   * Informasjonsmodell / Datamodell for API som tilbys 
   * Kildeinformasjon for data, begrepsinformasjon
