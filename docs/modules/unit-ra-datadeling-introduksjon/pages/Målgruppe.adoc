@@ -11,5 +11,5 @@ endif::[]
 :sectnums:
 :sectnumlevels: 9
 
-Målgruppen for referansearkitekturen er primært arkitekter og tekniske prosjektledere.
+Tekst målgruppe
 
