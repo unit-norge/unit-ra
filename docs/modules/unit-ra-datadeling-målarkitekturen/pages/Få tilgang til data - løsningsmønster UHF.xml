@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?asciidoc-toc maxdepth="4"?>
+<?asciidoc-numbered maxdepth="9"?>
+<article xmlns="http://docbook.org/ns/docbook" xmlns:xl="http://www.w3.org/1999/xlink" version="5.0" xml:lang="en">
+<info>
+<title>Få tilgang til data - løsningsmønster UHF</title>
+<date>2021-02-17</date>
+</info>
+<simpara>En prosessflyt en konsument av data må gjennomføre for å få tildelt rettigheter til data gjennom et API. Det omfatter å få kjennskap til aktuelt API gjennom API-katalogen, autentisere konsumenten, inngå avtale om bruk av data, samt å registrere tilganger hos den tekniske komponenten som skal utføre tjenestekallet. Dersom det dreier seg om tilgang til et åpent tilgjengelig API, kan enkelte delaktiviteter i prosessene hoppes over, men for å kunne logge informasjon om bruk av APIer bør alle konsumenter av et API registreres i klientregisteret.</simpara>
+<simpara>Viewet bør strengt tatt vise at konsumenten kan finne APIet enten i UH/F sektorens API katalog eller i Felles datakatalog. Vi velger å vise prosessflyten kun med UH/F sektorens komponenter både for å kunne presentere en oversiktlig prosessflyt og fordi forholdet til de nasjonale felleskomponenter er ennå ikke helt avklart.</simpara>
+<figure>
+<title>Få tilgang til data - løsningsmønster UHF</title>
+<mediaobject>
+<imageobject>
+<imagedata fileref="../images/Få%20tilgang%20til%20data%20-%20løsningsmønster%20UHF.png"/>
+</imageobject>
+<textobject><phrase>Få tilgang til data - løsningsmønster UHF image</phrase></textobject>
+</mediaobject>
+</figure>
+<table frame="all" rowsep="1" colsep="1">
+<title>Elementer i view for Få tilgang til data - løsningsmønster UHF</title>
+<tgroup cols="2">
+<colspec colname="col_1" colwidth="25*"/>
+<colspec colname="col_2" colwidth="75*"/>
+<thead>
+<row>
+<entry align="left" valign="top">Element</entry>
+<entry align="left" valign="top">Beskrivelse</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara>Data-konsument &lt;business-role&gt;</simpara></entry>
+<entry align="left" valign="top"><simpara>Den som innhenter eller mottar data fra andre aktører.</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Få tilgang til API &lt;business-process&gt;</simpara></entry>
+<entry align="left" valign="top"><simpara>Prosessen med å skaffe seg tilgang til tilbudte data fra annen aktør. Omfatte å finne API-er, inngå nødvendige avtaler og få tilganger.</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Inngå avtale om tilgang til data &lt;business-process&gt;</simpara></entry>
+<entry align="left" valign="top"><simpara>Prosess for å inngå avtale om tilgang og bruk av data.</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Registrer klient med tildelt tilgang &lt;business-process&gt;</simpara></entry>
+<entry align="left" valign="top"><simpara>Prosess for konsument å registerere (provisjonering av) den klienten som skal ha tilgang til API-et ved bruk av sikkerhetsbillett. Dette forutsetter at konsumenten har avtale om bruk av sikkerhetsbillettjenesten og at tilbyder har gitt konsumenten tilgang.</simpara><simpara>Dersom det er en leverandør som har blitt delegert rettigheter som databehandler på vegne av konsument er det leverandøren som registrer sin klient.</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Finn/få kjennskap til API &lt;business-process&gt;</simpara></entry>
+<entry align="left" valign="top"><simpara>Prosessen med å finne eller få kjennskap til tilgjengelige API-er gjennom relevante kataloger og søkeløsninger.</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Autentisere konsument &lt;business-process&gt;</simpara></entry>
+<entry align="left" valign="top"><simpara>Prosessen med å autentisere en konsument.</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Beskrivelse API &lt;data-object&gt;</simpara></entry>
+<entry align="left" valign="top"><simpara>Dataobjekt som er en maskinlesbar beskrivelse av REST API-er iht. Open API Specification. Dette er formatet som benyttes for å registrere et API i felles API-katalog</simpara><simpara>Ønsker å bruke Open API spesifikasjon</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>API-søk &lt;application-service&gt;</simpara></entry>
+<entry align="left" valign="top"><simpara>Tjeneste for å søke etter og finne tilgjengelige API-er</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Få tilgang til data (konsument) &lt;capability&gt;</simpara></entry>
+<entry align="left" valign="top"><simpara>Evnen til å skaffe seg tilgang til tilbudte data fra annen aktør.</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>UH/F API katalog &lt;application-component&gt;</simpara></entry>
+<entry align="left" valign="top"><simpara>Oversikt over alle API som er registrert i UH/F sektoren</simpara><simpara>UH/F API katalog kan inneholde</simpara><simpara>  * Navn på API
+  * Tekstlig beskrivelse av API
+  * Informasjonsmodell / Datamodell for API som tilbys
+  * Kildeinformasjon for data, begrepsinformasjon
+  * Informasjon om tilgang, juridiske og tekniske begrensinger for bruk
+  * Eksempelkode, interaktiv API-konsoll og sandkasse for test
+  * Informasjon om hvordan få support og hjelp fra utsteder</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>UH/F tildel rettigheter til klienter &lt;application-service&gt;</simpara></entry>
+<entry align="left" valign="top"><simpara>Tildel autoriserte rettigheter basert på roller, annen policy eller manuell behandling av dataforvalter gjennom tjenesten "Forespør dataforvalter". Om klienten er fra UH/F sektoren blir tildelt rettighetene lagret i UH/F klientregisteret i Ressusportalen. Om klienten er fra utenfor UH/F sektoren må tildelte rettighetene lagres et sted der Maskinporten har oversikten.</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>API tilgangs-forespørsel &lt;application-service&gt;</simpara></entry>
+<entry align="left" valign="top"><simpara>API eieren får forespørsel om den vil gi konsumenten tilgang til APIet.</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>UH/F Oauth2 autorisasjonstjener &lt;application-component&gt;</simpara></entry>
+<entry align="left" valign="top"><simpara>Autorisasjonstjenester realiserer tilgangskontroll gjennom å utstede OAuth 2 grants og tokens.
+En autorisasjonstjener er også brukt til å realisere tilgangs policy.</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>UH/F Klientregister &lt;application-component&gt;</simpara></entry>
+<entry align="left" valign="top"><simpara>Oversikt over alle klienter som er blitt tildelt tilgang til ressurser.</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>OAUTH scopes &lt;data-object&gt;</simpara></entry>
+<entry align="left" valign="top"><simpara>En OAuth Scope er en mekanisme for å begrense konsumentens tilgang til datasettet eksponert gjennom et API. Foreløpig er dette grovkornet tilgangskontroll som for eksempel lese eller skrivetilgang til datasettet. Standardsorganet IETF jobber med å spesifisere mer fingranulert tilgangsmekanismer.</simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</article>
