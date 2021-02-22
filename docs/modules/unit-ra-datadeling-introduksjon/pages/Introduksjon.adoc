@@ -4,7 +4,7 @@ ifeval::[{wysiwig_editing} == 1]
 :imagepath: ../images/
 endif::[]
 ifeval::[{wysiwig_editing} == 0]
-:imagepath: main@unit-ra:unit-ra-datadeling-bakgrunn:
+:imagepath: main@unit-ra:unit-ra-datadeling-introduksjon:
 endif::[]
 :toc: left
 :toclevels: 4
@@ -54,8 +54,7 @@ Noe om prosesser, rutiner og veiledninger.
 Noe om forvaltning av rammeverket
 
 :leveloffset: +1
-include::main@unit-ra:unit-ra-datadeling-bakgrunn:page$Forankring.adoc[]
-include::main@unit-ra:unit-ra-datadeling-bakgrunn:page$Målgruppe.adoc[]
-include::main@unit-ra:unit-ra-datadeling-bakgrunn:page$Bruksområder for datadeling.adoc[]
-include::main@unit-ra:unit-ra-datadeling-bakgrunn:page$Økosystemer, tjenestekjeder og tverrgående prosesser.adoc[]
+include::main@unit-ra:unit-ra-datadeling-introduksjon:page$Bakgrunn.adoc[]
+include::main@unit-ra:unit-ra-datadeling-introduksjon:page$Forankring.adoc[]
+include::main@unit-ra:unit-ra-datadeling-introduksjon:page$Målgruppe.adoc[]
 :leveloffset: -1

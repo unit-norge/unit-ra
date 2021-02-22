@@ -16,12 +16,12 @@ endif::[]
 image:{imagepath}image1.jpeg[]
 
 ----
-Mon Feb 22 2021 16:26:08 GMT+0100 (CET)
+Mon Feb 22 2021 19:24:04 GMT+0100 (CET)
 ----
 
 
 :leveloffset: +1
-include::main@unit-ra:unit-ra-datadeling-bakgrunn:page$Introduksjon.adoc[]
+include::main@unit-ra:unit-ra-datadeling-introduksjon:page$Introduksjon.adoc[]
 include::main@unit-ra:unit-ra-datadeling-metode:page$Metode.adoc[]
 include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Datadelingsplattformen og felles komponentene i den.adoc[]
 include::main@unit-ra:unit-ra-datadeling-forvaltning:page$Forvaltning av målarkitekturen.adoc[]
