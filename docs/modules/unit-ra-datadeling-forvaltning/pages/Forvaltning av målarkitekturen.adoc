@@ -11,6 +11,8 @@ endif::[]
 :sectnums:
 :sectnumlevels: 9
 
+Tekst forvaltning av målarkitekturen
+
 #Tekst om overgangen fra kapabilitetene og løsningene beskrevet
 over til informasjonsforvaltning og definisjon av datasett.#
 

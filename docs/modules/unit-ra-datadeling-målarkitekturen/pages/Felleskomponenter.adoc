@@ -11,6 +11,8 @@ endif::[]
 :sectnums:
 :sectnumlevels: 9
 
+Tekst felleskomponenter
+
 #(i sektoren hittil har «felles» betyd både at alle bruker samme instans,
 eller at alle har identiske instanser – vi må presisere hva som er
 hva etter hvert)#

@@ -11,6 +11,8 @@ endif::[]
 :sectnums:
 :sectnumlevels: 9
 
+Tekst datautveksling
+
 Med utgangspunkt i
 https://nasjonal-arkitektur.github.io/architecture-repository/data-exchange-ra/book-data-exchange-ra.html[Referansearkitektur
 for datautveksling] beskriv de mønstrene som vi bruker

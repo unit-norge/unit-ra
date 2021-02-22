@@ -11,6 +11,8 @@ endif::[]
 :sectnums:
 :sectnumlevels: 9
 
+Tekst integrasjonsmønster for datadeling
+
 *Provisjonering *(hoved IntArk mønster): Holde «server-side» kopi løpende oppdatert
 fra master ved å benytte eOppslag til å hente data fra master
 og eNotifikasjon for å gi beskjed til abonnenter om at noe er
