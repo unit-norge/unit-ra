@@ -14,7 +14,6 @@ endif::[]
 Tekst Datautveksling ved oppslag representasjon.
 
 :leveloffset: +1
-include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Dataobjekter eOppslag UHF.adoc[]
 include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Føderert API management.adoc[]
 include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$API management integrert med IAM.adoc[]
 include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$API management integrert med nasjonale felleskomponenter.adoc[]
