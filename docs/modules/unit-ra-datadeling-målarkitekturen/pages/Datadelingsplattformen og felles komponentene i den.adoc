@@ -14,8 +14,6 @@ endif::[]
 
 
 :leveloffset: +1
-include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Modeller for datadeling.adoc[]
-include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Kapabiliteter.adoc[]
 include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Felleskomponenter.adoc[]
 include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Datautveksling.adoc[]
 include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Integrasjonsmønster for datadeling.adoc[]
