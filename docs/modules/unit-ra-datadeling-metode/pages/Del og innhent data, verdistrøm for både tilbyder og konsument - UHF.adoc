@@ -13,3 +13,71 @@ endif::[]
 
 
 
+.Del og innhent data, verdistrøm for både tilbyder og konsument - UHF
+image::{imagepath}Del og innhent data, verdistrøm for både tilbyder og konsument - UHF.png[alt=Del og innhent data, verdistrøm for både tilbyder og konsument - UHF image]
+
+
+
+[cols ="1,3", options="header"]
+.Elementer i view for Del og innhent data, verdistrøm for både tilbyder og konsument - UHF
+|===
+
+| Element
+| Beskrivelse
+
+| Datatilbyder
+| Tilbyder av data til andre aktører.  
+
+Datatibyder har definisjonsrett og har rettigheter til å behandle data
+Datatilbyder kan sette sammen data som tilbyderen har til et dataprodukt som tilbys datakonsumenter gjennom et API
+
+| Del  data
+| 
+
+| Tilrettelegg for dataoppdagelse og datadeling
+| 
+
+| Share data
+| "Del data (operativt)" handler om utveksling av data gjennom etablerte kanaler og iht. avtaler. Dette forutsetter også håndtering av avvik og ikke-tilsiktede hendelser.
+
+
+| Sett opp avtaler, løsninger og tilganger etter henvendelse
+| 
+
+| Motta henvendelser om datadeling
+| 
+
+| Ta rede på egne data og krav til datadeling
+| 
+
+
+
+| Forbedre løsninger, sikkerhet og datakvalitet (tilbyder)
+| 
+
+| Data-konsument
+| Den som innhenter eller mottar data fra andre aktører.
+
+| Collect data
+| 
+
+| Oppdag data og datakilder
+| 
+
+| Be  om tilganger og abonnementer
+| 
+
+| Forespør og motta data
+| 
+
+| Etabler avtaler og løsninger for datainnhenting
+| 
+
+| Ta rede på behov for innhenting av data
+| 
+
+| Forbedre løsninger, sikkerhet og datakvalitet (konsument)
+| 
+
+|===
+
