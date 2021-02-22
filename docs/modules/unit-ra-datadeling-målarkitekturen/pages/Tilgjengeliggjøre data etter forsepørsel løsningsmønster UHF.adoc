@@ -25,32 +25,32 @@ image::{imagepath}Tilgjengeliggjøre data etter forsepørsel løsningsmønster U
 | Element
 | Beskrivelse
 
-| Tilganger konsument <data-object>
+| Tilganger konsument
 | Oversikt over tilganger gitt til konsumenter utenfor UHF sektoren tildelt gjennom Maskinporten. Oversikten spesifiserer hvilke API og OAUTH-scopes en virksomhet (representert ved organisasjonsnummer) skal ha tilgang til (utstedt token for).
 
-| Datatilbyder <business-role>
+| Datatilbyder
 | Tilbyder av data til andre aktører.  
 
 Datatibyder har definisjonsrett og har rettigheter til å behandle data
 Datatilbyder kan sette sammen data som tilbyderen har til et dataprodukt som tilbys datakonsumenter gjennom et API
 
-| Tilgjengeliggjør data etter forselpørsel <business-process>
+| Tilgjengeliggjør data etter forselpørsel
 | Prosessen med å tilby data gjennom et API til aktører utenfor egen virksomhet.
 
-| Tildele tilganger til API <business-process>
+| Tildele tilganger til API
 | Prosess for å registrere hvilke databrukere som skal få tilgang
 Sette policy, og grov tilgangsstyring.
 
 
-| Inngå avtale om tilgang til data <business-process>
+| Inngå avtale om tilgang til data
 | Prosess for å inngå avtale om tilgang og bruk av data.
 
-| Registrere brukere av samtykke <business-process>
+| Registrere brukere av samtykke
 | Prosess for å registrere konsumenter som skal ha mulighet for å innhente samtykker som gir tilgang til en tjeneste.
 
 Dette utføres kun om det er behov for samtykke for tilgang til dataene.
 
-| Maskinporten <application-component>
+| Maskinporten
 | [Torget]
 Maskinporten er en løsning for tilgangsstyring for virksomheter som utveksler data. Løsningen garanterer identiteten mellom virksomheter, og sørger for maskin-til-maskin autentisering.
 
@@ -61,7 +61,7 @@ virksomheter, maskin til maskin. Dette gir teknisk og organisatorisk samhandling
 Mer om Maskinporten:
 https://www.digdir.no/digitale-felleslosninger/maskinporten/869
 
-| Altinn autorisasjon <application-component>
+| Altinn autorisasjon
 | [Torget]
 Autorisasjonskomponenten i Altinn som gir muligheter til å delegere rettigheter til andre organisasjoner eller personer. Rettigheter til bruk av autorisasjonskomponenten baserer seg på registrerte roller i Enhetsregisteret.
 Altinn autorisasjon leverer også tjenester for å registrere og kontrollere samtykke gitt av person eller virksomhet.
@@ -76,31 +76,31 @@ Mer om Altinn autorisasjon:
 https://www.altinndigital.no/produkter/styring-av-tilgang/
 
 
-| Registrere samtykkebasert tilgang <application-service>
+| Registrere samtykkebasert tilgang
 | Tjeneste for å registerer konsumenter som kan innhente samtykke som gir grunnlag for utlevering fra datatilbyder.
 
 Tjenesten tilbyr i dag ikke samtykke til UHF sektorens datakilder integrert i tjenesten. Dette er ønsket funksjonaltet.
 
-| Aktører som kan innhente samtykke for bruk av API <data-object>
+| Aktører som kan innhente samtykke for bruk av API
 | Oversikt over aktører som skal ha mulighet til å innhente samtykke som grunnlag for å få tilgang til data gjennom et API. 
 URL til konsumenten det kan innhentes samtykke for må inngå i beskrivelsen.
 
-| Tilgjengeliggjøre data etter forespørsel <capability>
+| Tilgjengeliggjøre data etter forespørsel
 | Evnen til å gjøre data tilgjengelig for aktører utenfor egen virksomhet på forespørsel.
 
-| API tilgangs-forespørsel <application-service>
+| API tilgangs-forespørsel
 | API eieren får forespørsel om den vil gi konsumenten tilgang til APIet.
 
-| Godkjenn tilgang <application-service>
+| Godkjenn tilgang
 | Tjeneste for å vurdere og eventuelt gi tilgang til en konsument som ber om tilgang. En tjeneste i UHF Ressursportalen benyttes som lar dataforvalteren beslutte tilgang, enten gjennom en automatisert policy eller gjennom en manuell behandling. 
 
-| UH/F tildel rettigheter til klienter <application-service>
+| UH/F tildel rettigheter til klienter
 | Tildel autoriserte rettigheter basert på roller, annen policy eller manuell behandling av dataforvalter gjennom tjenesten "Forespør dataforvalter". Om klienten er fra UH/F sektoren blir tildelt rettighetene lagret i UH/F klientregisteret i Ressusportalen. Om klienten er fra utenfor UH/F sektoren må tildelte rettighetene lagres et sted der Maskinporten har oversikten. 
 
-| Ressursportal <application-component>
+| Ressursportal
 | Ressursportalen holder oversikt over og tildeler tilganger til beskyttede ressurser i høyere utdanning og forskningssektoren i henhold til føringer fra eierne av disse ressursene. Tilganger er gitt i form av OAuth2 grants og tokens. Ressursportalen er en del av den felles infrastrukturen for føderert API management for høyere utdanning og forskning. Den registrerer og holder oversikt over API, holder oversikt over klienter som har blitt tildelt tilgang til API og hvilke tilganger det gjelder. Ressursportalen benytter Jason Web Token formattert OAuth2 sikkerhetstoken for å gi tilgang til ressurser gjennom API gateway nær de beskyttede ressursene.
 
-| Forespør dataforvalter <application-service>
+| Forespør dataforvalter
 | En tjeneste som lar dataforvalteren beslutte datatilgang, enten gjennom en automatisert policy eller gjennom en manuell behandling. 
 
 

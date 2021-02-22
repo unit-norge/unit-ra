@@ -25,19 +25,19 @@ image::{imagepath}Dataobjekter eOppslag UHF.png[alt=Dataobjekter eOppslag UHF im
 | Element
 | Beskrivelse
 
-| API-katalogen <application-component>
+| API-katalogen
 | API-katalogen er en del av Felles datakatalog som inneholder API-beskrivelser med endepunktsadresser og kobling til datasett.
 
-| Tilganger konsument/representasjonsforhold <data-object>
+| Tilganger konsument/representasjonsforhold
 | Dataobjekt som beskriver hvilke tilganger til ressurser en representant (leverandør) skal ha på vegne av konsument.
 
-| Delegerbar ressurs <data-object>
+| Delegerbar ressurs
 | Dataobjekt som beskriver en ressurs, f.eks. et API, som det kan gis rettigheter til gjennom et representasjonsforhold.
 
-| Endepunkt (adresse) <data-object>
+| Endepunkt (adresse)
 | Dataobjekt som representerer teknisk adresse til et API eller ressurs.
 
-| Maskinporten <application-component>
+| Maskinporten
 | [Torget]
 Maskinporten er en løsning for tilgangsstyring for virksomheter som utveksler data. Løsningen garanterer identiteten mellom virksomheter, og sørger for maskin-til-maskin autentisering.
 
@@ -48,7 +48,7 @@ virksomheter, maskin til maskin. Dette gir teknisk og organisatorisk samhandling
 Mer om Maskinporten:
 https://www.digdir.no/digitale-felleslosninger/maskinporten/869
 
-| Altinn autorisasjon <application-component>
+| Altinn autorisasjon
 | [Torget]
 Autorisasjonskomponenten i Altinn som gir muligheter til å delegere rettigheter til andre organisasjoner eller personer. Rettigheter til bruk av autorisasjonskomponenten baserer seg på registrerte roller i Enhetsregisteret.
 Altinn autorisasjon leverer også tjenester for å registrere og kontrollere samtykke gitt av person eller virksomhet.
@@ -63,21 +63,21 @@ Mer om Altinn autorisasjon:
 https://www.altinndigital.no/produkter/styring-av-tilgang/
 
 
-| Beskrivelse API <data-object>
+| Beskrivelse API
 | Dataobjekt som er en maskinlesbar beskrivelse av REST API-er iht. Open API Specification. Dette er formatet som benyttes for å registrere et API i felles API-katalog
 
 Ønsker å bruke Open API spesifikasjon
 
-| OAUTH scopes <data-object>
+| OAUTH scopes
 | En OAuth Scope er en mekanisme for å begrense konsumentens tilgang til datasettet eksponert gjennom et API. Foreløpig er dette grovkornet tilgangskontroll som for eksempel lese eller skrivetilgang til datasettet. Standardsorganet IETF jobber med å spesifisere mer fingranulert tilgangsmekanismer.
 
 
 
-| Beskrivelse av aktør som kan innhente samtykke <data-object>
+| Beskrivelse av aktør som kan innhente samtykke
 | Dataobjekt som beskriver en datakonsument som har rett til å innhente samtykke om å slå opp data.
 Viktig innholde er bl.a. URL
 
-| UH/F Oauth2 autorisasjonstjener <application-component>
+| UH/F Oauth2 autorisasjonstjener
 | Autorisasjonstjenester realiserer tilgangskontroll gjennom å utstede OAuth 2 grants og tokens. 
 En autorisasjonstjener er også brukt til å realisere tilgangs policy. 
 

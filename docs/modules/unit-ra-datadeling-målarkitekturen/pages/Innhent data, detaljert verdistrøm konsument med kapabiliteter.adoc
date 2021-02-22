@@ -27,14 +27,14 @@ image::{imagepath}Innhent data, detaljert verdistrøm konsument med kapabilitete
 | Element
 | Beskrivelse
 
-| Evnen til å se hvilke data som konsument har behov for <capability>
+| Evnen til å se hvilke data som konsument har behov for
 | Forklaring:
 Konsument må ha fokus på å etterspørre og bruke data fra tilbydere	
 
 Løsning:
 En mulighet er at konsument har ansatte/ressurser som har datadeling som spesialområde og har tid og ressurser til å utføre oppgaven 
 
-| Evnen til å be om tilgang til data <capability>
+| Evnen til å be om tilgang til data
 | Forklaring:
 Datakonsument må evne å be om tilgang til aktuelle data
 
@@ -46,7 +46,7 @@ Tilgjengelige ressurser til dialogen med tilbyder
 
 
 
-| Evnen til å finne frem til data blant tilbyders datakataloger og lignende <capability>
+| Evnen til å finne frem til data blant tilbyders datakataloger og lignende
 | Forklaring:
 Datakonsument trenger kompetanse på å finne frem til data slik at data som tilbys oppdages lett. 	
 
@@ -55,7 +55,7 @@ Kompetansebygging hos konsument på hvor data kan finnes/etterspørres
 
 
 
-| Evnen til å vurdere om tilbyder kan dele etterspurte data  <capability>
+| Evnen til å vurdere om tilbyder kan dele etterspurte data 
 | Forklaring:
 Konsument må evne å vurdere om data som etterspørres kan deles. En del data er unntatt offentlighet som kan gjøre at tilbyder ikke har hjemmel til dele. Dersom etterspurte data er ressurskrevende å dele kan tilbyder velge å ikke dele 	
 
@@ -64,7 +64,7 @@ Bygge kompetanse på hvilke restriksjoner som gjelder ved deling av data
 
 
 
-| Evnen til å utvikle IT løsninger for å motta data  <capability>
+| Evnen til å utvikle IT løsninger for å motta data 
 | Forklaring:
 Konsument må sørge for å ha tekniske løsninger som støtter innhenting av dataene, og helst at dataene kan hentes på ønsket format.	
 
@@ -73,45 +73,45 @@ Kompetanse på valg av IT løsninger, samt utvikling av IT løsningene
 
 
 
-| Evnen til å innhente og bruke åpne data <capability>
+| Evnen til å innhente og bruke åpne data
 | Forklaring:
 Konsument må vite hvordan dataene skal mottas og brukes. 	
 
 Løsning:
 Kompetanse på bruk av åpne data
 
-| Data-konsument <business-role>
+| Data-konsument
 | Den som innhenter eller mottar data fra andre aktører.
 
-| Collect data <value-stream>
+| Collect data
 | 
 
-| Oppdag data og datakilder <value-stream>
+| Oppdag data og datakilder
 | 
 
-| Be  om tilganger og abonnementer <value-stream>
+| Be  om tilganger og abonnementer
 | 
 
-| Forespør og motta data <value-stream>
+| Forespør og motta data
 | 
 
-| Etabler avtaler og løsninger for datainnhenting <value-stream>
+| Etabler avtaler og løsninger for datainnhenting
 | 
 
-| Forvalt og forbedre opplegg for innhenting av data <value-stream>
+| Forvalt og forbedre opplegg for innhenting av data
 | 
 
-| Ta rede på behov for innhenting av data <value-stream>
+| Ta rede på behov for innhenting av data
 | 
 
-| Evnen til å gi tilbyder tilbakemelding <capability>
+| Evnen til å gi tilbyder tilbakemelding
 | Forklaring:
 Datakonsument må evne å gi tilbyder tilbakemelding på hvordan dialogen med tilbyder oppleves. Dette for å bidra til at opplegget for datadeling forbedres 	
 
 Løsning:
 Konsument bør ha som rutine å gi tilbyder tilbakemelding på hvordan datadelingen fungerer 
 
-| Evnen til å vurdere om etterspurte data er tilgjengeliggjort som ‘Åpne data’ <capability>
+| Evnen til å vurdere om etterspurte data er tilgjengeliggjort som ‘Åpne data’
 | Forklaring:
 Konsument må finne ut om etterspurte data helt eller delvis er åpent tilgjengelighet. Dersom dataene er åpne kan konsument hente aktuelle data uten å henvende seg til tilbyder	
 
@@ -120,14 +120,14 @@ Bygge kompetanse på ‘Åpne data’
 
 
 
-| Evnen til å dokumentere behandlingsgrunnlag  <capability>
+| Evnen til å dokumentere behandlingsgrunnlag 
 | Forklaring:
 Konsument må vite hva som kreves av behandlingsgrunnlag dersom henvendelsen gjelder personopplysninger. Behandlingsgrunnlaget må dokumenteres overfor tilbyder	
 
 Løsning:
 Konsument må ha tilstrekkelig kompetanse på hva som kreves ved deling av personopplysninger
 
-| Evnen til å inngå avtaler <capability>
+| Evnen til å inngå avtaler
 | Forklaring:
 I en del tilfeller vil det være behov for utleveringsavtale som regulerer hvordan data utleveres og hvordan dataene brukes
 
@@ -137,7 +137,7 @@ Løsning:
 Tilstrekkelig kompetanse på inngåelse av avtaler 
 
 
-| Evnen til å motta data etter henvendelse til datatilbyder <capability>
+| Evnen til å motta data etter henvendelse til datatilbyder
 | Forklaring:
 Konsument må vite hvordan dataene skal mottas og brukes. 
 

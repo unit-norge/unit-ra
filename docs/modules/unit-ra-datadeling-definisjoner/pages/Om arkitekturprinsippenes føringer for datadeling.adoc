@@ -1,0 +1,22 @@
+= Om arkitekturprinsippenes føringer for datadeling
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-definisjoner:
+endif::[]
+:toc: left
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 9
+
+Pek til
+https://www.digdir.no/digitalisering-og-samordning/overordnede-arkitekturprinsipper/1065[overordnede arkitekturprinsippene] fra digitaliseringsdirektoratet og hva de betyr
+her.
+
+#Trenger vi noen justeringer av prinsippene?#
+
+Si noe om UH-IntArk prinsippene og forhold til de overordnede
+arkitekturprinsippene
+

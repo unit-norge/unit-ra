@@ -49,13 +49,13 @@ image::{imagepath}API management integrert med IAM.png[alt=API management integr
 | Element
 | Beskrivelse
 
-| Datakonsument  <grouping>
+| Datakonsument 
 | Komponenter som utgjør datakonsument, det vil si Universitetet, Høyskolens eller andre, sitt grensesnitt for datadeling
 
-| Sluttbruker <business-actor>
+| Sluttbruker
 | Personen som skal tildeles tilgang til beskyttede ressurser basert på identitet, roller og annen kontekst.
 
-| Beskyttet tjeneste / klient hos datakonsument  <application-component>
+| Beskyttet tjeneste / klient hos datakonsument 
 | Tjeneste som IAM beskytter tilgang til. Tjenesten kan også være en konsument av data gjennom API, det vil si Universitet, Høyskole eller andre som gir tilgang til data fra datatilbyder.
 
 Komponenten tilbyr:
@@ -63,48 +63,48 @@ Komponenten tilbyr:
   * oppslag i felleskomponeneter for tilgang til datatilbyders dataprodukter
   * tilgang til ressurser hos datatilbyder 
 
-| Identitetstilbyder <business-role>
+| Identitetstilbyder
 | En identitetstilbyder er en virksomhet som er godkjent til å utstede elektroniske identiteter for entydig identifikasjon av en fysisk person på et gitt sikkerhetsnivå.
 
-| UHF Infrastruktur <grouping>
+| UHF Infrastruktur
 | Felleskomponenter i UHF-infrastrukturen for datadeling
 
-| Ressursportal <application-component>
+| Ressursportal
 | Ressursportalen holder oversikt over og tildeler tilganger til beskyttede ressurser i høyere utdanning og forskningssektoren i henhold til føringer fra eierne av disse ressursene. Tilganger er gitt i form av OAuth2 grants og tokens. Ressursportalen er en del av den felles infrastrukturen for føderert API management for høyere utdanning og forskning. Den registrerer og holder oversikt over API, holder oversikt over klienter som har blitt tildelt tilgang til API og hvilke tilganger det gjelder. Ressursportalen benytter Jason Web Token formattert OAuth2 sikkerhetstoken for å gi tilgang til ressurser gjennom API gateway nær de beskyttede ressursene.
 
-| Roller og tilgangsregler <data-object>
+| Roller og tilgangsregler
 | Definisjon av roller som blir brukt til å styre autorisasjon for å gi tilgang for en klient til et eller flere API.
 Definisjon av regler for tilgang til et eller flere API
 
-| Attributter / grunndata <data-object>
+| Attributter / grunndata
 | Opplysninger om personer som skal benyttes i tilgangsstyring.
 
-| UH/F Oauth2 autorisasjonstjener <application-component>
+| UH/F Oauth2 autorisasjonstjener
 | Autorisasjonstjenester realiserer tilgangskontroll gjennom å utstede OAuth 2 grants og tokens. 
 En autorisasjonstjener er også brukt til å realisere tilgangs policy. 
 
 
 
 
-| UH/F Klientregister <application-component>
+| UH/F Klientregister
 | Oversikt over alle klienter som er blitt tildelt tilgang til ressurser.
 
 
-| UH/F tildel rettigheter til klienter <application-service>
+| UH/F tildel rettigheter til klienter
 | Tildel autoriserte rettigheter basert på roller, annen policy eller manuell behandling av dataforvalter gjennom tjenesten "Forespør dataforvalter". Om klienten er fra UH/F sektoren blir tildelt rettighetene lagret i UH/F klientregisteret i Ressusportalen. Om klienten er fra utenfor UH/F sektoren må tildelte rettighetene lagres et sted der Maskinporten har oversikten. 
 
-| UiX / Datatilbyder <grouping>
+| UiX / Datatilbyder
 | Komponenter som utgjør datatilbyder, det vil si Universitetet eller Høyskolens, grensesnitt for datadeling
 
-| Kildedata <data-object>
+| Kildedata
 | Dataprodukt som tilbys av datatilbyder
 Produktet kan være fra en kilde eller sammensatt av flere innen et domene
 
-| Kildedata <data-object>
+| Kildedata
 | Dataprodukt som tilbys av datatilbyder
 Produktet kan være fra en kilde eller sammensatt av flere innen et domene
 
-| API Gateway hos datatilbyder / OAuth resource server <application-component>
+| API Gateway hos datatilbyder / OAuth resource server
 | API gateway beskytter ressurser og monitorerer tilgang. 
 Den håndhever tilgangsstyring ved å validere aksesstokens og utfører eventuell fin-granulert tilgangskontroll. 
 Den håndhever også volumbegrenseninger og samler data om bruken av APIer (logging). 
@@ -120,7 +120,7 @@ Komponent som beskytter ressursene og monitorerer tilgang inklusivt:
 
 
 
-| Autentiseringstjeneste <application-service>
+| Autentiseringstjeneste
 | Tjeneste som benyttes av tilbyder for å autentisere aktuell konsument.
 
 |===

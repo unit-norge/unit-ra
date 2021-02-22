@@ -26,11 +26,11 @@ image::{imagepath}Avgi data - løsningsmønster UHF.png[alt=Avgi data - løsning
 | Element
 | Beskrivelse
 
-| Egen autorisasjons-komponent <application-component>
+| Egen autorisasjons-komponent
 | Komponent for å håndheve virksomhetens regler for tilgang. 
 Også kalt policy enforcement point (PEP).
 
-| Altinn autorisasjon <application-component>
+| Altinn autorisasjon
 | [Torget]
 Autorisasjonskomponenten i Altinn som gir muligheter til å delegere rettigheter til andre organisasjoner eller personer. Rettigheter til bruk av autorisasjonskomponenten baserer seg på registrerte roller i Enhetsregisteret.
 Altinn autorisasjon leverer også tjenester for å registrere og kontrollere samtykke gitt av person eller virksomhet.
@@ -45,44 +45,44 @@ Mer om Altinn autorisasjon:
 https://www.altinndigital.no/produkter/styring-av-tilgang/
 
 
-| Datatilbyder <business-role>
+| Datatilbyder
 | Tilbyder av data til andre aktører.  
 
 Datatibyder har definisjonsrett og har rettigheter til å behandle data
 Datatilbyder kan sette sammen data som tilbyderen har til et dataprodukt som tilbys datakonsumenter gjennom et API
 
-| Tilgangskontroll-tjeneste <application-service>
+| Tilgangskontroll-tjeneste
 | Tjeneste for å sjekke rettigheter til data. Kan være eksterne eller interne tjenester. Disse rettigheter kan være mer finkornet enn tilgangene administrert av autorisasjonstjeneren.
 Eksempler på rettigheter kan komme av samtykker fra person eller virksomhet, eller rollebasert fra vergemål, familierelasjon el.
 
-| Avgi forespurte data gjennom API <business-process>
+| Avgi forespurte data gjennom API
 | Prosessen med å avgi data på forespørsel gjennom et egnet API.
 
-| Motta  forespørsel om oppslag <business-process>
+| Motta  forespørsel om oppslag
 | Motta forespørsler fra API-konsument om å avgi data.
 
-| Avgi data <business-process>
+| Avgi data
 | Prosessen med å gi svar på forespørselen.
 
-| Kontroller tilgang <business-process>
+| Kontroller tilgang
 | Kontroll og håndheving av konsumentens rettigheter til å få forespurte data.  I tillegg til "validering av sikkerhetsbillett", kan det være behov for kontroll mot virksomhetsinterne policies.
 
-| Autentisere konsument <business-process>
+| Autentisere konsument
 | Prosessen med å autentisere en konsument.
 
-| Datautvekslings-tjeneste <application-service>
+| Datautvekslings-tjeneste
 | Tjeneste for utveksling av data over aktuell transportprotokoll, f.eks, gjennom asynkrone medlinger eller synkrone API-oppslag.
 
-| Datautvekslings-tjeneste <application-service>
+| Datautvekslings-tjeneste
 | Tjeneste for utveksling av data over aktuell transportprotokoll, f.eks, gjennom asynkrone medlinger eller synkrone API-oppslag.
 
-| Tokenvaliderings-tjeneste <application-service>
+| Tokenvaliderings-tjeneste
 | Tjeneste som benyttes av tilbyder for å validere og kontrollere autentisiteten til et OAUTH2 token fra Maskinporten
 
-| Avgi data <capability>
+| Avgi data
 | Evne til å avgi data på forespørsel. Kan omfatte tilgangsstyring.
 
-| API Gateway hos datatilbyder / OAuth resource server <application-component>
+| API Gateway hos datatilbyder / OAuth resource server
 | API gateway beskytter ressurser og monitorerer tilgang. 
 Den håndhever tilgangsstyring ved å validere aksesstokens og utfører eventuell fin-granulert tilgangskontroll. 
 Den håndhever også volumbegrenseninger og samler data om bruken av APIer (logging). 

@@ -1,0 +1,22 @@
+= Metode
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-metode:
+endif::[]
+:toc: left
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 9
+
+
+
+:leveloffset: +1
+include::main@unit-ra:unit-ra-datadeling-metode:page$Hva er datadeling.adoc[]
+include::main@unit-ra:unit-ra-datadeling-metode:page$Del og innhent data, verdistrøm for både tilbyder og konsument - UHF.adoc[]
+include::main@unit-ra:unit-ra-datadeling-metode:page$Muliggjørende kapabiliteter.adoc[]
+include::main@unit-ra:unit-ra-datadeling-metode:page$Informasjonsforvaltningsdomener.adoc[]
+include::main@unit-ra:unit-ra-datadeling-metode:page$Domener.adoc[]
+:leveloffset: -1
