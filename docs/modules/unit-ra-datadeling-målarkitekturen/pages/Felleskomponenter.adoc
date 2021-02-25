@@ -11,26 +11,11 @@ endif::[]
 :sectnums:
 :sectnumlevels: 9
 
-Tekst felleskomponenter
-
 Innledende tekst om hva slags funksjonalitet vi trenger i
-felleskomponenter og hvorfor, motivert fra kapabilitetene over.
-
-//Erik
-#Jeg har laget et Archimate view som heter «Felleskomponenter»,
-men jeg vil ikke ha bildet, bare teksten som står i beskrivelse av
-kompontenene#
-
-* Autentiseringstjeneste​
-* API manager​
-* API katalog / datakatalog ​
-* API gateway​
-* Autorisasjonstjeneste / Nøkkelutsteder ​
-* Klient register​
-* Identity Governance Administration (IGA)​
+felleskomponenter og hvorfor, motivert fra kapabilitetene.
 
 
-#Heidi NB: mangler komponenter for hendelsesstrømming/-publisering#
+#Heidi NB: mangler komponenter for hendelsesstrømming/-publisering og input om komponentene fra IAM projsektet#
 
 .Felleskomponenter
 image::{imagepath}Felleskomponenter.png[alt=Felleskomponenter image]
