@@ -13,12 +13,6 @@ endif::[]
 
 Tekst felleskomponenter
 
-#(i sektoren hittil har «felles» betyd både at alle bruker samme instans,
-eller at alle har identiske instanser – vi må presisere hva som er
-hva etter hvert)#
-
- 
-
 Innledende tekst om hva slags funksjonalitet vi trenger i
 felleskomponenter og hvorfor, motivert fra kapabilitetene over.
 
@@ -52,6 +46,8 @@ image::{imagepath}Felleskomponenter.png[alt=Felleskomponenter image]
 
 | Autentiseringstjeneste
 | Tjeneste som benyttes av tilbyder for å autentisere aktuell konsument.
+
+Avventer input fra IAM projsektet.
 
 | UHF API manager 
 | Administrativ komponent som kontrollerer policy og livssyklus for definisjon og forvaltning av API. 
@@ -111,6 +107,8 @@ En autorisasjonstjener er også brukt til å realisere tilgangs policy.
 
 | Identity Goveranance Administration (IGA)
 | Identitets- og tilgangsstyring (IAM) handler om å gi studenter, forskere og ansatte riktig tilgang til digitale systemer, tjenester og ressurser, samt avslutte tilgang for brukere som ikke lenger skal ha det.
+
+Avventer input fra IAM prosjektet
 
 |===
 

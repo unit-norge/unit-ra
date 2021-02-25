@@ -123,5 +123,7 @@ Komponent som beskytter ressursene og monitorerer tilgang inklusivt:
 | Autentiseringstjeneste
 | Tjeneste som benyttes av tilbyder for å autentisere aktuell konsument.
 
+Avventer input fra IAM projsektet.
+
 |===
 
