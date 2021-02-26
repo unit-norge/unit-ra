@@ -11,8 +11,7 @@ endif::[]
 :sectnums:
 :sectnumlevels: 9
 
-Innledende tekst om hva slags funksjonalitet vi trenger i
-felleskomponenter og hvorfor, motivert fra kapabilitetene.
+Datadelingsplattformen består av felleskomponentene beskrevet under. De fleste felleskomponenter skal realiseres som fellestjenester med en delt instans. API gateway er en funksjonell beskrivelse av en komponent som skal realiseres med instanser nær datakildene som skal tilbys.
 
 
 #Heidi NB: mangler komponenter for hendelsesstrømming/-publisering og input om komponentene fra IAM projsektet#
