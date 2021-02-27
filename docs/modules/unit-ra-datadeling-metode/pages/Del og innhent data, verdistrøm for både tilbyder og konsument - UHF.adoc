@@ -26,10 +26,7 @@ image::{imagepath}Del og innhent data, verdistrøm for både tilbyder og konsume
 | Beskrivelse
 
 | Datatilbyder
-| Tilbyder av data til andre aktører.  
-
-Datatibyder har definisjonsrett og har rettigheter til å behandle data
-Datatilbyder kan sette sammen data som tilbyderen har til et dataprodukt som tilbys datakonsumenter gjennom et API
+| Tilbyder av data til andre aktører.
 
 | Del  data
 | 
@@ -37,7 +34,7 @@ Datatilbyder kan sette sammen data som tilbyderen har til et dataprodukt som til
 | Tilrettelegg for dataoppdagelse og datadeling
 | 
 
-| Share data
+| Del data
 | "Del data (operativt)" handler om utveksling av data gjennom etablerte kanaler og iht. avtaler. Dette forutsetter også håndtering av avvik og ikke-tilsiktede hendelser.
 
 
@@ -55,10 +52,10 @@ Datatilbyder kan sette sammen data som tilbyderen har til et dataprodukt som til
 | Forbedre løsninger, sikkerhet og datakvalitet (tilbyder)
 | 
 
-| Data-konsument
+| Datakonsument
 | Den som innhenter eller mottar data fra andre aktører.
 
-| Collect data
+| Innhent data
 | 
 
 | Oppdag data og datakilder

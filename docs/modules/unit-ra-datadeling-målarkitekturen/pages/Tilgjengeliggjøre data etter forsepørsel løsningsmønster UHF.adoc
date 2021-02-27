@@ -26,20 +26,17 @@ image::{imagepath}Tilgjengeliggjøre data etter forsepørsel løsningsmønster U
 | Beskrivelse
 
 | Tilganger konsument
-| Oversikt over tilganger gitt til konsumenter utenfor UHF sektoren tildelt gjennom Maskinporten. Oversikten spesifiserer hvilke API og OAUTH-scopes en virksomhet (representert ved organisasjonsnummer) skal ha tilgang til (utstedt token for).
+| Oversikt over hvilke API og OAUTH-scopes en virksomhet (representert ved organisasjonsnummer) skal ha tilgang til (utstedt token for).
 
 | Datatilbyder
-| Tilbyder av data til andre aktører.  
+| Tilbyder av data til andre aktører.
 
-Datatibyder har definisjonsrett og har rettigheter til å behandle data
-Datatilbyder kan sette sammen data som tilbyderen har til et dataprodukt som tilbys datakonsumenter gjennom et API
-
-| Tilgjengeliggjør data etter forselpørsel
+| Tilgjengeliggjør API
 | Prosessen med å tilby data gjennom et API til aktører utenfor egen virksomhet.
 
 | Tildele tilganger til API
 | Prosess for å registrere hvilke databrukere som skal få tilgang
-Sette policy, og grov tilgangsstyring.
+Sette policy, og grov tilgangsstyring gjennom maskinporten.
 
 
 | Inngå avtale om tilgang til data
@@ -51,11 +48,7 @@ Sette policy, og grov tilgangsstyring.
 Dette utføres kun om det er behov for samtykke for tilgang til dataene.
 
 | Maskinporten
-| [Torget]
-Maskinporten er en løsning for tilgangsstyring for virksomheter som utveksler data. Løsningen garanterer identiteten mellom virksomheter, og sørger for maskin-til-maskin autentisering.
-
-[Verktøykasse for deling av data]
-Maskinporten sørger for sikker autentisering og tilgangskontroll for datautveksling mellom
+| Maskinporten sørger for sikker autentisering og tilgangskontroll for datautveksling mellom
 virksomheter, maskin til maskin. Dette gir teknisk og organisatorisk samhandlingsevne.
 
 Mer om Maskinporten:
@@ -75,11 +68,8 @@ Dersom en privatperson skal ta i bruk en tjeneste på vegne av en virksomhet, gj
 Mer om Altinn autorisasjon:
 https://www.altinndigital.no/produkter/styring-av-tilgang/
 
-
 | Registrere samtykkebasert tilgang
 | Tjeneste for å registerer konsumenter som kan innhente samtykke som gir grunnlag for utlevering fra datatilbyder.
-
-Tjenesten tilbyr i dag ikke samtykke til UHF sektorens datakilder integrert i tjenesten. Dette er ønsket funksjonaltet.
 
 | Aktører som kan innhente samtykke for bruk av API
 | Oversikt over aktører som skal ha mulighet til å innhente samtykke som grunnlag for å få tilgang til data gjennom et API. 

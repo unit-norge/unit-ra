@@ -28,7 +28,7 @@ image::{imagepath}Få tilgang til data - løsningsmønster UHF.png[alt=Få tilga
 | Element
 | Beskrivelse
 
-| Data-konsument
+| Datakonsument
 | Den som innhenter eller mottar data fra andre aktører.
 
 | Få tilgang til API
@@ -50,8 +50,6 @@ Dersom det er en leverandør som har blitt delegert rettigheter som databehandle
 
 | Beskrivelse API
 | Dataobjekt som er en maskinlesbar beskrivelse av REST API-er iht. Open API Specification. Dette er formatet som benyttes for å registrere et API i felles API-katalog
-
-Ønsker å bruke Open API spesifikasjon
 
 | API-søk
 | Tjeneste for å søke etter og finne tilgjengelige API-er
@@ -90,9 +88,7 @@ En autorisasjonstjener er også brukt til å realisere tilgangs policy.
 
 
 | OAUTH scopes
-| En OAuth Scope er en mekanisme for å begrense konsumentens tilgang til datasettet eksponert gjennom et API. Foreløpig er dette grovkornet tilgangskontroll som for eksempel lese eller skrivetilgang til datasettet. Standardsorganet IETF jobber med å spesifisere mer fingranulert tilgangsmekanismer.
-
-
+| Dataobjekt som som kan beskrives som en ressurs-definisjon, og et token er som regel knyttet til ett eller flere scopes. Scopes benyttes til å styre tilganger til API-er og operasjoner, samt eventuelt hva slags responser man får fra API-er.
 
 |===
 

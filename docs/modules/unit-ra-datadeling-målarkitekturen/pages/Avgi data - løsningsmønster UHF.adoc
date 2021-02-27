@@ -44,15 +44,11 @@ Dersom en privatperson skal ta i bruk en tjeneste på vegne av en virksomhet, gj
 Mer om Altinn autorisasjon:
 https://www.altinndigital.no/produkter/styring-av-tilgang/
 
-
 | Datatilbyder
-| Tilbyder av data til andre aktører.  
-
-Datatibyder har definisjonsrett og har rettigheter til å behandle data
-Datatilbyder kan sette sammen data som tilbyderen har til et dataprodukt som tilbys datakonsumenter gjennom et API
+| Tilbyder av data til andre aktører.
 
 | Tilgangskontroll-tjeneste
-| Tjeneste for å sjekke rettigheter til data. Kan være eksterne eller interne tjenester. Disse rettigheter kan være mer finkornet enn tilgangene administrert av autorisasjonstjeneren.
+| Tjeneste for å sjekke rettigheter til data. Kan være eksterne eller interne tjenester.
 Eksempler på rettigheter kan komme av samtykker fra person eller virksomhet, eller rollebasert fra vergemål, familierelasjon el.
 
 | Avgi forespurte data gjennom API
@@ -65,7 +61,7 @@ Eksempler på rettigheter kan komme av samtykker fra person eller virksomhet, el
 | Prosessen med å gi svar på forespørselen.
 
 | Kontroller tilgang
-| Kontroll og håndheving av konsumentens rettigheter til å få forespurte data.  I tillegg til "validering av sikkerhetsbillett", kan det være behov for kontroll mot virksomhetsinterne policies.
+| Kontroll og håndheving av konsumentens rettigheter til å få forespurte data.  I tillegg til "validering av sikkerhetsbillet", kan det være behov for kontroll mot virksomhetsinterne policies.
 
 | Autentisere konsument
 | Prosessen med å autentisere en konsument.

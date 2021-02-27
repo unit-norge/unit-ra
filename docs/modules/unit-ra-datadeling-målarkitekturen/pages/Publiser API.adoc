@@ -29,25 +29,16 @@ image::{imagepath}Publiser API.png[alt=Publiser API image]
 | Beskrivelse
 
 | OAUTH scopes
-| En OAuth Scope er en mekanisme for å begrense konsumentens tilgang til datasettet eksponert gjennom et API. Foreløpig er dette grovkornet tilgangskontroll som for eksempel lese eller skrivetilgang til datasettet. Standardsorganet IETF jobber med å spesifisere mer fingranulert tilgangsmekanismer.
-
-
+| Dataobjekt som som kan beskrives som en ressurs-definisjon, og et token er som regel knyttet til ett eller flere scopes. Scopes benyttes til å styre tilganger til API-er og operasjoner, samt eventuelt hva slags responser man får fra API-er.
 
 | Token-egenskaper
 | Egenskaper som f.eks. gyldighetstid ved tilgangstoken som er Maskinportens variant av sikkerhetsbillett.
 
 | Datatilbyder
-| Tilbyder av data til andre aktører.  
-
-Datatibyder har definisjonsrett og har rettigheter til å behandle data
-Datatilbyder kan sette sammen data som tilbyderen har til et dataprodukt som tilbys datakonsumenter gjennom et API
+| Tilbyder av data til andre aktører.
 
 | Maskinporten
-| [Torget]
-Maskinporten er en løsning for tilgangsstyring for virksomheter som utveksler data. Løsningen garanterer identiteten mellom virksomheter, og sørger for maskin-til-maskin autentisering.
-
-[Verktøykasse for deling av data]
-Maskinporten sørger for sikker autentisering og tilgangskontroll for datautveksling mellom
+| Maskinporten sørger for sikker autentisering og tilgangskontroll for datautveksling mellom
 virksomheter, maskin til maskin. Dette gir teknisk og organisatorisk samhandlingsevne.
 
 Mer om Maskinporten:

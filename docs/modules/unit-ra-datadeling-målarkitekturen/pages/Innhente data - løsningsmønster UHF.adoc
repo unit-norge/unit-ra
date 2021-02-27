@@ -38,9 +38,6 @@ image::{imagepath}Innhente data - løsningsmønster UHF.png[alt=Innhente data - 
 | Adressetjeneste
 | Tjeneste som gir mulighet til å slå opp teknisk endepunkt
 
-| Virksomhetssertifikat
-| En virksomhets elektroniske ID. Benyttes for å autentisere virksomheten overfor tokentjenesten.
-
 | Tokentjeneste
 | Tjeneste som utsteder sikkerhetsbilletter. Sikkerhetsbillett utstedes basert på tildelte rettigheter og eventuelle representasjonsforhold.
 
@@ -48,7 +45,7 @@ image::{imagepath}Innhente data - løsningsmønster UHF.png[alt=Innhente data - 
 | Tjeneste som benyttes av tokentjenesten for å kontrollere om det foreligger et delegert representasjonsforhold fra konsument til leverendør i autorisasjonstjenesten til Altinn.
 
 | Tilganger konsument
-| Oversikt over tilganger gitt til konsumenter utenfor UHF sektoren tildelt gjennom Maskinporten. Oversikten spesifiserer hvilke API og OAUTH-scopes en virksomhet (representert ved organisasjonsnummer) skal ha tilgang til (utstedt token for).
+| Oversikt over hvilke API og OAUTH-scopes en virksomhet (representert ved organisasjonsnummer) skal ha tilgang til (utstedt token for).
 
 | UH/F Oauth2 autorisasjonstjener
 | Autorisasjonstjenester realiserer tilgangskontroll gjennom å utstede OAuth 2 grants og tokens. 
@@ -77,17 +74,13 @@ UH/F API katalog kan inneholde
 | 
 
 | Maskinporten
-| [Torget]
-Maskinporten er en løsning for tilgangsstyring for virksomheter som utveksler data. Løsningen garanterer identiteten mellom virksomheter, og sørger for maskin-til-maskin autentisering.
-
-[Verktøykasse for deling av data]
-Maskinporten sørger for sikker autentisering og tilgangskontroll for datautveksling mellom
+| Maskinporten sørger for sikker autentisering og tilgangskontroll for datautveksling mellom
 virksomheter, maskin til maskin. Dette gir teknisk og organisatorisk samhandlingsevne.
 
 Mer om Maskinporten:
 https://www.digdir.no/digitale-felleslosninger/maskinporten/869
 
-| Data-konsument
+| Datakonsument
 | Den som innhenter eller mottar data fra andre aktører.
 
 | Innhente data
@@ -128,7 +121,6 @@ Dersom en privatperson skal ta i bruk en tjeneste på vegne av en virksomhet, gj
 Mer om Altinn autorisasjon:
 https://www.altinndigital.no/produkter/styring-av-tilgang/
 
-
 | Felles API-katalog
 | Del av Felles datakatalog som gir mulighet for å søke etter API-er og lese API-spesifikasjoner https://fellesdatakatalog.brreg.no/apis
 
@@ -145,7 +137,6 @@ Dersom en privatperson skal ta i bruk en tjeneste på vegne av en virksomhet, gj
 
 Mer om Altinn autorisasjon:
 https://www.altinndigital.no/produkter/styring-av-tilgang/
-
 
 |===
 

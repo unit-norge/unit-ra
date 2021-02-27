@@ -88,11 +88,7 @@ UH/F API katalog kan inneholde
 | Nasjonale felleskomponenter for datadeling
 
 | Maskinporten
-| [Torget]
-Maskinporten er en løsning for tilgangsstyring for virksomheter som utveksler data. Løsningen garanterer identiteten mellom virksomheter, og sørger for maskin-til-maskin autentisering.
-
-[Verktøykasse for deling av data]
-Maskinporten sørger for sikker autentisering og tilgangskontroll for datautveksling mellom
+| Maskinporten sørger for sikker autentisering og tilgangskontroll for datautveksling mellom
 virksomheter, maskin til maskin. Dette gir teknisk og organisatorisk samhandlingsevne.
 
 Mer om Maskinporten:
@@ -111,7 +107,6 @@ Dersom en privatperson skal ta i bruk en tjeneste på vegne av en virksomhet, gj
 
 Mer om Altinn autorisasjon:
 https://www.altinndigital.no/produkter/styring-av-tilgang/
-
 
 | Felles API-katalog
 | Del av Felles datakatalog som gir mulighet for å søke etter API-er og lese API-spesifikasjoner https://fellesdatakatalog.brreg.no/apis

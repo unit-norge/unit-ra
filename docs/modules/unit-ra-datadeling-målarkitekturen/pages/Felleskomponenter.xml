@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?asciidoc-toc maxdepth="4"?>
+<?asciidoc-numbered maxdepth="9"?>
+<article xmlns="http://docbook.org/ns/docbook" xmlns:xl="http://www.w3.org/1999/xlink" version="5.0" xml:lang="en">
+<info>
+<title>Felleskomponenter</title>
+<date>2021-02-26</date>
+</info>
+<simpara>Datadelingsplattformen består av felleskomponentene beskrevet under. De fleste felleskomponenter skal realiseres som fellestjenester med en delt instans. API gateway er en funksjonell beskrivelse av en komponent som skal realiseres med instanser nær datakildene som skal tilbys.</simpara>
+<simpara><emphasis role="marked">Heidi NB: mangler komponenter for hendelsesstrømming/-publisering og input om komponentene fra IAM projsektet</emphasis></simpara>
+<figure>
+<title>Felleskomponenter</title>
+<mediaobject>
+<imageobject>
+<imagedata fileref="../images/Felleskomponenter.png"/>
+</imageobject>
+<textobject><phrase>Felleskomponenter image</phrase></textobject>
+</mediaobject>
+</figure>
+<table frame="all" rowsep="1" colsep="1">
+<title>Elementer i view for Felleskomponenter</title>
+<tgroup cols="2">
+<colspec colname="col_1" colwidth="25*"/>
+<colspec colname="col_2" colwidth="75*"/>
+<thead>
+<row>
+<entry align="left" valign="top">Element</entry>
+<entry align="left" valign="top">Beskrivelse</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara>Autentiseringstjeneste</simpara></entry>
+<entry align="left" valign="top"><simpara>Tjeneste som benyttes av tilbyder for å autentisere aktuell konsument.</simpara><simpara>Avventer input fra IAM projsektet.</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>UHF API manager</simpara></entry>
+<entry align="left" valign="top"><simpara>Administrativ komponent som kontrollerer policy og livssyklus for definisjon og forvaltning av API.
+Tilganger gjennom et API defineres i API manager og tildeles av autorisasjonstjener.</simpara><simpara>Ansvaret til API manager inkluderer:</simpara><simpara>  * Sentralisert API Gateway som håndterer sikkerhetsretningslinjer, og sender kall til bakenforliggende API
+  * Sentralisert publisering av API spesifikasjon (OpenAPI/RAML), dokumentasjon
+  * Sentralisert API administrasjon og forvaltning av API-katalogen
+  * Håndtering av registrerings- og introduksjonsprosesser for API utviklere
+  * Håndtere livssyklusen til et API, uvikling, test, utrulling, nye versjoner, nedlegging
+  * Ivareta registrering, forvaltning og og utvikling av klientrettigheter
+  * Rapportering og analyse for å monitorere bruk og last</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>UH/F API katalog</simpara></entry>
+<entry align="left" valign="top"><simpara>Oversikt over alle API som er registrert i UH/F sektoren</simpara><simpara>UH/F API katalog kan inneholde</simpara><simpara>  * Navn på API
+  * Tekstlig beskrivelse av API
+  * Informasjonsmodell / Datamodell for API som tilbys
+  * Kildeinformasjon for data, begrepsinformasjon
+  * Informasjon om tilgang, juridiske og tekniske begrensinger for bruk
+  * Eksempelkode, interaktiv API-konsoll og sandkasse for test
+  * Informasjon om hvordan få support og hjelp fra utsteder</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>API Gateway hos datatilbyder / OAuth resource server</simpara></entry>
+<entry align="left" valign="top"><simpara>API gateway beskytter ressurser og monitorerer tilgang.
+Den håndhever tilgangsstyring ved å validere aksesstokens og utfører eventuell fin-granulert tilgangskontroll.
+Den håndhever også volumbegrenseninger og samler data om bruken av APIer (logging).</simpara><simpara>Komponent som beskytter ressursene og monitorerer tilgang inklusivt:</simpara><simpara>  *  Validere tilgangstoken
+  *  Beskytte mot inntrenging og andre trusler
+  * Håndtere volumbegrensninger og andre abonnementsordninger
+  * Håndheve tilgangsstyring
+  * Samle inn data om bruken av API-er
+  * Orkestrering mellom interntjenester</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>UH/F Oauth2 autorisasjonstjener</simpara></entry>
+<entry align="left" valign="top"><simpara>Autorisasjonstjenester realiserer tilgangskontroll gjennom å utstede OAuth 2 grants og tokens.
+En autorisasjonstjener er også brukt til å realisere tilgangs policy.</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>UH/F Klientregister</simpara></entry>
+<entry align="left" valign="top"><simpara>Oversikt over alle klienter som er blitt tildelt tilgang til ressurser.</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Identity Goveranance Administration (IGA)</simpara></entry>
+<entry align="left" valign="top"><simpara>Identitets- og tilgangsstyring (IAM) handler om å gi studenter, forskere og ansatte riktig tilgang til digitale systemer, tjenester og ressurser, samt avslutte tilgang for brukere som ikke lenger skal ha det.</simpara><simpara>Avventer input fra IAM prosjektet</simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</article>
