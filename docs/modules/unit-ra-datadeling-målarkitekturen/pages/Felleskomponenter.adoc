@@ -28,40 +28,8 @@ image::{imagepath}Felleskomponenter.png[alt=Felleskomponenter image]
 | Element
 | Beskrivelse
 
-| API Gateway hos datatilbyder / OAuth resource server
-| API gateway beskytter ressurser og monitorerer tilgang. 
-Den håndhever tilgangsstyring ved å validere aksesstokens og utfører eventuell fin-granulert tilgangskontroll. 
-Den håndhever også volumbegrenseninger og samler data om bruken av APIer (logging). 
-
-Komponent som beskytter ressursene og monitorerer tilgang inklusivt:
-
-  *  Validere tilgangstoken
-  *  Beskytte mot inntrenging og andre trusler
-  * Håndtere volumbegrensninger og andre abonnementsordninger
-  * Håndheve tilgangsstyring
-  * Samle inn data om bruken av API-er
-  * Orkestrering mellom interntjenester
-
-
-
-| Identity Goveranance Administration (IGA)
-| Identitets- og tilgangsstyring (IAM) handler om å gi studenter, forskere og ansatte riktig tilgang til digitale systemer, tjenester og ressurser, samt avslutte tilgang for brukere som ikke lenger skal ha det.
-
-Avventer input fra IAM prosjektet
-
-| Ressursportal
-| Ressursportalen holder oversikt over og tildeler tilganger til beskyttede ressurser i høyere utdanning og forskningssektoren i henhold til føringer fra eierne av disse ressursene. Tilganger er gitt i form av OAuth2 grants og tokens. Ressursportalen er en del av den felles infrastrukturen for føderert API management for høyere utdanning og forskning. Den registrerer og holder oversikt over API, holder oversikt over klienter som har blitt tildelt tilgang til API og hvilke tilganger det gjelder. Ressursportalen benytter Jason Web Token formattert OAuth2 sikkerhetstoken for å gi tilgang til ressurser gjennom API gateway nær de beskyttede ressursene.
-
-| UH/F Oauth2 autorisasjonstjener
-| Autorisasjonstjenester realiserer tilgangskontroll gjennom å utstede OAuth 2 grants og tokens. 
-En autorisasjonstjener er også brukt til å realisere tilgangs policy. 
-
-
-
-
-| UH/F Klientregister
-| Oversikt over alle klienter som er blitt tildelt tilgang til ressurser.
-
+| Autentiseringstjeneste
+| Tjeneste som benyttes av tilbyder for å autentisere aktuell konsument.
 
 | UHF API manager 
 | Administrativ komponent som kontrollerer policy og livssyklus for definisjon og forvaltning av API. 
@@ -92,15 +60,37 @@ UH/F API katalog kan inneholde
   * Eksempelkode, interaktiv API-konsoll og sandkasse for test
   * Informasjon om hvordan få support og hjelp fra utsteder
 
-| Roller og tilgangsregler
-| Definisjon av roller som blir brukt til å styre autorisasjon for å gi tilgang for en klient til et eller flere API.
-Definisjon av regler for tilgang til et eller flere API
+| API Gateway hos datatilbyder / OAuth resource server
+| API gateway beskytter ressurser og monitorerer tilgang. 
+Den håndhever tilgangsstyring ved å validere aksesstokens og utfører eventuell fin-granulert tilgangskontroll. 
+Den håndhever også volumbegrenseninger og samler data om bruken av APIer (logging). 
 
-| Attributter / grunndata
-| Opplysninger om personer som skal benyttes i tilgangsstyring.
+Komponent som beskytter ressursene og monitorerer tilgang inklusivt:
 
-| Autentiseringstjeneste
-| Tjeneste som benyttes av tilbyder for å autentisere aktuell konsument.
+  *  Validere tilgangstoken
+  *  Beskytte mot inntrenging og andre trusler
+  * Håndtere volumbegrensninger og andre abonnementsordninger
+  * Håndheve tilgangsstyring
+  * Samle inn data om bruken av API-er
+  * Orkestrering mellom interntjenester
+
+
+
+| UH/F Oauth2 autorisasjonstjener
+| Autorisasjonstjenester realiserer tilgangskontroll gjennom å utstede OAuth 2 grants og tokens. 
+En autorisasjonstjener er også brukt til å realisere tilgangs policy. 
+
+
+
+
+| UH/F Klientregister
+| Oversikt over alle klienter som er blitt tildelt tilgang til ressurser.
+
+
+| Identity Goveranance Administration (IGA)
+| Identitets- og tilgangsstyring (IAM) handler om å gi studenter, forskere og ansatte riktig tilgang til digitale systemer, tjenester og ressurser, samt avslutte tilgang for brukere som ikke lenger skal ha det.
+
+Avventer input fra IAM prosjektet
 
 |===
 

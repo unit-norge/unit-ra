@@ -38,6 +38,9 @@ image::{imagepath}Innhente data - løsningsmønster UHF.png[alt=Innhente data - 
 | Adressetjeneste
 | Tjeneste som gir mulighet til å slå opp teknisk endepunkt
 
+| Virksomhetssertifikat
+| En virksomhets elektroniske ID. Benyttes for å autentisere virksomheten overfor tokentjenesten.
+
 | Tokentjeneste
 | Tjeneste som utsteder sikkerhetsbilletter. Sikkerhetsbillett utstedes basert på tildelte rettigheter og eventuelle representasjonsforhold.
 

@@ -18,7 +18,7 @@ Autentisering er det som sjekker at brukeren er kjent for virksomhenten og forsi
 at brukeren er den vedkommende gir seg ut for å være når brukeren ber om tilgang til ressurser.
 
 Autorisering identifiserer hvilke tilganger en bruker skal ha til virksomhetens ressurser.
-Autorisasjon kan tildeles med basis i roller. Brukere kan tildeles roller og gjennom dette få
+Autorisasjon kan tildeles roller. Brukere kan tildeles roller og gjennom dette få
 autorisasjon til virksomhetens ressurser som er knyttet til rollen.
 
 IAM utfører autentisering ved bruk av komponenter i den øvre delen av viewet. 
@@ -119,6 +119,9 @@ Komponent som beskytter ressursene og monitorerer tilgang inklusivt:
   * Orkestrering mellom interntjenester
 
 
+
+| Notifikasjonsdistribusjon
+| Tjensten mottar notifikasjoner fra konsumenter og distribuerer notifikasjoner til konsumenter som har interesse av gitte notifikasjoner
 
 | Autentiseringstjeneste
 | Tjeneste som benyttes av tilbyder for å autentisere aktuell konsument.
