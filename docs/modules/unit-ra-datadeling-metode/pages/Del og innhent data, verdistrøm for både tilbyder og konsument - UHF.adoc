@@ -44,7 +44,7 @@ image::{imagepath}Del og innhent data, verdistrøm for både tilbyder og konsume
 | Motta henvendelser om datadeling
 | 
 
-| Holde orden i data og ansvar
+| Ta rede på egne data og krav til datadeling
 | 
 
 
