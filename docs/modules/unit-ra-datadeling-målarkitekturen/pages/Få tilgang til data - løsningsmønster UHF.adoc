@@ -58,7 +58,9 @@ Dersom det er en leverandør som har blitt delegert rettigheter som databehandle
 | Evnen til å skaffe seg tilgang til tilbudte data fra annen aktør. 
 
 | UH/F API katalog
-| Oversikt over alle API som er registrert i UH/F sektoren
+| a|
+
+Oversikt over alle API som er registrert i UH/F sektoren
 
 UH/F API katalog kan inneholde
 
