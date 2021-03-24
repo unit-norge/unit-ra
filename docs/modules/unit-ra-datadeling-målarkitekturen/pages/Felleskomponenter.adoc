@@ -86,7 +86,7 @@ Ansvaret til API manager inkluderer:
 
 
 | UH/F API katalog
-| a
+| a*
 
 Oversikt over alle API som er registrert i UH/F sektoren
 
