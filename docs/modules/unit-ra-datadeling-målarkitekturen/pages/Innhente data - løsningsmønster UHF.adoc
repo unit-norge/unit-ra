@@ -58,7 +58,7 @@ En autorisasjonstjener er også brukt til å realisere tilgangs policy.
 
 
 | UH/F API katalog
-| a*
+| a|
 
 Oversikt over alle API som er registrert i UH/F sektoren
 
