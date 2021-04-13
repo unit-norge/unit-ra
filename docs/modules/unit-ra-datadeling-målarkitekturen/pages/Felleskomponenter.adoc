@@ -53,7 +53,9 @@ Komponent som beskytter ressursene og monitorerer tilgang inklusivt:
 Avventer input fra IAM prosjektet
 
 | Notifikasjonsdistribusjon
-| Tjensten mottar notifikasjoner fra konsumenter og distribuerer notifikasjoner til konsumenter som har interesse av gitte notifikasjoner
+| Tjensten mottar notifikasjoner fra tilbyder og distribuerer notifikasjoner til konsumenter som har interesse av gitte notifikasjoner.
+
+
 
 | Ressursportal
 | Ressursportalen holder oversikt over og tildeler tilganger til beskyttede ressurser i høyere utdanning og forskningssektoren i henhold til føringer fra eierne av disse ressursene. Tilganger er gitt i form av OAuth2 grants og tokens. Ressursportalen er en del av den felles infrastrukturen for føderert API management for høyere utdanning og forskning. Den registrerer og holder oversikt over API, holder oversikt over klienter som har blitt tildelt tilgang til API og hvilke tilganger det gjelder. Ressursportalen benytter Jason Web Token formattert OAuth2 sikkerhetstoken for å gi tilgang til ressurser gjennom API gateway nær de beskyttede ressursene.
@@ -66,7 +68,7 @@ En autorisasjonstjener er også brukt til å realisere tilgangs policy.
 
 
 | UH/F Klientregister
-| Oversikt over alle klienter som er blitt tildelt tilgang til ressurser.
+| Oversikt over alle programvaresystemer (klienter) som er blitt tildelt tilgang til ressurser.
 
 
 | UHF API manager 
@@ -75,7 +77,7 @@ Tilganger gjennom et API defineres i API manager og tildeles av autorisasjonstje
 
 Ansvaret til API manager inkluderer:
 
-  * Sentralisert API Gateway som håndterer sikkerhetsretningslinjer, og sender kall til bakenforliggende API 
+  * Sentralisert forvalter av som håndterer sikkerhetsretningslinjer, og sender kall til bakenforliggende API 
   * Sentralisert publisering av API spesifikasjon (OpenAPI/RAML), dokumentasjon
   * Sentralisert API administrasjon og forvaltning av API-katalogen
   * Håndtering av registrerings- og introduksjonsprosesser for API utviklere

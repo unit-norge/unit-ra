@@ -74,7 +74,7 @@ Tilganger gjennom et API defineres i API manager og tildeles av autorisasjonstje
 
 Ansvaret til API manager inkluderer:
 
-  * Sentralisert API Gateway som håndterer sikkerhetsretningslinjer, og sender kall til bakenforliggende API 
+  * Sentralisert forvalter av som håndterer sikkerhetsretningslinjer, og sender kall til bakenforliggende API 
   * Sentralisert publisering av API spesifikasjon (OpenAPI/RAML), dokumentasjon
   * Sentralisert API administrasjon og forvaltning av API-katalogen
   * Håndtering av registrerings- og introduksjonsprosesser for API utviklere

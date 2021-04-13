@@ -86,7 +86,7 @@ En autorisasjonstjener er også brukt til å realisere tilgangs policy.
 
 
 | UH/F Klientregister
-| Oversikt over alle klienter som er blitt tildelt tilgang til ressurser.
+| Oversikt over alle programvaresystemer (klienter) som er blitt tildelt tilgang til ressurser.
 
 
 | OAUTH scopes

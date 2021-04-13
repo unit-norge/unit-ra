@@ -87,7 +87,7 @@ En autorisasjonstjener er også brukt til å realisere tilgangs policy.
 
 
 | UH/F Klientregister
-| Oversikt over alle klienter som er blitt tildelt tilgang til ressurser.
+| Oversikt over alle programvaresystemer (klienter) som er blitt tildelt tilgang til ressurser.
 
 
 | UH/F tildel rettigheter til klienter
@@ -121,7 +121,9 @@ Komponent som beskytter ressursene og monitorerer tilgang inklusivt:
 
 
 | Notifikasjonsdistribusjon
-| Tjensten mottar notifikasjoner fra konsumenter og distribuerer notifikasjoner til konsumenter som har interesse av gitte notifikasjoner
+| Tjensten mottar notifikasjoner fra tilbyder og distribuerer notifikasjoner til konsumenter som har interesse av gitte notifikasjoner.
+
+
 
 | Autentiseringstjeneste
 | Tjeneste som benyttes av tilbyder for å autentisere aktuell konsument.

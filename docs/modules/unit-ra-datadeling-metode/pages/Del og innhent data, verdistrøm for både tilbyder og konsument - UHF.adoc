@@ -31,26 +31,28 @@ image::{imagepath}Del og innhent data, verdistrøm for både tilbyder og konsume
 | Del  data
 | 
 
-| Tilrettelegg for dataoppdagelse og datadeling
+| Gjøre data tilgjengelige og klargjøre for deling
 | 
 
 | Del data
 | "Del data (operativt)" handler om utveksling av data gjennom etablerte kanaler og iht. avtaler. Dette forutsetter også håndtering av avvik og ikke-tilsiktede hendelser.
 
 
-| Sett opp avtaler, løsninger og tilganger etter henvendelse
+| Gi tilgang til data
 | 
 
-| Motta henvendelser om datadeling
+| Vurdere tilgang til data
 | 
 
-| Ta rede på egne data og krav til datadeling
+| Holde orden i data og ansvar
 | 
 
 
 
-| Forbedre løsninger, sikkerhet og datakvalitet (tilbyder)
-| 
+| Forbedre (tilbyder)
+| "Kontinuerlig forbedring av opplegg for deling av data" handler om aktiv forvaltning av operative løsninger for deling av data gjennom kontakt med datakonsumenter og tilpasning til nye behov, krav og teknologi.
+
+Kan også omfatte tilbakemeldinger på kvalitet på data og forbedring av datagrunnlaget.
 
 | Datakonsument
 | Den som innhenter eller mottar data fra andre aktører.
@@ -58,22 +60,23 @@ image::{imagepath}Del og innhent data, verdistrøm for både tilbyder og konsume
 | Innhent data
 | 
 
-| Oppdag data og datakilder
+| Finne og vurdere data
 | 
 
-| Be  om tilganger og abonnementer
+| Be om tilgang til data
 | 
 
-| Forespør og motta data
+| Motta data
 | 
 
-| Etabler avtaler og løsninger for datainnhenting
+| Få tilgang til data
 | 
 
-| Ta rede på behov for innhenting av data
+| Avklar behov for data
 | 
 
-| Forbedre løsninger, sikkerhet og datakvalitet (konsument)
+
+| Forbedre (konsument)
 | 
 
 |===
