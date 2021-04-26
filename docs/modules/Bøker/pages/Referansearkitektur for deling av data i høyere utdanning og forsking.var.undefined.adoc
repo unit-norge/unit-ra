@@ -1,0 +1,42 @@
+= Referansearkitektur for deling av data i høyere utdanning og forsking
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:Bøker:
+endif::[]
+:toc: left
+:experimental:
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 9
+
+
+
+image:{imagepath}image1.jpeg[]
+
+----
+Mon Apr 26 2021 15:59:51 GMT+0200 (CEST)
+----
+
+
+:leveloffset: +1
+include::main@unit-ra:unit-ra-datadeling-introduksjon:page$Introduksjon.adoc[]
+include::main@unit-ra:unit-ra-datadeling-metode:page$Metode.adoc[]
+include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Datadelingsplattformen og felles komponentene i den.adoc[]
+include::main@unit-ra:unit-ra-datadeling-rutiner:page$Rutiner.adoc[]
+include::main@unit-ra:unit-ra-datadeling-roller:page$Roller og ansvar for informasjonsforvaltning.adoc[]
+include::main@unit-ra:unit-ra-datadeling-definisjoner:page$Vedlegg 1 - Definisjoner.adoc[]
+include::main@unit-ra:unit-ra-datadeling-issues:page$Vedlegg 2 - Behov for avklaringer og utfordringer i sektorens kontekst.adoc[]
+include::main@unit-ra:unit-ra-datadeling-muliggjørende-økosystem:page$Vedlegg 3 - Muliggjørende økosystem.adoc[]
+include::main@unit-ra:unit-ra-datadeling-behov-og-bruksområder:page$Vedlegg 4 - Behov og bruksområder.adoc[]
+include::main@unit-ra:unit-ra-datadeling-føringer:page$Vedlegg 5 - Føringer, pågående og videre arbeid.adoc[]
+:leveloffset: -1
+
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:Bøker:
+endif::[]
+
+image:{imagepath}image11.png[]
+

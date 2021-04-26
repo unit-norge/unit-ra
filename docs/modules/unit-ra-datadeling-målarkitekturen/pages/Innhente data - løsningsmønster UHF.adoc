@@ -7,6 +7,7 @@ ifeval::[{wysiwig_editing} == 0]
 :imagepath: main@unit-ra:unit-ra-datadeling-målarkitekturen:
 endif::[]
 :toc: left
+:experimental:
 :toclevels: 4
 :sectnums:
 :sectnumlevels: 9
@@ -18,130 +19,8 @@ En prosessflyt en konsument utfører når det utføres et tjenestekall for å in
 image::{imagepath}Innhente data - løsningsmønster UHF.png[alt=Innhente data - løsningsmønster UHF image]
 
 
+****
+xref:main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Innhente data - løsningsmønster UHF.var.1.adoc[Vis detaljer om elementene i diagrammet] (Tips: kbd:[Shift]-klikk for å åpne i nytt vindu)
+****
 
-[cols ="1,3", options="header"]
-.Elementer i view for Innhente data - løsningsmønster UHF
-|===
-
-| Element
-| Beskrivelse
-
-| UHF Infrastruktur
-| 
-
-| Datautvekslings-tjeneste
-| Tjeneste for utveksling av data over aktuell transportprotokoll, f.eks, gjennom asynkrone medlinger eller synkrone API-oppslag.
-
-| Samtykkeregistererings-tjeneste
-| Tjeneste for å innhente samtykke fra den registrert som dataene gjelder. Dette kan være en person eller en virksomhet.
-
-| Adressetjeneste
-| Tjeneste som gir mulighet til å slå opp teknisk endepunkt
-
-| Virksomhetssertifikat
-| En virksomhets elektroniske ID. Benyttes for å autentisere virksomheten overfor tokentjenesten.
-
-| Tokentjeneste
-| Tjeneste som utsteder sikkerhetsbilletter. Sikkerhetsbillett utstedes basert på tildelte rettigheter og eventuelle representasjonsforhold.
-
-| Oppslag representasjons-forhold
-| Tjeneste som benyttes av tokentjenesten for å kontrollere om det foreligger et delegert representasjonsforhold fra konsument til leverendør i autorisasjonstjenesten til Altinn.
-
-| Tilganger konsument
-| Oversikt over hvilke API og OAUTH-scopes en virksomhet (representert ved organisasjonsnummer) skal ha tilgang til (utstedt token for).
-
-| UH/F Oauth2 autorisasjonstjener
-| Autorisasjonstjenester realiserer tilgangskontroll gjennom å utstede OAuth 2 grants og tokens. 
-En autorisasjonstjener er også brukt til å realisere tilgangs policy. 
-
-
-
-
-| UH/F API katalog
-| a|
-
-Oversikt over alle API som er registrert i UH/F sektoren
-
-UH/F API katalog kan inneholde
-
-  * Navn på API
-  * Tekstlig beskrivelse av API
-  * Informasjonsmodell / Datamodell for API som tilbys 
-  * Kildeinformasjon for data, begrepsinformasjon
-  * Informasjon om tilgang, juridiske og tekniske begrensinger for bruk
-  * Eksempelkode, interaktiv API-konsoll og sandkasse for test
-  * Informasjon om hvordan få support og hjelp fra utsteder
-
-| Endepunkt (adresse)
-| Dataobjekt som representerer teknisk adresse til et API eller ressurs.
-
-| Nasjonal Infrastruktur
-| 
-
-| Maskinporten
-| Maskinporten sørger for sikker autentisering og tilgangskontroll for datautveksling mellom
-virksomheter, maskin til maskin. Dette gir teknisk og organisatorisk samhandlingsevne.
-
-Mer om Maskinporten:
-https://www.digdir.no/digitale-felleslosninger/maskinporten/869
-
-| Datakonsument
-| Den som innhenter eller mottar data fra andre aktører.
-
-| Innhente data
-| Evnen til å innhente data fra en annen aktør.
-
-| Slå opp data gjennom et API 
-| Prosessen med å slå opp og hente data gjennom et API.
-
-| Hent teknisk endepunkt ved behov
-| Prosessen å slå opp den tekniske adressen til et API før spørring mot API-et. Gjøres kun dersom det er nødvendig.
-
-| Be om tilgangstoken
-| Prosessen med å benytte en sikkerhetsbillettjeneste for hente en sikkerhetsbillett som gir tilgang til et API. Dette forutsetter at alt er registert og satt opp riktig mot de aktuelle tjenestene.
-
-| Utfør tjenestekall
-| Prosessen med å benytte (gjøre et oppslag mot) et eksternt API.
-
-| Innhent samtykke ved behov
-| Prosess for å innhente samtykke fra person eller virksomhet som grunnlag for å innhente data. Dette gjøres kun ved behov.
-
-| Junction
-| 
-
-| Junction
-| 
-
-| Altinn autorisasjon
-| [Torget]
-Autorisasjonskomponenten i Altinn som gir muligheter til å delegere rettigheter til andre organisasjoner eller personer. Rettigheter til bruk av autorisasjonskomponenten baserer seg på registrerte roller i Enhetsregisteret.
-Altinn autorisasjon leverer også tjenester for å registrere og kontrollere samtykke gitt av person eller virksomhet.
-
-[Verktøykasse for deling av data]
-Altinn autorisasjon gir teknisk samhandlingsevne ved at bruker logger inn med elektronisk ID,
-autorisasjonskomponenten sjekker at bruker har de tilgangene som kreves for å ta i bruk aktuell tjeneste.
-
-Dersom en privatperson skal ta i bruk en tjeneste på vegne av en virksomhet, gjøres det et oppslag mot Enhetsregisteret for å bekrefte at personen har en rolle på vegne av virksomheten. Dette gir organisatorisk samhandlingsevne.
-
-Mer om Altinn autorisasjon:
-https://www.altinndigital.no/produkter/styring-av-tilgang/
-
-| Felles API-katalog
-| Del av Felles datakatalog som gir mulighet for å søke etter API-er og lese API-spesifikasjoner https://fellesdatakatalog.brreg.no/apis
-
-| Altinn autorisasjon
-| [Torget]
-Autorisasjonskomponenten i Altinn som gir muligheter til å delegere rettigheter til andre organisasjoner eller personer. Rettigheter til bruk av autorisasjonskomponenten baserer seg på registrerte roller i Enhetsregisteret.
-Altinn autorisasjon leverer også tjenester for å registrere og kontrollere samtykke gitt av person eller virksomhet.
-
-[Verktøykasse for deling av data]
-Altinn autorisasjon gir teknisk samhandlingsevne ved at bruker logger inn med elektronisk ID,
-autorisasjonskomponenten sjekker at bruker har de tilgangene som kreves for å ta i bruk aktuell tjeneste.
-
-Dersom en privatperson skal ta i bruk en tjeneste på vegne av en virksomhet, gjøres det et oppslag mot Enhetsregisteret for å bekrefte at personen har en rolle på vegne av virksomheten. Dette gir organisatorisk samhandlingsevne.
-
-Mer om Altinn autorisasjon:
-https://www.altinndigital.no/produkter/styring-av-tilgang/
-
-|===
 

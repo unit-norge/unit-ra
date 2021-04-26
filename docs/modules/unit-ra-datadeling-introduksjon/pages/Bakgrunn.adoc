@@ -7,9 +7,10 @@ ifeval::[{wysiwig_editing} == 0]
 :imagepath: main@unit-ra:unit-ra-datadeling-introduksjon:
 endif::[]
 :toc: left
+:experimental:
 :toclevels: 4
 :sectnums:
 :sectnumlevels: 9
 
-Tekst bakgrunn
+Tekst for bakgrunn
 

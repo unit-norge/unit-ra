@@ -7,6 +7,7 @@ ifeval::[{wysiwig_editing} == 0]
 :imagepath: main@unit-ra:unit-ra-datadeling-metode:
 endif::[]
 :toc: left
+:experimental:
 :toclevels: 4
 :sectnums:
 :sectnumlevels: 9
@@ -17,67 +18,8 @@ endif::[]
 image::{imagepath}Del og innhent data, verdistrøm for både tilbyder og konsument - UHF.png[alt=Del og innhent data, verdistrøm for både tilbyder og konsument - UHF image]
 
 
+****
+xref:main@unit-ra:unit-ra-datadeling-metode:page$Del og innhent data, verdistrøm for både tilbyder og konsument - UHF.var.1.adoc[Vis detaljer om elementene i diagrammet] (Tips: kbd:[Shift]-klikk for å åpne i nytt vindu)
+****
 
-[cols ="1,3", options="header"]
-.Elementer i view for Del og innhent data, verdistrøm for både tilbyder og konsument - UHF
-|===
-
-| Element
-| Beskrivelse
-
-| Datatilbyder
-| Tilbyder av data til andre aktører.
-
-| Del  data
-| 
-
-| Gjøre data tilgjengelige og klargjøre for deling
-| 
-
-| Del data
-| "Del data (operativt)" handler om utveksling av data gjennom etablerte kanaler og iht. avtaler. Dette forutsetter også håndtering av avvik og ikke-tilsiktede hendelser.
-
-
-| Gi tilgang til data
-| 
-
-| Vurdere tilgang til data
-| 
-
-| Holde orden i data og ansvar
-| 
-
-
-
-| Forbedre (tilbyder)
-| "Kontinuerlig forbedring av opplegg for deling av data" handler om aktiv forvaltning av operative løsninger for deling av data gjennom kontakt med datakonsumenter og tilpasning til nye behov, krav og teknologi.
-
-Kan også omfatte tilbakemeldinger på kvalitet på data og forbedring av datagrunnlaget.
-
-| Datakonsument
-| Den som innhenter eller mottar data fra andre aktører.
-
-| Innhent data
-| 
-
-| Finne og vurdere data
-| 
-
-| Be om tilgang til data
-| 
-
-| Motta data
-| 
-
-| Få tilgang til data
-| 
-
-| Avklar behov for data
-| 
-
-
-| Forbedre (konsument)
-| 
-
-|===
 

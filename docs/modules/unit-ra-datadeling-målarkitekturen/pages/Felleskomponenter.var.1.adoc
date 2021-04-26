@@ -1,0 +1,125 @@
+= Felleskomponenter
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-målarkitekturen:
+endif::[]
+:toc: left
+:experimental:
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 9
+
+Datadelingsplattformen består av felleskomponentene beskrevet under. De fleste felleskomponenter skal realiseres som fellestjenester med en delt instans. API gateway er en funksjonell beskrivelse av en komponent som skal realiseres med instanser nær datakildene som skal tilbys.
+
+
+#Heidi NB: mangler komponenter for hendelsesstrømming/-publisering og input om komponentene fra IAM projsektet#
+
+.Felleskomponenter
+image::{imagepath}Felleskomponenter.png[alt=Felleskomponenter image]
+
+
+TIP: Gå tilbake til standardvisning ved å klikke 'tilbake' (eller lukk dette vinduet om det er nytt)
+
+
+[cols ="1,3", options="header"]
+.Elementer i view for Felleskomponenter
+|===
+
+| Element
+| Beskrivelse
+
+| Autentiseringstjeneste
+a| Tjeneste som benyttes av tilbyder for å autentisere aktuell konsument.
+
+| API Gateway hos datatilbyder / OAuth resource server
+a| API gateway beskytter ressurser og monitorerer tilgang. 
+Den håndhever tilgangsstyring ved å validere aksesstokens og utfører eventuell fin-granulert tilgangskontroll. 
+Den håndhever også volumbegrenseninger og samler data om bruken av APIer (logging). 
+
+Komponent som beskytter ressursene og monitorerer tilgang inklusivt:
+
+  *  Validere tilgangstoken
+  *  Beskytte mot inntrenging og andre trusler
+  * Håndtere volumbegrensninger og andre abonnementsordninger
+  * Håndheve tilgangsstyring
+  * Samle inn data om bruken av API-er
+  * Orkestrering mellom interntjenester
+
+
+
+| Identity Goveranance Administration (IGA)
+a| Identitets- og tilgangsstyring (IAM) handler om å gi studenter, forskere og ansatte riktig tilgang til digitale systemer, tjenester og ressurser, samt avslutte tilgang for brukere som ikke lenger skal ha det.
+
+Avventer input fra IAM prosjektet
+
+| Notifikasjonsdistribusjon
+a| Tjensten mottar notifikasjoner fra tilbyder og distribuerer notifikasjoner til konsumenter som har interesse av gitte notifikasjoner.
+
+
+
+| Ressursportal
+a| Ressursportalen holder oversikt over og tildeler tilganger til beskyttede ressurser i høyere utdanning og forskningssektoren i henhold til føringer fra eierne av disse ressursene. Tilganger er gitt i form av OAuth2 grants og tokens. Ressursportalen er en del av den felles infrastrukturen for føderert API management for høyere utdanning og forskning. Den registrerer og holder oversikt over API, holder oversikt over klienter som har blitt tildelt tilgang til API og hvilke tilganger det gjelder. Ressursportalen benytter Jason Web Token formattert OAuth2 sikkerhetstoken for å gi tilgang til ressurser gjennom API gateway nær de beskyttede ressursene.
+
+| UH/F Oauth2 autorisasjonstjener
+a| Autorisasjonstjenester realiserer tilgangskontroll gjennom å utstede OAuth 2 grants og tokens. 
+En autorisasjonstjener er også brukt til å realisere tilgangs policy. 
+
+
+
+
+| UH/F Klientregister
+a| Oversikt over alle programvaresystemer (klienter) som er blitt tildelt tilgang til ressurser.
+
+
+| UHF API manager 
+a| a|
+
+Administrativ komponent som kontrollerer policy og livssyklus for definisjon og forvaltning av API. 
+Tilganger gjennom et API defineres i API manager og tildeles av autorisasjonstjener. 
+
+Ansvaret til API manager inkluderer:
+
+  * Sentralisert forvalter av som håndterer sikkerhetsretningslinjer, og sender kall til bakenforliggende API 
+  * Sentralisert publisering av API spesifikasjon (OpenAPI/RAML), dokumentasjon
+  * Sentralisert API administrasjon og forvaltning av API-katalogen
+  * Håndtering av registrerings- og introduksjonsprosesser for API utviklere
+  * Håndtere livssyklusen til et API, uvikling, test, utrulling, nye versjoner, nedlegging
+  * Ivareta registrering, forvaltning og og utvikling av klientrettigheter
+  * Rapportering og analyse for å monitorere bruk og last 
+
+
+
+| UH/F API katalog
+a| a|
+
+Oversikt over alle API som er registrert i UH/F sektoren
+
+UH/F API katalog kan inneholde
+
+  * Navn på API
+  * Tekstlig beskrivelse av API
+  * Informasjonsmodell / Datamodell for API som tilbys 
+  * Kildeinformasjon for data, begrepsinformasjon
+  * Informasjon om tilgang, juridiske og tekniske begrensinger for bruk
+  * Eksempelkode, interaktiv API-konsoll og sandkasse for test
+  * Informasjon om hvordan få support og hjelp fra utsteder
+
+| Attributter / grunndata
+a| Opplysninger om personer som skal benyttes i tilgangsstyring.
+
+| Roller og tilgangsregler
+a| Definisjon av roller som blir brukt til å styre autorisasjon for å gi tilgang for en klient til et eller flere API.
+Definisjon av regler for tilgang til et eller flere API
+
+| Meldingsformidler (xMQ - system software)
+a| Message broker, som ActiveMQ, RabbitMQ etc
+
+|===
+****
+TIP: Gå tilbake til standardvisning ved å klikke 'tilbake' (eller lukk dette vinduet om det er nytt)
+****
+
+

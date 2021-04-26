@@ -7,6 +7,7 @@ ifeval::[{wysiwig_editing} == 0]
 :imagepath: main@unit-ra:unit-ra-datadeling-målarkitekturen:
 endif::[]
 :toc: left
+:experimental:
 :toclevels: 4
 :sectnums:
 :sectnumlevels: 9
@@ -20,77 +21,8 @@ Viewet bør strengt tatt vise at konsumenten kan finne APIet enten i UH/F sektor
 image::{imagepath}Få tilgang til data - løsningsmønster UHF.png[alt=Få tilgang til data - løsningsmønster UHF image]
 
 
+****
+xref:main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Få tilgang til data - løsningsmønster UHF.var.1.adoc[Vis detaljer om elementene i diagrammet] (Tips: kbd:[Shift]-klikk for å åpne i nytt vindu)
+****
 
-[cols ="1,3", options="header"]
-.Elementer i view for Få tilgang til data - løsningsmønster UHF
-|===
-
-| Element
-| Beskrivelse
-
-| Datakonsument
-| Den som innhenter eller mottar data fra andre aktører.
-
-| Få tilgang til API
-| Prosessen med å skaffe seg tilgang til tilbudte data fra annen aktør. Omfatte å finne API-er, inngå nødvendige avtaler og få tilganger.
-
-| Inngå avtale om tilgang til data
-| Prosess for å inngå avtale om tilgang og bruk av data.
-
-| Registrer klient med tildelt tilgang
-| Prosess for konsument å registerere (provisjonering av) den klienten som skal ha tilgang til API-et ved bruk av sikkerhetsbillett. Dette forutsetter at konsumenten har avtale om bruk av sikkerhetsbillettjenesten og at tilbyder har gitt konsumenten tilgang.
-
-Dersom det er en leverandør som har blitt delegert rettigheter som databehandler på vegne av konsument er det leverandøren som registrer sin klient.
-
-| Finn/få kjennskap til API
-| Prosessen med å finne eller få kjennskap til tilgjengelige API-er gjennom relevante kataloger og søkeløsninger.
-
-| Autentisere konsument
-| Prosessen med å autentisere en konsument.
-
-| Beskrivelse API
-| Dataobjekt som er en maskinlesbar beskrivelse av REST API-er iht. Open API Specification. Dette er formatet som benyttes for å registrere et API i felles API-katalog
-
-| API-søk
-| Tjeneste for å søke etter og finne tilgjengelige API-er
-
-| Få tilgang til data (konsument)
-| Evnen til å skaffe seg tilgang til tilbudte data fra annen aktør. 
-
-| UH/F API katalog
-| a|
-
-Oversikt over alle API som er registrert i UH/F sektoren
-
-UH/F API katalog kan inneholde
-
-  * Navn på API
-  * Tekstlig beskrivelse av API
-  * Informasjonsmodell / Datamodell for API som tilbys 
-  * Kildeinformasjon for data, begrepsinformasjon
-  * Informasjon om tilgang, juridiske og tekniske begrensinger for bruk
-  * Eksempelkode, interaktiv API-konsoll og sandkasse for test
-  * Informasjon om hvordan få support og hjelp fra utsteder
-
-| UH/F tildel rettigheter til klienter
-| Tildel autoriserte rettigheter basert på roller, annen policy eller manuell behandling av dataforvalter gjennom tjenesten "Forespør dataforvalter". Om klienten er fra UH/F sektoren blir tildelt rettighetene lagret i UH/F klientregisteret i Ressusportalen. Om klienten er fra utenfor UH/F sektoren må tildelte rettighetene lagres et sted der Maskinporten har oversikten. 
-
-| API tilgangs-forespørsel
-| API eieren får forespørsel om den vil gi konsumenten tilgang til APIet.
-
-| UH/F Oauth2 autorisasjonstjener
-| Autorisasjonstjenester realiserer tilgangskontroll gjennom å utstede OAuth 2 grants og tokens. 
-En autorisasjonstjener er også brukt til å realisere tilgangs policy. 
-
-
-
-
-| UH/F Klientregister
-| Oversikt over alle programvaresystemer (klienter) som er blitt tildelt tilgang til ressurser.
-
-
-| OAUTH scopes
-| Dataobjekt som som kan beskrives som en ressurs-definisjon, og et token er som regel knyttet til ett eller flere scopes. Scopes benyttes til å styre tilganger til API-er og operasjoner, samt eventuelt hva slags responser man får fra API-er.
-
-|===
 

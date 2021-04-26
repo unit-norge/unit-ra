@@ -1,0 +1,70 @@
+= Muliggjørende kapabiliteter
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-metode:
+endif::[]
+:toc: left
+:experimental:
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 9
+
+Tekst muliggjørende kapabiliteter
+
+.Muliggjørende kapabiliteter
+image::{imagepath}Muliggjørende kapabiliteter.png[alt=Muliggjørende kapabiliteter image]
+
+
+TIP: Gå tilbake til standardvisning ved å klikke 'tilbake' (eller lukk dette vinduet om det er nytt)
+
+
+[cols ="1,3", options="header"]
+.Elementer i view for Muliggjørende kapabiliteter
+|===
+
+| Element
+| Beskrivelse
+
+| Muliggjørende kapabiliteter
+a| Det som kreves for å sikre at organisasjonen er i stand til å gi generell økonomisk, administrativ, fysisk og teknisk støtte til komersiell aktivitet, strategi og styring samt primærvirksomheter (kjerneaktiviteter) slik som undervisning og læring, forskning, nyskapning og formidling.
+
+EUNIS: Enabling Capabilities
+
+| Informasjonsforvaltning
+a| Aktiviteter og tiltak for å sikre best mulig kvalitet, utnytting og sikring av informasjon i en virksomhet [kilde data.norge.no]. Administrert Informasjon inkluderer strukturerte og ustrukturerte data med omfang som definert av retningslinjene for datasikkerhet og datahåndtering.
+
+EUNIS: Information management
+
+
+| Informasjons-registrering, rettighetsklarering og publisering
+a| Hva oranisasjonen gjør for å lokalisere, indeksere, katalogisere og publisere informasjon for både intern og ekstern bruk.
+
+EUNIS: Enterprise Content Management
+
+| Forvaltning av informasjons- og datasikkerhet
+a| Hva organisasjonen gjør for å vurdere, merke, overvåke, administrere og vedlikeholde informasjonssikkerhet, og gripe inn / eskalere i tilfelle brudd på informasjonssikkerhetspolitikken. Dette vil omfatte overholdelse av reguleringer, lovgivning og intern risikostyring.
+
+EUNIS: Information & Data Security Management
+
+| Informasjons-gjenfinning
+a| Hva organisasjonen gjør for å lokalisere, indeksere, katalogisere og publisere informasjon for både intern og ekstern bruk. Dette kan omfatte data som ikke oppbevares av organisasjonen.
+
+EUNIS: Information Search & discovery
+
+| Forvaltning av datakvalitet
+a| Hva organisasjonen gjør for å sikre at data er korrekte, komplette, oppdaterte og konsistente og har evnen til å støtte de informasjonsformål de brukes til.
+
+| Juridiske tjenester
+a| Alle aktiviteter som har som mål å sikre tilgjengeligheten av effektive juridiske tjenester.
+
+EUNIS: Legal services
+
+|===
+****
+TIP: Gå tilbake til standardvisning ved å klikke 'tilbake' (eller lukk dette vinduet om det er nytt)
+****
+
+
