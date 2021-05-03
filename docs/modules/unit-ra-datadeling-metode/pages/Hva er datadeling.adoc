@@ -22,10 +22,8 @@ https://doc.difi.no/nasjonal-arkitektur/nab_arkitekturlandskap_segmentarkitektur
 Datadeling handler om å forsyne forretningsprosesser og dataanalyse med nødvendig datagrunnlag.
 
 De fleste aktører sitter på begge sider i dette bildet, og må kunne
-både _dele_ og _innhente_ data og hendelser. I beskrivelsene skilles det
-likevel gjerne på rollene som _tilbyder_ og _konsument_.
+både _dele_ og _innhente_ data og hendelser. Det skilles på rollene som _tilbyder_ og _konsument_.
 
-Begrepet _datadeling_ er ut fra dette å oppfatte som kortform
-for *_deling og innhenting av data og hendelser_*.
+I noen sammenhenger skilles det også mellom _data_ og _hendelser_.
 --
 
