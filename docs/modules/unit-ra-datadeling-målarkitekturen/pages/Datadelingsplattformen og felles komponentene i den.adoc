@@ -15,7 +15,9 @@ endif::[]
 Tekst datadelingsplattformen og felles komponenter i den.
 
 :leveloffset: +1
+include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Føderert API management.adoc[]
+include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Publisering av hendelser.adoc[]
 include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Felleskomponenter.adoc[]
-include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Datautveksling.adoc[]
-include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Integrasjonsmønster for datadeling.adoc[]
+include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Datadeling integrert med IAM.adoc[]
+include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Datadeling på tvers av sektorer.adoc[]
 :leveloffset: -1

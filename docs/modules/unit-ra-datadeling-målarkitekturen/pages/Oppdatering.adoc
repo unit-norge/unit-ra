@@ -1,0 +1,20 @@
+= Oppdatering
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-målarkitekturen:
+endif::[]
+:toc: left
+:experimental:
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 9
+
+
+
+:leveloffset: +1
+include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Be om oppdatering  - løsningsmønster i UHF sektoren .adoc[]
+include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Håndtere forespørsel om oppdatering  - løsningsmønster UHF .adoc[]
+:leveloffset: -1

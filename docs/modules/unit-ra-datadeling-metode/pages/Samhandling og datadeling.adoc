@@ -1,10 +1,10 @@
-= Føderert API management
+= Samhandling og datadeling
 :wysiwig_editing: 1
 ifeval::[{wysiwig_editing} == 1]
 :imagepath: ../images/
 endif::[]
 ifeval::[{wysiwig_editing} == 0]
-:imagepath: main@unit-ra:unit-ra-datadeling-målarkitekturen:
+:imagepath: main@unit-ra:unit-ra-datadeling-metode:
 endif::[]
 :toc: left
 :experimental:
@@ -12,5 +12,5 @@ endif::[]
 :sectnums:
 :sectnumlevels: 9
 
-
+Tekst Samhandling og datadeling
 

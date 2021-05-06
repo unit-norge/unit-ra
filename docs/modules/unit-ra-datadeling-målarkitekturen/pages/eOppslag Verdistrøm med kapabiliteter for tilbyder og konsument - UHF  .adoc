@@ -1,0 +1,37 @@
+= eOppslag Verdistrøm med kapabiliteter for tilbyder og konsument - UHF  
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-målarkitekturen:
+endif::[]
+:toc: left
+:experimental:
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 9
+
+Forklaring:
+Datatilbyder må evne å bestemme hvilken teknisk løsning som skal benyttes når dataene gjøres tilgjengelig som åpne data
+
+Datatilbyder må evne å velge hvor og hvordan dataene skal gjøres tilgjengelig, hvor skal datakonsument finne dataene og på hvilket format skal dataene deles 
+
+Datatilbyder må videre evne å bestemme detaljeringsgrad på dataene
+
+Krav til personvern må kunne ivaretas, samt eventuelle krav i forhold til andre skjermingsverdige opplysninger  
+
+
+Løsning:
+Prosesser for å dele data som åpne data
+
+
+.eOppslag Verdistrøm med kapabiliteter for tilbyder og konsument - UHF  
+image::{imagepath}eOppslag Verdistrøm med kapabiliteter for tilbyder og konsument - UHF  .png[alt=eOppslag Verdistrøm med kapabiliteter for tilbyder og konsument - UHF   image]
+
+
+****
+xref:main@unit-ra:unit-ra-datadeling-målarkitekturen:page$eOppslag Verdistrøm med kapabiliteter for tilbyder og konsument - UHF  .var.1.adoc[Vis detaljer om elementene i diagrammet] (Tips: kbd:[Shift]-klikk for å åpne i nytt vindu)
+****
+
+

@@ -26,5 +26,7 @@ definert ut fra en dyp forståelse av sektorenes funksjon og vil typisk
 være forholdsvis stabile over tid. Definisjon av …[mer tekst her]
 
 :leveloffset: +1
-include::main@unit-ra:unit-ra-datadeling-forvaltning:page$Utvikling av brukernære API og datasett.adoc[]
+include::main@unit-ra:unit-ra-datadeling-rutiner:page$Indre API.adoc[]
+include::main@unit-ra:unit-ra-datadeling-rutiner:page$Ytre API.adoc[]
+include::main@unit-ra:unit-ra-datadeling-rutiner:page$Notifikasjoner.adoc[]
 :leveloffset: -1

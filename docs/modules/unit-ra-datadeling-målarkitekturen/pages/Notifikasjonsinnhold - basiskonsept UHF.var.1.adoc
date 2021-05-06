@@ -1,0 +1,73 @@
+= Notifikasjonsinnhold - basiskonsept UHF
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-målarkitekturen:
+endif::[]
+:toc: left
+:experimental:
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 9
+
+
+
+.Notifikasjonsinnhold - basiskonsept UHF
+image::{imagepath}Notifikasjonsinnhold - basiskonsept UHF.png[alt=Notifikasjonsinnhold - basiskonsept UHF image]
+
+
+TIP: Gå tilbake til standardvisning ved å klikke 'tilbake' (eller lukk dette vinduet om det er nytt)
+
+
+[cols ="1,3", options="header"]
+.Elementer i view for Notifikasjonsinnhold - basiskonsept UHF
+|===
+
+| Element
+| Beskrivelse
+
+| Hendelsesrelaterte data
+a| 
+
+| Notifikasjon
+a| Hernik sier 3 pekere i notifikasjon
+subjekt med siste state
+subjekt før og etter  
+selve hendelsen
+
+
+| Possible notification contents
+a| 
+
+| Type hendelse
+a| Identifikasjon av type hendelse. Dette kan være et entydig element i et kontrollert vokabular, men det kan også være "fritekst".
+
+| Øyeblikkbilde etter hendelse
+a| 
+
+| Inkrementell endring i øyeblikksbilde av subjekt
+a| 
+
+| Tidsstempel
+a| 
+
+| Identifikator for foregående notifikasjon
+a| 
+
+| Subjekt for hendelse
+a| Subjekt for hendelse er den entiteten som hendelsen gjelder; f.eks. en person. Kan være en samling av entiteter, f.eks en angitt befolkningsgruppe.
+
+| Minimum notifikasjonsinnhold
+a| 
+
+| Identifikator for notifikasjon
+a| 
+
+|===
+****
+TIP: Gå tilbake til standardvisning ved å klikke 'tilbake' (eller lukk dette vinduet om det er nytt)
+****
+
+

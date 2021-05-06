@@ -1,4 +1,4 @@
-= Føderert API management
+= Datadeling integrert med IAM
 :wysiwig_editing: 1
 ifeval::[{wysiwig_editing} == 1]
 :imagepath: ../images/

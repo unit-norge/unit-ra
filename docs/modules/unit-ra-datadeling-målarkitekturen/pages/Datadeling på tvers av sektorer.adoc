@@ -1,4 +1,4 @@
-= Føderert API management
+= Datadeling på tvers av sektorer
 :wysiwig_editing: 1
 ifeval::[{wysiwig_editing} == 1]
 :imagepath: ../images/

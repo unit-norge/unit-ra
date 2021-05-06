@@ -1,0 +1,75 @@
+= eOppslag Verdistrøm med kapabiliteter for tilbyder og konsument - UHF  
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-målarkitekturen:
+endif::[]
+:toc: left
+:experimental:
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 9
+
+Forklaring:
+Datatilbyder må evne å bestemme hvilken teknisk løsning som skal benyttes når dataene gjøres tilgjengelig som åpne data
+
+Datatilbyder må evne å velge hvor og hvordan dataene skal gjøres tilgjengelig, hvor skal datakonsument finne dataene og på hvilket format skal dataene deles 
+
+Datatilbyder må videre evne å bestemme detaljeringsgrad på dataene
+
+Krav til personvern må kunne ivaretas, samt eventuelle krav i forhold til andre skjermingsverdige opplysninger  
+
+
+Løsning:
+Prosesser for å dele data som åpne data
+
+
+.eOppslag Verdistrøm med kapabiliteter for tilbyder og konsument - UHF  
+image::{imagepath}eOppslag Verdistrøm med kapabiliteter for tilbyder og konsument - UHF  .png[alt=eOppslag Verdistrøm med kapabiliteter for tilbyder og konsument - UHF   image]
+
+
+TIP: Gå tilbake til standardvisning ved å klikke 'tilbake' (eller lukk dette vinduet om det er nytt)
+
+
+[cols ="1,3", options="header"]
+.Elementer i view for eOppslag Verdistrøm med kapabiliteter for tilbyder og konsument - UHF  
+|===
+
+| Element
+| Beskrivelse
+
+| Datatilbyder
+a| Tilbyder av data til andre aktører.
+
+| Publiser API
+a|  Evnen til å gjøre et API synlig og tilgjengelig gjennom kataloger og søkeløsninger slik at det kan oppdages av potensielle konsumenter.
+
+| Tilgjengeliggjøre data etter forespørsel
+a| Evnen til å gjøre data tilgjengelig for aktører utenfor egen virksomhet på forespørsel.
+
+| Avgi data
+a| Evne til å avgi data på forespørsel. Kan omfatte tilgangsstyring.
+
+| Datakonsument
+a| Den som innhenter eller mottar data fra andre aktører.
+
+| Innhente data
+a| Evnen til å innhente data fra en annen aktør.
+
+| Del  data
+a| 
+
+| Innhent data
+a| 
+
+| Få tilgang til data (konsument)
+a| Evnen til å skaffe seg tilgang til tilbudte data fra annen aktør. 
+
+|===
+****
+TIP: Gå tilbake til standardvisning ved å klikke 'tilbake' (eller lukk dette vinduet om det er nytt)
+****
+
+
