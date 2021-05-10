@@ -111,6 +111,7 @@ a| Den som innhenter eller mottar data fra andre aktører.
 a| Tjeneste som IAM beskytter tilgang til. Tjenesten kan også være en konsument av data gjennom API, det vil si Universitet, Høyskole eller andre som gir tilgang til data fra datatilbyder.
 
 Komponenten tilbyr:
+
   * autentisering  gjennom en Autentiseringstjeneste
   * oppslag i felleskomponeneter for tilgang til datatilbyders dataprodukter
   * tilgang til ressurser hos datatilbyder 
