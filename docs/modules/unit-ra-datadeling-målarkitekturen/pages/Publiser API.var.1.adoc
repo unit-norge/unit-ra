@@ -72,9 +72,7 @@ a| Prosess med å registere API i relevante tjenester, api-katalog, Maskinporten
 a| Del av Felles datakatalog som gir mulighet for å søke etter API-er og lese API-spesifikasjoner https://fellesdatakatalog.brreg.no/apis
 
 | UHF API manager 
-a| a
-
-Administrativ komponent som kontrollerer policy og livssyklus for definisjon og forvaltning av API. 
+a| Administrativ komponent som kontrollerer policy og livssyklus for definisjon og forvaltning av API. 
 Tilganger gjennom et API defineres i API manager og tildeles av autorisasjonstjener. 
 
 Ansvaret til API manager inkluderer:
