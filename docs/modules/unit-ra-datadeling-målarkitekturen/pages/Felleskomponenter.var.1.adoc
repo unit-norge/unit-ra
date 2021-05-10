@@ -15,7 +15,6 @@ endif::[]
 Datadelingsplattformen består av felleskomponentene beskrevet under. De fleste felleskomponenter skal realiseres som fellestjenester med en delt instans. API gateway er en funksjonell beskrivelse av en komponent som skal realiseres med instanser nær datakildene som skal tilbys.
 
 
-#Heidi NB: mangler komponenter for hendelsesstrømming/-publisering og input om komponentene fra IAM projsektet#
 
 .Felleskomponenter
 image::{imagepath}Felleskomponenter.png[alt=Felleskomponenter image]
