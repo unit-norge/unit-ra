@@ -87,7 +87,7 @@ a| API eieren får forespørsel om den vil gi konsumenten tilgang til APIet.
 | Godkjenn tilgang
 a| Tjeneste for å vurdere og eventuelt gi tilgang til en konsument som ber om tilgang. En tjeneste i UHF Ressursportalen benyttes som lar dataforvalteren beslutte tilgang, enten gjennom en automatisert policy eller gjennom en manuell behandling. 
 
-| UH/F tildel rettigheter til klienter
+| Tildel rettigheter til konsument
 a| Tildel autoriserte rettigheter basert på roller, annen policy eller manuell behandling av dataforvalter gjennom tjenesten "Forespør dataforvalter". Om klienten er fra UH/F sektoren blir tildelt rettighetene lagret i UH/F klientregisteret i Ressusportalen. Om klienten er fra utenfor UH/F sektoren må tildelte rettighetene lagres et sted der Maskinporten har oversikten. 
 
 | Ressursportal

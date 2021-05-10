@@ -60,7 +60,7 @@ a| Tjeneste for å søke etter og finne tilgjengelige API-er
 | Få tilgang til data (konsument)
 a| Evnen til å skaffe seg tilgang til tilbudte data fra annen aktør. 
 
-| UH/F API katalog
+| UHF API katalog
 a| a|
 
 Oversikt over alle API som er registrert i UH/F sektoren
@@ -75,20 +75,20 @@ UH/F API katalog kan inneholde
   * Eksempelkode, interaktiv API-konsoll og sandkasse for test
   * Informasjon om hvordan få support og hjelp fra utsteder
 
-| UH/F tildel rettigheter til klienter
+| Tildel rettigheter til konsument
 a| Tildel autoriserte rettigheter basert på roller, annen policy eller manuell behandling av dataforvalter gjennom tjenesten "Forespør dataforvalter". Om klienten er fra UH/F sektoren blir tildelt rettighetene lagret i UH/F klientregisteret i Ressusportalen. Om klienten er fra utenfor UH/F sektoren må tildelte rettighetene lagres et sted der Maskinporten har oversikten. 
 
 | API tilgangs-forespørsel
 a| API eieren får forespørsel om den vil gi konsumenten tilgang til APIet.
 
-| UH/F Oauth2 autorisasjonstjener
+| UHF autorisasjonstjener
 a| Autorisasjonstjenester realiserer tilgangskontroll gjennom å utstede OAuth 2 grants og tokens. 
 En autorisasjonstjener er også brukt til å realisere tilgangs policy. 
 
 
 
 
-| UH/F Klientregister
+| UHF Konsumentregister
 a| Oversikt over alle programvaresystemer (klienter) som er blitt tildelt tilgang til ressurser.
 
 

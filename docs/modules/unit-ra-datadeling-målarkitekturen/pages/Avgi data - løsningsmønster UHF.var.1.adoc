@@ -85,7 +85,7 @@ a| Tjeneste som benyttes av tilbyder for å validere og kontrollere autentisitet
 | Avgi data
 a| Evne til å avgi data på forespørsel. Kan omfatte tilgangsstyring.
 
-| API Gateway hos datatilbyder / OAuth resource server
+| API Gateway 
 a| API gateway beskytter ressurser og monitorerer tilgang. 
 Den håndhever tilgangsstyring ved å validere aksesstokens og utfører eventuell fin-granulert tilgangskontroll. 
 Den håndhever også volumbegrenseninger og samler data om bruken av APIer (logging). 

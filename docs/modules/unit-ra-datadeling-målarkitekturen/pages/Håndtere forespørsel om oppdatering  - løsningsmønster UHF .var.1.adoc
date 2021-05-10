@@ -65,7 +65,7 @@ a| Tjeneste for utveksling av data over aktuell transportprotokoll, f.eks, gjenn
 | Tokenvaliderings-tjeneste
 a| Tjeneste som benyttes av tilbyder for å validere og kontrollere autentisiteten til et OAUTH2 token fra Maskinporten
 
-| API Gateway hos datatilbyder / OAuth resource server
+| API Gateway 
 a| API gateway beskytter ressurser og monitorerer tilgang. 
 Den håndhever tilgangsstyring ved å validere aksesstokens og utfører eventuell fin-granulert tilgangskontroll. 
 Den håndhever også volumbegrenseninger og samler data om bruken av APIer (logging). 

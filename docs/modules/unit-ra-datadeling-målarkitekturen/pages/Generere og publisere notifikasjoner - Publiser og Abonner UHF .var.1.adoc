@@ -64,7 +64,7 @@ Når meldingen er lest forsvinner den fra innboksen til abonnenten
 | Hendelse
 a| 
 
-| UH/F Klientregister
+| UHF Konsumentregister
 a| Oversikt over alle programvaresystemer (klienter) som er blitt tildelt tilgang til ressurser.
 
 
