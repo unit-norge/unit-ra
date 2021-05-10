@@ -52,7 +52,7 @@ a| Definisjon av roller som blir brukt til å styre autorisasjon for å gi tilga
 Definisjon av regler for tilgang til et eller flere API
 
 | UHF API manager 
-a| a| 
+a| a
 
 Administrativ komponent som kontrollerer policy og livssyklus for definisjon og forvaltning av API. 
 Tilganger gjennom et API defineres i API manager og tildeles av autorisasjonstjener. 
