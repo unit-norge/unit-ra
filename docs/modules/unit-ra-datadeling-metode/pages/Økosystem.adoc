@@ -12,7 +12,7 @@ endif::[]
 :sectnums:
 :sectnumlevels: 9
 
-=== Visjon: Et økosystem for datadeling
+== Visjon: Et økosystem for datadeling
 
 I arbeidet med denne referansearkitekturen har vi tatt utgangspunkt i en
 idé om samhandling mellom ulike parter i et større hele. Dette er basert
@@ -26,7 +26,7 @@ forskjellig kontekst kalt domener (se seksjonen under). Økosystemet skal
 etableres opp på en datadelingsplattform, og elementene i plattformen er
 spesifisert i referansearkitekturen.
 
-=== 
+LEGG INN EKSTERN BILDE
 
 1 Et økosystem for deling av data i UHF-sektoren
 

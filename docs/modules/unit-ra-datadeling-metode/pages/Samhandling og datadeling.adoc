@@ -12,5 +12,64 @@ endif::[]
 :sectnums:
 :sectnumlevels: 9
 
-Tekst Samhandling og datadeling
+Når datatilbydere og datakonsumenter deler data, skjer det som en del av
+en digital samhandling. For at samhandlingen skal være vellykket, må
+tilbydere og konsumenter sikre at de handler i henhold til loven
+(juridisk samhandlingsevne), at aktørene har avklart forventninger til
+hverandre og klarer å samarbeide (organisatorisk samhandlingsevne), at
+datatilbydere og konsumenter har samme forståelse av dataenes betydning
+(semantisk samhandlingsevne) og at de tekniske løsningene som utfører
+datadeling fungerer sammen slik de skal (teknisk samhandlingsevne).
+Rammeverk for digital
+samhandlingfootnote:[https://www.digdir.no/nasjonal-arkitektur/rammeverk-digital-samhandling/2148]
+vist under utdyper disse samhandlingsevner.
+
+image:media\image7.png[image,width=464,height=274]
+
+3 Samhandling
+
+Modellene som er utgangspunkt for referansearkitekturen for deling av
+data i høyere utdanning og forskning er laget for å ivareta juridisk-,
+organisatorisk-, semantisk- og teknisk samhandlingsevne og hjelper
+dermed de som benytter modellene til å lykkes med digital samhandling.
+
+Verktøykassen for deling av datafootnote:[Verktøykasse for deling av
+data
+https://www.digdir.no/apne-data/nasjonal-verktoykasse-deling-av-data/2243]
+fra Digitaliseringsdirektoratet gir veiledning for de som skal bruke
+data fra andre (datakonsumenter) og de som skal dele data med andre
+(datatilbydere). Den overordnede prosessen brukt av datakonsumenter og
+datatilbydere for å dele data er beskrevet i verktøykassen og avbildet
+under.
+
+Modellen beskriver verdistrømmer for både de som skal bruke data fra
+andre (datakonsumenter) og for de som skal dele data med andre
+(datatilbydere), samt forholdet mellom disse to verdistrømmene.
+
+Verdistrømmene viser hvilke steg en datakonsument må gjennom for å motta
+data, og hvilke steg en datatilbyder må gjennom for å avgi data. Enkelte
+steg i verdistrømmene er tilpasset sektoren for høyere utdanning og
+forskning i referansearkitekturen. Dette er beskrevet senere i
+dokumentet
+
+Før datatilbyderen kan utføre det første steget i verdistrømmen for
+datadeling må organisasjonen ha oversikt over egne data som skal deles.
+For å kunne utføre det andre steget i verdistrømmen må datatilbyderen ha
+evnen til å publisere datasettene slik at andre kan benytte disse. Disse
+stegene er sentral i
+https://data.norge.no/guide/veileder-orden-i-eget-hus/[«orden i eget
+hus»]. For at datadeling skal fungere etter hensikt, må dataene også ha
+god kvalitet. Dette krever kapabiliteter innen informasjonsforvaltning.
+ Vi har modellert disse evner som «muliggjørende kapabiliteter» i
+referansearkitekturen for høyere utdanning og forskning med utgangspunkt
+i
+https://app.powerbi.com/view?r=eyJrIjoiMThhNjkzNmItOGQ4NC00MDkzLWI3MDQtNzY0ZjA1MjQ5MzViIiwidCI6ImFlMWE3NzI0LTQwNDEtNDQ2Mi1hNmRjLTUzOGNiMTk5NzA3ZSIsImMiOjh9[EUNIS
+sin kapabilitetsmodell for europeiske universiteter] som vist under.
+EUNIS modellen var produsert som et samarbeid mellom europeiske
+universiteter.
+
+ 
+
+image:media\image8.png[image,width=567,height=241]
+
 
