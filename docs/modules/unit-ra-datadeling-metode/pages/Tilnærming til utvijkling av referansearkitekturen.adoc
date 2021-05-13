@@ -1,0 +1,31 @@
+= Tilnærming til utvijkling av referansearkitekturen
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-metode:
+endif::[]
+:toc: left
+:experimental:
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 9
+
+Denne referansearkitekturen skal gi veiledning til utforming av digitale
+samhandlingsløsninger for deling av data i høyere utdanning og
+forskning. Denne seksjonen veileder gjennom en presentasjon av hva som
+skal oppnås ved å definere hva datadeling er, en visjon om hva vi skal
+bruke det til, og modellene som skal skape fundament for utforming av
+løsningene i visjonen.
+
+:leveloffset: +1
+include::main@unit-ra:unit-ra-datadeling-metode:page$Hva er datadeling.adoc[]
+include::main@unit-ra:unit-ra-datadeling-metode:page$Økosystem.adoc[]
+include::main@unit-ra:unit-ra-datadeling-metode:page$Domener.adoc[]
+include::main@unit-ra:unit-ra-datadeling-metode:page$Hva er felles.adoc[]
+include::main@unit-ra:unit-ra-datadeling-metode:page$Samhandling og datadeling.adoc[]
+include::main@unit-ra:unit-ra-datadeling-metode:page$Del og innhent data, verdistrøm for både tilbyder og konsument - UHF.adoc[]
+include::main@unit-ra:unit-ra-datadeling-metode:page$Muliggjørende kapabiliteter.adoc[]
+include::main@unit-ra:unit-ra-datadeling-metode:page$Informasjonsforvaltningsdomener.adoc[]
+:leveloffset: -1
