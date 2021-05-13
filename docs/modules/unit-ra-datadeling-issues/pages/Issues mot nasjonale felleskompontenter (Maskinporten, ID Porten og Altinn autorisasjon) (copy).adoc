@@ -1,0 +1,42 @@
+= Issues mot nasjonale felleskompontenter (Maskinporten, ID Porten og Altinn autorisasjon) (copy)
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-issues:
+endif::[]
+:toc: left
+:experimental:
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 9
+
+[arabic]
+. Harmonisering av autorisasjon
+[loweralpha]
+.. Det er ønskelig at UHF autorisasjonstjener og Maskinporten godkjenner
+hverandres tokens. Dette forutsetter at informasjonsmodellen benyttet i
+tokens er felles. Løsningsvarianter:
+[lowerroman]
+... Klienter forholder seg til flere autentiseringstjenere og
+standardisere token struktur
+... Innbytte av tokens (token exchange) fra andre “trusted”
+autorisasjonstjenere. En konsekvens av dette er at man mister (?)
+koblingen til bruker og dermed kjennskap til autentiseringsstyrken som
+ligger bak.
+... Software Statement Assertion
+(https://tools.ietf.org/html/draft-ietf-oauth-assertions-18) – løsning
+benyttet av Open Banking UK
+. Harmonisering av samtykke
+[loweralpha]
+.. Altinn autorisasjon benytter «Self-contained OAuth2 token» for
+samtykke. Men da vi ikke kan godkjenne tokens på tvers, har vi
+utfordringer med å benytte Altinn autorisasjon direkte. I hvert fall
+dekker det ikke skopes vi har anvar for i UHF autorisasjonstjeneren
+.. Hjelper User Managed Access (UMA) her?
+. Delegering av rettigheter (fullmakt??): Altinn har per i dag ingen god
+mekanisme for å delegere rettigheter under organisasjonsgranulariteten i
+Enhetsregisteret. Vi tror ikke dette er et problem siden vi *forventer
+at IGA innenfor UHF sektoren vil dekke våre behov.*
+
