@@ -65,7 +65,20 @@ Når meldingen er lest forsvinner den fra innboksen til abonnenten
 a| 
 
 | UHF Konsumentregister
-a| Oversikt over alle programvaresystemer (klienter) som er blitt tildelt tilgang til ressurser.
+a| 
+Oversikt over alle datakonsumenter som er blitt tildelt tilgang til
+ressurser.
+
+Oversikten over konsumenters bruk av API fra datatilbydere er
+autoritativt for
+
+* hvilke OAuth2 scopes knytet til hvilke API som konsumenten har fått
+tilgang til
+
+Oversikten over konsumenters bruk av notifikasjoner fra datatilbydere er
+autoritativt for
+
+* datakonsumentens abonnement for notifikasjoner
 
 
 | Publisert Meldingskø

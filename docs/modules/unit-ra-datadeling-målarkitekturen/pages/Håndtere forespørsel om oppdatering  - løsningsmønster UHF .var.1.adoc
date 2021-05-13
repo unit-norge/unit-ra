@@ -66,20 +66,20 @@ a| Tjeneste for utveksling av data over aktuell transportprotokoll, f.eks, gjenn
 a| Tjeneste som benyttes av tilbyder for å validere og kontrollere autentisiteten til et OAUTH2 token fra Maskinporten
 
 | API Gateway 
-a| API gateway beskytter ressurser og monitorerer tilgang. 
-Den håndhever tilgangsstyring ved å validere aksesstokens og utfører eventuell fin-granulert tilgangskontroll. 
-Den håndhever også volumbegrenseninger og samler data om bruken av APIer (logging). 
+a| API gateway er en tjeneste som tilgjengeliggjør, beskytter og overvåker
+tilgang til API-ressurser hos datatilbyder. Den håndhever
+tilgangsstyring ved å validere sikkerhetsbilletter og utfører eventuell
+fin-granulert tilgangskontroll. Den håndhever også volumbegrensninger og
+samler data om bruken av API-er (logging).
 
-Komponent som beskytter ressursene og monitorerer tilgang inklusivt:
+Komponent som beskytter ressursene og overvåker tilgang inklusivt:
 
-  *  Validere tilgangstoken
-  *  Beskytte mot inntrenging og andre trusler
-  * Håndtere volumbegrensninger og andre abonnementsordninger
-  * Håndheve tilgangsstyring
-  * Samle inn data om bruken av API-er
-  * Orkestrering mellom interntjenester
-
-
+* Validere sikkerhetsbillett
+* Beskytte mot inntrenging og andre trusler
+* Håndtere volumbegrensninger
+* Håndheve tilgangsstyring
+* Samle inn data om bruken av API-er
+* Orkestrering mellom interntjenester
 
 | Håndtere forespørsel om oppdatering
 a| 

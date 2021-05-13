@@ -54,8 +54,9 @@ a| Tjeneste som benyttes av tokentjenesten for å kontrollere om det foreligger 
 a| Oversikt over hvilke API og OAUTH-scopes en virksomhet (representert ved organisasjonsnummer) skal ha tilgang til (utstedt token for).
 
 | UHF autorisasjonstjener
-a| Autorisasjonstjenester realiserer tilgangskontroll gjennom å utstede OAuth 2 grants og tokens. 
-En autorisasjonstjener er også brukt til å realisere tilgangs policy. 
+a| Autorisasjonstjenester realiserer tilgangskontroll
+gjennom å utstede sikkerhetsbilletter. En autorisasjonstjener er også
+brukt til å realisere autorisasjonspolicy for tilgang og roller
 
 
 

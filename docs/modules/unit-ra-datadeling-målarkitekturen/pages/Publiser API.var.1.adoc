@@ -72,20 +72,24 @@ a| Prosess med å registere API i relevante tjenester, api-katalog, Maskinporten
 a| Del av Felles datakatalog som gir mulighet for å søke etter API-er og lese API-spesifikasjoner https://fellesdatakatalog.brreg.no/apis
 
 | UHF API manager 
-a| Administrativ komponent som kontrollerer policy og livssyklus for definisjon og forvaltning av API. 
-Tilganger gjennom et API defineres i API manager og tildeles av autorisasjonstjener. 
+a| API Management omfatter en administrativ komponent, API Manager, som
+kontrollerer policy og livssyklus for definisjon og forvaltning av API
+og en katalog over tilgjengelige API, API-Katalog (se under). +
+Tilganger gjennom et API defineres i API manager og tildeles av
+autorisasjonstjener.
 
 Ansvaret til API manager inkluderer:
 
-  * Sentralisert forvalter av som håndterer sikkerhetsretningslinjer, og sender kall til bakenforliggende API 
-  * Sentralisert publisering av API spesifikasjon (OpenAPI/RAML), dokumentasjon
-  * Sentralisert API administrasjon og forvaltning av API-katalogen
-  * Håndtering av registrerings- og introduksjonsprosesser for API utviklere
-  * Håndtere livssyklusen til et API, uvikling, test, utrulling, nye versjoner, nedlegging
-  * Ivareta registrering, forvaltning og og utvikling av klientrettigheter
-  * Rapportering og analyse for å monitorere bruk og last 
-
-
+* Sentralisert administrasjon av sikkerhetsretningslinjer for API
+* Sentralisert publisering av API spesifikasjon, for eksempel
+OpenAPI/RAML, dokumentasjon
+* Sentralisert API administrasjon og forvaltning av API-katalogen
+* Håndtering av registrerings- og introduksjonsprosesser for API
+utviklere
+* Håndtere livssyklusen til et API, utvikling, test, utrulling, nye
+versjoner og nedlegging
+* Ivareta registrering, forvaltning og utvikling av konsumentrettigheter
+* Rapportering og analyse for å overvåke bruk og last
 
 | UHF API katalog
 a| a|

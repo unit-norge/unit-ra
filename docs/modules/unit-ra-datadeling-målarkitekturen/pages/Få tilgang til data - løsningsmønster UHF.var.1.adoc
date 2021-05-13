@@ -76,20 +76,37 @@ UH/F API katalog kan inneholde
   * Informasjon om hvordan få support og hjelp fra utsteder
 
 | Tildel rettigheter til konsument
-a| Tildel autoriserte rettigheter basert på roller, annen policy eller manuell behandling av dataforvalter gjennom tjenesten "Forespør dataforvalter". Om klienten er fra UH/F sektoren blir tildelt rettighetene lagret i UH/F klientregisteret i Ressusportalen. Om klienten er fra utenfor UH/F sektoren må tildelte rettighetene lagres et sted der Maskinporten har oversikten. 
+a| Datakonsument skal kunne finne
+tilgjengelige ressurser og be om tilgang til disse. Tilgang kan gis på
+grunnlag av eksisterende tillit til datakonsumenten eller per
+tilgangsforespørsel der ressurseieren beslutter tilgang.
 
 | API tilgangs-forespørsel
 a| API eieren får forespørsel om den vil gi konsumenten tilgang til APIet.
 
 | UHF autorisasjonstjener
-a| Autorisasjonstjenester realiserer tilgangskontroll gjennom å utstede OAuth 2 grants og tokens. 
-En autorisasjonstjener er også brukt til å realisere tilgangs policy. 
+a| Autorisasjonstjenester realiserer tilgangskontroll
+gjennom å utstede sikkerhetsbilletter. En autorisasjonstjener er også
+brukt til å realisere autorisasjonspolicy for tilgang og roller
 
 
 
 
 | UHF Konsumentregister
-a| Oversikt over alle programvaresystemer (klienter) som er blitt tildelt tilgang til ressurser.
+a| 
+Oversikt over alle datakonsumenter som er blitt tildelt tilgang til
+ressurser.
+
+Oversikten over konsumenters bruk av API fra datatilbydere er
+autoritativt for
+
+* hvilke OAuth2 scopes knytet til hvilke API som konsumenten har fått
+tilgang til
+
+Oversikten over konsumenters bruk av notifikasjoner fra datatilbydere er
+autoritativt for
+
+* datakonsumentens abonnement for notifikasjoner
 
 
 | OAUTH scopes
