@@ -12,7 +12,7 @@ endif::[]
 :sectnums:
 :sectnumlevels: 9
 
-Tekst introduksjon
+
 
 :leveloffset: +1
 include::main@unit-ra:unit-ra-datadeling-introduksjon:page$Bakgrunn.adoc[]

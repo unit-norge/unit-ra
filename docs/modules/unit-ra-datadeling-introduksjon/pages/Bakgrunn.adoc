@@ -57,8 +57,8 @@ retningslinjer som Digitaliseringsdirektoratet og andre spesifiserer
 Disse behovene er beskrevet i mer detaljer i Vedlegg 4 Behov og
 bruksområder som skal dekkes av referansearkitekturen
 
-*_Gevinst_* +
- +
+====Gevinst
+ 
 En felles referansearkitektur legger til rette for at utdanning,
 forskning og administrasjon kan dekke sine datadelingsbehov på en måte
 som gir følgende gevinst. Effektiviteten økes når økt oversikt og
