@@ -1,0 +1,75 @@
+= Datautvekslingsmønster
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-målarkitekturen:
+endif::[]
+:toc: left
+:experimental:
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 9
+
+
+*Synkront oppslag*
+
+_Synkront oppslag_ er realiseringen av eOppslag. I dette mønsteret
+hentes data fra datakilden ved behov. Et typisk eksempel på synkront
+oppslag kan være uthenting av aktuelle konteringsregler fra
+økonomisystemet ved prevalidering av regnskap før det føres i hovedbok.
+
+*Provisjonering via synkront oppslag*
+
+Synkront oppslag kan også benyttes til provisjonering. I et slikt
+tilfelle hentes all informasjon det er nødvendig at blir lagret i et
+system fra datakilden, før det lagres. Ved provisjonering med synkront
+oppsalg er det ofte store mengder data i bevegelse, og overføringen tar
+tid. Disse egenskapene medfører at provisjonering via synkront oppslag
+utføres sjelden. Denne metoden blir ofte kalt _batch-provisjonering_.
+
+*Provisjonering via lettvekts eNotifikasjoner*
+
+I de tilfellene provisjonering via synkrone oppslag ikke kan besørge en
+propageringshastighet som understøtter brukerenes behov, kan lette
+eNotifikasjoner benyttes i kombinasjon med eOppslag. De lette
+eNotifikasjonene bærer informasjon om _hvilke_ data som har endret seg i
+datakilden, og leveres umiddelbart til de som måtte være interessert i
+dataendringene. Dette tillater systemet som er avhengig av
+provisjonering å hente kun den informasjonen som har blitt endret.
+
+Et typisk eksempel på bruk av dette mønsteret er visning av
+kontaktinformasjon i personprofiler. En professor kjøper seg ny telefon,
+og melder nummeret inn til sin arbeidsgiver. Telefonnummeret er
+reflektert i personprofilen snarlig etter registrering i HR-systemet.
+
+*Fremtidige utvidelser*
+
+Digitaliseringsdirektoratets referansearkitektur definerer to varianter
+av eNotifikasjon, den tidligere omtalte lettvektsvarianten, og en basert
+på hendelseslister.
+
+Hendelseslister består av notifikasjoner som konsumeres via eOppslag.
+Notifikasjonene kan inneholde varierende mengde informasjon, og
+propageres ikke like hurtig som lettvektsvarianten beskrevet ovenfor.
+Hendelseslistene er persistente av natur (til forskjell fra
+lettvektsvarianten, der notifikasjonene «forsvinner» når de er
+konsumert), og lar sådan datakilden beskrive en historikk. Et typisk
+eksempel på en slik historikk kan være de forskjellige stegene i en
+saksbehandlingsprosess, der de forskjellige stegene må være klart
+definert for å kunne foreta videre steg i saksbehandlingsprosessen,
+eller realisere etterlevelse av juridiske krav.
+
+I neste versjon av referansearkitekturen vil det vurderes å inkludere
+varianten basert på hendelseslister. Det vil også vurderes å utvide
+definisjonen av lettvektsnotifikasjoner slik at de kan bære konkrete
+data (også kalt _Event Carried State Transfer_), til forskjell fra
+eksisterende definisjon der de kun bærer en referanse til dataene som er
+endret.
+
+*Oppdatering hos datatilbyder*
+
+{empty}[Ny tekst om behov for at konsumenter kan be om oppdatering i
+kildesystemer]
+

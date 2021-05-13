@@ -12,5 +12,56 @@ endif::[]
 :sectnums:
 :sectnumlevels: 9
 
+Infrastruktur for identitetshåndtering og tilgangsstyring (IAM) utfyller
+API management og notifikasjoner og må fungere sammen.
+
+Autentisering er det som sjekker at brukeren er kjent for virksomheten
+og forsikrer at brukeren er den vedkommende gir seg ut for å være når
+brukeren ber om tilgang til ressurser.
+
+Autorisering identifiserer hvilke tilganger en bruker skal ha til
+virksomhetens ressurser. Autorisasjon kan tildeles roller. Brukere kan
+tildeles roller og gjennom dette få autorisasjon til virksomhetens
+ressurser som er knyttet til rollen. Det kan skilles på disse to måtene
+å få tilgang på delte data:
+
+* Systemtilgang +
+Brukeren har implisitt tilgang gjennom tilgang til konsumenten sitt
+system i domenet. Konsumentens system har tilgang til API hos tilbyder.
+Det er konsumenten som må sikre at brukeren har rettighet til å få
+tilgang til tilbyders data
+* Brukersentrisk datadeling +
+Brukeren må ha eksplisitt tilgang til tilbyder sine delte data i
+tilbyders system i domenet. Her er det tilbyder som har kontroll over
+brukerens tilgang på data og kan spore brukerens bruk av disse
+
+IAM utfører autentisering ved bruk av en autentiseringstjeneste og en
+identitetstilbyder, som vist i figuren under.
+
+IAM autoriserer sluttbrukeres tilgang til tjenester. Dette er basert på
+både autentisering av deres identitet, det vil si hvem brukeren er, og
+de roller brukeren er tildelt hos en eller flere institusjoner.
+
+API management styrer tilgang til data gjennom API basert på policy
+eller godkjenning fra dataforvalter. Brukers tilgang til beskyttet
+tjeneste hos datakonsument kan være tilstrekkelig til at bruker ikke
+trenger å autoriseres eksplisitt hos datatilbyder. Avgjørelsen om å
+godkjenne tilgang til data kan være basert på en sluttbrukers rolle hos
+en institusjon. ​
+
+I UHF autorisasjon inngår autorisering og tildeling av en
+sikkerhetsbillett (token) ved bruk av en autorisasjonstjener og en
+token-tjeneste. Denne sikkerhetsbilletten brukes for å få tilgang til
+API eller notifikasjon hos datatilbyder.
+
+UHF Autorisasjon er en tjeneste som samordner tildeling av
+sikkerhetsbilletter til datakonsumenter. Sikkerhetsbilletten gir tilgang
+til en ressurs hos datatilbyderen for en autentisert datakonsument.
+Tjenesten samordner autorisasjon gjennom verifisering av konsument i
+konsumentregisteret og sjekk av konsumentens roller og tilganger til API
+eller notifikasjon.
+
+Ressursportalen og tjenesten for tildeling av rettigheter til
+datakonsumenter deltar i begge funksjoner.
 
 

@@ -12,11 +12,7 @@ endif::[]
 :sectnums:
 :sectnumlevels: 9
 
-Tekst datautveksling
-
-Med utgangspunkt i
-https://nasjonal-arkitektur.github.io/architecture-repository/data-exchange-ra/book-data-exchange-ra.html[Referansearkitektur
-for datautveksling] beskriv de mønstrene som vi bruker
+Datautveksling skjer ved bruk av datautvekslingsmønstrene under.
 
 :leveloffset: +1
 include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Datautveksling ved oppslag.adoc[]

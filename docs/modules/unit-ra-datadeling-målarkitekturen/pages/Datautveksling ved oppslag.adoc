@@ -15,6 +15,7 @@ endif::[]
 Tekst Datautveksling ved oppslag representasjon.
 
 :leveloffset: +1
+include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Datautvekslingsmønster.adoc[]
 include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$eOppslag Verdistrøm med kapabiliteter for tilbyder og konsument - UHF  .adoc[]
 include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Publiser API.adoc[]
 include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Tilgjengeliggjøre data etter forsepørsel løsningsmønster UHF.adoc[]
