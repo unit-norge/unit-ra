@@ -21,7 +21,7 @@ initiativene i ‘Handlingsplan for digitalisering i høyere utdanning og
 forskning’ innenfor de funksjonelle områdene utdanning, forskning og
 administrasjon.
 
-==== Behov og bruksområder
+=== Behov og bruksområder
 
 Referansearkitekturen skal skape samhandling gjennom datadeling, bidra
 til å støtte bruksområder og dekke tilhørende behov i kunnskapssektoren.
@@ -57,7 +57,7 @@ retningslinjer som Digitaliseringsdirektoratet og andre spesifiserer
 Disse behovene er beskrevet i mer detaljer i Vedlegg 4 Behov og
 bruksområder som skal dekkes av referansearkitekturen
 
-==== Gevinst
+=== Gevinst
  
 En felles referansearkitektur legger til rette for at utdanning,
 forskning og administrasjon kan dekke sine datadelingsbehov på en måte
@@ -70,7 +70,7 @@ til sitt bruk. En forbedret informasjonsforvaltningspraksis og
 datadelingsplattform vil gi økt tilgang til data av høy kvalitet, som
 igjen muliggjør datadrevet beslutninger.
 
-==== Føringer, pågående og videre arbeid
+=== Føringer, pågående og videre arbeid
 
 Referansearkitekturen og dette dokumentet tar utgangspunkt i pågående
 arbeid og førende strategier og prinsipper nasjonalt, innen sektoren og
