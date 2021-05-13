@@ -17,7 +17,7 @@ endif::[]
 image:{imagepath}image1.jpeg[]
 
 ----
-Thu May 13 2021 13:39:31 GMT+0200 (CEST)
+Thu May 13 2021 13:46:33 GMT+0200 (CEST)
 ----
 
 
@@ -25,7 +25,7 @@ Thu May 13 2021 13:39:31 GMT+0200 (CEST)
 include::main@unit-ra:unit-ra-datadeling-introduksjon:page$Introduksjon.adoc[]
 include::main@unit-ra:unit-ra-datadeling-metode:page$Metode.adoc[]
 include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Datadelingsplattformen og felles komponentene i den.adoc[]
-include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Datautveksling.adoc[]
+include::main@unit-ra:unit-ra-datadeling-datautveksling:page$Datautveksling.adoc[]
 include::main@unit-ra:unit-ra-datadeling-rutiner:page$Rutiner.adoc[]
 include::main@unit-ra:unit-ra-datadeling-roller:page$Roller og ansvar for informasjonsforvaltning.adoc[]
 include::main@unit-ra:unit-ra-datadeling-definisjoner:page$Vedlegg 1 - Definisjoner.adoc[]
