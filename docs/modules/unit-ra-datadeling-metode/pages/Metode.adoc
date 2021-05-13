@@ -12,7 +12,14 @@ endif::[]
 :sectnums:
 :sectnumlevels: 9
 
-Denne referansearkitekturen skal gi veiledning til utforming av digitale samhandlingsløsninger for deling av data i høyere utdanning og forskning. Denne seksjonen veileder gjennom en presentasjon av hva som skal oppnås ved å definere hva datadeling er, en visjon om hva vi skal bruke det til, og modellene som skal skape fundament for utforming av løsningene i visjonen.
+== Tilnærming til utvikling av referansearkitekturen 
+
+Denne referansearkitekturen skal gi veiledning til utforming av digitale
+samhandlingsløsninger for deling av data i høyere utdanning og
+forskning. Denne seksjonen veileder gjennom en presentasjon av hva som
+skal oppnås ved å definere hva datadeling er, en visjon om hva vi skal
+bruke det til, og modellene som skal skape fundament for utforming av
+løsningene i visjonen.
 
 :leveloffset: +1
 include::main@unit-ra:unit-ra-datadeling-metode:page$Hva er datadeling.adoc[]
