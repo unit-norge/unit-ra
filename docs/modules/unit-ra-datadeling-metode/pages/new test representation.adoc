@@ -14,7 +14,3 @@ endif::[]
 
 Text for new test representation
 
-:leveloffset: +1
-include::main@unit-ra:unit-ra-datadeling-issues:page$Issues mot nasjonale felleskompontenter (Maskinporten, ID Porten og Altinn autorisasjon) (copy).adoc[]
-include::main@unit-ra:unit-ra-datadeling-issues:page$Issues internt i UHF sektor (copy).adoc[]
-:leveloffset: -1
