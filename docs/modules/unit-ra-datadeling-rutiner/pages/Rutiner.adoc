@@ -12,18 +12,20 @@ endif::[]
 :sectnums:
 :sectnumlevels: 9
 
-Tekst for rutiner
+Vi forutsetter og bygger på en viss fremgang i arbeid med
+https://data.norge.no/guide/veileder-orden-i-eget-hus/[orden i eget hus]
+hos deltagende virksomheter der noen datasett er dokumentert i en
+datakatalog. Dette kan enten være Digitaliseringsdirektoratets
+https://data.norge.no/[felles datakatalog], eller en fremtidig katalog
+for høyere utdanning og forskningssektoren som høstes inn i felles
+datakatalogen.
 
-#Tekst om overgangen fra kapabilitetene og løsningene beskrevet
-over til informasjonsforvaltning og definisjon av datasett.#
+Vi skisserer en tilnærming til indre og ytre API basert på Gartners MASA
+arkitekturfootnote:[MASA: How to Create an Agile Application
+Architecture With Apps, APIs and Services Published 3 February 2020 - ID
+G00451136; Gartner] som var brukt i evalueringen av Felles Studentsystem
+i 2020
 
-Sektoren er i ferd med å bygge en distribuert arkitektur som benytter
-løsere koblet, delte datakilder som inneholder data om sentrale
-entiteter i sektoren som for eksempel studenter, ansatte,
-forskningsprosjekt, forskningsresultater, læringsobjekter, med flere.
-Disse kildene blir rendyrket som *_masterdatakilder_*. Disse kildene er
-definert ut fra en dyp forståelse av sektorenes funksjon og vil typisk
-være forholdsvis stabile over tid. Definisjon av …[mer tekst her]
 
 :leveloffset: +1
 include::main@unit-ra:unit-ra-datadeling-rutiner:page$Indre API.adoc[]

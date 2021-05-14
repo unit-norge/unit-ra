@@ -12,5 +12,56 @@ endif::[]
 :sectnums:
 :sectnumlevels: 9
 
-Tekst Ytre API
+Ytre API benyttes i en forretningsprosesskontekst og datasett eksponert
+gjennom en ytre API er laget for å møte behovene til prosessen. Ytre API
+kan benyttes i både grunnleggende og bruksnære domener. En tilnærming
+til definisjon av APIer og datasett for prosesstøtte er beskrevet under.
+
+[arabic]
+. Melde behov, gjerne av datakonsumentene
+[loweralpha]
+.. Tjenesteansvarlig kjører periodisk prosess for å samle innspill og
+prioritere
+.. Vurder å kjøre tjenestedesign workshop for å beskrive bruksscenariene
+. Analysere behov og finne ut hvilke domener, kilder og datasett som er
+involvert
+[loweralpha]
+.. Tjenesteansvarlig identifiserer berørte interessenter, potensielt
+andre tjenesteansvarlige, dataforvalter, domeneansvarlig og
+begrepsansvarlig
+.. Tjenesteansvarlig må vurdere og eventuelt sette i gang juridiske
+avklaringer omkring deling av data
+. Kjør begrepsharmonisering etter behov med relevante interessenter
+[loweralpha]
+.. Følg
+https://data.norge.no/specification/forvaltningsstandard-begrepskoordinering/[standarden
+om Begrepsharmonisering og begrepsdifferensiering]
+(https://laeringsplattformen.difi.no/kurs/971527404/begrip-begrepene-et-innforingskurs-i-terminologi-og-begrepsarbeid[kurs
+om begrepsarbeid] er en utfyllende ressurs)
+. Publiser nye eller oppdaterte begreper i
+https://data.norge.no/concepts[felles begrepskatalog]
+. Identifiser hva må skapes, harmoniseres eller videreutvikles. Pass på
+at funksjonaliteten spesifisert i grensesnittet dekker kun det som
+trengs for å støtte brukstilfellet under utvikling.
+. Sikre at data i alle steg i verdikjeden passer til den tenkte
+anvendelsen.
+. Definere API/datasett i team med representasjon fra både bruksmiljø og
+produsent. Det kan ta noen iterasjoner med utprøving av API før man er
+fornøyd. Senere oppdateringer kan kjøres som iterasjoner da man allerede
+har resultatene fra tidligere steg.
+[loweralpha]
+.. Designe nødvendig API for brukskonteksten.
+.. Mappe nødvendig funksjonalitet til API fra grunnleggende domener.
+.. Designe «API mediation», det vil si hvordan datasettet spesifisert i
+det ytre APIet tilgjengeliggjøres. Oppgaven inkluderer mapping til indre
+API som benyttes med nødvendig oversetting av protokoller, formater og
+datastrukturer, samt etterlevelse av policy for sikkerhet og
+volumbegrensninger.
+.. Implementere tjenestene
+.. Koordinere mellom APIene for å sikre sammenhengende brukeropplevelse
+mellom APIene
+.. Publisere APIene og datasett i UHF API katalog (eventuelt felles
+datakatalog) i henhold til
+https://data.norge.no/specification/dcat-ap-no/[DCAT-AP-NO]
+
 

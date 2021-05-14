@@ -23,7 +23,6 @@ Vi ønsker at tilganger (scopes) i tillegg skal registreres i
 Maskinporten slik at konsumenter utenfor UHF sektoren kan oppdage APIet
 og be om tilgang på et senere tidspunkt.
 
-
 .Publiser API
 image::{imagepath}Publiser API.png[alt=Publiser API image]
 

@@ -15,6 +15,7 @@ endif::[]
 
 
 :leveloffset: +1
+include::main@unit-ra:unit-ra-datadeling-datautveksling:page$Delegere rettigheter til databehandler - UHF.adoc[]
 include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Datautveksling ved oppslag.adoc[]
 include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Datautveksling ved publisering – konsumering (hendelsesbasert).adoc[]
 include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Oppdatering.adoc[]

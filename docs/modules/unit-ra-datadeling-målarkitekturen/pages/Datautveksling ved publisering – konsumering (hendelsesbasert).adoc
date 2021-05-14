@@ -12,7 +12,11 @@ endif::[]
 :sectnums:
 :sectnumlevels: 9
 
-
+Datautveksling ved publisering og konsumering av hendelser er basert på
+https://nasjonal-arkitektur.github.io/architecture-repository/publish-subscribe/book-publish-subscribe.html[publisering-konsumering]
+i
+https://nasjonal-arkitektur.github.io/architecture-repository/data-exchange-ra/book-data-exchange-ra.html[Referansearkitektur
+for datautveksling fra Digitaliseringsdirektoratet].
 
 :leveloffset: +1
 include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Publisering av hendelser - basiskonsept UHF.adoc[]

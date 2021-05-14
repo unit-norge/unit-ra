@@ -12,5 +12,65 @@ endif::[]
 :sectnums:
 :sectnumlevels: 9
 
-Tekst Notifikasjoner
+Når en hendelse endrer data hos en datatilbyder, og disse data er deles
+gjennom datadeling med notifikasjon, skal det sendes en notifikasjon til
+datakonsument. +
+Notifikasjoner omhandler hvilke data i det tilhørende API som er endret.
+
+For å utvikle notifikasjoner følges tilsvarende prosess som for API
+over. Det vil si at notifikasjoner, som beskrevet i denne
+referansearkitekturen, er knyttet til API der datakonsumenten henter ut
+data. Det vesentlige av beskrivelse for datautvekslingen ligger derfor
+til utviklingen av API som hører sammen med notifikasjonen.
+
+Spesielt for notifikasjoner gjelder følgende:
+
+[arabic]
+. Notifikasjonen skal gi en meningsfull indikasjon på hvilke data som er
+endret i form av identifikator (nøkkelinformasjon)
+. Notifikasjonen skal inneholde en referanse til ressursen (i APIet) der
+data kan hentes fra
+. Etterstreb å modellere notifikasjoner etter etablerte standarder
+. Sørg for at meningen notifikasjonene bærer er godt dokumentert i
+notifikasjonskatalogen
+. Ressursen, det vil si det API som er knyttet til notifikasjonen, må
+være utformet slik at uthenting av data alltid gir siste gyldige
+versjon. På den måten vil innhenting hos datakonsument kunne være
+idempotent
+
+Med «idempotent» er det i denne sammenheng ment at man kan kalle på den
+samme ressursen flere ganger og alltid få samme resultat.
+
+Per i dag er https://cloudevents.io/[CloudEvents] den eneste
+generaliserte standarden for hvordan notifikasjoner bør utformes.
+Referansearkitekturen anbefaler at CloudEvents tas i bruk som
+standardformat for notifikasjoner. CloudEvents er utviklet i regi av
+https://www.cncf.io[Cloud Native Computing Foundation].
+
+En notifikasjon utformet etter minstekravene til CloudEvents med JSON
+Event Format ser typisk ut:
+
+____
+\{"id": "935ec740-d4a4-418d-b6c3-282d6fd2305b",
+
+"specversion": "1.0",
+
+"time": "2020-11-19T17:30:41.244Z",
+
+"source": "urn:no-edu-orgreg:ntnu:ou:1260",
+
+"type": "orgreg.v1.ntnu.dev.ou.create"}
+____
+
+I eksempelet på en notifikasjon ovenfor meddeles det at det har blitt
+opprettet en organisatorisk enhet ved NTNU med identifikatoren 1260.
+
+Bruk av et felles notifikasjonsformat tilrettelegger for gjenbruk av
+komponenter på tvers av tjenester da en notifikasjon er velstrukturert
+og de informasjonsbærende elementer er strengt definert. I de tilfeller
+det er nødvendig å inkludere informasjonsbærende elementer som ikke er
+inkludert i standarden, er standarden mulig å utvide. Standarden legger
+også til rette for en rekke operasjonelle kapabiliteter (eksempelvis
+deduplisering) gjennom informasjonselementene som er påkrevet i
+standarden.
 

@@ -12,7 +12,7 @@ endif::[]
 :sectnums:
 :sectnumlevels: 9
 
-
+Som et minimum må en notifikasjon inneholde en identifikator. Anbefalt innhold er basert på standarden CloudEvents (se Utvikling av ytre API i dette dokumentet)
 
 .Notifikasjonsinnhold - basiskonsept UHF
 image::{imagepath}Notifikasjonsinnhold - basiskonsept UHF.png[alt=Notifikasjonsinnhold - basiskonsept UHF image]

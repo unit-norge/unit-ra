@@ -1,0 +1,28 @@
+= Delegere rettigheter til databehandler - UHF
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-datautveksling:
+endif::[]
+:toc: left
+:experimental:
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 9
+
+Delegering av rettigheter til databehandler er det en konsument må gjøre
+for at en leverandør kan identifisere seg med sitt eget
+virksomhetssertifikat og opptre på vegne av konsumenten som er den som
+innehar behandlingsgrunnlaget for å innhente data.
+
+.Delegere rettigheter til databehandler - UHF
+image::{imagepath}Delegere rettigheter til databehandler - UHF.png[alt=Delegere rettigheter til databehandler - UHF image]
+
+
+****
+xref:main@unit-ra:unit-ra-datadeling-datautveksling:page$Delegere rettigheter til databehandler - UHF.var.1.adoc[Vis detaljer om elementene i diagrammet] (Tips: kbd:[Shift]-klikk for å åpne i nytt vindu)
+****
+
+

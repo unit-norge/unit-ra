@@ -12,5 +12,11 @@ endif::[]
 :sectnums:
 :sectnumlevels: 9
 
-Tekst Indre API
+Indre API eksponerer masterdata (informasjon om objekter i domenet) som
+er strukturert i henhold til semantikk i domenet den tilhører, og må ta
+ansvar for den semantiske validiteten til data den eksponerer. Indre API
+er laget for å være mest mulig generell og ikke laget for noen spesifikk
+prosesskontekst.
+
+{empty}[Vi tenker å utdype her på et senere tidspunkt.]
 
