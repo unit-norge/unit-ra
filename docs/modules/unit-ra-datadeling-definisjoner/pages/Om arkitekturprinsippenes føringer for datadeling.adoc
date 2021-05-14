@@ -12,12 +12,13 @@ endif::[]
 :sectnums:
 :sectnumlevels: 9
 
-Pek til
-https://www.digdir.no/digitalisering-og-samordning/overordnede-arkitekturprinsipper/1065[overordnede arkitekturprinsippene] fra digitaliseringsdirektoratet og hva de betyr
-her.
+De
+https://www.digdir.no/digitalisering-og-samordning/overordnede-arkitekturprinsipper/1065[Overordnede
+arkitekturprinsippene] fra digitaliseringsdirektoratet er gjeldende for
+referansearkitekturen. For å forenkle bruk av prinsippene, har vi valgt
+ut noen av føringene fra de overordnede prinsipper som er spesielt
+relevant for integrasjoner og inkludert disse i referansearkitekturen
+når vi ruller ut UH:IntArk fase 1, som
+https://www.usit.uio.no/prosjekter/datadeling/arbeidsomrader/integrasjonsarkitektur/dokumentasjon/prinsippene/[integrasjonsprinsipper].
 
-#Trenger vi noen justeringer av prinsippene?#
-
-Si noe om UH-IntArk prinsippene og forhold til de overordnede
-arkitekturprinsippene
 

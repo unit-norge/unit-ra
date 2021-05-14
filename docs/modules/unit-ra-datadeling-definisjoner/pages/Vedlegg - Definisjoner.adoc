@@ -12,5 +12,13 @@ endif::[]
 :sectnums:
 :sectnumlevels: 9
 
+*Datakvalitet* innebærer at data skal være korrekte, komplette,
+oppdaterte og konsistente og har evnen til å støtte de
+informasjonsformål de brukes til [kilde: data.norge.no, SKATTEETATEN]
 
+*Masterdata*: Autoritative data for gitte opplysningstyper. [kilde:
+data.norge.no, NAV]
+
+*Grunndata*: Basisinformasjon innen en gitt sektor. [kilde:
+data.norge.no, NAV]
 

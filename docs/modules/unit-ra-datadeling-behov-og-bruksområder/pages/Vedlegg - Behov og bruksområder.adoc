@@ -12,5 +12,182 @@ endif::[]
 :sectnums:
 :sectnumlevels: 9
 
-Tekst behov og bruksområder
+=== Forskning og læring
+
+Det er behov for å videreutvikle datadeling for læring og forskning. I
+henhold til utkast til ny digitaliseringsstrategifootnote:[INNOVATIV
+UTDANNING OG FREMRAGENDE FORSKNING DIGITALISERINGSSTRATEGI FOR
+UNIVERSITETS- OG HØYSKOLESEKTOREN (2021-2025) hentet fra
+https://www.unit.no/ny-digitaliseringsstrategi-uh-sektoren] skal
+studenter tilbys fleksible og studentaktive undervisningsformer.
+Eierskap til egne data ligger hos den enkelte, lett tilgjengelig gjennom
+hele livet. Dette krever endringer i informasjonsforvaltningspraksis.
+Praksisen må kunne støtte læringsprosessen på en måte som gir studenten
+mulighet til å utnytte egne data for best mulig læring.
+
+Forskning må gjøre tilgang til resultater og data lettere.
+Forskningsgrupper som kan inkludere deltagere fra Norske institusjoner,
+utenlandske institusjoner og næringslivet skal ha enkel tilgang til data
+når de har rett til det.
+
+For å være smidig og effektive må virksomhetsprosesser som understøtter
+læring og forskning enkelt kunne gjenbruke dataressurser nasjonalt.
+Disse dataressurser inkluderer læringsressurser, undervisningsressurser,
+datasett og forskingspublikasjoner. +
+ +
+Når dataressurser er lett tilgjengelig, kan sektoren oppnå mer brukernær
+innovasjon. +
+Det innebærer at blant annet studenter, lokale IT-avdelinger og Ed Tech
+leverandører, gis mulighet til å bygge lettvekts brukerapplikasjoner
+gjennom tilgang til data. +
+Dette kan være både fra de tunge tjenestene og mer smale tjenester som
+timeplan-/bookingsystem, posisjonsdata, etc. _Smart Campus_ (Uninett) er
+et eksempel på et slikt konsept.
+
+=== Administrative prosesser
+
+Behovene til datadeling i høyere utdanning og forskning forsterkes av at
+det er identifisert store, akutte behov knyttet til deling av data
+mellom administrative tjenester.
+
+Kjerneprosessene hos institusjonene må støttes med administrative data,
+slik at personer og organisasjoner får støtte for saksbehandling og
+annen nødvendig drift av organisasjonene. Dette gjelder særlig de store
+prosjektene i BOTT-regi for etablering av fellesløsninger på økonomi og
+lønn (BOTT:ØL) og saksbehandling og arkiv (BOTT:SA) og et felles
+identitets- og tilgangsstyring (IAM). Disse skal dekke helt sentrale
+arbeidsprosesser i sektoren.
+
+Saksbehandlingsstøtte innen forskningsfinansiering kan også
+automatiseres ved hjelp av tjenestekjeder i datadelingsplattformen.
+
+=== Gjenbruk og viderebruk av data
+
+For å gi fleksibel og effektiv støtte for behovene over skal data som
+benyttes i virksomhetens sentrale prosesser plasseres i kilder som er
+modulære og kan kobles til de prosesser som trenger de.
+
+Disse kilder defineres som «masterdatakilder» og de inneholder
+informasjon om blant annet studenter, ansatte, organisasjoner, emner,
+forskningsprosjekter, og vitenskapelige resultater.
+
+Data fra disse kildene blir gjenbrukt i de ulike arbeidsprosesser som
+har behov for dem. I tillegg til de mest sentrale virksomhetsprosesser,
+blir data fra masterdatakilder også brukt på nye måter (viderebrukt).
+Disse kan være spesifikke for enkeltbrukere, som for eksempel evaluering
+av et emne.
+
+=== Datakonsumenter
+
+I tillegg til behov knyttet til funksjonsområdene læring, forskning og
+administrasjon er det behov knyttet til utvidelse av hvem man har tenkt
+å dele data med.
+
+Målsetningen i første fase av UH:IntArk har vært deling av
+virksomhetsinterne data i interne forretningsprosesser, herunder også
+deling av disse med tjenester som ligger på utsiden av virksomheten og
+som understøtter virksomhetens forretningsprosesser. Eksempler på slike
+tjenester er økonomi- og lønnstjenester, sak og arkiv, og så videre. +
+ +
+Det som kjennetegner dataflyten i denne dimensjonen, er at dataene
+betraktes som virksomhetsinterne og ikke ønskes delt til 3. part ut over
+spesifikke forretningstjenester på utsiden av virksomheten.
+
+Denne referansearkitekturen omfatter også deling av data til 3. part,
+det vil si at dataene skal eksponeres på utsiden av virksomheten. Slike
+data omfattes av orden i eget hus og skal i henhold til
+digitaliseringsrundskrivet beskrives i
+
+* en felles datakatalog
+* en felles API-katalog
+* en felles begrepskatalog,
+
+Disse skal ligge i Digdirs Felles datakatalog (data.norge.no).
+
+Per februar 2021 tilbyr ikke Digdir noen felles autorisasjonstjeneste
+knyttet til API som er beskrevet i API-katalogen.
+
+Det betyr at autorisasjon må håndteres, i ytterste konsekvens, av den
+enkelte API-eier. Referansearkitekturen beskrevet her tar høyde for at
+dette kan håndteres som en fellestjeneste i høyere utdanning og
+forskning.
+
+=== Overordnede behov
+
+De viktigste overordnede behovene adressert i referansearkitekturen for
+datadeling i høyere utdanning og forskning er: 
+
+* Sikre at UHF følger arkitekturprinsippene nedfelt i nasjonal
+referansearkitektur for
+datautvekslingfootnote:[https://nasjonal-arkitektur.github.io/architecture-repository/data-exchange-ra/book-data-exchange-ra.html]
+* Sikre at sektoren har en enhetlig og sikker måte for å håndtere
+tilganger til sektorens data gjennom kravstilling utrykt i
+referansearkitekturen 
+* Sikre at referansearkitekturen utnytter/samhandler med nasjonale
+felleskomponenter der disse kan dekke sektorens behov på en
+tilfredsstillende måte, jamfør __Digitaliseringsrundskrivet 2020,
+kap. 1.5 Bruk nasjonale felleskomponenter og fellesløsninger__^3^ 
+* Sikre effektiv datautveksling mellom virksomheter i UHF og med andre
+sektorer 
+* Sikre at data som sektorens virksomheter eksponerer utad, er beskrevet
+på en måte som gjøre det enkelt for konsumenter å få kjennskap til
+hvilke data som er tilgjengelig, hva de beskriver (ved hjelp av begreper
+som er beskrevet og harmonisert), kriterier for tilgang til bruk av
+dataene og beskrivelse av API som benyttes for å aksessere dataene 
+* Sikre tilstrekkelig kvalitet i data som er delt gjennom felles
+forvaltningsroller og -prosedyrer 
+* Sikre at API, datasett og hendelser tilgjengeliggjort defineres i
+henhold til konsumentenes behov gjennom prosedyrer for samspill mellom
+datakonsument og datatilbyder 
+* Sikre forvaltning og videreutvikling av API, datasett og
+hendelsesnotifikasjoner på en måte som både sikrer drift og muliggjør
+innovasjon (lifecycle management) 
+
+=== Bruksområder for datadeling
+
+Datadeling skal støtte virksomhetene innen høyere utdanning og forskning
+i sine oppgaver. Arbeid med referansearkitekturen tar derfor
+utgangspunkt i følgende bruksområder som første steg i en brukerfokusert
+tilnærming:
+
+* Innovativ, individuelt tilpasset læring
+* Livslang læring
+* Forskning
+* Automatisert administrativ støtte 
+** Forskningssøknader 
+** Datahåndteringsplan innen forskning og andre prosjekter 
+** Arkivering 
+** HR prosesser for ansettelse og utsjekk
+
+Innen bruksområdene over ser vi sektoren produserer og ønsker å tilby
+følgende hovedkategori av data for deling:
+
+* Utdannings- og forskningsressurser til gjenbruk og viderebruk 
+** Forskningsresultater 
+** Forskningsdata 
+** Digitale læringsressurser 
+* Administrative data
+** Grunndata for driftsformål 
+** Data brukt og produsert i saksbehandling
+** Rapporteringsdata om egen saksbehandling og produksjon 
+* Analysedata om utdanning og forskning 
+
+Sektoren har også bruk for data fra andre. Vi ser behov for følgende
+kategori av data:
+
+* Grunndata i nasjonale felleskomponenter (for eksempel fra folke- og
+enhetsregister)
+* Autentiseringsdata fra utlandet 
+* Informasjon om grunnutdanning i Norge
+* Informasjon om utdanning i utlandet 
+* Informasjon om forskning i utlandet og forskningsresultater fra
+utlandet 
+* Informasjon om forskning i privatnæringsliv og resultater
+fra forskning i privat næringsliv 
+* Informasjon om forskningsfinansiering i Norge (fra Forskningsrådet,
+med flere) 
+
+Bruksområdene over er utgangspunktet for forståelse av behovene som
+referansearkitekturen skal dekke.
+
 

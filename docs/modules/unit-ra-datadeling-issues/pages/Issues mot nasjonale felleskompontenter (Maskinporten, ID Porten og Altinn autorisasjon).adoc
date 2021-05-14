@@ -12,6 +12,7 @@ endif::[]
 :sectnums:
 :sectnumlevels: 9
 
+
 [arabic]
 . Harmonisering av autorisasjon
 [loweralpha]
@@ -25,9 +26,8 @@ standardisere token struktur
 autorisasjonstjenere. En konsekvens av dette er at man mister (?)
 koblingen til bruker og dermed kjennskap til autentiseringsstyrken som
 ligger bak.
-... Software Statement Assertion
-(https://tools.ietf.org/html/draft-ietf-oauth-assertions-18) – løsning
-benyttet av Open Banking UK
+... Software Statement Assertion (https://tools.ietf.org/html/rfc7521 –
+løsning benyttet av Open Banking UK
 . Harmonisering av samtykke
 [loweralpha]
 .. Altinn autorisasjon benytter «Self-contained OAuth2 token» for
@@ -39,4 +39,5 @@ dekker det ikke skopes vi har anvar for i UHF autorisasjonstjeneren
 mekanisme for å delegere rettigheter under organisasjonsgranulariteten i
 Enhetsregisteret. Vi tror ikke dette er et problem siden vi *forventer
 at IGA innenfor UHF sektoren vil dekke våre behov.*
+
 
