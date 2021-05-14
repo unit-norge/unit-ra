@@ -21,6 +21,3 @@ relevant for integrasjoner og inkludert disse i referansearkitekturen
 når vi ruller ut UH:IntArk fase 1, som
 https://www.usit.uio.no/prosjekter/datadeling/arbeidsomrader/integrasjonsarkitektur/dokumentasjon/prinsippene/[integrasjonsprinsipper].
 
-test
-
-
