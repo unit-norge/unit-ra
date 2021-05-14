@@ -1,0 +1,300 @@
+= Roller og ansvar for informasjonsforvaltning
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-roller:
+endif::[]
+:toc: left
+:experimental:
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 9
+
+Digitaliseringsdirektoratet har definert rollene til
+https://www.digdir.no/digitalisering-og-samordning/roller-og-definisjoner/2088[datatilbydere
+og datakonsumenter]. Forventning til datatilbydere og datakonsumenter og
+også beskrevet i
+https://www.digdir.no/apne-data/nasjonal-verktoykasse-deling-av-data/2243[Nasjonal
+verktøykasse for deling av data]. Vi anbefaler at disser ressursene
+brukes, samtidig som vi definerer mer fingranulerte roller.
+
+Rollene spesifisert under er for både datatilbydere i
+IT-tjenesteorganisasjoner og for informasjonsforvaltning i domenene de
+støtter.
+
+Vi hadde ønsket å definere rollen «dataeier» men opplevde juridisk
+uklarhet i dataeierskap, særlig når det gjaldt data om studenter i en
+livslang læringskontekst. Denne rollen må derfor defineres senere.
+Følgende roller er definert under.
+
+Roller hos datatilbydere:
+
+* Tjenesteeier
+* Tjenesteansvarlig
+* Dataforvalter
+
+Roller relatert til informasjonsdomener:
+
+* Behandlingsansvarlig
+* Domeneansvarlig
+* Begrepseier
+
+Koordinerende aktør for hele Kunnskapsdepartementets sektor (Unit)
+
+[cols=",",options="header",]
+|===
+|*Rolle:* |Tjenesteeier
+|*Beskrivelse av rollen:* a|
+Tjenesteeier er den organisasjon/virksomhet/enhet som eier en tjeneste.
+
+Tjenesteeier vil i de fleste tilfellene være en eller flere ledere av de
+fagavdelingene som benytter seg av løsningens funksjonalitet og som
+oppnår gevinster ved å benytte tjenesten.
+
+|*Ansvars-områder og oppgaver:* a|
+Er ansvarlig for at tjenestens data/masterdata deles iht.
+Referansearkitektur (dvs. generiske grensesnitt og notifikasjoner,
+eksempel IntArk).
+
+Er ansvarlig for at tjenestenivå (fullstendig sett av krav til tjenesten
+med tilhørende beskrivelser: eks. omfang, volum, hyppighet, varighet,
+rapportering) er definert i henhold til brukeres behov, at det
+inneholder kvalitetssikret faglig innhold og at brukerne får faglig
+støtte.
+
+Er ansvarlig for at tjenesten følger gjeldende lover og regler, har
+myndighet til å foreta finansielle beslutninger og signere avtaler.
+
+Er ansvarlig for at det er utpekt en tjenesteansvarlig for tjenesten.
+
+|*Typiske roller/stillinger som rollen skal samarbeide med:*
+|Tjenesteansvarlig, behandlingsansvarlig, domeneansvarlig
+|===
+
+[cols=",",options="header",]
+|===
+|*Rolle:* |Tjenesteansvarlig
+|*Beskrivelse av rollen:* a|
+Rollen har et helhetlig ansvar for å hente inn og bidra til prioritering
+av ønsker og behov som en kunde eller konsortium har til tjenesten.
+
+Tjenesteansvarlig er operativt ansvarlig og har detaljert kunnskap om
+behov og praktisk bruk av tjenesten. Han/hun jobber i tett samarbeid med
+brukere/brukerrepresentanter. Tjenesteansvarlig og tjenesteeier kan være
+samme person for mindre/enklere tjenester.
+
+|*Ansvars-områder og oppgaver:* a|
+Budsjett- og resultatansvar i forvaltning og utvikling av tjenesten 
+
+* Etablere og oppdatere betalingsmodell for tjenesten​. 
+* Bidra til veikart for tjenesteområdet​ 
+* Årsbudsjett, kostnadsvarsel og fakturering 
+* Løpende økonomioppfølging og –rapportering, håndtering av avvik ​  
+
+Koordinere beslutningsprosess for tjenesten 
+
+* Bidra til styring og medvirkning i tjenesteråd​ 
+* Bidra til veikart for tjenesteområdet​ 
+* Årlig leveranseplan for tjenesten 
+* Bidra til porteføljeforvaltning gjennom statistikk, rapportering,
+vurderinger​
+* Gjøre løpende livsløps- og utviklingsvurderinger for tjenesten 
+
+Brukermedvirkning i utvikling og +++forvaltning +++av tjenesten 
+
+* Være en ledende aktør i videreutvikling a tjenesten ved å formidle
+tekniske løsningsmuligheter som er i trå med eksisterende standarder,
+best practices og referansearkitekturen
+* Sørge for at eventuelle avvik/forbedringer i forhold til
+referansearkitekturen meldes tilbake til forvaltningsorganet for
+referansearkitekturen
+* Sikre kundemedvirkning gjennom konsortiestyre/arbeidsutvalg/andre
+fora​ 
+* Sikre brukermedvirkning gjennom testing, undersøkelser, andre
+metoder​ 
+* Bidra til gevinstrealisering hos brukerinstitusjonene 
+
+Kundeoversikt, +++kundeoppfølging +++og avtaleforvaltning 
+
+* Merkantil/administrativ kontakt med kunder og brukere (eksisterende
+og nye)​ 
+* Sørge for oppdatert avtaleverk rundt tjenesten, inkl.
+databehandleravtaler​ 
+* Avtaleoppfølging mot brukerinstitusjoner og
+underleverandører/leverandører​ 
+* +++Sørge for tilstrekkelig dokumentasjon, brukerstøtte og
+opplæring+++ 
+
+Kvalitet og sikkerhet 
+
+* Sørge for at utvikling av tjenesten skjær iht. referansearkitekturen
+og evt. andre (for eks. institusjonelle eller sektorielle)
+retningslinjer som gjelder.
+* Sørge for oppdatert dokumentasjon om tjenesten+++, internt og
+eksternt+++ 
+* Sørge for nødvendige sikkerhets- og risikovurderinger rundt tjenesten
+(minimum ROS-analyse) 
+* Brukerstøtte og opplæring 
+* Oppfølging av evt. eksterne leverandører 
+* Sørge for relevante SLAer og +++tjenestenivåavtaler +++for tjenesten 
+* Sørge for overvåking, varsling og oppfølging av avvik 
+* Sørge for måling, analyse og oppfølging av relevante måleparametere
+* Gjøre løpende vurderinger av behov og tiltak for tjenesten 
+
+Tjenesteansvarlig omfatter Databehandler roller som beskrevet hos
+Datatilsynetfootnote:[Datatilsynet beskrivelse av databehandler rollen:
+https://www.datatilsynet.no/rettigheter-og-plikter/virksomhetenes-plikter/databehandleravtale/behandlingsansvarlig-og-databehandler/hva-er-en-databehandler/].
+Denne rollen har ansvar for behandling av personopplysninger på vegne av
+den behandlingsansvarlige.
+
+|*Typiske roller/stillinger som rollen skal samarbeide med:*
+|Tjenesteeier, Datakonsument, Begrepseier, Domeneansvarlig,
+Dataforvalter.
+|===
+
+[cols=",",options="header",]
+|===
+|*Rolle:* |Dataforvalter
+|*Beskrivelse av rollen:* a|
+[line-through]*Den som forvalter opplysningene som skal deles fra sine*
+[line-through]*systemer.*
+
+Den som har overordnet ansvar hos en datatilbyder for å administrere
+informasjon/data som skal deles (evt. kan ansvaret/rollen fordeles
+videre per grunnleggende domener innenfor datatilbyder organisasjonen).
+
+|*Ansvars-områder og oppgaver:* a|
+Leveranse og forvalting av data. Datakvalitet, sikkerhet,
+tilgjengelighet (inkl. lisensiering hvor det er hensiktsmessig)
+
+Motta, registrere, endre og fjerne forekomster.
+
+Sikre at bruk av data som eies av tredjepart samsvarer med vilkårene som
+gis.
+
+Overholde krav i arkivloven når det gjelder kassasjon. 
+
+Rådgivning og bistand i spørsmål vedrørende bruk av data (som angår
+begrepsdefinisjoner og juridiske føringer).
+
+Kommunikasjon med alle interessenter
+
+Oppgaver:
+
+* Innhente data
+* Kvalitetssikre data
+* Bearbeide, berike data
+* Lagre data
+* Rettighetsklarering av data
+
+|*Typiske roller/stillinger som rollen skal samarbeide med:*
+|Begrepseier, Domeneansvarlig, Behandlingsansvarlig, Tjenesteansvarlig
+|===
+
+[cols=",",options="header",]
+|===
+|*Rolle:* |Behandlingsansvarlig
+|*Beskrivelse av rollen:* |Behandlingsansvarlig er en fysisk eller
+juridisk person, en offentlig myndighet, en institusjon eller ethvert
+annet organ som alene eller sammen med andre bestemmer formålet med
+behandlingen av personopplysninger og hvilke midler som skal benyttes;
+
+|*Ansvars-områder og oppgaver:* |Uttømmende informasjon om rollen finnes
+hos Datatilsynet (behandlingsansvarlig)
+footnote:[https://www.datatilsynet.no/rettigheter-og-plikter/virksomhetenes-plikter/databehandleravtale/behandlingsansvarlig-og-databehandler/hva-er-en-behandlingsansvarlig/].
+
+|*Typiske roller/stillinger som rollen skal samarbeide med:*
+|Tjenesteeier, Tjenesteansvarlig, Dataforvalter, Begrepseier,
+Domeneansvarlig.
+|===
+
+[cols=",",options="header",]
+|===
+|*Rolle:* |Domeneansvarlig
+|*Beskrivelse av rollen:* |Har ansvar for aktiviteter og tiltak innen
+domenet for å sikre riktig kvalitet, utnytting og sikring av informasjon
+i domenet.
+
+|*Ansvars-områder og oppgaver:* a|
+Være prosessdriver for informasjonsforvaltning
+
+Følge med at begrepene blir utarbeidet etter retningslinjer i domenet.
+
+Passe på at forvaltningsprosessen blir fulgt og at begrepene har riktig
+status i forhold til begrepsforvaltningsprosessen.
+
+Ha oversikt over helheten og bidra til koordinering, harmonisering og
+godkjenning av innhold, inklusiv samordning av konsumenter med
+sammenfallende behov og eksisterende begreper i begrepskatalogen.
+
+Publisering av begreper i felles begrepskatalog (data.norge.no)
+
+Drive opplæring knyttet til forvaltning av informasjon i domenet.
+
+|*Typiske roller/stillinger som rollen skal samarbeide med:*
+|Begrepseier, Datakonsument, Tjenesteansvarlig
+|===
+
+[cols=",",options="header",]
+|===
+|*Rolle:* |Begrepseier
+|*Beskrivelse av rollen:* |Rollen som har det faglige ansvaret for et
+begreps innhold.
+
+|*Ansvars-områder og oppgaver:* a|
+Sørge for at begrepene blir definert i henhold til retningslinjene i
+rammeverket.
+
+Involvere eventuelle interessenter i definisjonsarbeidet
+
+Sørge for at begrepene er vurdert i henhold til eksisterende
+begrepsdefinisjoner i domenet og i felles begrepskatalogen
+(data.norge.no).
+
+|*Typiske roller/stillinger som rollen skal samarbeide med:*
+|Dataforvalter, Datakonsument, Domeneansvarlig, Tjenesteansvarlig
+|===
+
+[cols=",",options="header",]
+|===
+|*Rolle:* |Koordinerende aktør
+|*Beskrivelse av rollen:* |Ansvar for koordinering og samhandling på
+tvers av alle dataprodusenter organisert under Kunnskapsdepartementet.
+Ansvaret inkluderer en infrastruktur for publisering og gjenfinning av
+datasett for analyseformål samt analyse av kunnskapsdata i sikre
+analyserom.
+
+|*Ansvars-områder og oppgaver:* a|
+Prosessarbeid
+
+* Sikre en helhetlig forvaltning av data i kunnskapssektoren
+* Tydeliggjøre roller og ansvar i forvaltningen av sektorens data
+* Koordinere prosesser knyttet til harmonisering av data (med
+beslutningsmyndighet når nødvendig)
+* Retningslinjer for klassifisering av data
+* Følge/støtte opp dataprodusentenes arbeid med «orden i eget hus» og
+deling av data.
+
+Tjenesteansvar
+
+* Etablere og forvalte en felles metadatakatalog for alle data i
+kunnskapssektoren for viderebruk
+* Felles søknadstjeneste ved behov for tilgang til data med begrenset
+offentlighet, på tvers av dataprodusentene som gir økt grad av
+selvbetjening
+* Eksplorative tjenester som gjør det enkelt å utforske
+analysepotensialet som ligger i dataene
+* Gi tilgang til sikre analyserom for analyser av data med begrenset
+offentlighet
+
+Etablere et rådgivende forum for juridiske avklaringer knyttet til
+deling og utlevering av data
+
+|*Typiske roller/stillinger som rollen skal samarbeide med:*
+|Domeneansvarlig, Begrepseier, Dataforvalter, Tjenesteeier og
+Tjenesteansvarlig
+|===
+
+
