@@ -17,7 +17,7 @@ endif::[]
 image:{imagepath}image1.jpeg[]
 
 ----
-Fri May 14 2021 07:51:13 GMT+0200 (CEST)
+Fri May 14 2021 09:03:45 GMT+0200 (CEST)
 ----
 
 
@@ -28,11 +28,11 @@ include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Datadelingsplattf
 include::main@unit-ra:unit-ra-datadeling-datautveksling:page$Datautveksling.adoc[]
 include::main@unit-ra:unit-ra-datadeling-rutiner:page$Rutiner.adoc[]
 include::main@unit-ra:unit-ra-datadeling-roller:page$Roller og ansvar for informasjonsforvaltning.adoc[]
-include::main@unit-ra:unit-ra-datadeling-definisjoner:page$Vedlegg 1 - Definisjoner.adoc[]
-include::main@unit-ra:unit-ra-datadeling-issues:page$Vedlegg 2 - Behov for avklaringer og utfordringer i sektorens kontekst.adoc[]
-include::main@unit-ra:unit-ra-datadeling-muliggjørende-økosystem:page$Vedlegg 3 - Muliggjørende økosystem.adoc[]
-include::main@unit-ra:unit-ra-datadeling-behov-og-bruksområder:page$Vedlegg 4 - Behov og bruksområder.adoc[]
-include::main@unit-ra:unit-ra-datadeling-føringer:page$Vedlegg 5 - Føringer, pågående og videre arbeid.adoc[]
+include::main@unit-ra:unit-ra-datadeling-definisjoner:page$Vedlegg - Definisjoner.adoc[]
+include::main@unit-ra:unit-ra-datadeling-issues:page$Vedlegg - Behov for avklaringer og utfordringer i sektorens kontekst.adoc[]
+include::main@unit-ra:unit-ra-datadeling-muliggjørende-økosystem:page$Vedlegg - Muliggjørende økosystem.adoc[]
+include::main@unit-ra:unit-ra-datadeling-behov-og-bruksområder:page$Vedlegg - Behov og bruksområder.adoc[]
+include::main@unit-ra:unit-ra-datadeling-føringer:page$Vedlegg - Føringer, pågående og videre arbeid.adoc[]
 :leveloffset: -1
 
 ifeval::[{wysiwig_editing} == 0]
