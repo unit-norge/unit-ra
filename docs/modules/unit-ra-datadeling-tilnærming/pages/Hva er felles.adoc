@@ -26,8 +26,6 @@ selvstyre.footnote:[Disse strategiske valg er basert på arbeid med valg
 av operasjonelle modeller beskrevet i «Enterprise Architecture as
 Strategy» av Ross, Weill og Robertsen.]
 
-.Strategiske valg fra Handlingsplan for digitalisering i høyere
-utdanning og forskning
 image::{imagepath}image6.png
 
 Disse ulike tilnærmingene har ulike behov for deling av data, og vi har
