@@ -26,10 +26,9 @@ selvstyre.footnote:[Disse strategiske valg er basert på arbeid med valg
 av operasjonelle modeller beskrevet i «Enterprise Architecture as
 Strategy» av Ross, Weill og Robertsen.]
 
-:imagepath: ../images/
-image::{imagepath}image6.png[image text]
+EXTERNAL IMAGE
 
-image::image6.png[]
+image::pipeline-workflow.png[a diagram illustrating the pipeline stages]
 
 Disse ulike tilnærmingene har ulike behov for deling av data, og vi har
 benyttet disse føringene i avgrensning av domenene og rollene i
