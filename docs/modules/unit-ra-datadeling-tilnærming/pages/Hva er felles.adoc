@@ -28,7 +28,7 @@ Strategy» av Ross, Weill og Robertsen.]
 
 .Strategiske valg fra Handlingsplan for digitalisering i høyere
 utdanning og forskning
-image:media\image6.png[image,width=567,height=227]
+image::{imagepath}image6.png
 
 Disse ulike tilnærmingene har ulike behov for deling av data, og vi har
 benyttet disse føringene i avgrensning av domenene og rollene i
