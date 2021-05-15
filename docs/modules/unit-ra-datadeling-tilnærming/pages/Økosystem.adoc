@@ -12,6 +12,8 @@ endif::[]
 :sectnums:
 :sectnumlevels: 9
 
+
+
 == Visjon: Et økosystem for datadeling
 
 I arbeidet med denne referansearkitekturen har vi tatt utgangspunkt i en
