@@ -27,9 +27,9 @@ av operasjonelle modeller beskrevet i «Enterprise Architecture as
 Strategy» av Ross, Weill og Robertsen.]
 
 :imagepath: ../images/
-image::{imagepath}image6.png
+image::{imagepath}image6.png[image text]
 
-image::image6.png
+image::image6.png[]
 
 Disse ulike tilnærmingene har ulike behov for deling av data, og vi har
 benyttet disse føringene i avgrensning av domenene og rollene i
