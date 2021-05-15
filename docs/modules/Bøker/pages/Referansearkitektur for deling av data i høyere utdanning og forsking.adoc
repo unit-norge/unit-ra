@@ -7,6 +7,7 @@ ifeval::[{wysiwig_editing} == 0]
 :imagepath: main@unit-ra:Bøker:
 endif::[]
 :toc: left
+:experimental:
 :toclevels: 4
 :sectnums:
 :sectnumlevels: 9
@@ -16,21 +17,22 @@ endif::[]
 image:{imagepath}image1.jpeg[]
 
 ----
-Mon Apr 19 2021 09:14:27 GMT+0200 (CEST)
+Sat May 15 2021 17:30:56 GMT+0200 (CEST)
 ----
 
 
 :leveloffset: +1
 include::main@unit-ra:unit-ra-datadeling-introduksjon:page$Introduksjon.adoc[]
-include::main@unit-ra:unit-ra-datadeling-metode:page$Metode.adoc[]
+include::main@unit-ra:unit-ra-datadeling-tilnærming:page$Tilnærming til utvikling av referansearkitekturen.adoc[]
 include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Datadelingsplattformen og felles komponentene i den.adoc[]
+include::main@unit-ra:unit-ra-datadeling-datautveksling:page$Datautveksling.adoc[]
 include::main@unit-ra:unit-ra-datadeling-rutiner:page$Rutiner.adoc[]
 include::main@unit-ra:unit-ra-datadeling-roller:page$Roller og ansvar for informasjonsforvaltning.adoc[]
-include::main@unit-ra:unit-ra-datadeling-definisjoner:page$Vedlegg 1 - Definisjoner.adoc[]
-include::main@unit-ra:unit-ra-datadeling-issues:page$Vedlegg 2 - Behov for avklaringer og utfordringer i sektorens kontekst.adoc[]
-include::main@unit-ra:unit-ra-datadeling-muliggjørende-økosystem:page$Vedlegg 3 - Muliggjørende økosystem.adoc[]
-include::main@unit-ra:unit-ra-datadeling-behov-og-bruksområder:page$Vedlegg 4 - Behov og bruksområder.adoc[]
-include::main@unit-ra:unit-ra-datadeling-føringer:page$Vedlegg 5 - Føringer, pågående og videre arbeid.adoc[]
+include::main@unit-ra:unit-ra-datadeling-vedlegg-a:page$Vedlegg A; Definisjoner.adoc[]
+include::main@unit-ra:unit-ra-datadeling-vedlegg-b:page$Vedlegg B; Behov for avklaringer og utfordringer i sektorens kontekst.adoc[]
+include::main@unit-ra:unit-ra-datadeling-vedlegg-c:page$Vedlegg C; Muliggjørende økosystem.adoc[]
+include::main@unit-ra:unit-ra-datadeling-vedlegg-d:page$Vedlegg D; Behov og bruksområder.adoc[]
+include::main@unit-ra:unit-ra-datadeling-vedlegg-e:page$Vedlegg E; Føringer, pågående og videre arbeid.adoc[]
 :leveloffset: -1
 
 ifeval::[{wysiwig_editing} == 0]

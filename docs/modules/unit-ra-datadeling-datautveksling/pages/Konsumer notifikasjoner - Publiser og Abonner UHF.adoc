@@ -1,0 +1,28 @@
+= Konsumer notifikasjoner - Publiser og Abonner UHF
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-datautveksling:
+endif::[]
+:toc: left
+:experimental:
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 9
+
+Datakonsumentlytter på emner som konsumenten abonnerer på hos  Datatilbyder. Når en ny melding kommer i meldingskøen trigges konsumsjonen av notifikasjonen.
+Datakonsumenten vurderer relevans og foretar videre behandling av notifikasjon
+
+Videre behandling består av å gjøre et eOppslag (via API) som beskrevet i "Løsningsmønster forespørsel UHF"
+
+.Konsumer notifikasjoner - Publiser og Abonner UHF
+image::{imagepath}Konsumer notifikasjoner - Publiser og Abonner UHF.png[alt=Konsumer notifikasjoner - Publiser og Abonner UHF image]
+
+
+****
+xref:main@unit-ra:unit-ra-datadeling-datautveksling:page$Konsumer notifikasjoner - Publiser og Abonner UHF.var.1.adoc[Vis detaljer om elementene i diagrammet] (Tips: kbd:[Shift]-klikk for å åpne i nytt vindu)
+****
+
+

@@ -1,0 +1,73 @@
+= eNotifikasjon - oversikt over verdistrømmer UHF
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-datautveksling:
+endif::[]
+:toc: left
+:experimental:
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 9
+
+Den overordnede verdistrømmen vist under skisserer handlingene hos
+datatilbyder og datakonsument som inngår i dette utvekslingsmønsteret.
+Datatilbyderen oppretter en hendelsesstrøm som datakonsumenten oppdager
+og abonnerer på. Datatilbyderen publiserer notifikasjoner om hendelser i
+hendelsesstrømmen, og datakonsumenten innhenter disse. Når konsumenten
+har mottatt en notifikasjon, vurderer konsumenten om det er behov for å
+innhente mer informasjon om hendelsen. I så fall benytter konsumenten
+synkront oppslag som beskrevet tidligere for innhentingen.
+
+.eNotifikasjon - oversikt over verdistrømmer UHF
+image::{imagepath}eNotifikasjon - oversikt over verdistrømmer UHF.png[alt=eNotifikasjon - oversikt over verdistrømmer UHF image]
+
+
+TIP: Gå tilbake til standardvisning ved å klikke 'tilbake' (eller lukk dette vinduet om det er nytt)
+
+
+[cols ="1,3", options="header"]
+.Elementer i view for eNotifikasjon - oversikt over verdistrømmer UHF
+|===
+
+| Element
+| Beskrivelse
+
+| Datatilbyder
+a| Tilbyder av data til andre aktører.
+
+| Tilgjengeliggjør og del hendelsdata
+a| 
+
+| Generer og publiser notifikasjoner 
+a| 
+
+| Klargjør for publisering av hendelser
+a| 
+
+| Avgi tilleggdata om hendelser på forespørsel
+a| 
+
+| Datakonsument
+a| Den som innhenter eller mottar data fra andre aktører.
+
+| Få tilgang til og innhent notifikasjoner og tilleggsdata 
+a| 
+
+| Innhent  notifikasjoner
+a| 
+
+| Innhent tilleggsdata om hendelser ved behov
+a| 
+
+| Oppdag notifikasjonslkilder og klargør for innhenting av hendelsesdata
+a| 
+
+|===
+****
+TIP: Gå tilbake til standardvisning ved å klikke 'tilbake' (eller lukk dette vinduet om det er nytt)
+****
+
+

@@ -1,0 +1,25 @@
+= Grunnleggende begreper for publisering av hendelser - Hendelsesliste og Publiser og Abonner UHF
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-datautveksling:
+endif::[]
+:toc: left
+:experimental:
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 9
+
+Notifikasjoner blir publisert enten i form av en hendelsesliste eller i form av en publisering i form av publisering/abonnering til en publisert meldingskø
+
+.Grunnleggende begreper for publisering av hendelser - Hendelsesliste og Publiser og Abonner UHF
+image::{imagepath}Grunnleggende begreper for publisering av hendelser - Hendelsesliste og Publiser og Abonner UHF.png[alt=Grunnleggende begreper for publisering av hendelser - Hendelsesliste og Publiser og Abonner UHF image]
+
+
+****
+xref:main@unit-ra:unit-ra-datadeling-datautveksling:page$Grunnleggende begreper for publisering av hendelser - Hendelsesliste og Publiser og Abonner UHF.var.1.adoc[Vis detaljer om elementene i diagrammet] (Tips: kbd:[Shift]-klikk for å åpne i nytt vindu)
+****
+
+

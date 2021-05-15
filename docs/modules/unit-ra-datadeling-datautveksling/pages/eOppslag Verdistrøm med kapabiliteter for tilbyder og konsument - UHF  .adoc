@@ -1,0 +1,26 @@
+= eOppslag Verdistrøm med kapabiliteter for tilbyder og konsument - UHF  
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-datautveksling:
+endif::[]
+:toc: left
+:experimental:
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 9
+
+
+
+
+.eOppslag Verdistrøm med kapabiliteter for tilbyder og konsument - UHF  
+image::{imagepath}eOppslag Verdistrøm med kapabiliteter for tilbyder og konsument - UHF  .png[alt=eOppslag Verdistrøm med kapabiliteter for tilbyder og konsument - UHF   image]
+
+
+****
+xref:main@unit-ra:unit-ra-datadeling-datautveksling:page$eOppslag Verdistrøm med kapabiliteter for tilbyder og konsument - UHF  .var.1.adoc[Vis detaljer om elementene i diagrammet] (Tips: kbd:[Shift]-klikk for å åpne i nytt vindu)
+****
+
+

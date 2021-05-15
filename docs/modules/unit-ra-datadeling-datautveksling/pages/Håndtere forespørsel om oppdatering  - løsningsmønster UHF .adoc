@@ -1,0 +1,26 @@
+= Håndtere forespørsel om oppdatering  - løsningsmønster UHF 
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-datautveksling:
+endif::[]
+:toc: left
+:experimental:
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 9
+
+En prosessflyt en tilbyder av data utfører for å svare på en dataforespørsel. Tilbyder mottar forespørsel om oppslag med et aksesstoken. Klienten som forespør autentiseres og token valideres. Eventuelt mer fin-granulert tilgangskontroll utføres og data returneres. Tilgang kontrolleres kun dersom det er snakk om et sikret API.
+
+
+.Håndtere forespørsel om oppdatering  - løsningsmønster UHF 
+image::{imagepath}Håndtere forespørsel om oppdatering  - løsningsmønster UHF .png[alt=Håndtere forespørsel om oppdatering  - løsningsmønster UHF  image]
+
+
+****
+xref:main@unit-ra:unit-ra-datadeling-datautveksling:page$Håndtere forespørsel om oppdatering  - løsningsmønster UHF .var.1.adoc[Vis detaljer om elementene i diagrammet] (Tips: kbd:[Shift]-klikk for å åpne i nytt vindu)
+****
+
+

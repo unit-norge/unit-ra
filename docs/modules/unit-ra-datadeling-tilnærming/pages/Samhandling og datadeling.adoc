@@ -1,0 +1,28 @@
+= Samhandling og datadeling
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-tilnærming:
+endif::[]
+:toc: left
+:experimental:
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 9
+
+Når datatilbydere og datakonsumenter deler data, skjer det som en del av
+en digital samhandling. For at samhandlingen skal være vellykket, må
+tilbydere og konsumenter sikre at de handler i henhold til loven
+(juridisk samhandlingsevne), at aktørene har avklart forventninger til
+hverandre og klarer å samarbeide (organisatorisk samhandlingsevne), at
+datatilbydere og konsumenter har samme forståelse av dataenes betydning
+(semantisk samhandlingsevne) og at de tekniske løsningene som utfører
+datadeling fungerer sammen slik de skal (teknisk samhandlingsevne).
+Rammeverk for digital
+samhandlingfootnote:[https://www.digdir.no/nasjonal-arkitektur/rammeverk-digital-samhandling/2148]
+vist under utdyper disse samhandlingsevner.
+
+
+

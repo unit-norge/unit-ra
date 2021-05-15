@@ -1,0 +1,25 @@
+= Tilgjengeliggjøre data etter forsepørsel løsningsmønster UHF
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-datautveksling:
+endif::[]
+:toc: left
+:experimental:
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 9
+
+En prosessflyt som datatilbyder må gjennomføre for å tildele rettigheter til en konsument som ber om tilgang til data. En datatilbyder mottar forespørsel om tilgang til et API på vegne av en organisasjon eller bruker. Dataeieren tar stilling til om konsumenten skal få tilgang til data gjennom APIet. Tilgang registreres knyttet til konsumentens klient (applikasjonen som benytter APIet) i klientregisteret.
+
+.Tilgjengeliggjøre data etter forsepørsel løsningsmønster UHF
+image::{imagepath}Tilgjengeliggjøre data etter forsepørsel løsningsmønster UHF.png[alt=Tilgjengeliggjøre data etter forsepørsel løsningsmønster UHF image]
+
+
+****
+xref:main@unit-ra:unit-ra-datadeling-datautveksling:page$Tilgjengeliggjøre data etter forsepørsel løsningsmønster UHF.var.1.adoc[Vis detaljer om elementene i diagrammet] (Tips: kbd:[Shift]-klikk for å åpne i nytt vindu)
+****
+
+

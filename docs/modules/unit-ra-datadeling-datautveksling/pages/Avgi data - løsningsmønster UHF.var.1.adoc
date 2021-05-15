@@ -1,0 +1,109 @@
+= Avgi data - løsningsmønster UHF
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-datautveksling:
+endif::[]
+:toc: left
+:experimental:
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 9
+
+En prosessflyt en tilbyder av data utfører for å svare på en dataforespørsel. Tilbyder mottar forespørsel om oppslag med et aksesstoken. Klienten som forespør autentiseres og token valideres. Eventuelt mer fin-granulert tilgangskontroll utføres og data returneres. Tilgang kontrolleres kun dersom det er snakk om et sikret API.
+
+
+.Avgi data - løsningsmønster UHF
+image::{imagepath}Avgi data - løsningsmønster UHF.png[alt=Avgi data - løsningsmønster UHF image]
+
+
+TIP: Gå tilbake til standardvisning ved å klikke 'tilbake' (eller lukk dette vinduet om det er nytt)
+
+
+[cols ="1,3", options="header"]
+.Elementer i view for Avgi data - løsningsmønster UHF
+|===
+
+| Element
+| Beskrivelse
+
+| Egen autorisasjons-komponent
+a| Komponent for å håndheve virksomhetens regler for tilgang. 
+Også kalt policy enforcement point (PEP).
+
+| Altinn autorisasjon
+a| [Torget]
+Autorisasjonskomponenten i Altinn som gir muligheter til å delegere rettigheter til andre organisasjoner eller personer. Rettigheter til bruk av autorisasjonskomponenten baserer seg på registrerte roller i Enhetsregisteret.
+Altinn autorisasjon leverer også tjenester for å registrere og kontrollere samtykke gitt av person eller virksomhet.
+
+[Verktøykasse for deling av data]
+Altinn autorisasjon gir teknisk samhandlingsevne ved at bruker logger inn med elektronisk ID,
+autorisasjonskomponenten sjekker at bruker har de tilgangene som kreves for å ta i bruk aktuell tjeneste.
+
+Dersom en privatperson skal ta i bruk en tjeneste på vegne av en virksomhet, gjøres det et oppslag mot Enhetsregisteret for å bekrefte at personen har en rolle på vegne av virksomheten. Dette gir organisatorisk samhandlingsevne.
+
+Mer om Altinn autorisasjon:
+https://www.altinndigital.no/produkter/styring-av-tilgang/
+
+| Datatilbyder
+a| Tilbyder av data til andre aktører.
+
+| Tilgangskontroll-tjeneste
+a| Tjeneste for å sjekke rettigheter til data. Kan være eksterne eller interne tjenester.
+Eksempler på rettigheter kan komme av samtykker fra person eller virksomhet, eller rollebasert fra vergemål, familierelasjon el.
+
+Konsumenten som forespurte tilgang til data må ha en "authentication grant" som gir rett til operasjonen som er forespurt. Leseoperasjoner må ha lesetilgang og oppdateringsoperasjoner må ha skrivetilgang til data spesifisert.
+
+| Avgi forespurte data gjennom API
+a| Prosessen med å avgi data på forespørsel gjennom et egnet API.
+
+| Motta  forespørsel om oppslag
+a| Motta forespørsler fra API-konsument om å avgi data.
+
+| Avgi data
+a| Prosessen med å gi svar på forespørselen.
+
+| Kontroller tilgang
+a| Kontroll og håndheving av konsumentens rettigheter til å få forespurte data.  I tillegg til "validering av sikkerhetsbillet", kan det være behov for kontroll mot virksomhetsinterne policies.
+
+Konsumenten som forespurte tilgang til data må ha en "authentication grant" som gir rett til operasjonen som er forespurt. Leseoperasjoner må ha lesetilgang og oppdateringsoperasjoner må ha skrivetilgang.
+
+| Autentisere konsument
+a| Prosessen med å autentisere en konsument.
+
+| Datautvekslings-tjeneste
+a| Tjeneste for utveksling av data over aktuell transportprotokoll, f.eks, gjennom asynkrone medlinger eller synkrone API-oppslag.
+
+| Datautvekslings-tjeneste
+a| Tjeneste for utveksling av data over aktuell transportprotokoll, f.eks, gjennom asynkrone medlinger eller synkrone API-oppslag.
+
+| Tokenvaliderings-tjeneste
+a| Tjeneste som benyttes av tilbyder for å validere og kontrollere autentisiteten til et OAUTH2 token fra Maskinporten
+
+| Avgi data
+a| Evne til å avgi data på forespørsel. Kan omfatte tilgangsstyring.
+
+| API Gateway 
+a| API gateway er en tjeneste som tilgjengeliggjør, beskytter og overvåker
+tilgang til API-ressurser hos datatilbyder. Den håndhever
+tilgangsstyring ved å validere sikkerhetsbilletter og utfører eventuell
+fin-granulert tilgangskontroll. Den håndhever også volumbegrensninger og
+samler data om bruken av API-er (logging).
+
+Komponent som beskytter ressursene og overvåker tilgang inklusivt:
+
+* Validere sikkerhetsbillett
+* Beskytte mot inntrenging og andre trusler
+* Håndtere volumbegrensninger
+* Håndheve tilgangsstyring
+* Samle inn data om bruken av API-er
+* Orkestrering mellom interntjenester
+
+|===
+****
+TIP: Gå tilbake til standardvisning ved å klikke 'tilbake' (eller lukk dette vinduet om det er nytt)
+****
+
+

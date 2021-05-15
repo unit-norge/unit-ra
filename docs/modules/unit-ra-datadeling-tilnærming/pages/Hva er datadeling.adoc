@@ -1,0 +1,32 @@
+= Hva er datadeling
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-tilnærming:
+endif::[]
+:toc: left
+:experimental:
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 9
+
+=== Hva er datadeling?
+
+Følgende definisjon for datadeling er hentet fra
+Digitaliseringsdirektoratets
+https://nasjonal-arkitektur.github.io/architecture-repository/data-sharing/data-sharing.html#_hva_er_datadeling[temaområde
+for datadeling].
+
+____
+Formålet med datadeling er å forsyne forretningsprosesser og dataanalyse
+med nødvendig datagrunnlag for aktuell oppgaveløsning.
+
+De fleste aktører sitter på begge sider i dette bildet, og må kunne
+både _dele_ og _innhente_ data. Det skilles på rollene
+som _tilbyder_ og _konsument_.
+
+I noen sammenhenger skilles det også mellom _data_ og _hendelser_.
+____
+

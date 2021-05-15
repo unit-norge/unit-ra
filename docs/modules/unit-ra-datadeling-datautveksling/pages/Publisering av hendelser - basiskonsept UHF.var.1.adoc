@@ -1,0 +1,48 @@
+= Publisering av hendelser - basiskonsept UHF
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-datautveksling:
+endif::[]
+:toc: left
+:experimental:
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 9
+
+Hendelsestrømmer kan implementeres som Hendelseslister eller en Publisert meldingskø (publiser/abonner)
+
+.Publisering av hendelser - basiskonsept UHF
+image::{imagepath}Publisering av hendelser - basiskonsept UHF.png[alt=Publisering av hendelser - basiskonsept UHF image]
+
+
+TIP: Gå tilbake til standardvisning ved å klikke 'tilbake' (eller lukk dette vinduet om det er nytt)
+
+
+[cols ="1,3", options="header"]
+.Elementer i view for Publisering av hendelser - basiskonsept UHF
+|===
+
+| Element
+| Beskrivelse
+
+| Datakonsument
+a| Den som innhenter eller mottar data fra andre aktører.
+
+| Datatilbyder
+a| Tilbyder av data til andre aktører.
+
+| Hendelsesstrøm
+a| 
+
+| Datakonsument
+a| Den som innhenter eller mottar data fra andre aktører.
+
+|===
+****
+TIP: Gå tilbake til standardvisning ved å klikke 'tilbake' (eller lukk dette vinduet om det er nytt)
+****
+
+

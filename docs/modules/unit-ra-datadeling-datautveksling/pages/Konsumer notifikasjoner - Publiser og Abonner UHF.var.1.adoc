@@ -1,0 +1,84 @@
+= Konsumer notifikasjoner - Publiser og Abonner UHF
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-datautveksling:
+endif::[]
+:toc: left
+:experimental:
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 9
+
+Datakonsumentlytter på emner som konsumenten abonnerer på hos  Datatilbyder. Når en ny melding kommer i meldingskøen trigges konsumsjonen av notifikasjonen.
+Datakonsumenten vurderer relevans og foretar videre behandling av notifikasjon
+
+Videre behandling består av å gjøre et eOppslag (via API) som beskrevet i "Løsningsmønster forespørsel UHF"
+
+.Konsumer notifikasjoner - Publiser og Abonner UHF
+image::{imagepath}Konsumer notifikasjoner - Publiser og Abonner UHF.png[alt=Konsumer notifikasjoner - Publiser og Abonner UHF image]
+
+
+TIP: Gå tilbake til standardvisning ved å klikke 'tilbake' (eller lukk dette vinduet om det er nytt)
+
+
+[cols ="1,3", options="header"]
+.Elementer i view for Konsumer notifikasjoner - Publiser og Abonner UHF
+|===
+
+| Element
+| Beskrivelse
+
+| Innhente og håndtere notifikasjoner
+a| Evnen til å konsumere hendelseslister ved å innhente notifikasjoner.
+
+| Datakonsument
+a| Den som innhenter eller mottar data fra andre aktører.
+
+| Konsumer notifikasjoner
+a| Prosessen med å lese og håndtere notifikasjoner.
+
+| Vurder relevans av notifikasjon
+a| Prosess med å vurdere om en hendelsen knyttet til lest notifikasjon er relevant for konsumenten.
+
+| Forkast notifikasjon
+a| Prosess med å forkaste notifikasjon som ikke er relevant for virksomheten. Avhengig av krav til personvern og informasjonssikkerhet kan det være særskilte krav til hva som er lov å beholde. 
+
+| Videre behandling av notifikasjon
+a| Prosess med videre behandling av en notifikasjon som normalt vil være å innhente mer informasjon om hendelsen eller subjektet notifikasjonen er knyttet til og eventuelt agere ut i fra denne.
+
+| Junction
+a| 
+
+| Lytt på abonnert meldingskø/emne
+a| 
+
+| Kriterier og regler for å vurdere relevans av notifikasjoner
+a| Informasjon om hva som legges til grunn for å vurdere relevansen av en hendelse, basert på informasjon i lest notifikasjon.
+
+| Notifikasjonsdistribusjon
+a| Tjensten mottar notifikasjoner fra tilbyder og distribuerer notifikasjoner til konsumenter som har interesse av gitte notifikasjoner.
+
+
+
+| Publisert Melding (Transient)
+a| Den transiente meldingen som abonnenten leser. 
+Når meldingen er lest forsvinner den fra innboksen til abonnenten
+
+| Publisert Meldingskø
+a| Meldingskø som inneholder  de meldingene publisert for en gitt abonnent av notifikasjoner om en gitt topic.
+
+| Meldingsformidler
+a| Message broker
+
+Når en meldingsfordler skiver en notifikasjon i meldingskø plasseres det i meldingskø hos alle abonnenter (i hver sin kø).
+
+
+|===
+****
+TIP: Gå tilbake til standardvisning ved å klikke 'tilbake' (eller lukk dette vinduet om det er nytt)
+****
+
+

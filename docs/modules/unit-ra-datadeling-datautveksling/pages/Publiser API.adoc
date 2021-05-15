@@ -1,0 +1,34 @@
+= Publiser API
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-datautveksling:
+endif::[]
+:toc: left
+:experimental:
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 9
+
+En prosessflyt som datatilbyder må gjennomføre for å gjøre et API synlig
+og tilgjengelig gjennom kataloger og søkeløsninger. Metadata om APIet
+blir registrert i API-katalogen. Metadata inkluderer begreper og
+datamodeller omfattet av datasettet som APIet tilgjengeliggjør, samt
+tilganger (scopes) knyttet til APIet som kan tildeles konsumenter.
+
+APIet registrert i UHF API katalog blir høstet inn i Felles API katalog.
+Vi ønsker at tilganger (scopes) i tillegg skal registreres i
+Maskinporten slik at konsumenter utenfor UHF sektoren kan oppdage APIet
+og be om tilgang på et senere tidspunkt.
+
+.Publiser API
+image::{imagepath}Publiser API.png[alt=Publiser API image]
+
+
+****
+xref:main@unit-ra:unit-ra-datadeling-datautveksling:page$Publiser API.var.1.adoc[Vis detaljer om elementene i diagrammet] (Tips: kbd:[Shift]-klikk for å åpne i nytt vindu)
+****
+
+

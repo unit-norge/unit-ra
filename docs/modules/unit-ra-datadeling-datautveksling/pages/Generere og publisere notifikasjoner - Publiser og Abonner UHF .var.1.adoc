@@ -1,0 +1,101 @@
+= Generere og publisere notifikasjoner - Publiser og Abonner UHF 
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-datautveksling:
+endif::[]
+:toc: left
+:experimental:
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 9
+
+Datatilbyder publiserer en notifikasjon til en Notifikasjonsdistubusjon i form av en publisering/abonneringsløsning
+
+.Generere og publisere notifikasjoner - Publiser og Abonner UHF 
+image::{imagepath}Generere og publisere notifikasjoner - Publiser og Abonner UHF .png[alt=Generere og publisere notifikasjoner - Publiser og Abonner UHF  image]
+
+
+TIP: Gå tilbake til standardvisning ved å klikke 'tilbake' (eller lukk dette vinduet om det er nytt)
+
+
+[cols ="1,3", options="header"]
+.Elementer i view for Generere og publisere notifikasjoner - Publiser og Abonner UHF 
+|===
+
+| Element
+| Beskrivelse
+
+| Generere og publisere notifikasjoner
+a| Evnen til å generere notifikasjoner som data om hendelser, samt å publisere slike notifikasjoner i en eller flere hendelseslister, eventuelt tilpasset ulike målgrupper.
+
+| Datatilbyder
+a| Tilbyder av data til andre aktører.
+
+| Generer og publiser notifikasjoner
+a| Prosessen med å dele informasjon om hendelser.
+
+| Generer notifikasjon ut fra hendelse
+a| Prosessen med å generere en notifikasjon på bakgrunn av en hendelse.
+
+| Publiser notifikasjon - Publiser/Abonner
+a| 
+
+| Notifikasjon
+a| En notifikasjon informerer om at en hendelse har inntruffet og kan inneholde elle  peke til hele eller deler av det totale settet av aktuelle, hendelsesrelaterte data.
+
+| Generering av notifikasjon
+a| Tjeneste som genererer notifikasjoner basert på hendelser, der alle aktuelle grunnlagsdata er med eller lenket til.
+
+| Komplett notifikasjon, tilbyders domene
+a| Notifikasjon som inneholder eller lenker til et fullstendig sett av hendelsesrelaterte data.
+
+| Notifikasjonsdistribusjon
+a| Tjensten mottar notifikasjoner fra tilbyder og distribuerer notifikasjoner til konsumenter som har interesse av gitte notifikasjoner.
+
+
+
+| Publisert Melding (Transient)
+a| Den transiente meldingen som abonnenten leser. 
+Når meldingen er lest forsvinner den fra innboksen til abonnenten
+
+| Hendelse
+a| 
+
+| UHF Konsumentregister
+a| 
+Oversikt over alle datakonsumenter som er blitt tildelt tilgang til
+ressurser.
+
+Oversikten over konsumenters bruk av API fra datatilbydere er
+autoritativt for
+
+* hvilke OAuth2 scopes knytet til hvilke API som konsumenten har fått
+tilgang til
+
+Oversikten over konsumenters bruk av notifikasjoner fra datatilbydere er
+autoritativt for
+
+* datakonsumentens abonnement for notifikasjoner
+
+
+| Publisert Meldingskø
+a| Meldingskø som inneholder  de meldingene publisert for en gitt abonnent av notifikasjoner om en gitt topic.
+
+| Publisert tynn notifikasjon
+a| Notifikasjon med beskjed om hva som har skjedd og hvor man finner resultatet, dvs peker mot datagrunnlaget.
+
+| Meldingsformidler
+a| Message broker
+
+Når en meldingsfordler skiver en notifikasjon i meldingskø plasseres det i meldingskø hos alle abonnenter (i hver sin kø).
+
+
+|===
+****
+TIP: Gå tilbake til standardvisning ved å klikke 'tilbake' (eller lukk dette vinduet om det er nytt)
+****
+
+

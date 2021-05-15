@@ -1,0 +1,23 @@
+= Om arkitekturprinsippenes føringer for datadeling
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-vedlegg-e:
+endif::[]
+:toc: left
+:experimental:
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 9
+
+De
+https://www.digdir.no/digitalisering-og-samordning/overordnede-arkitekturprinsipper/1065[Overordnede
+arkitekturprinsippene] fra digitaliseringsdirektoratet er gjeldende for
+referansearkitekturen. For å forenkle bruk av prinsippene, har vi valgt
+ut noen av føringene fra de overordnede prinsipper som er spesielt
+relevant for integrasjoner og inkludert disse i referansearkitekturen
+når vi ruller ut UH:IntArk fase 1, som
+https://www.usit.uio.no/prosjekter/datadeling/arbeidsomrader/integrasjonsarkitektur/dokumentasjon/prinsippene/[integrasjonsprinsipper].
+

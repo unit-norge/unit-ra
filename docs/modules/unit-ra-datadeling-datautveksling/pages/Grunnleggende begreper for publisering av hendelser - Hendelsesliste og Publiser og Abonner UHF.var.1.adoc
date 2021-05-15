@@ -1,0 +1,77 @@
+= Grunnleggende begreper for publisering av hendelser - Hendelsesliste og Publiser og Abonner UHF
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-datautveksling:
+endif::[]
+:toc: left
+:experimental:
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 9
+
+Notifikasjoner blir publisert enten i form av en hendelsesliste eller i form av en publisering i form av publisering/abonnering til en publisert meldingskø
+
+.Grunnleggende begreper for publisering av hendelser - Hendelsesliste og Publiser og Abonner UHF
+image::{imagepath}Grunnleggende begreper for publisering av hendelser - Hendelsesliste og Publiser og Abonner UHF.png[alt=Grunnleggende begreper for publisering av hendelser - Hendelsesliste og Publiser og Abonner UHF image]
+
+
+TIP: Gå tilbake til standardvisning ved å klikke 'tilbake' (eller lukk dette vinduet om det er nytt)
+
+
+[cols ="1,3", options="header"]
+.Elementer i view for Grunnleggende begreper for publisering av hendelser - Hendelsesliste og Publiser og Abonner UHF
+|===
+
+| Element
+| Beskrivelse
+
+| Hendelsesliste
+a| 
+
+| Hendelsesliste
+a| 
+
+| Publiser/Abonner Melding
+a| 
+
+| Publisert Melding (Transient)
+a| Den transiente meldingen som abonnenten leser. 
+Når meldingen er lest forsvinner den fra innboksen til abonnenten
+
+| Publisert Meldingskø
+a| Meldingskø som inneholder  de meldingene publisert for en gitt abonnent av notifikasjoner om en gitt topic.
+
+| Notifikasjon
+a| Hernik sier 3 pekere i notifikasjon
+subjekt med siste state
+subjekt før og etter  
+selve hendelsen
+
+
+| Hendelsesstrøm
+a| 
+
+| Hendelse
+a| 
+
+| Subjekt
+a| 
+
+| Datagrunnlag
+a| 
+
+| Oppdatert datagrunnlag
+a| 
+
+| Hendelsesrelaterte data
+a| 
+
+|===
+****
+TIP: Gå tilbake til standardvisning ved å klikke 'tilbake' (eller lukk dette vinduet om det er nytt)
+****
+
+

@@ -1,0 +1,64 @@
+= Vedlegg C; Muliggjørende økosystem
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-vedlegg-c:
+endif::[]
+:toc: left
+:experimental:
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 9
+
+Før oppstart av Datadelingsprosjektet fasiliterte UNIT en tjenestedesign
+prosess rettet mot behovene til IT-støtte fra studenter, forskere,
+lærere og ledere. I tillegg kartla prosessen behovene til
+tjenesteleverandører, både interne og eksterne, som ønsker å tilby
+tjenester til sektoren. Resultatene fra prosessen ble benyttet som
+brukstilfeller i datadelingsprosjektet for å forstå krav til deling av
+data. Prosessen definerte et Muliggjørende økosystem som målbilde.
+
+EKSTERN BILDE
+
+Figur - Muliggjørende Økosystem i høyere utdanning og forskning
+
+Økosystemet er definert som en modell for samspill og innovasjon der
+komplementære aktører tilbyr tjenester og ressurser til studenter,
+lærere, forskere og ledere.  Data som sektoren har tilbys til nye
+anvendelser «inside-out» samtidig som forståelse av behovene til
+aktørene leder til utvikling av tiltak i økosystemet «outside-in».
+Økosystemet er avhengig av tillit skapt gjennom kravstilling til
+aktørene som samarbeider om deling og gjenbruk av data, harmonisering av
+begreper benyttet på tvers og utvikling av nye tjenester. Kravene skal
+sikre tilgang til data av hensiktsmessig kvalitet for de som har rett
+til det på en måte som ivaretar sikkerhet og personvern. Kravene
+skal også fremme innovasjon gjennom standardisering “på de rette
+stedene” som for eksempel en nasjonal profil for aktivitetsdata brukt i
+læringsanalyse og rettferdig markedstilgang. Økosystemet skal utvikles
+for å støtte sektorens bruksscenarier, som for eksempel individuelt
+tilpasset læring i et livslangt perspektiv og forbedret,
+digitalisert administrativt forskningsstøtte.
+Økosystemet må samtidig fremme god samhandling juridisk, organisatorisk,
+semantisk og teknisk.  
+
+  
+
+Økosystemets innhold er: 
+
+* Infrastruktur 
+* Data og tjenester 
+* Krav og føringer 
+* Insentiver og betalingsmodeller 
+* Harmonisering 
+
+
+Økosystemets nytte er: 
+
+* Tillitsbasert samhandling 
+* Enkel, trygg og riktig tilgang til nødvendige digitale ressurser 
+* Endringsevne og innovasjon 
+* Effektivitet 
+
+
