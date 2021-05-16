@@ -28,7 +28,8 @@ forskjellig kontekst kalt domener (se seksjonen under). Økosystemet skal
 etableres opp på en datadelingsplattform, og elementene i plattformen er
 spesifisert i referansearkitekturen.
 
-LEGG INN EKSTERN BILDE
+.ET ØKOSYSTEM FOR DELING AV DATA I UHF-SEKTOREN
+image::{imagepath}økosystem.png[]
 
 1 Et økosystem for deling av data i UHF-sektoren
 

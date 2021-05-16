@@ -33,7 +33,8 @@ deling av data mellom domener gjennom både API og publisering av
 hendelser. Vi grupperer domenene i grunnleggende domener og domener
 utviklet for spesielle brukstilfeller som avbildet under.
 
-2 Domener i UHF-sektoren
+.Domener i UHF-sektoren
+image::{imagepath}domener.png[]
 
 De *_grunnleggende domenene_* inneholder data som støtter de sentrale
 prosessene for læring, forskning og administrasjon hos institusjonene.
