@@ -19,7 +19,7 @@ Digitaliseringsdirektoratets
 https://nasjonal-arkitektur.github.io/architecture-repository/data-sharing/data-sharing.html#_hva_er_datadeling[temaområde
 for datadeling].
 
-____
+****
 Formålet med datadeling er å forsyne forretningsprosesser og dataanalyse
 med nødvendig datagrunnlag for aktuell oppgaveløsning.
 
@@ -28,5 +28,5 @@ både _dele_ og _innhente_ data. Det skilles på rollene
 som _tilbyder_ og _konsument_.
 
 I noen sammenhenger skilles det også mellom _data_ og _hendelser_.
-____
+****
 
