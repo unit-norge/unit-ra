@@ -12,11 +12,6 @@ endif::[]
 :sectnums:
 :sectnumlevels: 9
 
-Modellene som er utgangspunkt for referansearkitekturen for deling av
-data i høyere utdanning og forskning er laget for å ivareta juridisk-,
-organisatorisk-, semantisk- og teknisk samhandlingsevne og hjelper
-dermed de som benytter modellene til å lykkes med digital samhandling.
-
 Verktøykassen for deling av datafootnote:[Verktøykasse for deling av
 data
 https://www.digdir.no/apne-data/nasjonal-verktoykasse-deling-av-data/2243]
