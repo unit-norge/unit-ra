@@ -31,3 +31,6 @@ vår sektor fra Altinn autorisasjon er en mulig fremtidig løsning.
 Det er planlagt automatisert høsting av API katalogen fra høyere
 utdanning og forskning til Felles API-katalog som visst i figuren under.
 
+.Datadeling integrert med IAM og nasjonal infrastruktur
+image::{imagepath}FelleskomponenterUHF-nasjonale.png[]
+
