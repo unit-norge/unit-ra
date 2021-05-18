@@ -158,9 +158,6 @@ Dataforvalter.
 |===
 |*Rolle:* |Dataforvalter
 |*Beskrivelse av rollen:* a|
-[line-through]*Den som forvalter opplysningene som skal deles fra sine*
-[line-through]*systemer.*
-
 Den som har overordnet ansvar hos en datatilbyder for å administrere
 informasjon/data som skal deles (evt. kan ansvaret/rollen fordeles
 videre per grunnleggende domener innenfor datatilbyder organisasjonen).
