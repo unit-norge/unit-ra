@@ -68,8 +68,4 @@ data (også kalt _Event Carried State Transfer_), til forskjell fra
 eksisterende definisjon der de kun bærer en referanse til dataene som er
 endret.
 
-*Oppdatering hos datatilbyder*
-
-{empty}[Ny tekst om behov for at konsumenter kan be om oppdatering i
-kildesystemer]
 
