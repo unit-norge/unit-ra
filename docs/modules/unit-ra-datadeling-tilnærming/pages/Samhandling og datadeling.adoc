@@ -25,7 +25,7 @@ samhandlingfootnote:[https://www.digdir.no/nasjonal-arkitektur/rammeverk-digital
 vist under utdyper disse samhandlingsevner.
 
 .Samhandling
-image::{imagepath}samhandling.png[]
+image::{imagepath}Digital_samhandling.png[]
 
 Modellene som er utgangspunkt for referansearkitekturen for deling av data i høyere utdanning og forskning er laget for å ivareta juridisk-,
 organisatorisk-, semantisk- og teknisk samhandlingsevne og hjelper
