@@ -34,7 +34,7 @@ hendelser. Vi grupperer domenene i grunnleggende domener og domener
 utviklet for spesielle brukstilfeller som avbildet under.
 
 .Domener i UHF-sektoren
-image::{imagepath}domener.png[]
+image::{imagepath}DomenerUHF.png[]
 
 De *_grunnleggende domenene_* inneholder data som støtter de sentrale
 prosessene for læring, forskning og administrasjon hos institusjonene.
