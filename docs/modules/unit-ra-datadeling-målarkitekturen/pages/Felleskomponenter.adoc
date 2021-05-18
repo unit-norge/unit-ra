@@ -17,7 +17,7 @@ Datadelingsplattformen består av felleskomponentene beskrevet under. De fleste 
 
 
 .Felleskomponenter
-image::{imagepath}Felleskomponenter.png[alt=Felleskomponenter image]
+image::{imagepath}FelleskomponenterUHF.png[alt=Felleskomponenter image]
 
 
 ****
