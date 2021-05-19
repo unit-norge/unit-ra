@@ -47,14 +47,8 @@ sin kapabilitetsmodell for europeiske universiteter] som vist under.
 EUNIS modellen var produsert som et samarbeid mellom europeiske
 universiteter.
 
+
+.Verktøykassen for deling av data
+image::{imagepath}verdistrøm med orden i eget hus.png[]
  
-
-.Del og innhent data, verdistrøm for både tilbyder og konsument - UHF
-image::{imagepath}Del og innhent data, verdistrøm for både tilbyder og konsument - UHF.png[alt=Del og innhent data, verdistrøm for både tilbyder og konsument - UHF image]
-
-
-****
-xref:main@unit-ra:unit-ra-datadeling-tilnærming:page$Del og innhent data, verdistrøm for både tilbyder og konsument - UHF.var.1.adoc[Vis detaljer om elementene i diagrammet] (Tips: kbd:[Shift]-klikk for å åpne i nytt vindu)
-****
-
 
