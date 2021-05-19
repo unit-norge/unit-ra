@@ -20,9 +20,8 @@ tjenester til sektoren. Resultatene fra prosessen ble benyttet som
 brukstilfeller i datadelingsprosjektet for å forstå krav til deling av
 data. Prosessen definerte et Muliggjørende økosystem som målbilde.
 
-EKSTERN BILDE
-
-Figur - Muliggjørende Økosystem i høyere utdanning og forskning
+.Muliggjørende Økosystem i høyere utdanning og forskning
+image::{imagepath}muliggjørende økosystem.png[]
 
 Økosystemet er definert som en modell for samspill og innovasjon der
 komplementære aktører tilbyr tjenester og ressurser til studenter,
