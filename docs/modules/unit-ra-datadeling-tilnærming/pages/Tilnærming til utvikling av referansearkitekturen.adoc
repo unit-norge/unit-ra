@@ -25,7 +25,7 @@ include::main@unit-ra:unit-ra-datadeling-tilnærming:page$Økosystem.adoc[]
 include::main@unit-ra:unit-ra-datadeling-tilnærming:page$Domener.adoc[]
 include::main@unit-ra:unit-ra-datadeling-tilnærming:page$Hva er felles.adoc[]
 include::main@unit-ra:unit-ra-datadeling-tilnærming:page$Samhandling og datadeling.adoc[]
-include::main@unit-ra:unit-ra-datadeling-tilnærming:page$Del og innhent data, verdistrøm for både tilbyder og konsument - UHF.adoc[]
+include::main@unit-ra:unit-ra-datadeling-tilnærming:page$Verktøykassen for deling av data.adoc[]
 include::main@unit-ra:unit-ra-datadeling-tilnærming:page$Muliggjørende kapabiliteter.adoc[]
 include::main@unit-ra:unit-ra-datadeling-tilnærming:page$Organisering og forvaltning av informasjon i domener for høyskoler, universiteter og forskning.adoc[]
 :leveloffset: -1
