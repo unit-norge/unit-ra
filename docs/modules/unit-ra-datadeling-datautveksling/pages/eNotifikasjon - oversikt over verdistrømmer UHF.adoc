@@ -21,12 +21,9 @@ har mottatt en notifikasjon, vurderer konsumenten om det er behov for å
 innhente mer informasjon om hendelsen. I så fall benytter konsumenten
 synkront oppslag som beskrevet tidligere for innhentingen.
 
-.eNotifikasjon - oversikt over verdistrømmer UHF
-image::{imagepath}eNotifikasjon - oversikt over verdistrømmer UHF.png[alt=eNotifikasjon - oversikt over verdistrømmer UHF image]
+.eNotifikasjon verdistrøm
+image::{imagepath}notifikasjon verdistrøm.png[]
 
 
-****
-xref:main@unit-ra:unit-ra-datadeling-datautveksling:page$eNotifikasjon - oversikt over verdistrømmer UHF.var.1.adoc[Vis detaljer om elementene i diagrammet] (Tips: kbd:[Shift]-klikk for å åpne i nytt vindu)
-****
 
 
