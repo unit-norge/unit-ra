@@ -141,7 +141,7 @@ nye versjoner og nedlegging
 * Ivareta registrering, forvaltning og utvikling av konsumentrettigheter
 * Rapportering og analyse for å overvåke bruk og last
 
-| Notifikasjons-katalog
+| Notifikasjons katalog
 a| Oversikt over alle notifikasjoner som er registrert i UHF sektoren
 
 Notifikasjonskatalogen bør tilby et selvbetjeningsgrensesnitt der
