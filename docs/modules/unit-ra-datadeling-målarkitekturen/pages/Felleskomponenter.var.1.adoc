@@ -112,9 +112,7 @@ API-katalog kan inneholde:
 * Navn på API
 * Tekstlig beskrivelse av API
 * Informasjonsmodell / Datamodell for API som tilbys
-* Informasjon om tilgang, juridiske og tekniske begrensinger for bruk.
-Inkluderer hvilke rettighetter (OAuth2 scopes) en konsument kan få til
-et API.
+* Informasjon om tilgang, juridiske og tekniske begrensinger for bruk. Inkluderer hvilke rettighetter (OAuth2 scopes) en konsument kan få til et API.
 * Kildeinformasjon for data, begrepsinformasjon
 * Eksempelkode, interaktiv API-konsoll og sandkasse for test
 * Informasjon om hvordan få support og hjelp fra utsteder
