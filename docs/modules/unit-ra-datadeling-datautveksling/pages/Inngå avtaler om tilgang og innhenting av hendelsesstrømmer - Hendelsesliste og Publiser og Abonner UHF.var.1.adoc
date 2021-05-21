@@ -1,0 +1,71 @@
+= Inngå avtaler om tilgang og innhenting av hendelsesstrømmer - Hendelsesliste og Publiser og Abonner UHF
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-datautveksling:
+endif::[]
+:toc: left
+:experimental:
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 9
+
+Datakonsument inngår avtale om tilgang og innhenting av hendelsesstrømmer
+Hendelsesstrømmen kan være i form av en hendelsesliste eller abonnement på et emne (publisert meldingskø)
+
+.Inngå avtaler om tilgang og innhenting av hendelsesstrømmer - Hendelsesliste og Publiser og Abonner UHF
+image::{imagepath}Inngå avtaler om tilgang og innhenting av hendelsesstrømmer - Hendelsesliste og Publiser og Abonner UHF.png[alt=Inngå avtaler om tilgang og innhenting av hendelsesstrømmer - Hendelsesliste og Publiser og Abonner UHF image]
+
+
+TIP: Gå tilbake til standardvisning ved å klikke 'tilbake' (eller lukk dette vinduet om det er nytt)
+
+
+[cols ="1,3", options="header"]
+.Elementer i view for Inngå avtaler om tilgang og innhenting av hendelsesstrømmer - Hendelsesliste og Publiser og Abonner UHF
+|===
+
+| Element
+| Beskrivelse
+
+| Få tilgang til notfikasjoner og hendelser
+a| 
+
+| Beskrive behov og tilganger
+a| Prosessen med å beskrive hvilke tilganger konsument har rettigeheter til og hvilken type notifikasjoner som er aktuelle. 
+
+| Inngå avtale om tilgang som abonnement på publisert notifikasjon 
+a| 
+
+| Datakonsument
+a| Den som innhenter eller mottar data fra andre aktører.
+
+| Inngå avtaler om tilgang og innhenting av hendelsesstrømmer 
+a| Evnen til å inngå avtaler med datatilbyder om tilgang til hendelser gjennom hendelseslister med notifikasjoner.
+
+| Registrering av konsument som abonnent på notifikasjon
+a| 
+
+| UHF Konsumentregister
+a| Oversikt over alle datakonsumenter som er blitt tildelt tilgang til
+ressurser.
+
+Oversikten over konsumenters bruk av API fra datatilbydere er
+autoritativt for
+
+* hvilke OAuth2 scopes knytet til hvilke API som konsumenten har fått
+tilgang til
+
+Oversikten over konsumenters bruk av notifikasjoner fra datatilbydere er
+autoritativt for
+
+* datakonsumentens abonnement for notifikasjoner
+
+
+|===
+****
+TIP: Gå tilbake til standardvisning ved å klikke 'tilbake' (eller lukk dette vinduet om det er nytt)
+****
+
+
