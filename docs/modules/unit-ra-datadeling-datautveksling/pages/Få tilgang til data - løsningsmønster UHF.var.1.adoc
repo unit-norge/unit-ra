@@ -60,9 +60,7 @@ a| Tjeneste for å søke etter og finne tilgjengelige API-er
 a| Evnen til å skaffe seg tilgang til tilbudte data fra annen aktør. 
 
 | UHF API katalog
-a| a|
-
-Oversikt over alle API som er registrert i UH/F sektoren
+a| Oversikt over alle API som er registrert i UH/F sektoren
 
 UH/F API katalog kan inneholde
 
@@ -70,9 +68,11 @@ UH/F API katalog kan inneholde
   * Tekstlig beskrivelse av API
   * Informasjonsmodell / Datamodell for API som tilbys 
   * Kildeinformasjon for data, begrepsinformasjon
-  * Informasjon om tilgang, juridiske og tekniske begrensinger for bruk
   * Eksempelkode, interaktiv API-konsoll og sandkasse for test
   * Informasjon om hvordan få support og hjelp fra utsteder
+ * Informasjon om tilgang, juridiske og tekniske begrensinger for bruk. Inkluderer hvilke rettighetter (OAuth2 scopes) en konsument kan få til et API.
+ * Grensesnitt for å presentere APIer
+ * Grensesnitt for å søke etter APIer
 
 | Tildel rettigheter til konsument
 a| Datakonsument skal kunne finne
@@ -92,8 +92,7 @@ brukt til å realisere autorisasjonspolicy for tilgang og roller
 
 
 | UHF Konsumentregister
-a| 
-Oversikt over alle datakonsumenter som er blitt tildelt tilgang til
+a| Oversikt over alle datakonsumenter som er blitt tildelt tilgang til
 ressurser.
 
 Oversikten over konsumenters bruk av API fra datatilbydere er

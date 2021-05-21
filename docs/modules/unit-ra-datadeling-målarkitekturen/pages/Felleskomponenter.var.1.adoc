@@ -63,8 +63,7 @@ brukt til å realisere autorisasjonspolicy for tilgang og roller
 
 
 | UHF Konsumentregister
-a| 
-Oversikt over alle datakonsumenter som er blitt tildelt tilgang til
+a| Oversikt over alle datakonsumenter som er blitt tildelt tilgang til
 ressurser.
 
 Oversikten over konsumenters bruk av API fra datatilbydere er
@@ -104,19 +103,20 @@ versjoner og nedlegging
 * Ivareta registrering, forvaltning og utvikling av konsumentrettigheter
 * Rapportering og analyse for å overvåke bruk og last
 
-| UHF API-katalog
-a| Oversikt over alle API som er registrert i UHF sektoren
+| UHF API katalog
+a| Oversikt over alle API som er registrert i UH/F sektoren
 
-API-katalog kan inneholde:
+UH/F API katalog kan inneholde
 
-* Navn på API
-* Tekstlig beskrivelse av API
-* Informasjonsmodell / Datamodell for API som tilbys
-* Informasjon om tilgang, juridiske og tekniske begrensinger for bruk. Inkluderer hvilke rettighetter (OAuth2 scopes) en konsument kan få til et API.
-* Kildeinformasjon for data, begrepsinformasjon
-* Eksempelkode, interaktiv API-konsoll og sandkasse for test
-* Informasjon om hvordan få support og hjelp fra utsteder
-
+  * Navn på API
+  * Tekstlig beskrivelse av API
+  * Informasjonsmodell / Datamodell for API som tilbys 
+  * Kildeinformasjon for data, begrepsinformasjon
+  * Eksempelkode, interaktiv API-konsoll og sandkasse for test
+  * Informasjon om hvordan få support og hjelp fra utsteder
+ * Informasjon om tilgang, juridiske og tekniske begrensinger for bruk. Inkluderer hvilke rettighetter (OAuth2 scopes) en konsument kan få til et API.
+ * Grensesnitt for å presentere APIer
+ * Grensesnitt for å søke etter APIer
 
 | Notifikasjonsforvalter
 a| Notifikasjonsforvalteren er en administrativ komponent som kontrollerer

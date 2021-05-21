@@ -98,9 +98,7 @@ versjoner og nedlegging
 * Rapportering og analyse for å overvåke bruk og last
 
 | UHF API katalog
-a| a|
-
-Oversikt over alle API som er registrert i UH/F sektoren
+a| Oversikt over alle API som er registrert i UH/F sektoren
 
 UH/F API katalog kan inneholde
 
@@ -108,9 +106,11 @@ UH/F API katalog kan inneholde
   * Tekstlig beskrivelse av API
   * Informasjonsmodell / Datamodell for API som tilbys 
   * Kildeinformasjon for data, begrepsinformasjon
-  * Informasjon om tilgang, juridiske og tekniske begrensinger for bruk
   * Eksempelkode, interaktiv API-konsoll og sandkasse for test
   * Informasjon om hvordan få support og hjelp fra utsteder
+ * Informasjon om tilgang, juridiske og tekniske begrensinger for bruk. Inkluderer hvilke rettighetter (OAuth2 scopes) en konsument kan få til et API.
+ * Grensesnitt for å presentere APIer
+ * Grensesnitt for å søke etter APIer
 
 |===
 ****

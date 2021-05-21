@@ -65,8 +65,7 @@ Når meldingen er lest forsvinner den fra innboksen til abonnenten
 a| 
 
 | UHF Konsumentregister
-a| 
-Oversikt over alle datakonsumenter som er blitt tildelt tilgang til
+a| Oversikt over alle datakonsumenter som er blitt tildelt tilgang til
 ressurser.
 
 Oversikten over konsumenters bruk av API fra datatilbydere er
