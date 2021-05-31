@@ -127,6 +127,11 @@ EUNIS: Human Resource Management
 | Identitets-håndtering og tilgangsstyring
 a| What the organization does to manage data on IT systems and applications about users. Managed data includes user objects, identity attributes, security entitlements and authentication factors.
 
+| Økonomistyring
+a| Alle aktiviteter som er rettet mot effektiv styring av penger (midler) på en slik måte at organisasjonen kan oppnå sine mål.
+
+EUNIS: Finance Management
+
 |===
 ****
 TIP: Gå tilbake til standardvisning ved å klikke 'tilbake' (eller lukk dette vinduet om det er nytt)
