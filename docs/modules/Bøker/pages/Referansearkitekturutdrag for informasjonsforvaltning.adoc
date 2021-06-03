@@ -1,0 +1,30 @@
+= Referansearkitekturutdrag for informasjonsforvaltning
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:Bøker:
+endif::[]
+:toc: left
+:experimental:
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 9
+
+
+----
+Thu Jun 03 2021 12:09:26 GMT+0200 (CEST)
+----
+
+
+:leveloffset: +1
+include::main@unit-ra:unit-ra-datadeling-tilnærming:page$Hva er datadeling.adoc[]
+include::main@unit-ra:unit-ra-datadeling-tilnærming:page$Økosystem.adoc[]
+include::main@unit-ra:unit-ra-datadeling-tilnærming:page$Domener.adoc[]
+include::main@unit-ra:unit-ra-datadeling-tilnærming:page$Hva er felles.adoc[]
+include::main@unit-ra:unit-ra-datadeling-tilnærming:page$Samhandling og datadeling.adoc[]
+include::main@unit-ra:unit-ra-datadeling-tilnærming:page$Verktøykassen for deling av data.adoc[]
+include::main@unit-ra:unit-ra-datadeling-tilnærming:page$Muliggjørende kapabiliteter.adoc[]
+include::main@unit-ra:unit-ra-datadeling-tilnærming:page$Organisering og forvaltning av informasjon i domener for høyskoler, universiteter og forskning.adoc[]
+:leveloffset: -1

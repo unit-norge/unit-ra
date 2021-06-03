@@ -22,6 +22,7 @@ ifeval::["{lang}" == "no"]
 ** xref:main@unit-ra:unit-ra-datadeling-vedlegg-e:page$Vedlegg E; Føringer, pågående og videre arbeid.adoc[Vedlegg E: Føringer, pågående og videre arbeid]
 
 * ny Bok
+* xref:main@unit-ra:Bøker:page$Referansearkitekturutdrag for informasjonsforvaltning.adoc[]
 
 endif::[]
 // :lang: no <-----------
