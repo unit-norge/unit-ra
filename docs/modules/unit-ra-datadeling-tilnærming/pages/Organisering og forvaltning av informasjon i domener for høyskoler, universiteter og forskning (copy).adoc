@@ -1,0 +1,34 @@
+= Organisering og forvaltning av informasjon i domener for høyskoler, universiteter og forskning (copy)
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-tilnærming:
+endif::[]
+:toc: left
+:experimental:
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 9
+
+Hvert domene har sin egen informasjon som må forvaltes. Disse domene er
+knyttet til kapabiliteter hos universiteter. Europeiske universiteter
+har modellert sine kapabiliteter i EUNIS kapabilitetsmodellen, og vi har
+brukt denne modellen som utgangspunkt for å foreslå
+informasjonsforvaltningsdomener som har ansvar for data institusjonene
+ønsker å dele. De foreslåtte domenene er vist i figuren under. Innen
+hver domene har fageksperter eierskap til begrepsdefinisjoner innen egen
+domene. Domenene er også ansvarlig for forvaltning av egen informasjon.
+Referansearkitekturen foreslår roller som har dette ansvaret i seksjonen
+_Roller og ansvar for datadeling og informasjonsforvaltning_.
+
+.Organisering og forvaltning av informasjon i domener for høyskoler, universiteter og forskning (copy)
+image::{imagepath}Organisering og forvaltning av informasjon i domener for høyskoler, universiteter og forskning (copy).png[alt=Organisering og forvaltning av informasjon i domener for høyskoler, universiteter og forskning (copy) image]
+
+
+****
+xref:main@unit-ra:unit-ra-datadeling-tilnærming:page$Organisering og forvaltning av informasjon i domener for høyskoler, universiteter og forskning (copy).var.1.adoc[Vis detaljer om elementene i diagrammet] (Tips: kbd:[Shift]-klikk for å åpne i nytt vindu)
+****
+
+

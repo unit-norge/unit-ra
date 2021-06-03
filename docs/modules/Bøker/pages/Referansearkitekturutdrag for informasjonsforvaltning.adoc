@@ -14,10 +14,15 @@ endif::[]
 
 
 ----
-Thu Jun 03 2021 12:58:43 GMT+0200 (CEST)
+Thu Jun 03 2021 14:03:10 GMT+0200 (CEST)
 ----
 
 
 :leveloffset: +1
-include::main@unit-ra:Bøker:page$Hva er datadeling (copy).adoc[]
+include::main@unit-ra:unit-ra-datadeling-tilnærming:page$Hva er datadeling (copy).adoc[]
+include::main@unit-ra:unit-ra-datadeling-tilnærming:page$Domener (copy).adoc[]
+include::main@unit-ra:unit-ra-datadeling-tilnærming:page$Hva er felles (copy).adoc[]
+include::main@unit-ra:unit-ra-datadeling-tilnærming:page$Muliggjørende kapabiliteter (copy).adoc[]
+include::main@unit-ra:unit-ra-datadeling-tilnærming:page$Organisering og forvaltning av informasjon i domener for høyskoler, universiteter og forskning (copy).adoc[]
+include::main@unit-ra:unit-ra-datadeling-roller:page$Roller og ansvar for informasjonsforvaltning (copy).adoc[]
 :leveloffset: -1

@@ -1,0 +1,69 @@
+= Domener (copy)
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-tilnærming:
+endif::[]
+:toc: left
+:experimental:
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 9
+
+Informasjonen som skal forvaltes finnes i en faglig kontekst som vi
+kaller et «domene».
+
+Innen et domene definerer et fagområde sine begreper i det vokabularet
+som benyttes der. For eksempel vil et begrep som
+«Søker»footnote:[_Person som_ har søkt opptak til et studieprogram eller
+enkeltemner ved et universitet eller en høyskole.] ha en beskrivelse,
+forståelse og sine egne data i et studieadministrativt domene.
+
+Som en del av den generelle utvikling innen IT systemer, er sektoren i
+ferd med å bygge en distribuert arkitektur som knytter sammen løst
+koblet, delte datakilder. +
+Referansearkitekturen er laget for å støtte denne utviklingen ved å
+benytte domener som utgangspunkt for informasjonsforvaltning, utvikling
+av datakilder, datasett, API og hendelser.
+
+Referansearkitekturen beskriver en datadelingsplattform som støtter
+deling av data mellom domener gjennom både API og publisering av
+hendelser. Vi grupperer domenene i grunnleggende domener og domener
+utviklet for spesielle brukstilfeller som avbildet under.
+
+.Domener i UHF-sektoren
+image::{imagepath}DomenerUHF.png[]
+
+De *_grunnleggende domenene_* inneholder data som støtter de sentrale
+prosessene for læring, forskning og administrasjon hos institusjonene.
+
+Disse domenene inneholder blant annet *_masterdatakilder_* med
+informasjon om, for eksempel, studenter, ansatte, forskningsprosjekt,
+forskningsresultater, læringsobjekter, med flere. Disse kildene er
+definert ut fra en dyp forståelse av sektorenes funksjon og vil typisk
+være forholdsvis stabile over tid.
+
+API og datasett definert i grunnleggende domener blir gjerne gjenbrukt
+av bruksnære domener.
+
+De *_bruksnære domenene_* er definert til å støtte en spesifikk
+brukernær kontekst. Domener for brukskontekst inkluderer for eksempel
+situasjoner der studenter evaluerer emner, der studenter får
+automatisert tilbakemeldinger for å forbedre læringsprosessen
+(læringsanalyse) og der deltagere i forskningsprosjekt utfører forsøk.
+
+Datasett og API definert her skal være _spesifikke_ og skreddersydd til
+brukskonteksten.
+
+Vi har hentet denne tilnærmingen fra faglitteratur om Data
+Meshfootnote:[Fra
+«https://martinfowler.com/articles/data-monolith-to-mesh.html#DomainDataAsAProduct[How
+to Move Beyond a Monolithic Data Lake to a Distributed Data Mesh]» av
+https://twitter.com/zhamakd[Zhamak Dehghani]]. Arkitekturen påvirker
+rutiner for utvikling av API, datasett og notifikasjoner beskrevet i
+seksjonen Rutiner for utvikling av API, notifikasjoner og datasett samt
+roller og ansvar beskrevet i seksjonen Roller og ansvar for datadeling
+og informasjonsforvaltning.
+
