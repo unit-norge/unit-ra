@@ -113,9 +113,8 @@ mål at dataprodukter skal være mest mulig selvbeskrivende.
 * Begrepsdefinisjoner bør suppleres og publiseres i begrepskatalogen
 * Notifikasjoner som er realisert ved bruk av hendelseslister vurderes
 ut fra behov
-* Samle føringer for datatilbydere og -konsumenter, for eksempel
-tolkning av arkitekturprinsipper der man blant annet kun skal dele
-videre fra en tjeneste data en er autoritativ for
+* Bearbeide IntArk arkitekturprinsipper og annen kildemateriale for å konkretisere føringer fra  https://www.digdir.no/digitalisering-og-samordning/overordnede-arkitekturprinsipper/1065[Overordnede
+arkitekturprinsipper] og https://www.go-fair.org/fair-principles/["FAIR Guiding Principles for scientific data management and stewardship"] for deling av data.
 
 
 
