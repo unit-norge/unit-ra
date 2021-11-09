@@ -12,5 +12,5 @@ endif::[]
 :sectnums:
 :sectnumlevels: 9
 
-Målgruppen for referansearkitekturen er primært arkitekter og tekniske prosjektledere. Deler av dokumentet er også relevant for domeneansvarlige, begrepseiere, tjenesteeiere, tjenesteansvarlige, utviklere og datakonsumenter (disse rollene er definert i dette dokumentet).
+Målgruppen for referansearkitekturen er primært arkitekter og tekniske prosjektledere. Deler av dokumentet er også relevant for domeneansvarlige, begrepsansvarlige, tjenesteeiere, tjenesteansvarlige, utviklere og datakonsumenter (disse rollene er definert i dette dokumentet).
 
