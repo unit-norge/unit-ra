@@ -29,7 +29,7 @@ etableres opp på en datadelingsplattform, og elementene i plattformen er
 spesifisert i referansearkitekturen.
 
 .Et økosystem for deling av data i UHF-sektoren
-image::{imagepath}økosystem.png[]
+image::{imagepath}økosystem1.png[]
 
 Figuren viser datadeling i og mellom domener. Virksomhetskritiske og
 brukernære funksjoner som er domenespesifikke, kalles her
