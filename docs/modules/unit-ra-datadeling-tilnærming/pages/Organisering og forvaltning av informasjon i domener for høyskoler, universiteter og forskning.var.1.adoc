@@ -88,7 +88,7 @@ a| Alle aktiviteter rettet mot å gjennomføre og levere selve forskningen.
 
 EUNIS: Research Delivery
 
-| Kurratering av forskningsdata 
+| Kuratering av forskningsdata 
 a| Hva organisasjonen gjør for å lagre, dele, bruke og gjenbruke datasett produsert fra forskningsprosjekter, inkludert datasettstyringsplanlegging og kuratering av datasett utover levetiden til enkeltprosjekter.
 
 EUNIS: Dataset management
