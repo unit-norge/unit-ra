@@ -1,4 +1,4 @@
-= UNIT Referansearkitekturer
+= HKdir Referansearkitekturer
 :wysiwig_editing: 1
 ifeval::[{wysiwig_editing} == 1]
 :imagepath: ../images/
@@ -11,5 +11,5 @@ endif::[]
 :sectnums:
 :sectnumlevels: 9
 
-== Om UNIT Referansearkitekturer
+== Om HKdir Referansearkitekturer
 Velkommen...
