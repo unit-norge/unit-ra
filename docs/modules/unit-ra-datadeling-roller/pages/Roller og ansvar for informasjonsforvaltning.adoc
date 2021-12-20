@@ -39,7 +39,7 @@ Roller relatert til informasjonsdomener:
 
 * Behandlingsansvarlig
 * Domeneansvarlig
-* Begrepsansvarlig
+* Begrepseier
 
 Koordinerende aktør for hele Kunnskapsdepartementets sektor (Unit)
 
@@ -236,7 +236,7 @@ Drive opplæring knyttet til forvaltning av informasjon i domenet.
 
 [cols=",",options="header",]
 |===
-|*Rolle:* |Begrepsansvarlig
+|*Rolle:* |Begrepseier
 |*Beskrivelse av rollen:* |Rollen som har det faglige ansvaret for et
 begreps innhold.
 

@@ -17,7 +17,7 @@ endif::[]
 image:{imagepath}image1.jpeg[]
 
 ----
-Thu Nov 25 2021 16:05:53 GMT+0100 (CET)
+Mon Dec 20 2021 11:39:59 GMT+0100 (CET)
 ----
 
 
@@ -27,7 +27,7 @@ include::main@unit-ra:unit-ra-datadeling-tilnærming:page$Tilnærming til utvikl
 include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Datadelingsplattformen og felles komponentene i den.adoc[]
 include::main@unit-ra:unit-ra-datadeling-datautveksling:page$Datautveksling.adoc[]
 include::main@unit-ra:unit-ra-datadeling-rutiner:page$Rutiner.adoc[]
-include::main@unit-ra:unit-ra-datadeling-roller:page$Roller og ansvar for tjeneste- og informasjonsforvaltning.adoc[]
+include::main@unit-ra:unit-ra-datadeling-roller:page$Roller og ansvar for informasjonsforvaltning.adoc[]
 include::main@unit-ra:unit-ra-datadeling-vedlegg-a:page$Vedlegg A; Definisjoner.adoc[]
 include::main@unit-ra:unit-ra-datadeling-vedlegg-b:page$Vedlegg B; Behov for avklaringer og utfordringer i sektorens kontekst.adoc[]
 include::main@unit-ra:unit-ra-datadeling-vedlegg-c:page$Vedlegg C; Muliggjørende økosystem.adoc[]

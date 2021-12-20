@@ -13,7 +13,7 @@ endif::[]
 :sectnumlevels: 9
 
 Informasjonen som skal forvaltes finnes i en faglig kontekst som vi
-kaller et «domene». 
+kaller et «domene».
 
 Innen et domene definerer et fagområde sine begreper i det vokabularet
 som benyttes der. For eksempel vil et begrep som
