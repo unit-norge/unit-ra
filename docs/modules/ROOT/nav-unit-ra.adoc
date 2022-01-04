@@ -7,21 +7,21 @@ ifeval::["{lang}" == "no"]
 //* xref:index.adoc[Om HKdir referansearkitekturer]
 * xref:index.adoc[Om HKdir referansearkitekturer]
 
-* xref:main@unit-ra:Bøker:page$Referansearkitektur for deling av data i høyere utdanning og forsking.adoc[]
+* xref:main@unit-ra:Bøker:page$Referansearkitektur for deling av data i høyere utdanning og forsking.adoc[Referansearkitektur for deling av data i høyere utdanning og forsking]
 
 ** xref:main@unit-ra:unit-ra-datadeling-introduksjon:page$Introduksjon.adoc[Introduksjon]
-** xref:main@unit-ra:unit-ra-datadeling-tilnærming:page$Tilnærming til utvikling av referansearkitekturen.adoc[]
-** xref:main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Datadelingsplattformen og felles komponentene i den.adoc[]
-** xref:main@unit-ra:unit-ra-datadeling-datautveksling:page$Datautveksling.adoc[]
-** xref:main@unit-ra:unit-ra-datadeling-rutiner:page$Rutiner.adoc[]
-** xref:main@unit-ra:unit-ra-datadeling-roller:page$Roller og ansvar for informasjonsforvaltning.adoc[]
+** xref:main@unit-ra:unit-ra-datadeling-tilnærming:page$Tilnærming til utvikling av referansearkitekturen.adoc[Tilnærming til utvikling av referansearkitekturen]
+** xref:main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Datadelingsplattformen og felles komponentene i den.adoc[Datadelingsplattformen og felles komponentene i den]
+** xref:main@unit-ra:unit-ra-datadeling-datautveksling:page$Datautveksling.adoc[Datautveksling]
+** xref:main@unit-ra:unit-ra-datadeling-rutiner:page$Rutiner.adoc[Rutiner]
+** xref:main@unit-ra:unit-ra-datadeling-roller:page$Roller og ansvar for informasjonsforvaltning.adoc[Roller og ansvar for informasjonsforvaltning]
 ** xref:main@unit-ra:unit-ra-datadeling-vedlegg-a:page$Vedlegg A; Definisjoner.adoc[Vedlegg A: Definisjoner]
 ** xref:main@unit-ra:unit-ra-datadeling-vedlegg-b:page$Vedlegg B; Behov for avklaringer og utfordringer i sektorens kontekst.adoc[Vedlegg B: Behov for avklaringer og utfordringer i sektorens kontekst]
 ** xref:main@unit-ra:unit-ra-datadeling-vedlegg-c:page$Vedlegg C; Muliggjørende økosystem.adoc[Vedlegg C: Muliggjørende økosystem]
 ** xref:main@unit-ra:unit-ra-datadeling-vedlegg-d:page$Vedlegg D; Behov og bruksområder.adoc[Vedlegg D: Behov og bruksområder]
 ** xref:main@unit-ra:unit-ra-datadeling-vedlegg-e:page$Vedlegg E; Føringer, pågående og videre arbeid.adoc[Vedlegg E: Føringer, pågående og videre arbeid]
 
-* xref:main@unit-ra:Bøker:page$Referansearkitekturutdrag for informasjonsforvaltning.adoc[]
+* xref:main@unit-ra:Bøker:page$Referansearkitekturutdrag for informasjonsforvaltning.adoc[Referansearkitekturutdrag for informasjonsforvaltning]
 
 endif::[]
 // :lang: no <-----------
