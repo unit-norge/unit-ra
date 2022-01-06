@@ -14,7 +14,7 @@ endif::[]
 
 Denne referansearkitekturen er utarbeidet med det som mål at høyere
 utdanning og forskning skal få en felles datadelingsplattform, digital
-samhandlingspraksis og informasjonsforvaltningspraksis.  XX
+samhandlingspraksis og informasjonsforvaltningspraksis. 
 
 Økt deling av data er en forutsetning for å realisere flere av
 initiativene i ‘Handlingsplan for digitalisering i høyere utdanning og
