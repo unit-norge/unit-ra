@@ -31,7 +31,7 @@ spesifisert i referansearkitekturen.
 .Et økosystem for deling av data i UHF-sektoren
 image::{imagepath}økosystem.png[]
 
-Figuren viser datadeling i og mellom domener. Virksomhetskritiske og
+Figuren viser datadeling i og mellom domener. Administrative og
 brukernære funksjoner som er domenespesifikke, kalles her
 tjenesteprodukter. Dataprodukter tilgjengeliggjøres og deles mellom
 domenene i økosystemet. Domenene kan opptre som datatilbydere (tilbyr
