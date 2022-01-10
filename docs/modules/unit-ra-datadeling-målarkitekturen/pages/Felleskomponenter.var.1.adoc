@@ -57,7 +57,7 @@ brukt til å realisere autorisasjonspolicy for tilgang og roller
 | UHF autorisasjonstjener
 a| Autorisasjonstjenester realiserer tilgangskontroll
 gjennom å utstede sikkerhetsbilletter. En autorisasjonstjener er også
-brukt til å realisere autorisasjonspolicy for tilgang og roller
+brukt til å realisere autorisasjonspolicy for tilgang og roller.
 
 
 

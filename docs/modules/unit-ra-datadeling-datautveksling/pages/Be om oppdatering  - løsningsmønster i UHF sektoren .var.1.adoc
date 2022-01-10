@@ -56,7 +56,7 @@ a| Oversikt over hvilke API og OAUTH-scopes en virksomhet (representert ved orga
 | UHF autorisasjonstjener
 a| Autorisasjonstjenester realiserer tilgangskontroll
 gjennom å utstede sikkerhetsbilletter. En autorisasjonstjener er også
-brukt til å realisere autorisasjonspolicy for tilgang og roller
+brukt til å realisere autorisasjonspolicy for tilgang og roller.
 
 
 
