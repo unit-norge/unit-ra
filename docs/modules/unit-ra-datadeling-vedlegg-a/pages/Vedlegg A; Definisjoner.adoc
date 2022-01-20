@@ -12,6 +12,8 @@ endif::[]
 :sectnums:
 :sectnumlevels: 9
 
+Referansearkitekturen forutsetter at begreper vil bli definert i sine respektive domener og publisert i en begrepskatalog når referansearkitekturen realiseres. I mellomtiden kopierer vi utvalgte begreper fra data.norge.no med kildeangivelse for å bidra til en entydig forståelse av referansearkitekturen.
+
 *Datakvalitet* innebærer at data skal være korrekte, komplette,
 oppdaterte og konsistente og har evnen til å støtte de
 informasjonsformål de brukes til [kilde: data.norge.no, SKATTEETATEN]
