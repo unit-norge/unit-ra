@@ -51,7 +51,7 @@ brukes til, hvilke prosesser de inngår i, og hvem som kan bruke dem
 hvilke data som kan gjøres tilgjengelig for gjenbruk i offentlig sektor,
 og viderebruk av privat sektor. Offentlige virksomheter må prioritere
 utveksling av informasjon som andre virksomheter har krav
-på https://www.regjeringen.no/no/dokumenter/digitaliseringsrundskrivet/id2826781/[(Digitaliseringsrundskrivet)].”_
+på https://www.regjeringen.no/no/dokumenter/digitaliseringsrundskrivet/id2895185/[(Digitaliseringsrundskrivet)].”_
 ____
 
 Referansearkitekturen forutsetter at virksomheter i UHF-sektoren har

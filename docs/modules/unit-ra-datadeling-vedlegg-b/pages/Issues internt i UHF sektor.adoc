@@ -18,7 +18,7 @@ endif::[]
 det samme problemet vi har mot de nasjonale fellestjenestene at
 den ene domenen ikke kan forholde seg til tokens fra den andre domenen.
 . Sektoren har tre uavhengige SSO løsninger: IDporten, Feide og Azure
-AD. Dette gir både redusert brukervennlighet, og en sikkerhetsutfordring
+AD. Dette gir både redusert brukervennlighet, og er en sikkerhetsutfordring
 dersom man ikke kan garantere for at det er samme person i de ulike SSO
 identitetene.
 
