@@ -1,0 +1,20 @@
+= Utvikling av brukernære API og datasett
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-forvaltning:
+endif::[]
+:toc: left
+:experimental:
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 9
+
+Tekst utvikling av brukernære API og datasett
+
+:leveloffset: +1
+include::main@unit-ra:unit-ra-datadeling-forvaltning:page$Forutsetninger for arbeid med definisjon av datasett og API.adoc[]
+include::main@unit-ra:unit-ra-datadeling-forvaltning:page$Rutinen for nye brukernære behov.adoc[]
+:leveloffset: -1

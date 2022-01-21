@@ -1,0 +1,53 @@
+= Rutinen for nye brukernære behov
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-forvaltning:
+endif::[]
+:toc: left
+:experimental:
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 9
+
+[arabic]
+. Melde behov, gjerne av datakonsumentene
+[loweralpha]
+.. Interessenter melder ønsker inn gjennom kjent verktøy / grensenitt
+.. Periodisk prosess for å samle innspill og prioritere
+.. For de case som går videre: Intervjue interessenter/ kjøre
+tjenestedesign workshop for å beskrive scenariet
+. Analysere behov og finne ut hvilke domener og kilder som er involvert
+[loweralpha]
+.. Hvem gjør dette? Tjenesteansvarlige? Informasjonsdomeneeiere?
+Prosesseiere? Sekretariatet? Hvem hos institusjonene?
+.. F. eks. studieadministrasjon kunne være en domene, og tjenesansvarlig
+for FSAPI
+. Finn eksisterende datasett involvert (helst fra datakatalogen) som er
+ferdig harmonisert
+[loweralpha]
+.. Spesifisere hva som blir berørt f. eks. begreper, API, datamodell,
+(tjeneste- og API-eiere)
+. Identifiser hva må skapes, harmoniseres eller videreutvikles i tillegg
+til eksisterende datasett for å tilfredsstille behovet
+[loweralpha]
+.. Trenger vi nye: begreper, kilder, API, datasett m.m?
+.. Kontakte interessentene til de berørte områdene med sikte på å være
+med i prosessen
+. Kjør begreps harmoniseringsprosessen etter behov med relevante
+interessenter (hele verdikjeden for data involvert må være representert)
+[loweralpha]
+.. Følg
+https://data.norge.no/specification/forvaltningsstandard-begrepskoordinering/[standarden
+om Begrepsharmonisering og begrepsdifferensiering]
+(https://laeringsplattformen.difi.no/kurs/971527404/begrip-begrepene-et-innforingskurs-i-terminologi-og-begrepsarbeid[kurs
+om begrepsarbeid] er en utfyllende ressurs)
+. Definere API/datasett team med representasjon fra både bruksmiljø og
+produsent (er dette den samme gruppen fra punkt 5?)
+[loweralpha]
+.. Det kan ta noen iterasjoner med utprøving av API før man er fornøyd
+.. Senere oppdateringer kan kjøres som iterasjoner da man allerede har
+resultatene fra tidligere steg.
+
