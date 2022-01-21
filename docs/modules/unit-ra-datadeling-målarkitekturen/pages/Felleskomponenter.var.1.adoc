@@ -54,7 +54,7 @@ gjennom API gateway og meldingstjenester nær de beskyttede ressursene.
 gjennom å utstede sikkerhetsbilletter. En autorisasjonstjener er også
 brukt til å realisere autorisasjonspolicy for tilgang og roller
 
-| UHF autorisasjonstjener
+| UHF Autorisasjonstjener
 a| Autorisasjonstjenester realiserer tilgangskontroll
 gjennom å utstede sikkerhetsbilletter. En autorisasjonstjener er også
 brukt til å realisere autorisasjonspolicy for tilgang og roller.

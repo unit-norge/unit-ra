@@ -53,7 +53,7 @@ a| Tjeneste som benyttes av tokentjenesten for å kontrollere om det foreligger 
 | Tilganger konsument
 a| Oversikt over hvilke API og OAUTH-scopes en virksomhet (representert ved organisasjonsnummer) skal ha tilgang til (utstedt token for).
 
-| UHF autorisasjonstjener
+| UHF Autorisasjonstjener
 a| Autorisasjonstjenester realiserer tilgangskontroll
 gjennom å utstede sikkerhetsbilletter. En autorisasjonstjener er også
 brukt til å realisere autorisasjonspolicy for tilgang og roller.
