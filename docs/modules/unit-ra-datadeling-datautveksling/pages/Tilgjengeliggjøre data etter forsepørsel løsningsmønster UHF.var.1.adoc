@@ -106,9 +106,6 @@ tilganger det gjelder. Ressursportalen benytter JSON Web Token
 formattert OAuth2 sikkerhetsbilletter for å gi tilgang til ressurser
 gjennom API gateway og meldingstjenester nær de beskyttede ressursene.
 
-|UHF Autorisasjon |Autorisasjonstjenester realiserer tilgangskontroll
-gjennom å utstede sikkerhetsbilletter. En autorisasjonstjener er også
-brukt til å realisere autorisasjonspolicy for tilgang og roller
 
 | Forespør dataforvalter
 a| En tjeneste som lar dataforvalteren beslutte datatilgang, enten gjennom en automatisert policy eller gjennom en manuell behandling. 
