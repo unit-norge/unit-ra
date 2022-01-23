@@ -41,8 +41,7 @@ Det innebærer at blant annet studenter, lokale IT-avdelinger og Ed Tech
 leverandører, gis mulighet til å bygge lettvekts brukerapplikasjoner
 gjennom tilgang til data. +
 Dette kan være både fra de tunge tjenestene og mer smale tjenester som
-timeplan-/bookingsystem, posisjonsdata, etc. _Smart Campus_ (Uninett) er
-et eksempel på et slikt konsept.
+timeplan-/bookingsystem, posisjonsdata, etc. 
 
 === Administrative prosesser
 
@@ -117,9 +116,7 @@ forskning.
 De viktigste overordnede behovene adressert i referansearkitekturen for
 datadeling i høyere utdanning og forskning er: 
 
-* Sikre at UHF følger arkitekturprinsippene nedfelt i nasjonal
-referansearkitektur for
-datautvekslingfootnote:[https://nasjonal-arkitektur.github.io/architecture-repository/data-exchange-ra/book-data-exchange-ra.html]
+* Sikre at UHF følger de Overordnede arkitekturprinsippene for digitalisering av offentlig sektor[https://www.digdir.no/samhandling/overordnede-arkitekturprinsipper/1065]
 * Sikre at sektoren har en enhetlig og sikker måte for å håndtere
 tilganger til sektorens data gjennom kravstilling utrykt i
 referansearkitekturen 
