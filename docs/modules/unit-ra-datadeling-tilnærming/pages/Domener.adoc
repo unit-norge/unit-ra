@@ -58,10 +58,10 @@ Datasett og API definert her skal være _spesifikke_ og skreddersydd til
 brukskonteksten.
 
 Vi har hentet denne tilnærmingen fra faglitteratur om Data
-Meshfootnote:[Fra
-«https://martinfowler.com/articles/data-monolith-to-mesh.html#DomainDataAsAProduct[How
-to Move Beyond a Monolithic Data Lake to a Distributed Data Mesh]» av
-https://twitter.com/zhamakd[Zhamak Dehghani]]. Arkitekturen påvirker
+Meshfootnote:Fra
+https://martinfowler.com/articles/data-monolith-to-mesh.html#DomainDataAsAProduct[How
+to Move Beyond a Monolithic Data Lake to a Distributed Data Mesh, Domain Data as a Product]» av
+https://twitter.com/zhamakd[Zhamak Dehghani]. Arkitekturen påvirker
 rutiner for utvikling av API, datasett og notifikasjoner beskrevet i
 seksjonen Rutiner for utvikling av API, notifikasjoner og datasett samt
 roller og ansvar beskrevet i seksjonen Roller og ansvar for datadeling
