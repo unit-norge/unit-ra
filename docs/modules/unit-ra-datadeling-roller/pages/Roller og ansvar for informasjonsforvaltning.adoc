@@ -39,7 +39,7 @@ Roller relatert til informasjonsdomener:
 
 * Behandlingsansvarlig
 * Domeneansvarlig
-* Begrepseier
+* Begrepsansvarlig
 
 Koordinerende aktør for hele Kunnskapsdepartementets sektor (Unit)
 
@@ -150,7 +150,7 @@ Denne rollen har ansvar for behandling av personopplysninger på vegne av
 den behandlingsansvarlige.
 
 |*Typiske roller/stillinger som rollen skal samarbeide med:*
-|Tjenesteeier, Datakonsument, Begrepseier, Domeneansvarlig,
+|Tjenesteeier, Datakonsument, Begrepsansvarlig, Domeneansvarlig,
 Dataforvalter.
 |===
 
@@ -187,7 +187,7 @@ Oppgaver:
 * Rettighetsklarering av data
 
 |*Typiske roller/stillinger som rollen skal samarbeide med:*
-|Begrepseier, Domeneansvarlig, Behandlingsansvarlig, Tjenesteansvarlig
+|Begrepansansvarlig, Domeneansvarlig, Behandlingsansvarlig, Tjenesteansvarlig
 |===
 
 [cols=",",options="header",]
@@ -203,7 +203,7 @@ hos Datatilsynet (behandlingsansvarlig)
 footnote:[https://www.datatilsynet.no/rettigheter-og-plikter/virksomhetenes-plikter/databehandleravtale/behandlingsansvarlig-og-databehandler/hva-er-en-behandlingsansvarlig/].
 
 |*Typiske roller/stillinger som rollen skal samarbeide med:*
-|Tjenesteeier, Tjenesteansvarlig, Dataforvalter, Begrepseier,
+|Tjenesteeier, Tjenesteansvarlig, Dataforvalter, Begrepsansvarlig,
 Domeneansvarlig.
 |===
 
@@ -231,7 +231,7 @@ Publisering av begreper i felles begrepskatalog (data.norge.no)
 Drive opplæring knyttet til forvaltning av informasjon i domenet.
 
 |*Typiske roller/stillinger som rollen skal samarbeide med:*
-|Begrepseier, Datakonsument, Tjenesteansvarlig
+|Begrepsansvarlig, Datakonsument, Tjenesteansvarlig
 |===
 
 [cols=",",options="header",]
@@ -290,7 +290,7 @@ Etablere et rådgivende forum for juridiske avklaringer knyttet til
 deling og utlevering av data
 
 |*Typiske roller/stillinger som rollen skal samarbeide med:*
-|Domeneansvarlig, Begrepseier, Dataforvalter, Tjenesteeier og
+|Domeneansvarlig, Begrepsansvarlig, Dataforvalter, Tjenesteeier og
 Tjenesteansvarlig
 |===
 
