@@ -54,7 +54,7 @@ informasjonsforvaltning
 * Sørge for at kunnskapssektoren følger de nasjonale og sektorspesifikke
 retningslinjer som Digitaliseringsdirektoratet og andre spesifiserer
 
-Disse behovene er beskrevet i mer detaljer i Vedlegg 4 Behov og
+Disse behovene er beskrevet i mer detaljer i Vedlegg D Behov og
 bruksområder som skal dekkes av referansearkitekturen
 
 == Gevinst
@@ -76,6 +76,6 @@ Referansearkitekturen og dette dokumentet tar utgangspunkt i pågående
 arbeid og førende strategier og prinsipper nasjonalt, innen sektoren og
 internasjonalt.
 
-Dette er beskrevet i Vedlegg 5 Føringer, pågående og videre arbeid
+Dette er beskrevet i Vedlegg E Føringer, pågående og videre arbeid
 
 

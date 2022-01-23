@@ -13,8 +13,8 @@ endif::[]
 :sectnumlevels: 9
 
 Referansearkitekturen er utarbeidet i et samarbeidsprosjekt Datadeling
-med prosjektdeltagelse fra Unit, NTNU, Universitetet i Oslo og Uninett.
-Styringsgruppen består av medlemmer fra Unit, Universitetet i Bergen,
+med prosjektdeltagelse fra NTNU, Universitetet i Oslo, daværende Unit og Uninett (per januar 2022 HK-dir og Sikt).
+Styringsgruppen består av medlemmer fra Sikt, Universitetet i Bergen,
 OsloMet, Universitetet i Oslo, Norges Miljø- og Biovitenskaplige
-universitet og Uninett.
+universitet.
 

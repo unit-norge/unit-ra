@@ -12,9 +12,8 @@ endif::[]
 :sectnums:
 :sectnumlevels: 9
 
-Verktøykassen for deling av datafootnote:[Verktøykasse for deling av
-data
-https://www.digdir.no/apne-data/nasjonal-verktoykasse-deling-av-data/2243]
+https://www.digdir.no/apne-data/nasjonal-verktoykasse-deling-av-data/2243[Verktøykasse for deling av
+data]
 fra Digitaliseringsdirektoratet gir veiledning for de som skal bruke
 data fra andre (datakonsumenter) og de som skal dele data med andre
 (datatilbydere). Den overordnede prosessen brukt av datakonsumenter og
