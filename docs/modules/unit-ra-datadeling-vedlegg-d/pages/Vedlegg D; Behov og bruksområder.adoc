@@ -116,7 +116,7 @@ forskning.
 De viktigste overordnede behovene adressert i referansearkitekturen for
 datadeling i høyere utdanning og forskning er: 
 
-* Sikre at UHF følger de Overordnede arkitekturprinsippene for digitalisering av offentlig sektor[https://www.digdir.no/samhandling/overordnede-arkitekturprinsipper/1065]
+* Sikre at UHF følger de https://www.digdir.no/samhandling/overordnede-arkitekturprinsipper/1065[Overordnede arkitekturprinsippene for digitalisering av offentlig sektor]
 * Sikre at sektoren har en enhetlig og sikker måte for å håndtere
 tilganger til sektorens data gjennom kravstilling utrykt i
 referansearkitekturen 
