@@ -16,13 +16,7 @@ Hvert domene har sin egen informasjon som må forvaltes. Referansearkitekturen f
 _Roller og ansvar for datadeling og informasjonsforvaltning_. 
 Informasjonsforvaltning basert på domeneansvar forutsetter at sektorene blir enige om hvilke domener de skal forholde seg til og hvem som skal bekle rollene koblet til dem. Sektorene er allerede i gang med å definere funksjonsområder som kan være utgangspunktet for definisjon av informasjonsdomener. Arbeidet skjer både som analyse av evner (kapabiliteter) som virksomhetene skal ha og som en kartlegging av sektorens kjernevirksomhet i en «funksjonsanalyse» for arkiveringsformål.
 
-Europeiske universiteter
-har modellert sine kapabiliteter i EUNIS kapabilitetsmodellen, og vi har
-brukt denne modellen som utgangspunkt for å foreslå noen
-informasjonsforvaltningsdomener som har ansvar for data institusjonene
-ønsker å dele. De foreslåtte domenene er vist i figuren under. Innen
-hver domene har fageksperter eierskap til begrepsdefinisjoner innen egen
-domene. 
+Europeiske universiteter har modellert sine kapabiliteter i EUNIS kapabilitetsmodellen, en modell som må gradvis migreres inn i HERM fra Caudit, støttet av Educause og Ucisa. Disse modellene er brukt  som utgangspunkt for å foreslå noen informasjonsforvaltningsdomener for data som institusjonene ønsker å dele. De foreslåtte domenene er vist i figuren under. Innen hver domene har fageksperter eierskap til begrepsdefinisjoner innen egen domene.
 
 Arbeidet med funksjonsanalyse for arkiveringsformål er en annen kilde til definisjon av informasjonsdomener.
 
