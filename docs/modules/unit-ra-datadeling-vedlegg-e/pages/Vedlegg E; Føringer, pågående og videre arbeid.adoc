@@ -17,7 +17,7 @@ IT-løsninger som vi ønsker å bruke videre i sektoren til å skape en
 effektiv plattform for datadeling. Referansearkitekturen tar
 utgangspunkt i følgende pågående arbeid i sektoren i dag:
 
-* Integrasjonsarkitektur UH:IntArk
+* Datadeling - UH:IntArk
 * Arbeid med Sak og Arkiv i sektoren
 * Arbeid med nytt API for Felles Studentsystem, FS
 * Arbeid med masterdatakilder for forskning
@@ -35,8 +35,7 @@ referansearkitekturene for datadeling og datautveksling]
 * https://app.powerbi.com/view?r=eyJrIjoiMThhNjkzNmItOGQ4NC00MDkzLWI3MDQtNzY0ZjA1MjQ5MzViIiwidCI6ImFlMWE3NzI0LTQwNDEtNDQ2Mi1hNmRjLTUzOGNiMTk5NzA3ZSIsImMiOjh9[Capability
 model from EUNIS] (European University Information System Organization)
 * Behovene avdekket i tjenestedesign analyse av behovene til Studenter,
-Lærere, Forskere og tjenesteleverandører av Muliggjørende økosystem. Se
-_Vedlegg 3 Muliggjørende økosystem for deling av data_
+Lærere, Forskere og tjenesteleverandører av et "Muliggjørende økosystem". 
 
 En viktig forutsetning for videre arbeid med samhandling og datadeling
 er Digitaliseringsdirektoratets
@@ -77,7 +76,7 @@ Arbeidsgrupper i datadelingsprosjektet har samarbeidet i utformingen av
 referansearkitekturen for deling av data i høyere utdanning og forskning
 (UHF). Denne referansearkitekturen vil danne grunnlag for
 videreutvikling av UH:IntArk i fase 2. Arbeidsgruppen har i sitt arbeid
-tatt utgangspunkt i den nasjonale referansearkitekturen og tilpasset
+tatt utgangspunkt i den nasjonale https://www.digdir.no/datadeling/nasjonal-verktoykasse-deling-av-data/2243[Verktøykassen for deling av data] samt https://nasjonal-arkitektur.github.io/architecture-repository/data-exchange-ra/book-data-exchange-ra.html[Referansearkitektur for datautveksling] og tilpasset
 denne til UHF.
 
 Den anbefalte referansearkitekturen er beskrevet i dette notatet.
