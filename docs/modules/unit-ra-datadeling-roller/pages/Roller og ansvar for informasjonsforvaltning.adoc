@@ -41,7 +41,7 @@ Roller relatert til informasjonsdomener:
 * Domeneansvarlig
 * Begrepsansvarlig
 
-Koordinerende aktør for hele Kunnskapsdepartementets sektor (Unit)
+Koordinerende aktør for hele Kunnskapsdepartementets sektor (HK-dir)
 
 [cols=",",options="header",]
 |===
