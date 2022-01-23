@@ -14,8 +14,8 @@ endif::[]
 
 Domenene beskrevet over, og rollene knyttet til disse får en definert
 avgrensning. Tilnærmingen til avgrensing følger fra strategiske valg i
-Handlingsplanen for digitalisering i høyere utdanning og
-forskningfootnote:[https://www.unit.no/handlingsplan-digitalisering-i-hoyere-utdanning-og-forskning].
+https://www.unit.no/handlingsplan-digitalisering-i-hoyere-utdanning-og-forskning[Handlingsplanen for digitalisering i høyere utdanning og
+forskning].
 Disse valg er knyttet til hva som skal være standardisert, hva som skal
 være felles og hva som skal variere og fremme innovasjon.
 Administrasjons- og støtteprosesser skal benytte i størst mulig grad
