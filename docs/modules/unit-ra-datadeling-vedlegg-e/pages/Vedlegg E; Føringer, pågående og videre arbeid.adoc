@@ -81,11 +81,10 @@ denne til UHF.
 
 Den anbefalte referansearkitekturen er beskrevet i dette notatet.
 
-Deler av referansearkitekturen beskrevet her vil inngå i
-referansearkitekturen for Kunnskapssektorens datafellesskap (en
+Referansearkitekturen beskrevet her vil inngå i
+referansearkitekturen for Kunnskapssektorens datafellesskap (KUDAF, en
 infrastruktur for deling av data til sekundær- og viderebruk fra hele
-KDs sektor), og arbeidet er koordinert med dette tiltaket som er i
-skrivende stund i en forprosjektfase.
+KDs sektor), og arbeidet er koordinert med dette tiltaket.
 
 Referansearkitekturer gir mønstre og veiledning til utforming av
 løsninger. Denne referansearkitekturen beskriver både eksisterende
@@ -112,7 +111,7 @@ mål at dataprodukter skal være mest mulig selvbeskrivende.
 * Begrepsdefinisjoner bør suppleres og publiseres i begrepskatalogen
 * Notifikasjoner som er realisert ved bruk av hendelseslister vurderes
 ut fra behov
-* Bearbeide IntArk arkitekturprinsipper og annen kildemateriale for å konkretisere føringer fra  https://www.digdir.no/digitalisering-og-samordning/overordnede-arkitekturprinsipper/1065[Overordnede
+* Bearbeidet IntArk arkitekturprinsipper og annen kildemateriale for å konkretisere føringer fra  https://www.digdir.no/digitalisering-og-samordning/overordnede-arkitekturprinsipper/1065[Overordnede
 arkitekturprinsipper] og https://www.go-fair.org/fair-principles/["FAIR Guiding Principles for scientific data management and stewardship"] for deling av data.
 
 
