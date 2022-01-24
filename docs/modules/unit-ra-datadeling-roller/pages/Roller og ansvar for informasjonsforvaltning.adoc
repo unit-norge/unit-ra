@@ -198,8 +198,7 @@ annet organ som alene eller sammen med andre bestemmer formålet med
 behandlingen av personopplysninger og hvilke midler som skal benyttes;
 
 |*Ansvars-områder og oppgaver:* |Uttømmende informasjon om rollen finnes
-hos Datatilsynet (behandlingsansvarlig)
-footnote:[https://www.datatilsynet.no/rettigheter-og-plikter/virksomhetenes-plikter/databehandleravtale/behandlingsansvarlig-og-databehandler/hva-er-en-behandlingsansvarlig/].
+hos Datatilsynet (https://www.datatilsynet.no/rettigheter-og-plikter/virksomhetenes-plikter/databehandleravtale/behandlingsansvarlig-og-databehandler/hva-er-en-behandlingsansvarlig/[Behandlingsansvarlig]).
 
 |*Typiske roller/stillinger som rollen skal samarbeide med:*
 |Tjenesteeier, Tjenesteansvarlig, Dataforvalter, Begrepsansvarlig,
