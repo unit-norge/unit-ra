@@ -33,7 +33,7 @@ for digital samhandling]
 * https://nasjonal-arkitektur.github.io/architecture-repository/about-topic-areas/about-topic-areas.html[Nasjonal
 referansearkitekturene for datadeling og datautveksling]
 * https://app.powerbi.com/view?r=eyJrIjoiMThhNjkzNmItOGQ4NC00MDkzLWI3MDQtNzY0ZjA1MjQ5MzViIiwidCI6ImFlMWE3NzI0LTQwNDEtNDQ2Mi1hNmRjLTUzOGNiMTk5NzA3ZSIsImMiOjh9[Capability
-model from EUNIS] (European University Information System Organization)
+model from EUNIS] (European University Information System Organization), for tiden under endring, basert på HERM (Higher Education Reference Model, basert på Caudit, Ucisa, Educause og Eunis) kapaiblitetsmodell
 * Behovene avdekket i tjenestedesign analyse av behovene til Studenter,
 Lærere, Forskere og tjenesteleverandører av et "Muliggjørende økosystem". 
 
