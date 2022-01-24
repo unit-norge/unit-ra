@@ -38,8 +38,8 @@ https://data.norge.no/specification/forvaltningsstandard-begrepskoordinering/[st
 om Begrepsharmonisering og begrepsdifferensiering]
 (https://laeringsplattformen.difi.no/kurs/971527404/begrip-begrepene-et-innforingskurs-i-terminologi-og-begrepsarbeid[kurs
 om begrepsarbeid] er en utfyllende ressurs)
-. Publiser nye eller oppdaterte begreper i
-https://data.norge.no/concepts[felles begrepskatalog]
+. Publiser nye eller oppdaterte begreper i UHF begrepskatalog (eventuelt 
+https://data.norge.no/concepts[felles begrepskatalog])
 . Identifiser hva må skapes, harmoniseres eller videreutvikles. Pass på
 at funksjonaliteten spesifisert i grensesnittet dekker kun det som
 trengs for å støtte brukstilfellet under utvikling.

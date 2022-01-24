@@ -15,7 +15,7 @@ endif::[]
 Det er behov for datadeling og API Management på tvers av sektorer.
 Høyere utdanning og forskning ønsker utstrakt bruk av nasjonale
 felleskomponenter, som omtalt i Digitaliseringsrundskrivet og vist i
-figuren over. For å oppnå dette må både sektorens og den nasjonale
+figuren under. For å oppnå dette må både sektorens og den nasjonale
 infrastrukturen videreutvikles.​
 
 Føderert tilgangsstyring for datadeling på tvers av sektorer er
@@ -24,7 +24,7 @@ sikkerhetsbilletter (tokens) for å oppnå gjennomgående tillitskjeder.
 ​Det er også ønskelig at brukere kan styre samtykke til sine data fra
 _et_ sted nasjonalt, inklusivt til data i kilder i høyere utdanning og
 forskning. Det hadde vært ønskelig om en felles Norsk samtykketjeneste
-kunne være integrert med funksjonalitet som vi forvente skal realiseres
+kunne være integrert med funksjonalitet som vi forventer skal realiseres
 i IAM løsningen til høyere utdanning og forskning. Samtykke til kilder i
 vår sektor fra Altinn autorisasjon er en mulig fremtidig løsning.
 
