@@ -143,9 +143,8 @@ eksternt+++ 
 * Sørge for måling, analyse og oppfølging av relevante måleparametere
 * Gjøre løpende vurderinger av behov og tiltak for tjenesten 
 
-Tjenesteansvarlig omfatter Databehandler roller som beskrevet hos
-Datatilsynetfootnote:[Datatilsynet beskrivelse av databehandler rollen:
-https://www.datatilsynet.no/rettigheter-og-plikter/virksomhetenes-plikter/databehandleravtale/behandlingsansvarlig-og-databehandler/hva-er-en-databehandler/].
+Tjenesteansvarlig omfatter 
+https://www.datatilsynet.no/rettigheter-og-plikter/virksomhetenes-plikter/databehandleravtale/behandlingsansvarlig-og-databehandler/hva-er-en-databehandler/[Databehandlerollen] som beskrevet hos Datatilsynet.
 Denne rollen har ansvar for behandling av personopplysninger på vegne av
 den behandlingsansvarlige.
 
