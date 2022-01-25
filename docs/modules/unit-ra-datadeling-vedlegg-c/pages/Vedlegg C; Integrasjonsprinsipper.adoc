@@ -12,28 +12,6 @@ endif::[]
 :sectnums:
 :sectnumlevels: 9
 
-= Vedlegg C; Integrasjonsprinsipper
-:wysiwig_editing: 1
-ifeval::[{wysiwig_editing} == 1]
-:imagepath: ../images/
-endif::[]
-ifeval::[{wysiwig_editing} == 0]
-:imagepath: main@unit-ra:unit-ra-datadeling-vedlegg-c:
-endif::[]
-:toc: left
-:experimental:
-:toclevels: 4
-:sectnums:
-:sectnumlevels: 9
-
-= Integrasjonsprinsipper
-:toc: left
-:experimental:
-:toclevels: 4
-:sectnums:
-:sectnumlevels: 9
-
-
 Kjernen i IntArk er integrasjonsprinsippene nevnt nedenfor. Resten av
 IntArk er bygget opp rundt disse. IntArk følger generelt
 https://www.digdir.no/samhandling/overordnede-arkitekturprinsipper/1065[DigDirs
