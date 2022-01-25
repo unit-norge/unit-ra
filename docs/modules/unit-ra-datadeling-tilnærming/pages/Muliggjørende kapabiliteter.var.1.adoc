@@ -54,7 +54,7 @@ EUNIS: Information management
 
 
 | Informasjons-registrering, rettighetsklarering og publisering
-a| Hva oranisasjonen gjør for å lokalisere, indeksere, katalogisere og publisere informasjon for både intern og ekstern bruk.
+a| Hva organisasjonen gjør for å lokalisere, indeksere, katalogisere og publisere informasjon for både intern og ekstern bruk.
 
 EUNIS: Enterprise Content Management
 
