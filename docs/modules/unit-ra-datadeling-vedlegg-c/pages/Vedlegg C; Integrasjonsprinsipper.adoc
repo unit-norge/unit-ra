@@ -12,6 +12,20 @@ endif::[]
 :sectnums:
 :sectnumlevels: 9
 
+= Vedlegg C; Integrasjonsprinsipper
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-vedlegg-c:
+endif::[]
+:toc: left
+:experimental:
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 9
+
 = Integrasjonsprinsipper
 :toc: left
 :experimental:
@@ -59,8 +73,11 @@ standardiserte tjenestekontrakter med videre].
 == Tilgjengelige data
 
 Data skal være tilgjengelig for konsumenter. Tilgjengelighet
-manifesterer seg på flere plan: - Teknisk. - Forståelsesmessig. -
-Oppdagbare.
+manifesterer seg på flere plan: 
+
+* Teknisk. 
+* Forståelsesmessig. 
+* Oppdagbare.
 
 For at kravet om teknisk tilgjengelighet skal være oppfylt, må data
 tilbys gjennom åpne og robuste grensesnitt. For at data skal være
@@ -68,17 +85,22 @@ tilgjengelige forståelsesmessig, må de være dokumentert. Oppdagbarhet
 forutsetter at definisjoner av grensesnitt og tilhørende teknisk og
 semantisk dokumentasjon er publisert.
 
-Se gjerne: -
-https://www.digdir.no/informasjonsforvaltning/veileder-orden-i-eget-hus/2716[Digitaliseringsdirektoratets
-veileder for orden i eget hus]. -
-https://www.digdir.no/digitalisering-og-samordning/prinsipp-4-del-og-gjenbruk-data/1061[Digitaliseringsdirektoratets
-arkitekturprinsipp 4: Del og gjenbruk data], spesielt: - Prinsipp 4.2:
+Se gjerne: 
+
+* https://www.digdir.no/informasjonsforvaltning/veileder-orden-i-eget-hus/2716[Digitaliseringsdirektoratets
+veileder for orden i eget hus]. 
+* https://www.digdir.no/digitalisering-og-samordning/prinsipp-4-del-og-gjenbruk-data/1061[Digitaliseringsdirektoratets
+arkitekturprinsipp 4: Del og gjenbruk data], spesielt: 
+** Prinsipp 4.2:
 Tilby data i tråd med regjeringens
-«https://www.regjeringen.no/no/dokumenter/retningslinjer-ved-tilgjengeliggjoring-av-offentlige-data/id2536870/[Retningslinjer
-ved tilgjengeliggjøring av offentlige data]». - Prinsipp 4.3: Gjenbruk
+https://www.regjeringen.no/no/dokumenter/retningslinjer-ved-tilgjengeliggjoring-av-offentlige-data/id2536870/[Retningslinjer
+ved tilgjengeliggjøring av offentlige data]. 
+** Prinsipp 4.3: Gjenbruk
 data fra autoritative kilder. Bruk kopier kun der det er nødvendig, og
-sørg for at disse er oppdaterte. - Prinsipp 4.5: Unngå innlåsing av data
-i systemer. - https://www.go-fair.org/fair-principles/[FAIR prinsippene]
+sørg for at disse er oppdaterte. 
+** Prinsipp 4.5: Unngå innlåsing av data
+i systemer. 
+* https://www.go-fair.org/fair-principles/[FAIR prinsippene]
 
 == Gjenbruk av løsninger
 
@@ -87,9 +109,12 @@ tvers av institusjoner om å homogenisere forretningsprosesser.
 
 Se gjerne
 https://www.digdir.no/digitalisering-og-samordning/prinsipp-5-del-og-gjenbruk-losninger/1062[Digitaliseringsdirektoratets
-arkitekturprinsipp 5: Del og gjenbruk løsninger, spesielt]: - Prinsipp
+arkitekturprinsipp 5: Del og gjenbruk løsninger, spesielt]: 
+
+* Prinsipp
 5.1: Kartlegg eksisterende og planlagte løsninger som kan være aktuelle
-å gjenbruke. - Prinsipp 5.8: Tilgjengeliggjør informasjon om, og tilby
+å gjenbruke. 
+* Prinsipp 5.8: Tilgjengeliggjør informasjon om, og tilby
 gjenbruk av egne løsninger som kan være interessante for andre.
 
 == Etterrettelig bruk av data
@@ -113,5 +138,7 @@ Et eksempel er at det kan være hensiktsmessig å bruke en
 leverandørspesifikk integrasjon, hvis kostnadene ved å innføre en løsere
 kobling blir høyere enn konsekvensene og risikoen for institusjonen ved
 å låse seg til en leverandør.
+
+
 
 
