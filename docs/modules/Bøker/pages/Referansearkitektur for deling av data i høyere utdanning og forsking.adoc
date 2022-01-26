@@ -17,7 +17,7 @@ endif::[]
 image:{imagepath}image1.jpeg[]
 
 ----
-Tue Jan 25 2022 14:10:14 GMT+0100 (CET)
+Wed Jan 26 2022 15:11:49 GMT+0100 (CET)
 ----
 
 
@@ -33,6 +33,7 @@ include::main@unit-ra:unit-ra-datadeling-vedlegg-b:page$Vedlegg B; Behov for avk
 include::main@unit-ra:unit-ra-datadeling-vedlegg-c:page$Vedlegg C; Integrasjonsprinsipper.adoc[]
 include::main@unit-ra:unit-ra-datadeling-vedlegg-d:page$Vedlegg D; Behov og bruksområder.adoc[]
 include::main@unit-ra:unit-ra-datadeling-vedlegg-e:page$Vedlegg E; Føringer, pågående og videre arbeid.adoc[]
+include::main@unit-ra:unit-ra-datadeling-vedlegg-f:page$Vedlegg F; Bruk av Archimate .adoc[]
 :leveloffset: -1
 
 ifeval::[{wysiwig_editing} == 0]
