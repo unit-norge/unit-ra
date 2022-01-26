@@ -1,0 +1,22 @@
+= Vedlegg F; Bruk av Archimate
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-vedlegg-f:
+endif::[]
+:toc: left
+:experimental:
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 9
+
+
+
+.Vedlegg F; Bruk av Archimate
+image::{imagepath}Vedlegg F; Bruk av Archimate.png[alt=Vedlegg F; Bruk av Archimate image]
+
+
+
+
