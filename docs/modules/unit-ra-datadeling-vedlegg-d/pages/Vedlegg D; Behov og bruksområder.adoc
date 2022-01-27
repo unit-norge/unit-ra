@@ -17,8 +17,10 @@ endif::[]
 Det er behov for å videreutvikle datadeling for læring og forskning. I
 henhold til https://www.regjeringen.no/no/dokumenter/strategi-for-digital-omstilling-i-universitets-og-hoyskolesektoren/id2870981/[ny digitaliseringsstragegi] skal
 studenter tilbys fleksible og studentaktive undervisningsformer.
-Eierskap til egne data ligger hos den enkelte, lett tilgjengelig gjennom
-hele livet. Dette krever endringer i informasjonsforvaltningspraksis.
+Kontroll over egne data ligger hos den enkelte, og data om gjennomført utdanning er lett tilgjengelig gjennom
+hele livet. 
+
+Dette krever endringer i informasjonsforvaltningspraksis.
 Praksisen må kunne støtte læringsprosessen på en måte som gir studenten
 mulighet til å utnytte egne data for best mulig læring.
 
