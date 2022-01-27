@@ -18,5 +18,8 @@ endif::[]
 image::{imagepath}Vedlegg F; Bruk av Archimate.png[alt=Vedlegg F; Bruk av Archimate image]
 
 
+****
+xref:main@unit-ra:unit-ra-datadeling-vedlegg-f:page$Vedlegg F; Bruk av Archimate.var.1.adoc[Vis detaljer om elementene i diagrammet] (Tips: kbd:[Shift]-klikk for å åpne i nytt vindu)
+****
 
 

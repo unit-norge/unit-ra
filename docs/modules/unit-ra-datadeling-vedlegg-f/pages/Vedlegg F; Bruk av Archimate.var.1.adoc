@@ -1,0 +1,63 @@
+= Vedlegg F; Bruk av Archimate
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-vedlegg-f:
+endif::[]
+:toc: left
+:experimental:
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 9
+
+
+
+.Vedlegg F; Bruk av Archimate
+image::{imagepath}Vedlegg F; Bruk av Archimate.png[alt=Vedlegg F; Bruk av Archimate image]
+
+
+TIP: Gå tilbake til standardvisning ved å klikke 'tilbake' (eller lukk dette vinduet om det er nytt)
+
+
+[cols ="1,3", options="header"]
+.Elementer i view for Vedlegg F; Bruk av Archimate
+|===
+
+| Element
+| Beskrivelse
+
+| Capability
+a| A Capability represents an ability that an active structure element, such as an organization, person, or system, possesses.
+
+| Value Stream
+a| A Value Stream represents a sequence of activities that create an overall result for a customer, stakeholder, or end user.
+
+| Business Object
+a| A Business Object represents a concept used within a particular business domain.
+
+| Business Process
+a| 
+
+| Business Process (mørk) 
+a| 
+
+| Data Object
+a| 
+
+| System Software
+a| 
+
+| Application Component
+a| 
+
+| Application Component (mørk)
+a| 
+
+|===
+****
+TIP: Gå tilbake til standardvisning ved å klikke 'tilbake' (eller lukk dette vinduet om det er nytt)
+****
+
+
