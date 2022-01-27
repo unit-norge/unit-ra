@@ -112,7 +112,7 @@ mål at dataprodukter skal være mest mulig selvbeskrivende.
 * Notifikasjoner som er realisert ved bruk av hendelseslister vurderes
 ut fra behov
 
-===Arkitekturprinsippenes føringer for datadeling
+=== Arkitekturprinsippenes føringer for datadeling
 
 De https://www.digdir.no/digitalisering-og-samordning/overordnede-arkitekturprinsipper/1065[Overordnede
 arkitekturprinsippene] fra digitaliseringsdirektoratet er gjeldende for
