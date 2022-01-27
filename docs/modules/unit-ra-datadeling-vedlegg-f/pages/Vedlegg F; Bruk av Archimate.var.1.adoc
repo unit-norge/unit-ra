@@ -48,9 +48,6 @@ a| A Business Object represents a concept used within a particular business doma
 | Business Process
 a| A Business Process represents a sequence of business behaviors that achieves a specific result such as a defined set of products or business services.
 
-| Business Process (mørk) 
-a| 
-
 | Data Object
 a| A Data Object represents data structured for automated processing.
 
