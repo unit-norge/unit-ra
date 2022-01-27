@@ -22,7 +22,7 @@ av virksomheten, i det vi kaller de grunnleggende domener, mens arbeid i
 læringsgrupper og forskningsprosjekt skjer i brukersentriske domener.
 
 I praksis betyr dette samhandling i høyere utdanning og forskning.
-Samhandlingen kan skje mellom medlemmer i lærings og forskningsgrupper
+Samhandlingen kan skje mellom medlemmer i lærings- og forskningsgrupper
 både innenfor egne institusjoner og på tvers av institusjoner. Andre
 områder for samhandling kan være innen saksbehandling og annen
 administrasjon innen en institusjon, eller mellom institusjonene og
@@ -31,7 +31,7 @@ andre sektorer i inn- og utland.
 Plattformen skal støtte enkel publisering av data og effektive
 mekanismer for gjenfinning og tilgang til data for konsumenter som har
 rett til slik tilgang. Referansearkitekturen definerer prosessene og
-IT-støttet samhandlingsmønstrene brukt for å realisere deling av data.
+IT-støttede samhandlingsmønstre for å realisere deling av data.
 
 Referansearkitekturen spesifiserer hvordan *datasett og API* skal:
 
