@@ -15,10 +15,7 @@ endif::[]
 === Forskning og læring
 
 Det er behov for å videreutvikle datadeling for læring og forskning. I
-henhold til utkast til ny digitaliseringsstrategifootnote:[INNOVATIV
-UTDANNING OG FREMRAGENDE FORSKNING DIGITALISERINGSSTRATEGI FOR
-UNIVERSITETS- OG HØYSKOLESEKTOREN (2021-2025) hentet fra
-https://www.unit.no/ny-digitaliseringsstrategi-uh-sektoren] skal
+henhold til https://www.regjeringen.no/no/dokumenter/strategi-for-digital-omstilling-i-universitets-og-hoyskolesektoren/id2870981/[ny digitaliseringsstragegi] skal
 studenter tilbys fleksible og studentaktive undervisningsformer.
 Eierskap til egne data ligger hos den enkelte, lett tilgjengelig gjennom
 hele livet. Dette krever endringer i informasjonsforvaltningspraksis.
