@@ -14,7 +14,7 @@ endif::[]
 
 https://www.opengroup.org/archimate-forum/archimate-overview[The ArchiMate Enterprise Architecture Modeling Language] is used by this refererence architecture. 
 
-Selected symbols from the language that are used in this Architecture are described in the table below. Obects are represented as "architectural building blocks" (ABBs) and Solution Building Blocks (SBBs). The ABBs have a lighter color than the SBBs.
+Selected symbols from the language that are used in this architecture are described in an element table. Obects are represented as "architectural building blocks" (ABBs) and Solution Building Blocks (SBBs). The ABBs have a lighter color than the SBBs.
 
 Architecture Building Blocks (ABBs) define what functionality will be implemented. 
 
