@@ -14,8 +14,7 @@ endif::[]
 
 Denne referansearkitekturen skal gi veiledning til utforming av digitale
 samhandlingsløsninger for deling av data i høyere utdanning og
-forskning. Denne seksjonen veileder gjennom en presentasjon av hva som
-skal oppnås ved å definere hva datadeling er, en visjon om hva vi skal
+forskning. Denne seksjonen gir veiledning om hva som skal oppnås gjennom en presentasjon av hva datadeling er, en visjon om hva vi skal
 bruke det til, og modellene som skal skape fundament for utforming av
 løsningene i visjonen.
 

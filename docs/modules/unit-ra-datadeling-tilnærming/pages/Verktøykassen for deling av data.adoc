@@ -34,16 +34,16 @@ Før datatilbyderen kan utføre det første steget i verdistrømmen for
 datadeling må organisasjonen ha oversikt over egne data som skal deles.
 For å kunne utføre det andre steget i verdistrømmen må datatilbyderen ha
 evnen til å publisere datasettene slik at andre kan benytte disse. Disse
-stegene er sentral i
+stegene er sentrale i
 https://data.norge.no/guide/veileder-orden-i-eget-hus/[«orden i eget
-hus»]. For at datadeling skal fungere etter hensikt, må dataene også ha
+hus»]. For at datadeling skal fungere etter hensikten, må dataene også ha
 god kvalitet. Dette krever kapabiliteter innen informasjonsforvaltning.
  Vi har modellert disse evner som «muliggjørende kapabiliteter» i
 referansearkitekturen for høyere utdanning og forskning med utgangspunkt
 i
 https://app.powerbi.com/view?r=eyJrIjoiMThhNjkzNmItOGQ4NC00MDkzLWI3MDQtNzY0ZjA1MjQ5MzViIiwidCI6ImFlMWE3NzI0LTQwNDEtNDQ2Mi1hNmRjLTUzOGNiMTk5NzA3ZSIsImMiOjh9[EUNIS
 sin kapabilitetsmodell for europeiske universiteter] som vist under.
-EUNIS modellen var produsert som et samarbeid mellom europeiske
+EUNIS modellen er utviklet gjennom som et samarbeid mellom europeiske
 universiteter.
 
 

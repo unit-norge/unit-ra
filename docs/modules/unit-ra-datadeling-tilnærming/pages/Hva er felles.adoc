@@ -18,11 +18,8 @@ https://www.unit.no/handlingsplan-digitalisering-i-hoyere-utdanning-og-forskning
 forskning].
 Disse valg er knyttet til hva som skal være standardisert, hva som skal
 være felles og hva som skal variere og fremme innovasjon.
-Administrasjons- og støtteprosesser skal benytte i størst mulig grad
-standardiserte arbeidsprosesser og felles begreper. Lærings- og
-forskningsprosesser skal fremme innovasjon gjennom ulike
-arbeidsprosesser og sterk grad av institusjonelt
-selvstyre.footnote:[Disse strategiske valg er basert på arbeid med valg
+Administrasjons- og støtteprosesser skal i størst mulig grad benytte standardiserte arbeidsprosesser og felles begreper.
+Lærings- og forskningsprosesser skal fremme innovasjon gjennom arbeidsprosesser som understøtter faglig autonomitet. footnote:[Disse strategiske valg er basert på arbeid med valg
 av operasjonelle modeller beskrevet i «Enterprise Architecture as
 Strategy» av Ross, Weill og Robertsen.]
 
@@ -37,9 +34,8 @@ Administrative prosesser og begreper skal være mest mulig standardisert.
 For å oppnå dette knyttes de til informasjonsdomener som representerer
 hele sektoren der definisjon av prosesser og begreper skal skje. Denne
 tilnærming er i tråd med eksisterende harmoniseringsprosesser i
-sektoren. Data som benyttes i de standardiserte, administrative
-prosessene derimot er knyttet til der hvor prosessen kjøres. I dag skjer
-dette som regel lokalt hos en institusjon. 
+sektoren. Samtidig er *data* som inngår i de standardiserte, administrative
+prosessene hovedsakelig lokale data for den enkelte institusjon hvor prosessen kjøres.
 
 Lærings- og forskningsprosesser vil variere og være knyttet til en
 brukskontekst med et tilhørende informasjonsdomene. Aktører knyttet til
@@ -50,5 +46,5 @@ publisere resultater fra bruksdomene bredt. Brukernære domener innen
 læring og forskning vil derfor ønske støtte til å dele ressurser på
 tvers av institusjonene. Eksempler på tjenester som muliggjør slik
 datadeling er Nasjonalt Vitenarkiv og eventuelle «Learning Object
-Repository».
+Repositories».
 

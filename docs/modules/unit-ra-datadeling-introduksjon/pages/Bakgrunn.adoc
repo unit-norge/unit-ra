@@ -54,7 +54,7 @@ informasjonsforvaltning
 * Sørge for at kunnskapssektoren følger de nasjonale og sektorspesifikke
 retningslinjer som Digitaliseringsdirektoratet og andre spesifiserer
 
-Disse behovene er beskrevet i mer detaljer i Vedlegg D Behov og
+Disse behovene er beskrevet mer detaljert i Vedlegg D Behov og
 bruksområder som skal dekkes av referansearkitekturen
 
 == Gevinst
@@ -65,14 +65,14 @@ som gir følgende gevinst. Effektiviteten økes når økt oversikt og
 forbedret samhandling muliggjør fjerning av unødvendige kopier av data
 og unødvendige varianter av begreper. Disse forbedringer reduserer
 administrativt byrde. Endringsevne og innovasjon økes når brukernære
-kontekst får tilgang til forenklet og tilpasset datasett av høy kvalitet
+kontekster får tilgang til forenklet og tilpasset datasett av høy kvalitet
 til sitt bruk. En forbedret informasjonsforvaltningspraksis og
 datadelingsplattform vil gi økt tilgang til data av høy kvalitet, som
-igjen muliggjør datadrevet beslutninger.
+igjen muliggjør datadrevne beslutninger.
 
 == Føringer, pågående og videre arbeid
 
-Referansearkitekturen og dette dokumentet tar utgangspunkt i pågående
+Referansearkitekturen beskrevet i dette dokumentet tar utgangspunkt i pågående
 arbeid og førende strategier og prinsipper nasjonalt, innen sektoren og
 internasjonalt.
 

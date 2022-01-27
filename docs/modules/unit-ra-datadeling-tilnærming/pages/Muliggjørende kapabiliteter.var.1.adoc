@@ -43,12 +43,12 @@ TIP: Gå tilbake til standardvisning ved å klikke 'tilbake' (eller lukk dette v
 | Beskrivelse
 
 | Muliggjørende kapabiliteter
-a| Det som kreves for å sikre at organisasjonen er i stand til å gi generell økonomisk, administrativ, fysisk og teknisk støtte til komersiell aktivitet, strategi og styring samt primærvirksomheter (kjerneaktiviteter) slik som undervisning og læring, forskning, nyskapning og formidling.
+a| Det som kreves for å sikre at organisasjonen er i stand til å gi generell økonomisk, administrativ, fysisk og teknisk støtte til kommersiell aktivitet, strategi og styring, samt primærvirksomheter (kjerneaktiviteter) som undervisning og læring, forskning, nyskapning og formidling.
 
 EUNIS: Enabling Capabilities
 
 | Informasjonsforvaltning
-a| Aktiviteter og tiltak for å sikre best mulig kvalitet, utnytting og sikring av informasjon i en virksomhet [kilde data.norge.no]. Administrert Informasjon inkluderer strukturerte og ustrukturerte data med omfang som definert av retningslinjene for datasikkerhet og datahåndtering.
+a| Aktiviteter og tiltak for å sikre best mulig kvalitet, utnytting og sikring av informasjon i en virksomhet [kilde: data.norge.no]. Administrert informasjon inkluderer strukturerte og ustrukturerte data med omfang som definert av retningslinjene for datasikkerhet og datahåndtering.
 
 EUNIS: Information management
 

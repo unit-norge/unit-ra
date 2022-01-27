@@ -22,7 +22,7 @@ datatilbydere og konsumenter har samme forståelse av dataenes betydning
 datadeling fungerer sammen slik de skal (teknisk samhandlingsevne).
 https://www.digdir.no/nasjonal-arkitektur/rammeverk-digital-samhandling/2148[Rammeverk for digital
 samhandling]
-vist under utdyper disse samhandlingsevner.
+vist under utdyper disse samhandlingsevnene.
 
 .Samhandling
 image::{imagepath}Digital_samhandling.png[]

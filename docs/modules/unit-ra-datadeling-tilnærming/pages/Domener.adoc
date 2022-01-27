@@ -23,7 +23,7 @@ forståelse og sine egne data i et studieadministrativt domene.
 
 Som en del av den generelle utvikling innen IT systemer, er sektoren i
 ferd med å bygge en distribuert arkitektur som knytter sammen løst
-koblet, delte datakilder. +
+koblede, delte datakilder. 
 Referansearkitekturen er laget for å støtte denne utviklingen ved å
 benytte domener som utgangspunkt for informasjonsforvaltning, utvikling
 av datakilder, datasett, API og hendelser.
