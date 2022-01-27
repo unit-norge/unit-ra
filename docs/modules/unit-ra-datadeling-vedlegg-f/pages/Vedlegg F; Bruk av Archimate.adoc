@@ -20,7 +20,7 @@ Architecture Building Blocks (ABBs) define what functionality will be implemente
 
 Solution Building Blocks (SBBs) define what products and components will implement the functionality. SBBs are product or vendor-aware.
 
-Many of the diagrams in this architecture are organized as indicated in the figure below. An actor performing a particular business role creates the described capability through a business process. This business process will typically be supported by application services which are realized through application components.
+Many of the diagrams in this architecture are organized as indicated in the figure below. An actor performing a particular business role creates the described capability through a business process. This business process will typically be supported by application services which are realized through application components. Both applications services and application components may access data objects.
 
 .Vedlegg F; Bruk av Archimate
 image::{imagepath}Vedlegg F; Bruk av Archimate.png[alt=Vedlegg F; Bruk av Archimate image]
