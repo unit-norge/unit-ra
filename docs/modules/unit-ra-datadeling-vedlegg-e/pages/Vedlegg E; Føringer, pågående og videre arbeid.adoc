@@ -112,6 +112,15 @@ mål at dataprodukter skal være mest mulig selvbeskrivende.
 * Notifikasjoner som er realisert ved bruk av hendelseslister vurderes
 ut fra behov
 
+===Arkitekturprinsippenes føringer for datadeling
+
+De
+https://www.digdir.no/digitalisering-og-samordning/overordnede-arkitekturprinsipper/1065[Overordnede
+arkitekturprinsippene] fra digitaliseringsdirektoratet er gjeldende for
+referansearkitekturen. For å forenkle bruk av prinsippene, har vi valgt
+ut noen av føringene fra de overordnede prinsipper som er spesielt
+relevant for integrasjoner og inkludert disse i referansearkitekturen
+når vi ruller ut UH:IntArk fase 1, som integrasjonsprinsipper.
 
 
 :leveloffset: +1
