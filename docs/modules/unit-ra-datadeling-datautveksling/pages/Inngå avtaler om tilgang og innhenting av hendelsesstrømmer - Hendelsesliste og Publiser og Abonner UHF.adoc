@@ -13,7 +13,7 @@ endif::[]
 :sectnumlevels: 9
 
 Datakonsument inngår avtale om tilgang og innhenting av hendelsesstrømmer
-Hendelsesstrømmen kan være i form av en hendelsesliste eller abonnement på et emne (publisert meldingskø)
+Hendelsesstrømmen kan være i form av en hendelsesliste eller abonnement på et emne (publisert meldingskø).
 
 .Inngå avtaler om tilgang og innhenting av hendelsesstrømmer - Hendelsesliste og Publiser og Abonner UHF
 image::{imagepath}Inngå avtaler om tilgang og innhenting av hendelsesstrømmer - Hendelsesliste og Publiser og Abonner UHF.png[alt=Inngå avtaler om tilgang og innhenting av hendelsesstrømmer - Hendelsesliste og Publiser og Abonner UHF image]
