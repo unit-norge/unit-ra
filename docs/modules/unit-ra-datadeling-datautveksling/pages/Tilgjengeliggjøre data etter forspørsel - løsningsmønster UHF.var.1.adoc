@@ -1,10 +1,10 @@
-= Tilgjengeliggjøre data etter forsepørsel løsningsmønster UHF
+= Tilgjengeliggjøre data etter forspørsel - løsningsmønster UHF
 :wysiwig_editing: 1
 ifeval::[{wysiwig_editing} == 1]
 :imagepath: ../images/
 endif::[]
 ifeval::[{wysiwig_editing} == 0]
-:imagepath: main@unit-ra:unit-ra-datadeling-målarkitekturen:
+:imagepath: main@unit-ra:unit-ra-datadeling-datautveksling:
 endif::[]
 :toc: left
 :experimental:
@@ -14,15 +14,15 @@ endif::[]
 
 En prosessflyt som datatilbyder må gjennomføre for å tildele rettigheter til en konsument som ber om tilgang til data. En datatilbyder mottar forespørsel om tilgang til et API på vegne av en organisasjon eller bruker. Dataeieren tar stilling til om konsumenten skal få tilgang til data gjennom APIet. Tilgang registreres knyttet til konsumentens klient (applikasjonen som benytter APIet) i klientregisteret.
 
-.Tilgjengeliggjøre data etter forsepørsel løsningsmønster UHF
-image::{imagepath}Tilgjengeliggjøre data etter forsepørsel løsningsmønster UHF.png[alt=Tilgjengeliggjøre data etter forsepørsel løsningsmønster UHF image]
+.Tilgjengeliggjøre data etter forspørsel - løsningsmønster UHF
+image::{imagepath}Tilgjengeliggjøre data etter forspørsel - løsningsmønster UHF.png[alt=Tilgjengeliggjøre data etter forspørsel - løsningsmønster UHF image]
 
 
 TIP: Gå tilbake til standardvisning ved å klikke 'tilbake' (eller lukk dette vinduet om det er nytt)
 
 
 [cols ="1,3", options="header"]
-.Elementer i view for Tilgjengeliggjøre data etter forsepørsel løsningsmønster UHF
+.Elementer i view for Tilgjengeliggjøre data etter forspørsel - løsningsmønster UHF
 |===
 
 | Element
@@ -72,7 +72,7 @@ Mer om Altinn autorisasjon:
 https://www.altinndigital.no/produkter/styring-av-tilgang/
 
 | Registrere samtykkebasert tilgang
-a| Tjeneste for å registerer konsumenter som kan innhente samtykke som gir grunnlag for utlevering fra datatilbyder.
+a| Tjeneste for å registerer konsumenter som ma innhente samtykke som gir grunnlag for utlevering fra datatilbyder.
 
 | Aktører som kan innhente samtykke for bruk av API
 a| Oversikt over aktører som skal ha mulighet til å innhente samtykke som grunnlag for å få tilgang til data gjennom et API. 
@@ -106,9 +106,6 @@ tilganger det gjelder. Ressursportalen benytter JSON Web Token
 formattert OAuth2 sikkerhetsbilletter for å gi tilgang til ressurser
 gjennom API gateway og meldingstjenester nær de beskyttede ressursene.
 
-|UHF Autorisasjon |Autorisasjonstjenester realiserer tilgangskontroll
-gjennom å utstede sikkerhetsbilletter. En autorisasjonstjener er også
-brukt til å realisere autorisasjonspolicy for tilgang og roller
 
 | Forespør dataforvalter
 a| En tjeneste som lar dataforvalteren beslutte datatilgang, enten gjennom en automatisert policy eller gjennom en manuell behandling. 
