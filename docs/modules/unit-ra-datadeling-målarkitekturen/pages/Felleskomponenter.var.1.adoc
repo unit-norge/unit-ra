@@ -64,7 +64,7 @@ ressurser.
 Oversikten over konsumenters bruk av API fra datatilbydere er
 autoritativt for
 
-* hvilke OAuth2 scopes knytet til hvilke API som konsumenten har fått
+* hvilke OAuth2 scopes knyttet til hvilke API som konsumenten har fått
 tilgang til
 
 Oversikten over konsumenters bruk av notifikasjoner fra datatilbydere er
