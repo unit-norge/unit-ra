@@ -23,9 +23,9 @@ oppslag kan være uthenting av aktuelle konteringsregler fra
 *Provisjonering via synkront oppslag*
 
 Synkront oppslag kan også benyttes til provisjonering. I et slikt
-tilfelle hentes all informasjon det er nødvendig at blir lagret i et
-system fra datakilden, før det lagres. Ved provisjonering med synkront
-oppsalg er det ofte store mengder data i bevegelse, og overføringen tar
+tilfelle hentes all informasjon det er nødvendig å lagre i et
+system fra datakilden. Ved provisjonering med synkront
+oppslag er det ofte store mengder data i bevegelse, og overføringen tar
 tid. Disse egenskapene medfører at provisjonering via synkront oppslag
 utføres sjelden. Denne metoden blir ofte kalt _batch-provisjonering_.
 
@@ -40,9 +40,9 @@ dataendringene. Dette tillater systemet som er avhengig av
 provisjonering å hente kun den informasjonen som har blitt endret.
 
 Et typisk eksempel på bruk av dette mønsteret er visning av
-kontaktinformasjon i personprofiler. En professor kjøper seg ny telefon,
-og melder nummeret inn til sin arbeidsgiver. Telefonnummeret er
-reflektert i personprofilen snarlig etter registrering i HR-systemet.
+kontaktinformasjon i personprofiler. En professor professoren publiserer en artikkel i f.eks. Nasjonal Vitenarkiv, 
+og melder artikkelen inn. Artikkelen er
+reflektert i arkivet snarlig etter registrering.
 
 *Fremtidige utvidelser*
 

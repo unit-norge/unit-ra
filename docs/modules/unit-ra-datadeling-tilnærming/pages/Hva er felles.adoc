@@ -42,7 +42,7 @@ brukskontekst med et tilhørende informasjonsdomene. Aktører knyttet til
 brukernære lærings- og forskningsdomener vil typisk ønske en bred
 tilgang til lærings- og forskningsressurser produsert av andre hos
 institusjonen, nasjonalt og internasjonalt. Det kan også være ønskelig å
-publisere resultater fra bruksdomene bredt. Brukernære domener innen
+publisere resultater fra bruksdomer bredt. Brukernære domener innen
 læring og forskning vil derfor ønske støtte til å dele ressurser på
 tvers av institusjonene. Eksempler på tjenester som muliggjør slik
 datadeling er Nasjonalt Vitenarkiv og eventuelle «Learning Object

@@ -164,8 +164,7 @@ debugge notifikasjoner) og sandkasse for test (testmiljø)
 | IAM Autentiseringstjeneste
 a| Identitets- og tilgangsstyring (IAM) handler om å gi studenter, forskere og ansatte
 riktig tilgang til digitale systemer, tjenester og ressurser, samt
-avslutte tilgang for brukere som ikke lenger skal ha det. Dette er en
-tjeneste som ikke omfattes av denne referansearkitekturen
+avslutte tilgang for brukere som ikke lenger skal ha det. Dette er en ekstern tjeneste som referansearkitekturen forutsetter og som den må samvirke med.
 
 | Tildel rettigheter til konsument
 a| Datakonsument skal kunne finne
@@ -218,7 +217,7 @@ a| Tjeneste som IAM beskytter tilgang til. Tjenesten kan også være en konsumen
 Komponenten tilbyr:
 
   * autentisering  gjennom en Autentiseringstjeneste
-  * oppslag i felleskomponeneter for tilgang til datatilbyders dataprodukter
+  * oppslag i felleskomponenter for tilgang til datatilbyders dataprodukter
   * tilgang til ressurser hos datatilbyder 
 
 | Administrere tilgjengelige ressurser

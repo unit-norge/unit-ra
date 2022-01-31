@@ -118,7 +118,9 @@ a| What the organization does to ensure a positive work environment, focus on in
 EUNIS: Human Resource Management
 
 | Identitets-håndtering og tilgangsstyring
-a| What the organization does to manage data on IT systems and applications about users. Managed data includes user objects, identity attributes, security entitlements and authentication factors.
+a| Hva en organisasjon gjør for å forvalte data om brukere i IT systemer og applikasjoner. Brukerdata inkluderer objekter som brukeridentiteter, sikkerhetstilganger og autentiseringsmekanismer.
+
+
 
 | Økonomistyring
 a| Alle aktiviteter som er rettet mot effektiv styring av penger (midler) på en slik måte at organisasjonen kan oppnå sine mål.

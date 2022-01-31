@@ -39,7 +39,7 @@ a|  Evnen til å gjøre et API synlig og tilgjengelig gjennom kataloger og søke
 a| Evnen til å gjøre data tilgjengelig for aktører utenfor egen virksomhet på forespørsel.
 
 | Avgi data
-a| Evne til å avgi data på forespørsel. Kan omfatte tilgangsstyring.
+a| Evne til å avgi data på forespørsel. Data som avgis er klargjort for dette gjennom en API som er publisert, og en API gateway som håndhever tilgangskontroll basert på at tilgang til data er gitt på på forhånd for den aktuelle konsumenten.
 
 | Datakonsument
 a| Den som innhenter eller mottar data fra andre aktører.
@@ -48,10 +48,10 @@ a| Den som innhenter eller mottar data fra andre aktører.
 a| Evnen til å innhente data fra en annen aktør.
 
 | Del  data
-a| 
+a| Verdistrøm for datatilbyderen.
 
 | Innhent data
-a| 
+a| Verdistrøm for datakonsumenten.
 
 | Få tilgang til data (konsument)
 a| Evnen til å skaffe seg tilgang til tilbudte data fra annen aktør. 

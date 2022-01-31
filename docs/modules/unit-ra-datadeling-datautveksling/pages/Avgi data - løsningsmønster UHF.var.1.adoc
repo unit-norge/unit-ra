@@ -82,7 +82,7 @@ a| Tjeneste for utveksling av data over aktuell transportprotokoll, f.eks, gjenn
 a| Tjeneste som benyttes av tilbyder for å validere og kontrollere autentisiteten til et OAUTH2 token fra Maskinporten
 
 | Avgi data
-a| Evne til å avgi data på forespørsel. Kan omfatte tilgangsstyring.
+a| Evne til å avgi data på forespørsel. Data som avgis er klargjort for dette gjennom en API som er publisert, og en API gateway som håndhever tilgangskontroll basert på at tilgang til data er gitt på på forhånd for den aktuelle konsumenten.
 
 | API Gateway 
 a| API gateway er en tjeneste som tilgjengeliggjør, beskytter og overvåker
