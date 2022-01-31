@@ -110,20 +110,6 @@ a| Prosessen med å benytte (gjøre et oppslag mot) et eksternt API.
 | Innhent samtykke ved behov
 a| Prosess for å innhente samtykke fra person eller virksomhet som grunnlag for å innhente data. Dette gjøres kun ved behov.
 
-| Altinn autorisasjon
-a| [Torget]
-Autorisasjonskomponenten i Altinn som gir muligheter til å delegere rettigheter til andre organisasjoner eller personer. Rettigheter til bruk av autorisasjonskomponenten baserer seg på registrerte roller i Enhetsregisteret.
-Altinn autorisasjon leverer også tjenester for å registrere og kontrollere samtykke gitt av person eller virksomhet.
-
-[Verktøykasse for deling av data]
-Altinn autorisasjon gir teknisk samhandlingsevne ved at bruker logger inn med elektronisk ID,
-autorisasjonskomponenten sjekker at bruker har de tilgangene som kreves for å ta i bruk aktuell tjeneste.
-
-Dersom en privatperson skal ta i bruk en tjeneste på vegne av en virksomhet, gjøres det et oppslag mot Enhetsregisteret for å bekrefte at personen har en rolle på vegne av virksomheten. Dette gir organisatorisk samhandlingsevne.
-
-Mer om Altinn autorisasjon:
-https://www.altinndigital.no/produkter/styring-av-tilgang/
-
 | Felles API-katalog
 a| Del av Felles datakatalog som gir mulighet for å søke etter API-er og lese API-spesifikasjoner https://fellesdatakatalog.brreg.no/apis
 
