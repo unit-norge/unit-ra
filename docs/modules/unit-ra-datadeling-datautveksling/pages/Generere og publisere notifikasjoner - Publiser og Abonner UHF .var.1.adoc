@@ -60,7 +60,7 @@ a| Tjeneste som genererer notifikasjoner basert på hendelser, der alle aktuelle
 a| Notifikasjon som inneholder eller lenker til et fullstendig sett av hendelsesrelaterte data.
 
 | Notifikasjonsdistribusjon
-a| Tjensten mottar notifikasjoner fra tilbyder og distribuerer notifikasjoner til konsumenter som har interesse av gitte notifikasjoner.
+a| Tjenesten mottar notifikasjoner fra tilbyder og distribuerer notifikasjoner til konsumenter som har interesse av gitte notifikasjoner.
 
 
 
@@ -88,7 +88,7 @@ autoritativt for
 
 
 | Publisert Meldingskø
-a| Meldingskø som inneholder  de meldingene publisert for en gitt abonnent av notifikasjoner om en gitt topic.
+a| Meldingskø som inneholder meldinger publisert for en gitt abonnent av notifikasjoner om en gitt topic.
 
 | Publisert tynn notifikasjon
 a| Notifikasjon med beskjed om hva som har skjedd og hvor man finner resultatet, dvs peker mot datagrunnlaget.
@@ -96,7 +96,7 @@ a| Notifikasjon med beskjed om hva som har skjedd og hvor man finner resultatet,
 | Meldingsformidler
 a| Message broker
 
-Når en meldingsfordler skiver en notifikasjon i meldingskø plasseres det i meldingskø hos alle abonnenter (i hver sin kø).
+Når en meldingsformidler skiver en notifikasjon i meldingskø plasseres det i meldingskø hos alle abonnenter (i hver sin kø).
 
 
 |===

@@ -102,13 +102,13 @@ a| Prosessen med å slå opp og hente data gjennom et API.
 a| Prosessen å slå opp den tekniske adressen til et API før datatilgang gjennom API-et. Gjøres kun dersom det er nødvendig.
 
 | Be om tilgangstoken
-a| Prosessen med å benytte en sikkerhetsbillettjeneste for hente en sikkerhetsbillett som gir tilgang til et API. Dette forutsetter at alt er registert og satt opp riktig mot de aktuelle tjenestene.
+a| Prosessen med å benytte en sikkerhetsbillettjeneste for å hente en sikkerhetsbillett som gir tilgang til et API. Dette forutsetter at alt er registrert og satt opp riktig mot de aktuelle tjenestene.
 
 | Utfør tjenestekall for innhenting av data
 a| Prosessen med å benytte (gjøre et oppslag mot) et eksternt API.
 
 | Innhent samtykke ved behov
-a| Prosess for å innhente samtykke fra person eller virksomhet som grunnlag for å innhente data. Dette gjøres kun ved behov.
+a| Prosess for å innhente samtykke fra person eller virksomhet som grunnlag for å innhente eller oppdatere data. Dette gjøres kun ved behov.
 
 | Felles API-katalog
 a| Del av Felles datakatalog som gir mulighet for å søke etter API-er og lese API-spesifikasjoner https://fellesdatakatalog.brreg.no/apis

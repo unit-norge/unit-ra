@@ -44,7 +44,7 @@ a| Den transiente meldingen som abonnenten leser.
 Når meldingen er lest forsvinner den fra innboksen til abonnenten
 
 | Publisert Meldingskø
-a| Meldingskø som inneholder  de meldingene publisert for en gitt abonnent av notifikasjoner om en gitt topic.
+a| Meldingskø som inneholder meldinger publisert for en gitt abonnent av notifikasjoner om en gitt topic.
 
 | Notifikasjon
 a| Hernik sier 3 pekere i notifikasjon

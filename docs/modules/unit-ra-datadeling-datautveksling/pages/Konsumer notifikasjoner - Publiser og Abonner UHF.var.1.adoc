@@ -14,7 +14,7 @@ endif::[]
 
 Datakonsument lytter på emner som konsumenten abonnerer på hos
 Datatilbyder. Når en ny melding kommer i meldingskøen trigges
-konsumpsjonen av notifikasjonen.
+konsumering av notifikasjonen.
 
 Datakonsumenten vurderer relevans med basis i regler definert for
 abonnenten og foretar videre behandling av notifikasjon.
@@ -47,16 +47,13 @@ a| Den som innhenter eller mottar data fra andre aktører.
 a| Prosessen med å lese og håndtere notifikasjoner.
 
 | Vurder relevans av notifikasjon
-a| Prosess med å vurdere om en hendelsen knyttet til lest notifikasjon er relevant for konsumenten.
+a| Prosess med å vurdere om hendelsen knyttet til lest notifikasjon er relevant for konsumenten.
 
 | Forkast notifikasjon
 a| Prosess med å forkaste notifikasjon som ikke er relevant for virksomheten. Avhengig av krav til personvern og informasjonssikkerhet kan det være særskilte krav til hva som er lov å beholde. 
 
 | Videre behandling av notifikasjon
-a| Prosess med videre behandling av en notifikasjon som normalt vil være å innhente mer informasjon om hendelsen eller subjektet notifikasjonen er knyttet til og eventuelt agere ut i fra denne.
-
-| Junction
-a| 
+a| Prosess med videre behandling av en notifikasjon som normalt vil være å innhente mer informasjon om hendelsen eller subjektet notifikasjonen er knyttet til og eventuelt agere ut ifra denne.
 
 | Lytt på abonnert meldingskø/emne
 a| 
@@ -65,7 +62,7 @@ a|
 a| Informasjon om hva som legges til grunn for å vurdere relevansen av en hendelse, basert på informasjon i lest notifikasjon.
 
 | Notifikasjonsdistribusjon
-a| Tjensten mottar notifikasjoner fra tilbyder og distribuerer notifikasjoner til konsumenter som har interesse av gitte notifikasjoner.
+a| Tjenesten mottar notifikasjoner fra tilbyder og distribuerer notifikasjoner til konsumenter som har interesse av gitte notifikasjoner.
 
 
 
@@ -74,12 +71,12 @@ a| Den transiente meldingen som abonnenten leser.
 Når meldingen er lest forsvinner den fra innboksen til abonnenten
 
 | Publisert Meldingskø
-a| Meldingskø som inneholder  de meldingene publisert for en gitt abonnent av notifikasjoner om en gitt topic.
+a| Meldingskø som inneholder meldinger publisert for en gitt abonnent av notifikasjoner om en gitt topic.
 
 | Meldingsformidler
 a| Message broker
 
-Når en meldingsfordler skiver en notifikasjon i meldingskø plasseres det i meldingskø hos alle abonnenter (i hver sin kø).
+Når en meldingsformidler skiver en notifikasjon i meldingskø plasseres det i meldingskø hos alle abonnenter (i hver sin kø).
 
 
 |===

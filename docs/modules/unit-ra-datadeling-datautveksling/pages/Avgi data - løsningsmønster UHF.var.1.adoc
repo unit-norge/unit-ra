@@ -65,7 +65,7 @@ a| Motta forespørsler fra API-konsument om å avgi data.
 a| Prosessen med å gi svar på forespørselen.
 
 | Kontroller tilgang
-a| Kontroll og håndheving av konsumentens rettigheter til å få forespurte data.  I tillegg til "validering av sikkerhetsbillet", kan det være behov for kontroll mot virksomhetsinterne policies.
+a| Kontroll og håndheving av konsumentens rettigheter til å innhente eller eventuelt oppdatere forespurte data.  I tillegg til "validering av sikkerhetsbillet", kan det være behov for kontroll mot virksomhetsinterne policies.
 
 Konsumenten som forespurte tilgang til data må ha en "authentication grant" som gir rett til operasjonen som er forespurt. Leseoperasjoner må ha lesetilgang og oppdateringsoperasjoner må ha skrivetilgang.
 

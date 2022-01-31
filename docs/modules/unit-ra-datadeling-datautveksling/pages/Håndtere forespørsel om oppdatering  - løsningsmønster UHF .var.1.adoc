@@ -82,19 +82,16 @@ Komponent som beskytter ressursene og overvåker tilgang inklusivt:
 * Orkestrering mellom interntjenester
 
 | Håndtere forespørsel om oppdatering
-a| 
+a| Evnen til å utføre oppdatering på kildedata dersom den som forespør oppdateringen har rettigheter til det.
 
 | Oppdater kilde etter forespørsel
-a| 
-
-| Motta forespørsel om oppdatering
-a| 
+a| Prosessen med å utføre oppdatering av data i en kilde. Omfatter å verifisering av konsumenten, rettighetene og masterdata status. 
 
 | Autentisere konsument
 a| Prosessen med å autentisere en konsument.
 
 | Kontroller tilgang
-a| Kontroll og håndheving av konsumentens rettigheter til å få forespurte data.  I tillegg til "validering av sikkerhetsbillet", kan det være behov for kontroll mot virksomhetsinterne policies.
+a| Kontroll og håndheving av konsumentens rettigheter til å innhente eller eventuelt oppdatere forespurte data.  I tillegg til "validering av sikkerhetsbillet", kan det være behov for kontroll mot virksomhetsinterne policies.
 
 Konsumenten som forespurte tilgang til data må ha en "authentication grant" som gir rett til operasjonen som er forespurt. Leseoperasjoner må ha lesetilgang og oppdateringsoperasjoner må ha skrivetilgang.
 

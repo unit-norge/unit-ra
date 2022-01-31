@@ -20,8 +20,8 @@ konsumerer hendelser fra hendelsesstrømmen og om nødvendig gjør
 oppdateringer av sine data.
 
 Hendelsestrømmer implementeres som en lettvekts notifikasjon i en
-Publisert meldingskø (publiser/abonner). +
- +
+publisert meldingskø (publiser/abonner). 
+ 
 Alternative måter er blant annet hendelseslister, som beskrevet i
 Digitaliseringsdirektoratets referansearkitektur for datadeling og i
 kapittelet Datautvekslingsmønster.

@@ -14,7 +14,7 @@ endif::[]
 
 Datakonsument lytter på emner som konsumenten abonnerer på hos
 Datatilbyder. Når en ny melding kommer i meldingskøen trigges
-konsumpsjonen av notifikasjonen.
+konsumering av notifikasjonen.
 
 Datakonsumenten vurderer relevans med basis i regler definert for
 abonnenten og foretar videre behandling av notifikasjon.
