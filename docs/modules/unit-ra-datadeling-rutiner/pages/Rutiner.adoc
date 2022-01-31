@@ -16,8 +16,8 @@ Vi forutsetter og bygger på en viss fremgang i arbeid med
 https://data.norge.no/guide/veileder-orden-i-eget-hus/[orden i eget hus]
 hos deltagende virksomheter der noen datasett er dokumentert i en
 datakatalog. Dette kan enten være Digitaliseringsdirektoratets
-https://data.norge.no/[felles datakatalog], eller en fremtidig katalog
-for høyere utdanning og forskningssektoren som høstes inn i felles
+https://data.norge.no/[Felles datakatalog], eller en fremtidig katalog
+for høyere utdanning og forskningssektoren som høstes inn i Felles
 datakatalogen.
 
 Vi skisserer en tilnærming til indre og ytre API basert på Gartners MASA

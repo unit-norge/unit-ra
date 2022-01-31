@@ -17,7 +17,7 @@ https://www.digdir.no/digitalisering-og-samordning/roller-og-definisjoner/2088[d
 og datakonsumenter]. Forventning til datatilbydere og datakonsumenter og
 også beskrevet i
 https://www.digdir.no/apne-data/nasjonal-verktoykasse-deling-av-data/2243[Nasjonal
-verktøykasse for deling av data]. Vi anbefaler at disser ressursene
+verktøykasse for deling av data]. Vi anbefaler at disse veiledere
 brukes, samtidig som vi definerer mer fingranulerte roller.
 
 Rollene spesifisert under er for både datatilbydere i
