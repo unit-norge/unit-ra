@@ -21,7 +21,7 @@ for datautveksling fra Digitaliseringsdirektoratet].
 :leveloffset: +1
 include::main@unit-ra:unit-ra-datadeling-datautveksling:page$Publisering av hendelser - basiskonsept UHF.adoc[]
 include::main@unit-ra:unit-ra-datadeling-datautveksling:page$eNotifikasjon - oversikt over verdistrømmer UHF.adoc[]
-include::main@unit-ra:unit-ra-datadeling-datautveksling:page$Grunnleggende begreper for publisering av hendelser - Hendelsesliste og Publiser og Abonner UHF.adoc[]
+include::main@unit-ra:unit-ra-datadeling-datautveksling:page$Grunnleggende begreper for publisering av hendelser - Hendelsesliste, Publiser og Abonner UHF.adoc[]
 include::main@unit-ra:unit-ra-datadeling-datautveksling:page$Notifikasjonsinnhold - basiskonsept UHF.adoc[]
 include::main@unit-ra:unit-ra-datadeling-datautveksling:page$Inngå avtaler om tilgang og levering av hendelsesstrømmer - Publiser og Abonner UHF .adoc[]
 include::main@unit-ra:unit-ra-datadeling-datautveksling:page$Inngå avtaler om tilgang og innhenting av hendelsesstrømmer - Hendelsesliste og Publiser og Abonner UHF.adoc[]

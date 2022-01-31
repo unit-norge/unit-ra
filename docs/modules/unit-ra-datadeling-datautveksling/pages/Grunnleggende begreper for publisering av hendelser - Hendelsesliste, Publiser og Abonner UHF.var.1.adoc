@@ -1,4 +1,4 @@
-= Grunnleggende begreper for publisering av hendelser - Hendelsesliste og Publiser og Abonner UHF
+= Grunnleggende begreper for publisering av hendelser - Hendelsesliste, Publiser og Abonner UHF
 :wysiwig_editing: 1
 ifeval::[{wysiwig_editing} == 1]
 :imagepath: ../images/
@@ -14,15 +14,15 @@ endif::[]
 
 Notifikasjoner blir publisert enten i form av en hendelsesliste eller i form av en publisering i form av publisering/abonnering til en publisert meldingskø
 
-.Grunnleggende begreper for publisering av hendelser - Hendelsesliste og Publiser og Abonner UHF
-image::{imagepath}Grunnleggende begreper for publisering av hendelser - Hendelsesliste og Publiser og Abonner UHF.png[alt=Grunnleggende begreper for publisering av hendelser - Hendelsesliste og Publiser og Abonner UHF image]
+.Grunnleggende begreper for publisering av hendelser - Hendelsesliste, Publiser og Abonner UHF
+image::{imagepath}Grunnleggende begreper for publisering av hendelser - Hendelsesliste, Publiser og Abonner UHF.png[alt=Grunnleggende begreper for publisering av hendelser - Hendelsesliste, Publiser og Abonner UHF image]
 
 
 TIP: Gå tilbake til standardvisning ved å klikke 'tilbake' (eller lukk dette vinduet om det er nytt)
 
 
 [cols ="1,3", options="header"]
-.Elementer i view for Grunnleggende begreper for publisering av hendelser - Hendelsesliste og Publiser og Abonner UHF
+.Elementer i view for Grunnleggende begreper for publisering av hendelser - Hendelsesliste, Publiser og Abonner UHF
 |===
 
 | Element
