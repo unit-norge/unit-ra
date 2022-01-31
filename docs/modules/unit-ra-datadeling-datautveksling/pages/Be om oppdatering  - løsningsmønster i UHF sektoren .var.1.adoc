@@ -29,9 +29,6 @@ TIP: Gå tilbake til standardvisning ved å klikke 'tilbake' (eller lukk dette v
 | Element
 | Beskrivelse
 
-| UHF Infrastruktur
-a| 
-
 | Datautvekslings-tjeneste
 a| Tjeneste for utveksling av data over aktuell transportprotokoll, f.eks, gjennom asynkrone medlinger eller synkrone API-oppslag.
 
@@ -79,9 +76,6 @@ UH/F API katalog kan inneholde
 | Endepunkt (adresse)
 a| Dataobjekt som representerer teknisk adresse til et API eller ressurs.
 
-| Nasjonal Infrastruktur
-a| 
-
 | Maskinporten
 a| Maskinporten sørger for sikker autentisering og tilgangskontroll for datautveksling mellom
 virksomheter, maskin til maskin. Dette gir teknisk og organisatorisk samhandlingsevne.
@@ -112,9 +106,6 @@ https://www.altinndigital.no/produkter/styring-av-tilgang/
 | Be om oppdatering
 a| Evnen til å be en datakilde om å utføre en oppdatering av data i kilden.
 
-| Forespør oppdatering av masterdata
-a| 
-
 | Be om tilgangstoken
 a| Prosessen med å benytte en sikkerhetsbillettjeneste for å hente en sikkerhetsbillett som gir tilgang til et API. Dette forutsetter at alt er registrert og satt opp riktig mot de aktuelle tjenestene.
 
@@ -123,9 +114,6 @@ a| Prosessen å slå opp den tekniske adressen til et API før datatilgang gjenn
 
 | Innhent samtykke ved behov
 a| Prosess for å innhente samtykke fra person eller virksomhet som grunnlag for å innhente eller oppdatere data. Dette gjøres kun ved behov.
-
-| Utfør tjenestekall for oppdateringa av data
-a| 
 
 |===
 ****
