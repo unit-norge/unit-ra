@@ -50,7 +50,8 @@ plattformen har ønsket verdi
 Referansearkitekturen skisserer ønsket infrastruktur og beste praksis
 som øker oversikt og kontroll over data, samt forbedrer datakvalitet.
 Økt oversikt muliggjør reduksjon av kompleksitet og kostnad når
-unødvendige kopier av data og varianter av begreper fjernes. Økt
+unødvendige kopier av data og varianter av begreper fjernes. I tillegg vil oversikten gjøre det enkelt å finne relevante data for gjenbruk/viderebruk. 
+Økt
 kontroll muliggjør bedre sikkerhet og personvern. Når brukerne får
 tilgang til forenklede og tilpassede datasett av høy kvalitet til sitt
 bruk, vil effektivitet, endringsdyktighet og innovasjon økes.
@@ -111,7 +112,7 @@ forskningsprosjekt. Disse opplysningene må være tilgjengelig der den
 administrative prosessen kjøres, som kan gjerne være lokalt hos en
 institusjon. Lærings- og forskningsprosesser har ofte behov for delte
 dataressurser på tvers av institusjoner som for eksempel læringsobjekter
-eller forskningsresultater.footnote:[Denne inndelingen er basert på
+eller forskningsresultater. footnote:[Denne inndelingen er basert på
 arbeid med valg av operasjonelle modeller beskrevet i «Enterprise
 Architecture as Strategy» av Ross, Weill og Robertsen.]
 
@@ -124,7 +125,7 @@ Referansearkitekturen foreslår at begge typer prosesser kan støttes av
 data i faglige kontekster vi kaller «domener», men på litt forskjellige
 måter. Et administrativt domene kan omfatte konteksten til en
 administrativ funksjon, som for eksempel studieadministrasjon. Domenen
-vil dekke denne funksjonen fra alle institusjonene som bruker samme
+vil dekke denne funksjonen i alle institusjonene som bruker samme
 standard. Lærings- eller forskningsdomener vil omfatte den faglige
 konteksten knyttet til et spesifikt bruksområde. Eksempler kan være
 emnerelatert informasjon delt mellom studenter i samme emne eller
@@ -136,7 +137,7 @@ relatert til utførelse av læring og forskning, og vi kaller derfor disse
 domenene «grunnleggende domener». Domener i lærings- og
 forskningskontekst kaller vi «brukernære domener». Informasjon i
 brukernære domener kommer fra den spesifikke brukskonteksten, men noe
-gjenbrukes også fra grunnleggende domener.footnote:[Vi har hentet denne
+gjenbrukes også fra grunnleggende domener. footnote:[Vi har hentet denne
 tilnærmingen fra faglitteratur om Data Mesh av Zhamak Dehghani.]
 
 image:{imagepath}image5.png[image,width=565,height=459]
@@ -169,7 +170,7 @@ kompetanse) fasiliterer en prosess for å beslutte dette i sektorene.
 Input til denne prosessen er pågående arbeid i sektorene innen
 organisasjonsevner (kapabiliteter)^3^ og funksjonsanalyse rettet mot
 arkiveringsbehov. Figur 7 viser et utdrag fra den Europeiske
-kapabilitetsmodellen EUNISfootnote:[Capability model from EUNIS
+kapabilitetsmodellen EUNIS footnote:[Capability model from EUNIS
 (European University Information System Organization) 
 https://app.powerbi.com/view?r=eyJrIjoiMThhNjkzNmItOGQ4NC00MDkzLWI3MDQtNzY0ZjA1MjQ5MzViIiwidCI6ImFlMWE3NzI0LTQwNDEtNDQ2Mi1hNmRjLTUzOGNiMTk5NzA3ZSIsImMiOjh9]
 som innspill til denne prosessen.
