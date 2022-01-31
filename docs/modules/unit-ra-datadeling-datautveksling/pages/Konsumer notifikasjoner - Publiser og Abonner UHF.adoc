@@ -12,10 +12,16 @@ endif::[]
 :sectnums:
 :sectnumlevels: 9
 
-Datakonsumentlytter på emner som konsumenten abonnerer på hos  Datatilbyder. Når en ny melding kommer i meldingskøen trigges konsumsjonen av notifikasjonen.
-Datakonsumenten vurderer relevans og foretar videre behandling av notifikasjon
+Datakonsument lytter på emner som konsumenten abonnerer på hos
+Datatilbyder. Når en ny melding kommer i meldingskøen trigges
+konsumpsjonen av notifikasjonen.
 
-Videre behandling består av å gjøre et eOppslag (via API) som beskrevet i "Løsningsmønster forespørsel UHF"
+Datakonsumenten vurderer relevans med basis i regler definert for
+abonnenten og foretar videre behandling av notifikasjon.
+
+Videre behandling består av å gjøre et eOppslag (via API) som beskrevet
+i «Løsningsmønster forespørsel UHF» dersom konsumenten har behov for
+ytterligere informasjon om hendelsen beskrevet i notifikasjonen.
 
 .Konsumer notifikasjoner - Publiser og Abonner UHF
 image::{imagepath}Konsumer notifikasjoner - Publiser og Abonner UHF.png[alt=Konsumer notifikasjoner - Publiser og Abonner UHF image]

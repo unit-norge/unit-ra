@@ -12,7 +12,14 @@ endif::[]
 :sectnums:
 :sectnumlevels: 9
 
-Datatilbyder publiserer en notifikasjon til en Notifikasjonsdistubusjon i form av en publisering/abonneringsløsning
+Datatilbyder publiserer en notifikasjon til en Notifikasjonsdistribusjon i form av en publisering/abonneringsløsning. Notifikasjonsdistribusjonen er realisert som en publisert kø per abonnent med et emne.
+
+Datatilbyder publiserer notifikasjoner til disse køene når hendelser
+oppstår hos datatilbyder.
+
+Hver enkelt abonnent har en innboks som abonnenten konsumerer. Den
+publiserte meldingen er transient og forsvinner fra innboksen etter at
+den er konsumert.
 
 .Generere og publisere notifikasjoner - Publiser og Abonner UHF 
 image::{imagepath}Generere og publisere notifikasjoner - Publiser og Abonner UHF .png[alt=Generere og publisere notifikasjoner - Publiser og Abonner UHF  image]
