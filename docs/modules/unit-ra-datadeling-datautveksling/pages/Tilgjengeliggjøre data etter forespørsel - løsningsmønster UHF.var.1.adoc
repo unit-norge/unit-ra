@@ -39,7 +39,7 @@ a| Prosessen med å tilby data gjennom et API til aktører utenfor egen virksomh
 
 | Tildele tilganger til API
 a| Prosess for å registrere hvilke databrukere som skal få tilgang
-Sette policy, og grov tilgangsstyring gjennom maskinporten.
+Sette policy, og grov tilgangsstyring gjennom Maskinporten.
 
 
 | Inngå avtale om tilgang til data
@@ -72,7 +72,7 @@ Mer om Altinn autorisasjon:
 https://www.altinndigital.no/produkter/styring-av-tilgang/
 
 | Registrere samtykkebasert tilgang
-a| Tjeneste for å registerer konsumenter som ma innhente samtykke som gir grunnlag for utlevering fra datatilbyder.
+a| Tjeneste for å registrere konsumenter som ma innhente samtykke som gir grunnlag for utlevering fra datatilbyder.
 
 | Aktører som kan innhente samtykke for bruk av API
 a| Oversikt over aktører som skal ha mulighet til å innhente samtykke som grunnlag for å få tilgang til data gjennom et API. 
@@ -85,7 +85,7 @@ a| Evnen til å gjøre data tilgjengelig for aktører utenfor egen virksomhet p�
 a| API eieren får forespørsel om den vil gi konsumenten tilgang til APIet.
 
 | Godkjenn tilgang
-a| Tjeneste for å vurdere og eventuelt gi tilgang til en konsument som ber om tilgang. En tjeneste i UHF Ressursportalen benyttes som lar dataforvalteren beslutte tilgang, enten gjennom en automatisert policy eller gjennom en manuell behandling. 
+a| Tjeneste for å vurdere og eventuelt gi tilgang for en konsument som ber om tilgang. En tjeneste i UHF Ressursportalen som lar dataforvalteren beslutte tilgang, enten gjennom en automatisert policy eller gjennom en manuell behandling. 
 
 | Tildel rettigheter til konsument
 a| Datakonsument skal kunne finne
@@ -94,9 +94,7 @@ grunnlag av eksisterende tillit til datakonsumenten eller per
 tilgangsforespørsel der ressurseieren beslutter tilgang.
 
 | Ressursportal
-a| Ressursportalen holder oversikt over og tildeler
-tilganger til beskyttede ressurser i høyere utdanning og
-forskningssektoren i henhold til føringer fra eierne av disse
+a| Ressursportalen tildeler og holder oversikt over tilganger til beskyttede ressurser i høyere utdanning og forskningssektoren i henhold til føringer fra eierne av disse
 ressursene. Tilganger er gitt i form av sikkerhetsbilletter.
 Ressursportalen er en del av den felles infrastrukturen for føderert API
 management for høyere utdanning og forskning. Den registrerer og holder

@@ -110,12 +110,6 @@ a| Prosessen med å benytte (gjøre et oppslag mot) et eksternt API.
 | Innhent samtykke ved behov
 a| Prosess for å innhente samtykke fra person eller virksomhet som grunnlag for å innhente data. Dette gjøres kun ved behov.
 
-| Junction
-a| 
-
-| Junction
-a| 
-
 | Altinn autorisasjon
 a| [Torget]
 Autorisasjonskomponenten i Altinn som gir muligheter til å delegere rettigheter til andre organisasjoner eller personer. Rettigheter til bruk av autorisasjonskomponenten baserer seg på registrerte roller i Enhetsregisteret.

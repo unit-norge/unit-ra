@@ -38,9 +38,7 @@ omfattes av denne referansearkitekturen
 
 
 | Ressursportal
-a| Ressursportalen holder oversikt over og tildeler
-tilganger til beskyttede ressurser i høyere utdanning og
-forskningssektoren i henhold til føringer fra eierne av disse
+a| Ressursportalen tildeler og holder oversikt over tilganger til beskyttede ressurser i høyere utdanning og forskningssektoren i henhold til føringer fra eierne av disse
 ressursene. Tilganger er gitt i form av sikkerhetsbilletter.
 Ressursportalen er en del av den felles infrastrukturen for føderert API
 management for høyere utdanning og forskning. Den registrerer og holder
