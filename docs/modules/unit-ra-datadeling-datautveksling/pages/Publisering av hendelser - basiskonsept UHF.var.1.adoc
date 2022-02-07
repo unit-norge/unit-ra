@@ -40,9 +40,6 @@ TIP: Gå tilbake til standardvisning ved å klikke 'tilbake' (eller lukk dette v
 | Element
 | Beskrivelse
 
-| Datakonsument
-a| Den som innhenter eller mottar data fra andre aktører.
-
 | Datatilbyder
 a| Tilbyder av data til andre aktører.
 
