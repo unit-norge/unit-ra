@@ -12,8 +12,10 @@ endif::[]
 :sectnums:
 :sectnumlevels: 9
 
-
-
+En prosessflyt en tilbyder av data utfører for å svare på en
+oppdateringsforespørsel. Tilbyder mottar forespørsel om oppdatering med
+et aksesstoken. Klienten som forespør autentiseres og token valideres.
+Eventuelt mer fin-granulert tilgangskontroll utføres og data oppdateres.
 
 .Håndtere forespørsel om oppdatering  - løsningsmønster UHF 
 image::{imagepath}Håndtere forespørsel om oppdatering  - løsningsmønster UHF .png[alt=Håndtere forespørsel om oppdatering  - løsningsmønster UHF  image]
@@ -55,9 +57,6 @@ a| Tjeneste for å sjekke rettigheter til data. Kan være eksterne eller interne
 Eksempler på rettigheter kan komme av samtykker fra person eller virksomhet, eller rollebasert fra vergemål, familierelasjon el.
 
 Konsumenten som forespurte tilgang til data må ha en "authentication grant" som gir rett til operasjonen som er forespurt. Leseoperasjoner må ha lesetilgang og oppdateringsoperasjoner må ha skrivetilgang til data spesifisert.
-
-| Datautvekslings-tjeneste
-a| Tjeneste for utveksling av data over aktuell transportprotokoll, f.eks, gjennom asynkrone medlinger eller synkrone API-oppslag.
 
 | Datautvekslings-tjeneste
 a| Tjeneste for utveksling av data over aktuell transportprotokoll, f.eks, gjennom asynkrone medlinger eller synkrone API-oppslag.
