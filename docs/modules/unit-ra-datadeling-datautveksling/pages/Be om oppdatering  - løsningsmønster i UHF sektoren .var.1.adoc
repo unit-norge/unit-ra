@@ -12,15 +12,7 @@ endif::[]
 :sectnums:
 :sectnumlevels: 9
 
-Datatilbyder kan gjøre oppdatering av data tilgjengelig for
-datakonsument gjennom et API. Prosessen for en datakonsument å be om
-tilgang til oppdatering (se _Få tilgang til data_) og for en
-datatilbyder å gi tilgang til oppdatering (se _Tilgjengeliggjøre data
-etter forespørsel_) er tilsvarende som for tilgang til å lese data. Det
-vil ofte være forskjellige kriterier som må oppfylles for å få lov til å
-oppdatere data enn for å lese data. Dette kan inkludere både
-kvalitetssikring og juridiske hensyn.
-
+En prosessflyt en konsument utfører når det utføres et tjenestekall for å be om en oppdatering av data gjennom et API. API-adressen hentes i API-katalogen. Tilgang til APIet byttes inn mot et kjøretids-token i autoriseringstjenesten. Tjenestekall til APIet utføres gjennom API gateway der tokenet benyttes for å få tilgang. 
 
 .Be om oppdatering  - løsningsmønster i UHF sektoren 
 image::{imagepath}Be om oppdatering  - løsningsmønster i UHF sektoren .png[alt=Be om oppdatering  - løsningsmønster i UHF sektoren  image]
