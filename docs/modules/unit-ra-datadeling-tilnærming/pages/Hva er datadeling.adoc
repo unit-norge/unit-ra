@@ -30,3 +30,6 @@ som _tilbyder_ og _konsument_.
 I noen sammenhenger skilles det også mellom _data_ og _hendelser_.
 ****
 
+Vi tolker definisjon til å gjelde uansett om data flyttes til konsumenten eller om konsumenten får tilgang til data hvor de ligger.  Innen forskning, for eksempel, kan det være hensiktsmessig å gi konumenter av veldig store datamengder tilgang til å utføre analyse på data der de ligger.
+
+
