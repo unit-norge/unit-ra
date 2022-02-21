@@ -36,8 +36,8 @@ utviklet for spesielle brukstilfeller som avbildet under.
 .Domener i UHF-sektoren
 image::{imagepath}DomenerUHF.png[]
 
-De *_grunnleggende domenene_* inneholder data som støtter de sentrale
-prosessene for læring, forskning og administrasjon hos institusjonene.
+De *_grunnleggende domenene_* inneholder kontekst som støtter de sentrale
+prosessene for læring, forskning og administrasjon hos institusjonene.  Denne kontekten vil omfatte begreper, informasjonsmodeller, proesesser og dersom det er hensiktsmessig, også data.
 
 Disse domenene inneholder blant annet *_masterdatakilder_* med
 informasjon om, for eksempel, studenter, ansatte, forskningsprosjekt,
