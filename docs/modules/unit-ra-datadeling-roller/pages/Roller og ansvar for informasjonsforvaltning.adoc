@@ -74,6 +74,8 @@ Er ansvarlig for at det er utpekt en tjenesteansvarlig for tjenesten og en dataf
 |Tjenesteansvarlig, behandlingsansvarlig, domeneansvarlig
 |===
 
+== Tjenesteansvarlig
+
 [cols=",",options="header",]
 |===
 |*Rolle:* |Tjenesteansvarlig
@@ -154,6 +156,8 @@ den behandlingsansvarlige.
 Dataforvalter.
 |===
 
+== Dataforvalter
+
 [cols=",",options="header",]
 |===
 |*Rolle:* |Dataforvalter
@@ -190,6 +194,8 @@ Oppgaver:
 |Begrepansansvarlig, Domeneansvarlig, Behandlingsansvarlig, Tjenesteansvarlig
 |===
 
+== Domeneansvarlig
+
 [cols=",",options="header",]
 |===
 |*Rolle:* |Domeneansvarlig
@@ -217,6 +223,8 @@ Drive opplæring knyttet til forvaltning av informasjon i domenet.
 |Begrepsansvarlig, Datakonsument, Tjenesteansvarlig
 |===
 
+== Begrepsansvarlig
+
 [cols=",",options="header",]
 |===
 |*Rolle:* |Begrepsansvarlig
@@ -236,6 +244,8 @@ begrepsdefinisjoner i domenet og i felles begrepskatalogen
 |*Typiske roller/stillinger som rollen skal samarbeide med:*
 |Dataforvalter, Datakonsument, Domeneansvarlig, Tjenesteansvarlig
 |===
+
+== Koordinerende aktør
 
 [cols=",",options="header",]
 |===
