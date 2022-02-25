@@ -52,7 +52,7 @@ Data skal være tilgjengelig for konsumenter. Tilgjengelighet
 manifesterer seg på flere plan: 
 
 * Teknisk. 
-* Forståelsesmessig. 
+* Forståelsesmessig (semantisk). 
 * Oppdagbare.
 
 For at kravet om teknisk tilgjengelighet skal være oppfylt, må data
