@@ -14,7 +14,7 @@ endif::[]
 
 Digitaliseringsdirektoratet har definert rollene til
 https://www.digdir.no/digitalisering-og-samordning/roller-og-definisjoner/2088[datatilbydere
-og datakonsumenter]. Forventning til datatilbydere og datakonsumenter og
+og datakonsumenter]. Forventning til datatilbydere og datakonsumenter er
 også beskrevet i
 https://www.digdir.no/apne-data/nasjonal-verktoykasse-deling-av-data/2243[Nasjonal
 verktøykasse for deling av data]. Vi anbefaler at disse veiledere
@@ -37,7 +37,6 @@ Roller hos datatilbydere:
 
 Roller relatert til informasjonsdomener:
 
-* Behandlingsansvarlig
 * Domeneansvarlig
 * Begrepsansvarlig
 
@@ -67,7 +66,7 @@ støtte.
 Er ansvarlig for at tjenesten følger gjeldende lover og regler, har
 myndighet til å foreta finansielle beslutninger og signere avtaler.
 
-Er ansvarlig for at det er utpekt en tjenesteansvarlig for tjenesten.
+Er ansvarlig for at det er utpekt en tjenesteansvarlig for tjenesten og en dataforvalter for data i den.
 
 |*Typiske roller/stillinger som rollen skal samarbeide med:*
 |Tjenesteansvarlig, behandlingsansvarlig, domeneansvarlig
