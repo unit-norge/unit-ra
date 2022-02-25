@@ -42,6 +42,8 @@ Roller relatert til informasjonsdomener:
 
 Koordinerende aktør for hele Kunnskapsdepartementets sektor (HK-dir)
 
+==Tjenesteeier
+
 [cols=",",options="header",]
 |===
 |*Rolle:* |Tjenesteeier
