@@ -101,6 +101,7 @@ mener at innholdet som finnes nå har tilstrekkelig veiledning til å føre
 til gevinst, samtidig er vi klar over mangler som vi ønsker skal være
 dekket så snart som praktisk mulig:
 
+* Prosess for definisjon og forvaltning av felles føringer for datadeling i høyere utdanning og forskning bør spesifiseres
 * Rutinen for utvikling av indre API burde være detaljert
 * Retningslinjer for spesifikasjon av API burde vært definert. Vi tenker
 å benytte Open API spesifikasjon som en del av retningslinjene for REST
