@@ -1,4 +1,4 @@
-= HKdir Referansearkitekturer
+= Om referansearkitekturene i høyere utdanning og forskning
 :wysiwig_editing: 1
 ifeval::[{wysiwig_editing} == 1]
 :imagepath: ../images/
@@ -6,10 +6,10 @@ endif::[]
 ifeval::[{wysiwig_editing} == 0]
 :imagepath: master@unit-ra:ROOT:
 endif::[]
-:toc: left
-:toclevels: 3
+#:toc: left
+#:toclevels: 3
 :sectnums:
 :sectnumlevels: 9
 
-== Om HKdir Referansearkitekturer
+== Om referansearkitekturene i høyere utdanning og forskning
 Velkommen...
