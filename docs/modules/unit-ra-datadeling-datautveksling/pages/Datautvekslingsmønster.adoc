@@ -39,10 +39,7 @@ datakilden, og leveres umiddelbart til de som måtte være interessert i
 dataendringene. Dette tillater systemet som er avhengig av
 provisjonering å hente kun den informasjonen som har blitt endret.
 
-Et typisk eksempel på bruk av dette mønsteret er visning av
-kontaktinformasjon i personprofiler. En professor professoren publiserer en artikkel i f.eks. Nasjonal Vitenarkiv, 
-og melder artikkelen inn. Artikkelen er
-reflektert i arkivet snarlig etter registrering.
+Et typisk eksempel på bruk av dette mønsteret er en professor som publiserer en artikkel i Nasjonalt Vitenarkiv. Professorens personprofil på institusjonens nettsider blir oppdatert snarlig etter at  artikkelen er publisert i Nasjonalt Vitenarkiv, siden det blir sendt en lettvekts notifikasjon om registreringen.
 
 *Fremtidige utvidelser*
 
