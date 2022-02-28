@@ -17,7 +17,7 @@ endif::[]
 image:{imagepath}image1.jpeg[]
 
 ----
-Mon Feb 28 2022 10:12:06 GMT+0100 (CET)
+Mon Feb 28 2022 10:28:36 GMT+0100 (CET)
 ----
 
 
@@ -32,7 +32,7 @@ include::main@unit-ra:unit-ra-datadeling-vedlegg-a:page$Vedlegg A; Definisjoner.
 include::main@unit-ra:unit-ra-datadeling-vedlegg-b:page$Vedlegg B; Behov for avklaringer og utfordringer i sektorens kontekst.adoc[]
 include::main@unit-ra:unit-ra-datadeling-vedlegg-c:page$Vedlegg C; Integrasjonsprinsipper.adoc[]
 include::main@unit-ra:unit-ra-datadeling-vedlegg-d:page$Vedlegg D; Behov og bruksområder.adoc[]
-include::main@unit-ra:unit-ra-datadeling-vedlegg-e:page$Vedlegg E; Føringer, pågående og videre arbeid.adoc[]
+include::main@unit-ra:unit-ra-datadeling-vedlegg-e:page$Vedlegg E; Føringer.adoc[]
 include::main@unit-ra:unit-ra-datadeling-vedlegg-f:page$Vedlegg F; Bruk av Archimate.adoc[]
 :leveloffset: -1
 
