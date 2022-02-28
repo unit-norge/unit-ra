@@ -11,5 +11,44 @@ endif::[]
 :sectnums:
 :sectnumlevels: 9
 
-== Om referansearkitekturene i høyere utdanning og forskning
-Velkommen...
+
+Arbeidsgrupper i datadelingsprosjektet har samarbeidet i utformingen av
+referansearkitekturen for deling av data i høyere utdanning og forskning
+(UHF). Denne referansearkitekturen vil danne grunnlag for
+videreutvikling av UH:IntArk i fase 2. Arbeidsgruppen har i sitt arbeid
+tatt utgangspunkt i den nasjonale https://www.digdir.no/datadeling/nasjonal-verktoykasse-deling-av-data/2243[Verktøykassen for deling av data] samt https://nasjonal-arkitektur.github.io/architecture-repository/data-exchange-ra/book-data-exchange-ra.html[Referansearkitektur for datautveksling] og tilpasset
+denne til UHF.
+
+Den anbefalte referansearkitekturen er beskrevet i dette notatet.
+
+Referansearkitekturen beskrevet her vil inngå i
+referansearkitekturen for Kunnskapssektorens datafellesskap (KUDAF, en
+infrastruktur for deling av data til sekundær- og viderebruk fra hele
+KDs sektor), og arbeidet er koordinert med dette tiltaket.
+
+Referansearkitekturer gir mønstre og veiledning til utforming av
+løsninger. Denne referansearkitekturen beskriver både eksisterende
+samhandling formulert som beste praksis og nødvendig neste steg i
+generelle datadelingsmønster som kan gjenbrukes i sektoren. Disse
+mønstrene er dokumentert gjennom videreutvikling av
+referansearkitekturene fra digitaliseringsdirektoratet. Hensikten med
+arbeidet er å fremme en koordinert utvikling av informasjonsforvaltning
+og datadeling som resulterer i «orden i eget hus», økt gjenbruk av data
+«kun en gang» og nye, innovative anvendelser av data i sektoren.
+
+Vi forventer at referansearkitekturen vil videreutvikles over tid. Vi
+mener at innholdet som finnes nå har tilstrekkelig veiledning til å føre
+til gevinst, samtidig er vi klar over mangler som vi ønsker skal være
+dekket så snart som praktisk mulig:
+
+* Prosess for definisjon og forvaltning av felles føringer for datadeling i høyere utdanning og forskning bør spesifiseres
+* Rutinen for utvikling av indre API burde være detaljert
+* Retningslinjer for spesifikasjon av API burde vært definert. Vi tenker
+å benytte Open API spesifikasjon som en del av retningslinjene for REST
+APIene. GraphQL vurderes i tillegg.
+* Prosesser for rettighetsklarering av dataprodukter bør defineres
+* Føringer til beskrivelser av dataprodukter bør defineres. Det er et
+mål at dataprodukter skal være mest mulig selvbeskrivende.
+* Begrepsdefinisjoner bør suppleres og publiseres i begrepskatalogen
+* Notifikasjoner som er realisert ved bruk av hendelseslister vurderes
+ut fra behov
