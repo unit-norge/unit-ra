@@ -20,7 +20,7 @@ ifeval::["{lang}" == "no"]
 ** xref:main@unit-ra:unit-ra-datadeling-vedlegg-b:page$Vedlegg B; Behov for avklaringer og utfordringer i sektorens kontekst.adoc[Vedlegg B: Behov for avklaringer og utfordringer i sektorens kontekst]
 ** xref:main@unit-ra:unit-ra-datadeling-vedlegg-c:page$Vedlegg C; Integrasjonsprinsipper.adoc[Vedlegg C: Integrasjonsprinsipper]
 ** xref:main@unit-ra:unit-ra-datadeling-vedlegg-d:page$Vedlegg D; Behov og bruksområder.adoc[Vedlegg D: Behov og bruksområder]
-** xref:main@unit-ra:unit-ra-datadeling-vedlegg-e:page$Vedlegg E; Føringer, pågående og videre arbeid.adoc[Vedlegg E: Føringer, pågående og videre arbeid]
+** xref:main@unit-ra:unit-ra-datadeling-vedlegg-e:page$Vedlegg E; Føringer.adoc[Vedlegg E: Føringer]
 ** xref:main@unit-ra:unit-ra-datadeling-vedlegg-f:page$Vedlegg F; Bruk av Archimate.adoc[Vedlegg F: Bruk av Archimate]
 
 endif::[]
