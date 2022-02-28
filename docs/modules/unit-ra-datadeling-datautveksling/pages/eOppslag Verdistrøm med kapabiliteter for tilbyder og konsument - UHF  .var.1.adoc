@@ -44,8 +44,8 @@ a| Evne til å avgi data på forespørsel. Data som avgis er klargjort for dette
 | Datakonsument
 a| Den som innhenter eller mottar data fra andre aktører.
 
-| Innhente data
-a| Evnen til å innhente data fra en annen aktør.
+| Aksessere data
+a| Evnen til å aksessere data fra en annen aktør. Evnen kan realiseres enten som utveksling av data, eller gjennom å kunne aksessere data der det ligger. 
 
 | Del  data
 a| Verdistrøm for datatilbyderen.

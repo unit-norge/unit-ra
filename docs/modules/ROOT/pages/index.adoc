@@ -19,10 +19,10 @@ Denne referansearkitekturen vil danne grunnlag for
 videreutvikling av Datadelingstjenesten - UH:IntArk i fase 2. 
 Mange element i målbildet kan med fordel rulles ut så tidlig som mulig, for eksempel tiltak rettet mot forbedret informasjonsforvaltning og orden i eget hus.
 Arbeidsgruppene har i sitt arbeid tatt utgangspunkt i den nasjonale https://www.digdir.no/datadeling/nasjonal-verktoykasse-deling-av-data/2243[Verktøykassen for deling av data] samt https://nasjonal-arkitektur.github.io/architecture-repository/data-exchange-ra/book-data-exchange-ra.html[Referansearkitektur for datautveksling] og tilpasset
-denne til UHF.
+denne til Høyere utdanning og forskning.
 
 Referansearkitekturen beskrevet her vil inngå i
-referansearkitekturen for Kunnskapssektorens datafellesskap (KUDAF, en
+referansearkitekturen for https://kunnskapsdata.no[Kunnskapssektorens datafellesskap] (KUDAF, en
 infrastruktur for deling av data til sekundær- og viderebruk fra hele
 KDs sektor), og arbeidet er koordinert med dette tiltaket.
 

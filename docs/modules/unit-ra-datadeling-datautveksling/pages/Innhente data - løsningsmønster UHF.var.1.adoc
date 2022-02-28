@@ -32,9 +32,6 @@ TIP: Gå tilbake til standardvisning ved å klikke 'tilbake' (eller lukk dette v
 | UHF Infrastruktur
 a| 
 
-| Datautvekslings-tjeneste
-a| Tjeneste for utveksling av data over aktuell transportprotokoll, f.eks, gjennom asynkrone medlinger eller synkrone API-oppslag.
-
 | Samtykkeregistererings-tjeneste
 a| Tjeneste for å innhente samtykke fra den registrert som dataene gjelder. Dette kan være en person eller en virksomhet.
 
@@ -79,6 +76,9 @@ UH/F API katalog kan inneholde
 | Endepunkt (adresse)
 a| Dataobjekt som representerer teknisk adresse til et API eller ressurs.
 
+| Gi konsument adgang til data
+a| Tjeneste for å gi datakonsument adgang til data. Tjenesten kan realiseres gjennom utveksling av data over aktuell transportprotokoll, f.eks, gjennom asynkrone medlinger eller synkrone API-oppslag. Tjenesten kan også realiseres ved å gi konsumenten adgang til data er de ligger, f.eks, innen forskning for analyse av store datamengder.
+
 | Nasjonal Infrastruktur
 a| 
 
@@ -92,8 +92,8 @@ https://www.digdir.no/digitale-felleslosninger/maskinporten/869
 | Datakonsument
 a| Den som innhenter eller mottar data fra andre aktører.
 
-| Innhente data
-a| Evnen til å innhente data fra en annen aktør.
+| Aksessere data
+a| Evnen til å aksessere data fra en annen aktør. Evnen kan realiseres enten som utveksling av data, eller gjennom å kunne aksessere data der det ligger. 
 
 | Slå opp data gjennom et API 
 a| Prosessen med å slå opp og hente data gjennom et API.

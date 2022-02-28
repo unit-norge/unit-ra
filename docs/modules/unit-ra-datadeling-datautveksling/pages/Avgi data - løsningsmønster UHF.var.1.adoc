@@ -97,6 +97,9 @@ Komponent som beskytter ressursene og overvåker tilgang inklusivt:
 * Samle inn data om bruken av API-er
 * Orkestrering mellom interntjenester
 
+| Gi konsument adgang til data
+a| Tjeneste for å gi datakonsument adgang til data. Tjenesten kan realiseres gjennom utveksling av data over aktuell transportprotokoll, f.eks, gjennom asynkrone medlinger eller synkrone API-oppslag. Tjenesten kan også realiseres ved å gi konsumenten adgang til data er de ligger, f.eks, innen forskning for analyse av store datamengder.
+
 |===
 ****
 TIP: Gå tilbake til standardvisning ved å klikke 'tilbake' (eller lukk dette vinduet om det er nytt)
