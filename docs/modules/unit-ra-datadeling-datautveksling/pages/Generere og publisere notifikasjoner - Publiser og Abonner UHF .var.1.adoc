@@ -51,7 +51,7 @@ a| Prosessen med å generere en notifikasjon på bakgrunn av en hendelse.
 a| 
 
 | Notifikasjon
-a| En notifikasjon informerer om at en hendelse har inntruffet og kan inneholde elle  peke til hele eller deler av det totale settet av aktuelle, hendelsesrelaterte data.
+a| En notifikasjon informerer om at en hendelse har inntruffet og kan inneholde eller  peke til hele eller deler av det totale settet av aktuelle, hendelsesrelaterte data.
 
 | Generering av notifikasjon
 a| Tjeneste som genererer notifikasjoner basert på hendelser, der alle aktuelle grunnlagsdata er med eller lenket til.

@@ -16,6 +16,7 @@ Når en hendelse endrer data hos en datatilbyder, og disse data er deles
 gjennom datadeling med notifikasjon, skal det sendes en notifikasjon til
 datakonsument. +
 Notifikasjoner omhandler hvilke data i det tilhørende API som er endret.
+Notifikasjonen er sådan _operasjonell_, den melder fra om hvilke data som er endret, men ikke hvilken forretningshendelse som har inntruffet.
 
 For å utvikle notifikasjoner følges tilsvarende prosess som for API
 over. Det vil si at notifikasjoner, som beskrevet i denne

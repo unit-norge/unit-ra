@@ -84,7 +84,7 @@ Komponent som beskytter ressursene og overvåker tilgang inklusivt:
 a| Evnen til å utføre oppdatering på kildedata dersom den som forespør oppdateringen har rettigheter til det.
 
 | Oppdater kilde etter forespørsel
-a| Prosessen med å utføre oppdatering av data i en kilde. Omfatter å verifisering av konsumenten, rettighetene og masterdata status. 
+a| Prosessen med å utføre oppdatering av data i en kilde. Omfatter verifisering av konsumenten, rettighetene og masterdata status. 
 
 | Autentisere konsument
 a| Prosessen med å autentisere en konsument.
