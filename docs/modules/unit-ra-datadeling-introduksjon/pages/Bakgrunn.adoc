@@ -24,7 +24,7 @@ administrasjon.
 == Behov og bruksområder
 
 Referansearkitekturen skal skape samhandling gjennom datadeling, bidra
-til å støtte bruksområder og dekke tilhørende behov i kunnskapssektoren.
+til å støtte bruksområder og dekke tilhørende behov i høyere utdannings- og forskningssektorene.
 
 De viktigste funksjonelle behovene er:
 

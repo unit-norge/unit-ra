@@ -1,0 +1,20 @@
+= Vedlegg B; Behov for avklaringer og utfordringer i sektorenes kontekst
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-vedlegg-b:
+endif::[]
+:toc: left
+:experimental:
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 9
+
+
+
+:leveloffset: +1
+include::main@unit-ra:unit-ra-datadeling-vedlegg-b:page$Issues mot nasjonale felleskompontenter (Maskinporten, ID Porten og Altinn autorisasjon).adoc[]
+include::main@unit-ra:unit-ra-datadeling-vedlegg-b:page$Issues internt i høyere utdannings- og forskningssektorene.adoc[]
+:leveloffset: -1

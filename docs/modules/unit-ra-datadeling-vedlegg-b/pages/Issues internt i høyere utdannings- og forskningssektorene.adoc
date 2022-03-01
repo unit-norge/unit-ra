@@ -1,0 +1,25 @@
+= Issues internt i høyere utdannings- og forskningssektorene
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-vedlegg-b:
+endif::[]
+:toc: left
+:experimental:
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 9
+
+[arabic]
+. Det er ønskelig at samme forretningslogikk ligger til grunn for tilgang til data uansett om det skjer via bruk av applikasjoner eller oppslag gjennom API. Koordinering mellom IAM prosjektet, UH Sak prosjektet og Datadelingsprosjektet er en forutsetning for denne harmoniseringen av funksjonalitet.
+. Dersom forskjellige autorisasjonstjenere ikke kan dele tokens, har vi
+det samme problemet vi har mot de nasjonale fellestjenestene at
+den ene domenen ikke kan forholde seg til tokens fra den andre domenen.
+. Sektoren har tre uavhengige SSO løsninger: IDporten, Feide og Azure
+AD. Dette gir både redusert brukervennlighet, og er en sikkerhetsutfordring
+dersom man ikke kan garantere for at det er samme person i de ulike SSO
+identitetene.
+
+

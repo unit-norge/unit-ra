@@ -17,7 +17,7 @@ endif::[]
 image:{imagepath}image1.jpeg[]
 
 ----
-Tue Mar 01 2022 14:07:24 GMT+0100 (CET)
+Tue Mar 01 2022 14:30:19 GMT+0100 (CET)
 ----
 
 
@@ -29,7 +29,7 @@ include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Datadelingsplattf
 include::main@unit-ra:unit-ra-datadeling-datautveksling:page$Datautveksling.adoc[]
 include::main@unit-ra:unit-ra-datadeling-rutiner:page$Rutiner.adoc[]
 include::main@unit-ra:unit-ra-datadeling-vedlegg-a:page$Vedlegg A; Definisjoner.adoc[]
-include::main@unit-ra:unit-ra-datadeling-vedlegg-b:page$Vedlegg B; Behov for avklaringer og utfordringer i sektorens kontekst.adoc[]
+include::main@unit-ra:unit-ra-datadeling-vedlegg-b:page$Vedlegg B; Behov for avklaringer og utfordringer i sektorenes kontekst.adoc[]
 include::main@unit-ra:unit-ra-datadeling-vedlegg-c:page$Vedlegg C; Integrasjonsprinsipper.adoc[]
 include::main@unit-ra:unit-ra-datadeling-vedlegg-d:page$Vedlegg D; Behov og bruksområder.adoc[]
 include::main@unit-ra:unit-ra-datadeling-vedlegg-e:page$Vedlegg E; Føringer.adoc[]
