@@ -1,0 +1,27 @@
+= Felleskomponenter tilbyr fellestjenester
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-målarkitekturen:
+endif::[]
+:toc: left
+:experimental:
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 9
+
+Datadelingsplattformen består av felleskomponentene beskrevet under. Disse komponentene tilbyr fellestjenestene benyttet i datadelingsprosessene som detaljeres i neste kapittel. De fleste felleskomponenter skal realiseres med en delt instans for sektorene. API gateway er en funksjonell beskrivelse av en komponent som skal realiseres med instanser nær datakildene som skal beskyttes.
+
+
+
+.Felleskomponenter tilbyr fellestjenester
+image::{imagepath}FelleskomponenterUHF.png[alt=Felleskomponenter tilbyr fellestjenester image]
+
+
+****
+xref:main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Felleskomponenter tilbyr fellestjenester.var.1.adoc[Vis detaljer om elementene i diagrammet] (Tips: kbd:[Shift]-klikk for å åpne i nytt vindu)
+****
+
+

@@ -49,7 +49,7 @@ plattformen.
 Virksomhetene i høyere utdanning og forskning må etablere tillit til
 hverandre for å kunne dele data. Datadelingsplattformen realiserer
 tilgangsstyring til sektorens data på en enhetlig måte gjennom bruk av
-felleskomponenter i plattformen. Hovedmetoden for tilgangsstyring i
+fellestjenester tilbudt i plattformen. Hovedmetoden for tilgangsstyring i
 plattformen er API Management.
 
 Referansearkitekturen definerer hvordan det varsles om endringer i
@@ -62,7 +62,7 @@ for bruksmønsteret.
 :leveloffset: +1
 include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Føderert API management.adoc[]
 include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Publisering av hendelser.adoc[]
-include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Felleskomponenter.adoc[]
+include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Felleskomponenter tilbyr fellestjenester.adoc[]
 include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Datadeling integrert med IAM.adoc[]
 include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Datadeling på tvers av sektorer.adoc[]
 :leveloffset: -1
