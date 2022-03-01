@@ -12,6 +12,9 @@ endif::[]
 :sectnums:
 :sectnumlevels: 9
 
+Fellestjenestene i datadelingsplattformen brukes i felles prosesser for å dele data. Gjennom å utføre en fellesprosess, vil en datakonsument eller en datatilbyder oppnå et evne (kapabilitet). Dette kapittelet beskriver de fellesprosessene som er definert for deling av data, og de evnene som oppnås. Prosessbeskrivelsen viser hvilke tjenester støtter prosessen, og hvilke komponenter realiserer tjenestene. Prosessbeskrivelsen viser også de sentrale forretningsobjekter og dataobjekter som benyttes og produseres underveis. Både tjenester og komponenter kan aksessere dataobjekter. 
+
+Prosessbeskrivelsene er presentert i https://www.opengroup.org/archimate-forum/archimate-overview[ArchiMate modelleringsspråk]. Vår bruk av Archimate er beskrevet i Vedlegg F.
 
 
 :leveloffset: +1

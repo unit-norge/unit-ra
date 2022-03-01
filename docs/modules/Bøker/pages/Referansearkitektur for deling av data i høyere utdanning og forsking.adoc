@@ -17,7 +17,7 @@ endif::[]
 image:{imagepath}image1.jpeg[]
 
 ----
-Tue Mar 01 2022 13:12:56 GMT+0100 (CET)
+Tue Mar 01 2022 14:07:24 GMT+0100 (CET)
 ----
 
 
@@ -25,7 +25,7 @@ Tue Mar 01 2022 13:12:56 GMT+0100 (CET)
 include::main@unit-ra:unit-ra-datadeling-introduksjon:page$Introduksjon.adoc[]
 include::main@unit-ra:unit-ra-datadeling-tilnærming:page$Tilnærming til utvikling av referansearkitekturen.adoc[]
 include::main@unit-ra:unit-ra-datadeling-roller:page$Roller og ansvar for informasjonsforvaltning.adoc[]
-include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Datadelingsplattformen og felles komponentene i den.adoc[]
+include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Datadelingsplattformen og fellestjenestene i den.adoc[]
 include::main@unit-ra:unit-ra-datadeling-datautveksling:page$Datautveksling.adoc[]
 include::main@unit-ra:unit-ra-datadeling-rutiner:page$Rutiner.adoc[]
 include::main@unit-ra:unit-ra-datadeling-vedlegg-a:page$Vedlegg A; Definisjoner.adoc[]
