@@ -51,8 +51,7 @@ notifikasjonskatalog med autorisasjon
 notifikasjoner
 * Definere felles roller for tjenesteforvaltning, dataforvaltning og
 informasjonsforvaltning
-* Sørge for at kunnskapssektoren følger de nasjonale og sektorspesifikke
-retningslinjer som Digitaliseringsdirektoratet og andre spesifiserer
+* Sørge for at høyere utdannings- og forskningssektorene følger de nasjonale og sektorspesifikke retningslinjer som Digitaliseringsdirektoratet og andre spesifiserer
 
 Disse behovene er beskrevet mer detaljert i Vedlegg D Behov og
 bruksområder som skal dekkes av referansearkitekturen
