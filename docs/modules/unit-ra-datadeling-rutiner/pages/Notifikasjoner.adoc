@@ -12,7 +12,7 @@ endif::[]
 :sectnums:
 :sectnumlevels: 9
 
-Når en hendelse endrer data hos en datatilbyder, og disse data er deles
+Når en hendelse endrer data hos en datatilbyder, og disse data deles
 gjennom datadeling med notifikasjon, skal det sendes en notifikasjon til
 datakonsument. +
 Notifikasjoner omhandler hvilke data i det tilhørende API som er endret.
@@ -29,7 +29,7 @@ Spesielt for notifikasjoner gjelder følgende:
 [arabic]
 . Notifikasjonen skal gi en meningsfull indikasjon på hvilke data som er
 endret i form av identifikator (nøkkelinformasjon)
-. Notifikasjonen skal inneholde en referanse til ressursen (i APIet) der
+. Notifikasjonen skal inneholde en referanse til ressursen (i API-et) der
 data kan hentes fra
 . Etterstreb å modellere notifikasjoner etter etablerte standarder
 . Sørg for at meningen notifikasjonene bærer er godt dokumentert i
@@ -52,7 +52,7 @@ En notifikasjon utformet etter minstekravene til CloudEvents med JSON
 Event Format ser typisk ut:
 
 ____
-\{"id": "935ec740-d4a4-418d-b6c3-282d6fd2305b",
+{"id": "935ec740-d4a4-418d-b6c3-282d6fd2305b",
 
 "specversion": "1.0",
 
