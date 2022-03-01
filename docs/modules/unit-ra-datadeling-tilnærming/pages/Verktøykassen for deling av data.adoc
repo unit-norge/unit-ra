@@ -26,8 +26,7 @@ andre (datakonsumenter) og for de som skal dele data med andre
 
 Verdistrømmene viser hvilke steg en datakonsument må gjennom for å motta
 data, og hvilke steg en datatilbyder må gjennom for å avgi data. Enkelte
-steg i verdistrømmene er tilpasset sektoren for høyere utdanning og
-forskning i referansearkitekturen. Dette er beskrevet senere i
+steg i verdistrømmene er tilpasset høyere utdannings- og forkninssektorene i referansearkitekturen. Dette er beskrevet senere i
 dokumentet
 
 Før datatilbyderen kan utføre det første steget i verdistrømmen for

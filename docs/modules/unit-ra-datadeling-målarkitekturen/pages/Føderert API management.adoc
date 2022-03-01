@@ -23,14 +23,14 @@ Det er et sterkt politisk ønske om deling av data mellom domener. Flere
 initiativer, slik som Digitaliseringsdirektoratets "Orden i eget hus" og
 andre nasjonale og sektorvise digitaliseringsstrategier skal understøtte
 deling av data. I en slik sammenheng ser vi behovet for et felles API
-Management-regime i kunnskapssektoren.
+Management-regime i høyere utdannings- og forkninssektorene.
 
 Et slikt regime muliggjør deling av data for å oppnå sammenhengende
 brukerreiser, eksemplifisert ved de syv livshendelser og tjenestekjeder.
 Det er en forutsetning at data kan deles mellom virksomheter som
 betjener slike brukerreiser.
 
-3.parts aktører kan bruke data fra sektoren for innovasjon. API
+3.parts aktører kan bruke data fra sektorene for innovasjon. API
 management kan medvirke til deling av data til 3. part ved å gjøre data
 gjenfinnbart, tilgjengelig og dokumentert.
 

@@ -48,7 +48,7 @@ plattformen.
 
 Virksomhetene i høyere utdanning og forskning må etablere tillit til
 hverandre for å kunne dele data. Datadelingsplattformen realiserer
-tilgangsstyring til sektorens data på en enhetlig måte gjennom bruk av
+tilgangsstyring til sektorenes data på en enhetlig måte gjennom bruk av
 fellestjenester tilbudt i plattformen. Hovedmetoden for tilgangsstyring i
 plattformen er API Management.
 

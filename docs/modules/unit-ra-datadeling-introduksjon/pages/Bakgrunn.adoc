@@ -72,8 +72,7 @@ igjen muliggjør datadrevne beslutninger.
 == Føringer, pågående og videre arbeid
 
 Referansearkitekturen beskrevet i dette dokumentet tar utgangspunkt i pågående
-arbeid og førende strategier og prinsipper nasjonalt, innen sektoren og
-internasjonalt.
+arbeid og førende strategier og prinsipper nasjonalt, innen høyere utdannings- og forskningssektorene og internasjonalt.
 
 Dette er beskrevet i Vedlegg E Føringer, samt "Om våre referansearkitekturer" for videre arbeid.
 
