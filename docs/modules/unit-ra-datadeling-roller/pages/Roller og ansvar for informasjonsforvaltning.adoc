@@ -14,7 +14,9 @@ endif::[]
 
 Digitaliseringsdirektoratet har definert rollene til
 https://www.digdir.no/digitalisering-og-samordning/roller-og-definisjoner/2088[datatilbydere
-og datakonsumenter]. Forventning til datatilbydere og datakonsumenter er
+og datakonsumenter]. 
+Foringene beskrevet her inkluderer rollen https://www.datatilsynet.no/rettigheter-og-plikter/virksomhetenes-plikter/databehandleravtale/behandlingsansvarlig-og-databehandler/hva-er-en-behandlingsansvarlig/[behandlingsansvarlig] som gjelder der hvor personopplysninger behandles.
+Forventning til datatilbydere og datakonsumenter er
 også beskrevet i
 https://www.digdir.no/apne-data/nasjonal-verktoykasse-deling-av-data/2243[Nasjonal
 verktøykasse for deling av data]. Vi anbefaler at disse veiledere
