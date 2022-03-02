@@ -21,7 +21,7 @@ som benyttes der. For eksempel vil et begrep som
 enkeltemner ved et universitet eller en høyskole.] ha en beskrivelse,
 forståelse og sine egne data i et studieadministrativt domene.
 
-Som en del av den generelle utvikling innen IT systemer, er sektoren i
+Som en del av den generelle utvikling innen IT systemer, er høyere utdannings- og forskningssektorene i
 ferd med å bygge en distribuert arkitektur som knytter sammen løst
 koblede, delte datakilder. 
 Referansearkitekturen er laget for å støtte denne utviklingen ved å
