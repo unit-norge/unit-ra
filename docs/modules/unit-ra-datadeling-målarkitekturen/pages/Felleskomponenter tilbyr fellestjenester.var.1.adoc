@@ -12,7 +12,7 @@ endif::[]
 :sectnums:
 :sectnumlevels: 9
 
-Datadelingsplattformen består av felleskomponentene beskrevet under. Disse komponentene tilbyr fellestjenestene benyttet i datadelingsprosessene som detaljeres i neste kapittel. De fleste felleskomponenter skal realiseres med en delt instans for sektorene. API gateway er en funksjonell beskrivelse av en komponent som skal realiseres med instanser nær datakildene som skal beskyttes.
+Datadelingsplattformen består av felleskomponentene beskrevet under. Disse komponentene tilbyr fellestjenestene benyttet i datadelingsprosessene som detaljeres i neste kapittel. De fleste felleskomponenter skal realiseres med en delt instans for  høyere utdannings- og forskningssektorene. API gateway er en funksjonell beskrivelse av en komponent som skal realiseres med instanser nær datakildene som skal beskyttes.
 
 
 

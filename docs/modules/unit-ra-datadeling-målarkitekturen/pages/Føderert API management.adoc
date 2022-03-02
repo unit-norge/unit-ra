@@ -30,7 +30,7 @@ brukerreiser, eksemplifisert ved de syv livshendelser og tjenestekjeder.
 Det er en forutsetning at data kan deles mellom virksomheter som
 betjener slike brukerreiser.
 
-3.parts aktører kan bruke data fra sektorene for innovasjon. API
+3.parts aktører kan bruke data fra høyere utdannings- og forskningssektorene for innovasjon. API
 management kan medvirke til deling av data til 3. part ved å gjøre data
 gjenfinnbart, tilgjengelig og dokumentert.
 

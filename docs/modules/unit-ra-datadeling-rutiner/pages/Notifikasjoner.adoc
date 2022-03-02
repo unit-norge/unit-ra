@@ -28,7 +28,7 @@ Spesielt for notifikasjoner gjelder følgende:
 
 [arabic]
 . Notifikasjonen skal gi en meningsfull indikasjon på hvilke data som er
-endret i form av identifikator (nøkkelinformasjon)
+endret i form av liste over endrede attributter i datagrunnlaget.  
 . Notifikasjonen skal inneholde en referanse til ressursen (i API-et) der
 data kan hentes fra
 . Etterstreb å modellere notifikasjoner etter etablerte standarder

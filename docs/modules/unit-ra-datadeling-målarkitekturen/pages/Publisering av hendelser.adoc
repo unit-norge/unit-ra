@@ -16,7 +16,7 @@ For publisering av hendelser er det etablert et mønster der datatilbyder
 utsteder en lettvektsnotifikasjon som datakonsumenten kan abonnere på.
 Lettvektsnotifikasjonen inneholder en lenke til et API der
 datakonsumenten kan hente data relatert til notifikasjonen. Dette
-mønsteret er allerede i bruk i UHF-sektoren.
+mønsteret er allerede i bruk i høyere utdannings- og forskningssektorene.
 
 Lettvektsnotifikasjonen i en eNotifikasjon blir overført mellom
 datatilbyder og konsument av en meldingsformidler (_event broker)_.
