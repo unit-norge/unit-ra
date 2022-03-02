@@ -14,7 +14,7 @@ endif::[]
 
 En prosessflyt en konsument av data må gjennomføre for å få tildelt rettigheter til data gjennom et API. Det omfatter å få kjennskap til aktuelt API gjennom API-katalogen, autentisere konsumenten, inngå avtale om bruk av data, samt å registrere tilganger hos den tekniske komponenten som skal utføre tjenestekallet. Dersom det dreier seg om tilgang til et åpent tilgjengelig API, kan enkelte delaktiviteter i prosessene hoppes over, men for å kunne logge informasjon om bruk av APIer bør alle konsumenter av et API registreres i klientregisteret.
 
-Viewet bør strengt tatt vise at konsumenten kan finne APIet enten i UHF sektorens API katalog eller i Felles datakatalog. Vi velger å vise prosessflyten kun med UHF sektorens komponenter både for å kunne presentere en oversiktlig prosessflyt og fordi forholdet til de nasjonale felleskomponenter ennå ikke er helt avklart.
+Viewet bør strengt tatt vise at konsumenten kan finne APIet enten i  høyere utdannings- og forskningssektorene API katalog eller i Felles datakatalog. Vi velger å vise prosessflyten kun med  høyere utdannings- og forskningssektorene komponenter både for å kunne presentere en oversiktlig prosessflyt og fordi forholdet til de nasjonale felleskomponenter ennå ikke er helt avklart.
 
 .Få tilgang til data - løsningsmønster UHF
 image::{imagepath}Få tilgang til data - løsningsmønster UHF.png[alt=Få tilgang til data - løsningsmønster UHF image]

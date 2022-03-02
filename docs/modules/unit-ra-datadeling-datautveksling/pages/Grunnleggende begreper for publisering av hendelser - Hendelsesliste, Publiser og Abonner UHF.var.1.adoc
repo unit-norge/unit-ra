@@ -34,7 +34,7 @@ TIP: Gå tilbake til standardvisning ved å klikke 'tilbake' (eller lukk dette v
 a| 
 
 | Hendelsesliste
-a| Testing for hendelsesliste
+a| 
 
 | Publiser/Abonner Melding
 a| 
