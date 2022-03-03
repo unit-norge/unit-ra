@@ -50,7 +50,7 @@ Koordinerende aktør for hele Kunnskapsdepartementets sektor (HK-dir)
 |===
 |*Rolle:* |Tjenesteeier
 |*Beskrivelse av rollen:* a|
-Tjenesteeier er den organisasjon/virksomhet/enhet som eier en tjeneste.
+Tjenesteeier er den organisasjon/virksomhet/enhet som eier en tjeneste. 
 
 Tjenesteeier vil i de fleste tilfellene være en eller flere ledere av de
 fagavdelingene som benytter seg av løsningens funksjonalitet og som
@@ -62,7 +62,7 @@ Referansearkitektur (dvs. generiske grensesnitt og notifikasjoner,
 eksempel IntArk).
 
 Er ansvarlig for at tjenestenivå (fullstendig sett av krav til tjenesten
-med tilhørende beskrivelser: eks. omfang, volum, hyppighet, varighet,
+med tilhørende beskrivelser: eks. tilgjengelighet, omfang, volum, hyppighet, varighet,
 rapportering) er definert i henhold til brukeres behov, at det
 inneholder kvalitetssikret faglig innhold og at brukerne får faglig
 støtte.
