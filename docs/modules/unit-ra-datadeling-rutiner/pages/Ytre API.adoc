@@ -42,7 +42,7 @@ om begrepsarbeid] er en utfyllende ressurs)
 i begrepskatalogen under https://data.norge.no/concepts[Felles datakatalog])
 . Identifiser hva må skapes, harmoniseres eller videreutvikles. Pass på
 at funksjonaliteten spesifisert i grensesnittet dekker kun det som
-trengs for å støtte brukstilfellet under utvikling som prinsipp for god design. I tillegg må tilgang til personopplysninger minimeres i tidsrom, berørte personser og antall opplysninger.
+trengs for å støtte brukstilfellet under utvikling som prinsipp for god design. I tillegg må tilgang til personopplysninger minimeres i tidsrom, berørte personer og antall opplysninger.
 . Sikre at data i alle steg i verdikjeden passer til den tenkte
 anvendelsen.
 . Definere API/datasett i team med representasjon fra både bruksmiljø og
