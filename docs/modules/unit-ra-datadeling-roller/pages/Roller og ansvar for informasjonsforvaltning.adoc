@@ -52,9 +52,7 @@ Koordinerende aktør for hele Kunnskapsdepartementets sektor (HK-dir)
 |*Beskrivelse av rollen:* a|
 Tjenesteeier er den organisasjon/virksomhet/enhet som eier en tjeneste. 
 
-Tjenesteeier vil i de fleste tilfellene være en eller flere ledere av de
-fagavdelingene som benytter seg av løsningens funksjonalitet og som
-oppnår gevinster ved å benytte tjenesten.
+Ansvarsområdene til tjenesteeier vil tillegges en leder som påser at tjenesteansvar og dataforvaltning utføres i henhold til brukernes behov og brukskontekstens krav til utforming, sikkerhet og kvalitet.
 
 |*Ansvars-områder og oppgaver:* a|
 Er ansvarlig for at tjenestens data/masterdata deles iht.
