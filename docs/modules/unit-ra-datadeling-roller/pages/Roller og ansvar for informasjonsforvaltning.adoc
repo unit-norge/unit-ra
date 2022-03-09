@@ -71,7 +71,7 @@ myndighet til å foreta finansielle beslutninger og signere avtaler.
 Er ansvarlig for at det er utpekt en tjenesteansvarlig for tjenesten og en dataforvalter for data i den.
 
 |*Typiske roller/stillinger som rollen skal samarbeide med:*
-|Tjenesteansvarlig, behandlingsansvarlig, domeneansvarlig
+|Tjenesteansvarlig, dataforvalter, domeneansvarlig
 |===
 
 == Tjenesteansvarlig
