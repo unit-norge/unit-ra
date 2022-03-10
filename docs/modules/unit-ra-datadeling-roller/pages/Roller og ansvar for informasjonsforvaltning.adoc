@@ -16,6 +16,7 @@ Digitaliseringsdirektoratet har definert rollene til
 https://www.digdir.no/digitalisering-og-samordning/roller-og-definisjoner/2088[datatilbydere
 og datakonsumenter]. 
 Foringene beskrevet der peker blant annet til rollen https://www.datatilsynet.no/rettigheter-og-plikter/virksomhetenes-plikter/databehandleravtale/behandlingsansvarlig-og-databehandler/hva-er-en-behandlingsansvarlig/[behandlingsansvarlig] fra Datatilsynet som gjelder der hvor personopplysninger behandles.
+Behandlingsansvaret kan følge direkte av lovverket, men må ellers fastlegges ut fra en vurdering av hvilket eller hvilke organ som «alene eller sammen med andre bestemmer formålet med behandlingen av personopplysninger og hvilke midler som skal benyttes», jf. personvernforordningen art. 4 nr.7. 
 Forventning til datatilbydere og datakonsumenter er
 også beskrevet i
 https://www.digdir.no/apne-data/nasjonal-verktoykasse-deling-av-data/2243[Nasjonal
