@@ -64,7 +64,7 @@ a| Hva organisasjonen gjør for å vurdere, merke, overvåke, administrere og ve
 EUNIS: Information & Data Security Management
 
 | Informasjons-gjenfinning
-a| Hva organisasjonen gjør for å lokalisere, indeksere, katalogisere og publisere informasjon for både intern og ekstern bruk. Dette kan omfatte data som ikke oppbevares av organisasjonen.
+a| Hva organisasjonen gjør for å lokalisere eksisterende informasjon for gjenbruk og viderebruk både internt og eksternt. Dette kan omfatte data som ikke oppbevares av organisasjonen.
 
 EUNIS: Information Search & discovery
 
