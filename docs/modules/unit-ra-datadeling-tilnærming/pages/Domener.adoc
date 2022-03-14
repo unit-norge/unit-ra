@@ -41,7 +41,8 @@ prosessene for læring, forskning og administrasjon hos institusjonene.  Denne k
 
 Disse domenene inneholder blant annet *_masterdatakilder_* med
 informasjon om, for eksempel, studenter, ansatte, forskningsprosjekt,
-forskningsresultater, læringsobjekter, med flere. Disse kildene er
+forskningsresultater, læringsobjekter, med flere. Den semantiske betydningen av objektene og deres attributter i masterdatakildene skal reflektere en omforent forståelse av disse begrepene.
+Disse kildene er
 definert ut fra en dyp forståelse av sektorenes funksjon og vil typisk
 være forholdsvis stabile over tid.
 
