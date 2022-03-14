@@ -37,8 +37,9 @@ Referansearkitekturen spesifiserer hvordan *datasett og API* skal:
 
 * defineres
 * brukes
+* forvaltes
 * gjenbrukes av nye konsumenter
-* brukes til nye oppgaver.
+* brukes til nye oppgaver
 
 Datasett til nye formål kan være satt sammen av data fra flere andre
 API. +
