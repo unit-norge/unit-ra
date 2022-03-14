@@ -39,7 +39,7 @@ prosessene hovedsakelig lokale data for den enkelte institusjon hvor prosessen k
 
 Lærings- og forskningsprosesser vil variere og være knyttet til en
 brukskontekst med et tilhørende informasjonsdomene. Aktører knyttet til
-brukernære lærings- og forskningsdomener vil typisk ønske en bred
+bruksnære lærings- og forskningsdomener vil typisk ønske en bred
 tilgang til lærings- og forskningsressurser produsert av andre hos
 institusjonen, nasjonalt og internasjonalt. Det kan også være ønskelig å
 publisere resultater fra bruksdomer bredt. Brukernære domener innen

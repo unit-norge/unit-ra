@@ -63,7 +63,7 @@ forskning og administrasjon kan dekke sine datadelingsbehov på en måte
 som gir følgende gevinst. Effektiviteten økes når økt oversikt og
 forbedret samhandling muliggjør fjerning av unødvendige kopier av data
 og unødvendige varianter av begreper. Disse forbedringer reduserer
-administrativt byrde. Endringsevne og innovasjon økes når brukernære
+administrativt byrde. Endringsevne og innovasjon økes når bruksnære
 kontekster får tilgang til forenklet og tilpasset datasett av høy kvalitet
 til sitt bruk. En forbedret informasjonsforvaltningspraksis og
 datadelingsplattform vil gi økt tilgang til data av høy kvalitet, som

@@ -49,7 +49,7 @@ API og datasett definert i grunnleggende domener blir gjerne gjenbrukt
 av bruksnære domener.
 
 De *_bruksnære domenene_* er definert til å støtte en spesifikk
-brukernær kontekst. Domener for brukskontekst inkluderer for eksempel
+brrukskontekst. Domener for brukskontekst inkluderer for eksempel
 situasjoner der studenter evaluerer emner, der studenter får
 automatisert tilbakemeldinger for å forbedre læringsprosessen
 (læringsanalyse) og der deltagere i forskningsprosjekt utfører forsøk.
