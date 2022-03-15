@@ -47,17 +47,17 @@ Når meldingen er lest forsvinner den fra innboksen til abonnenten
 a| Meldingskø som inneholder meldinger publisert for en gitt abonnent av notifikasjoner om en gitt topic.
 
 | Notifikasjon
-a| Hernik sier 3 pekere i notifikasjon
-subjekt med siste state
-subjekt før og etter  
-selve hendelsen
-
+a| Notifikasjonen bærer informasjon om en endring i et datagrunnlag. Notifikasjonen har et innhold, som identifiserer hva som er endret, og eventuelt hvordan det er endret.
 
 | Hendelsesstrøm
-a| 
+a| Mengden av notifikasjoner om endringer hos Datatilbyder.
+
+
 
 | Hendelse
-a| 
+a| En hendelse som resulterer i endring av et datagrunnlag.
+
+
 
 | Subjekt
 a| 

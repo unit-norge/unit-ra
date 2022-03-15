@@ -32,14 +32,10 @@ TIP: Gå tilbake til standardvisning ved å klikke 'tilbake' (eller lukk dette v
 a| 
 
 | Notifikasjon
-a| Hernik sier 3 pekere i notifikasjon
-subjekt med siste state
-subjekt før og etter  
-selve hendelsen
+a| Notifikasjonen bærer informasjon om en endring i et datagrunnlag. Notifikasjonen har et innhold, som identifiserer hva som er endret, og eventuelt hvordan det er endret.
 
-
-| Possible notification contents
-a| 
+| Mulige notifikasjonsinnhold
+a| Mulige utvidelser av notifikasjonsinnhold utover _Minimum notifikasjonsinnhold_.
 
 | Type hendelse
 a| Identifikasjon av type hendelse. Dette kan være et entydig element i et kontrollert vokabular, men det kan også være "fritekst".

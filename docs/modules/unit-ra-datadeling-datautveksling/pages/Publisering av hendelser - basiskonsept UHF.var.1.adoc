@@ -44,7 +44,9 @@ TIP: Gå tilbake til standardvisning ved å klikke 'tilbake' (eller lukk dette v
 a| Tilbyder av data til andre aktører.
 
 | Hendelsesstrøm
-a| 
+a| Mengden av notifikasjoner om endringer hos Datatilbyder.
+
+
 
 | Datakonsument
 a| Den som innhenter eller mottar data fra andre aktører.
