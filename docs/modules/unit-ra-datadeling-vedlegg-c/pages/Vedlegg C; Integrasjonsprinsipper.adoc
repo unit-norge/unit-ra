@@ -55,11 +55,13 @@ manifesterer seg på flere plan:
 * Forståelsesmessig (semantisk). 
 * Oppdagbare.
 
-For at kravet om teknisk tilgjengelighet skal være oppfylt, må data
-tilbys gjennom åpne og robuste grensesnitt. For at data skal være
-tilgjengelige forståelsesmessig, må de være dokumentert. Oppdagbarhet
-forutsetter at definisjoner av grensesnitt og tilhørende teknisk og
-semantisk dokumentasjon er publisert.
+For at kravet om teknisk tilgjengelighet skal være oppfylt, må data tilbys gjennom åpne grensesnitt som er teknisk dokumentert, samtidig som det forutsetter at grensesnittet er tilgjengelig over tid og bakoverkompatibelt.
+
+For at data skal være tilgjengelige forståelsesmessig, må dataenes semantiske betydning være dokumentert.
+
+Oppdagbarhet forutsetter at definisjoner av grensesnitt og tilhørende teknisk og semantisk dokumentasjon er publisert. Avhengig av dataenes størrelse, struktur og bruksområde, kan det være nødvendig å melde fra til konsumenter om at data har endret seg ved å benytte https://unit-norge.github.io/unit-ra/main/unit-ra-datadeling-datautveksling/Datautveksling.html#_datautveksling_ved_publisering_konsumering_hendelsesbasert[notifikasjoner]. 
+
+Se mer om dette under _Utforming av notifikasjoner_ og _Utforming av API_.
 
 Se gjerne: 
 

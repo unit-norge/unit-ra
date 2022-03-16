@@ -29,7 +29,7 @@ TIP: Gå tilbake til standardvisning ved å klikke 'tilbake' (eller lukk dette v
 | Beskrivelse
 
 | Hendelsesrelaterte data
-a| 
+a| Dataobjektene som notifikasjoner melder fra om endringer i.
 
 | Notifikasjon
 a| Notifikasjonen bærer informasjon om en endring i et datagrunnlag. Notifikasjonen har et innhold, som identifiserer hva som er endret, og eventuelt hvordan det er endret.
@@ -41,25 +41,25 @@ a| Mulige utvidelser av notifikasjonsinnhold utover _Minimum notifikasjonsinnhol
 a| Identifikasjon av type hendelse. Dette kan være et entydig element i et kontrollert vokabular, men det kan også være "fritekst".
 
 | Øyeblikkbilde etter hendelse
-a| 
+a| De endrede dataenes verdier etter hendelsen.
 
 | Inkrementell endring i øyeblikksbilde av subjekt
-a| 
+a| En representasjon av _endringen_ som ble gjort på datagrunnlaget.
 
 | Tidsstempel
-a| 
+a| Når notifikasjonen inntraff.
 
 | Identifikator for foregående notifikasjon
 a| 
 
-| Subjekt for hendelse
-a| Subjekt for hendelse er den entiteten som hendelsen gjelder; f.eks. en person. Kan være en samling av entiteter, f.eks en angitt befolkningsgruppe.
-
 | Minimum notifikasjonsinnhold
-a| 
+a| En notifikasjon består (minst) av en identifikator for notifikasjonen, samt informasjon om hvilke data som har blitt endret (referanse til data).
 
 | Identifikator for notifikasjon
-a| 
+a| Unik identifikator som kan brukes for å referere til selve notifikasjonen, for eksempel i forbindelse med deduplisering.
+
+| Subjekt for hendelse
+a| Subjekt for hendelse er den entiteten som hendelsen gjelder; f.eks. en person. Kan være en samling av entiteter, f.eks en angitt befolkningsgruppe.
 
 |===
 ****

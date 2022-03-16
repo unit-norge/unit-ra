@@ -69,7 +69,7 @@ a|
 a| 
 
 | Hendelsesrelaterte data
-a| 
+a| Dataobjektene som notifikasjoner melder fra om endringer i.
 
 |===
 ****

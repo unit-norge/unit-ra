@@ -36,7 +36,7 @@ a| Prosessen med oppsett for å gi tilgang til notifikasjoner og hendelser.
 a| Prosessen med å motta forespørsel om tilgang til notifikasjoner på hendelseslister.
 
 | Inngå avtale om tilgang som abonnement på publisert notifikasjon 
-a| 
+a| Prosess der behovet for konsum av notifikasjoner dokumenteres.
 
 | Datatilbyder
 a| Tilbyder av data til andre aktører.
@@ -45,7 +45,7 @@ a| Tilbyder av data til andre aktører.
 a| Evnen til å inngå avtaler med datakonsumenter om tilgengjengeliggjøring av hendelseslister med notifikasjoner om hendelser.
 
 | Registrering av konsument som abonnent på notifikasjon
-a| 
+a| Tjenesten som holder oversikt over hvilke konsumenter som ønsker å motta notifikasjoner.
 
 | UHF Konsumentregister
 a| Oversikt over alle datakonsumenter som er blitt tildelt tilgang til

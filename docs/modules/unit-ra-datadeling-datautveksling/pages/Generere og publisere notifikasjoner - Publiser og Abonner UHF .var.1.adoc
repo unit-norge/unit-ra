@@ -17,9 +17,7 @@ Datatilbyder publiserer en notifikasjon til en Notifikasjonsdistribusjon i form 
 Datatilbyder publiserer notifikasjoner til disse køene når hendelser
 oppstår hos datatilbyder.
 
-Hver enkelt abonnent har en innboks som abonnenten konsumerer. Den
-publisert notifikasjon er transient og forsvinner fra innboksen etter at
-den er konsumert.
+Hver enkelt abonnent har en innboks som abonnenten konsumerer. Notifikasjoner er transient og forsvinner fra innboksen etter at de er konsumert.
 
 .Generere og publisere notifikasjoner - Publiser og Abonner UHF 
 image::{imagepath}Generere og publisere notifikasjoner - Publiser og Abonner UHF .png[alt=Generere og publisere notifikasjoner - Publiser og Abonner UHF  image]
@@ -45,10 +43,10 @@ a| Tilbyder av data til andre aktører.
 a| Prosessen med å dele informasjon om hendelser.
 
 | Generer notifikasjon ut fra hendelse
-a| Prosessen med å generere en notifikasjon på bakgrunn av en hendelse.
+a| Prosessen med å generere en notifikasjon på bakgrunn av en hendelse(endring i datagrunnlaget).
 
 | Publiser notifikasjon - Publiser/Abonner
-a| 
+a| Prosess der notifikasjonen fra "Generer notifikasjon ut fra hendelse” overleveres Notifikasjonsdistribusjon for eventuell levering til konsumenter.
 
 | Notifikasjon
 a| En notifikasjon informerer om at en hendelse har inntruffet og kan inneholde eller  peke til hele eller deler av det totale settet av aktuelle, hendelsesrelaterte data.
@@ -69,7 +67,7 @@ a| Den transiente meldingen som abonnenten leser.
 Når meldingen er lest forsvinner den fra innboksen til abonnenten
 
 | Hendelse
-a| 
+a| En hendelse som resulterer i endring av et datagrunnlag.
 
 | UHF Konsumentregister
 a| Oversikt over alle datakonsumenter som er blitt tildelt tilgang til
@@ -90,7 +88,7 @@ autoritativt for
 | Publisert Meldingskø
 a| Meldingskø som inneholder meldinger publisert for en gitt abonnent av notifikasjoner om en gitt topic.
 
-| Publisert tynn notifikasjon
+| Tynn notifikasjon
 a| Notifikasjon med beskjed om hva som har skjedd og hvor man finner resultatet, dvs peker mot datagrunnlaget.
 
 | Meldingsformidler
