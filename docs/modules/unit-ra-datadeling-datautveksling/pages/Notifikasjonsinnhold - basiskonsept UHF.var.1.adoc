@@ -47,10 +47,10 @@ a| De endrede dataenes verdier etter hendelsen.
 a| En representasjon av _endringen_ som ble gjort på datagrunnlaget.
 
 | Tidsstempel
-a| Når notifikasjonen inntraff.
+a| Informasjon som identifiserer når forretningshendelsen ble utført. Tidsfesting av hendelser kan benyttes til å sikre at notifikasjoner behandles i riktig rekkefølge.
 
 | Identifikator for foregående notifikasjon
-a| Dersom hendelseslister benyttes og underliggende transportlaget ikke garantere leveranserekkefølge kan denne identifikator benyttes for å sikre rekkefølgen til notifikasjoner.
+a| Informasjon som identifiserer når forretningshendelsen ble utført. Tidsfesting av hendelser kan benyttes til å sikre at notifikasjoner behandles i riktig rekkefølge.
 
 | Minimum notifikasjonsinnhold
 a| En notifikasjon består (minst) av en identifikator for notifikasjonen, samt informasjon om hvilke data som har blitt endret (referanse til data).
