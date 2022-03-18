@@ -37,6 +37,8 @@ administrative prosesser
 * Fremme automatisering av saksbehandling
 * Tilrettelegge for «orden i eget hus» gjennom å bygge opp under felles
 praksis for informasjonsforvaltning
+* Skape trygge og sikker rammer for datadeling
+* Effektivisere forvaltning av informasjon
 
 Tekniske behov som ønskes løst gjennom bruk av en referansearkitektur:
 
