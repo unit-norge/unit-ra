@@ -34,7 +34,7 @@ Referansearkitekturen spesifiserer hvordan *datasett og API* skal:
 
 Data skal forvaltes i autoritative kilde der ansvar er definert.
 Datasett til nye formål kan være satt sammen av data fra flere andre
-API. +
+API. 
 Deler av delingsplattformen skal inngå i Kunnskapsdepartementets
 datafellesskap der det skal bygges et økosystem for bruk av data rundt
 plattformen.
