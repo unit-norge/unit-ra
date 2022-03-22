@@ -66,12 +66,8 @@ a| Tjenesten mottar notifikasjoner fra tilbyder og distribuerer notifikasjoner t
 
 
 
-| Publisert Melding (Transient)
-a| Den transiente meldingen som abonnenten leser. 
-Når meldingen er lest forsvinner den fra innboksen til abonnenten
-
-| Publisert Meldingskø
-a| Meldingskø som inneholder meldinger publisert for en gitt abonnent av notifikasjoner om en gitt topic.
+| Notifikasjonskø
+a| Notifikasjonskø som inneholder notifikasjoner publisert for en gitt abonnent av notifikasjoner om en gitt topic.
 
 | Meldingsformidler
 a| Message broker

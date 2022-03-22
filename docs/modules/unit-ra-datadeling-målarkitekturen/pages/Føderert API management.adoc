@@ -23,7 +23,7 @@ Det er et sterkt politisk ønske om deling av data mellom domener. Flere
 initiativer, slik som Digitaliseringsdirektoratets "Orden i eget hus" og
 andre nasjonale og sektorvise digitaliseringsstrategier skal understøtte
 deling av data. I en slik sammenheng ser vi behovet for et felles API
-Management-regime i høyere utdannings- og forkninssektorene.
+Management-regime i høyere utdannings- og  forskningssektorene.
 
 Et slikt regime muliggjør deling av data for å oppnå sammenhengende
 brukerreiser, eksemplifisert ved de syv livshendelser og tjenestekjeder.

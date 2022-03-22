@@ -62,10 +62,6 @@ a| Tjenesten mottar notifikasjoner fra tilbyder og distribuerer notifikasjoner t
 
 
 
-| Publisert Melding (Transient)
-a| Den transiente meldingen som abonnenten leser. 
-Når meldingen er lest forsvinner den fra innboksen til abonnenten
-
 | Hendelse
 a| En hendelse som resulterer i endring av et datagrunnlag.
 
@@ -85,8 +81,8 @@ autoritativt for
 * datakonsumentens abonnement for notifikasjoner
 
 
-| Publisert Meldingskø
-a| Meldingskø som inneholder meldinger publisert for en gitt abonnent av notifikasjoner om en gitt topic.
+| Notifikasjonskø
+a| Notifikasjonskø som inneholder notifikasjoner publisert for en gitt abonnent av notifikasjoner om en gitt topic.
 
 | Tynn notifikasjon
 a| Notifikasjon med beskjed om hva som har skjedd og hvor man finner resultatet, dvs peker mot datagrunnlaget.

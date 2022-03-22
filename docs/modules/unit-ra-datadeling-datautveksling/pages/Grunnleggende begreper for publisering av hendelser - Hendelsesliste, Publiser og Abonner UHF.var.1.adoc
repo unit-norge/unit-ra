@@ -39,12 +39,8 @@ a|
 | Publiser/Abonner Melding
 a| 
 
-| Publisert Melding (Transient)
-a| Den transiente meldingen som abonnenten leser. 
-Når meldingen er lest forsvinner den fra innboksen til abonnenten
-
-| Publisert Meldingskø
-a| Meldingskø som inneholder meldinger publisert for en gitt abonnent av notifikasjoner om en gitt topic.
+| Notifikasjonskø
+a| Notifikasjonskø som inneholder notifikasjoner publisert for en gitt abonnent av notifikasjoner om en gitt topic.
 
 | Notifikasjon
 a| Notifikasjonen bærer informasjon om en endring i et datagrunnlag. Notifikasjonen har et innhold, som identifiserer hva som er endret, og eventuelt hvordan det er endret.
