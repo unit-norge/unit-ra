@@ -95,7 +95,7 @@ a| Kontroll og håndheving av konsumentens rettigheter til å innhente eller eve
 Konsumenten som forespurte tilgang til data må ha en "authentication grant" som gir rett til operasjonen som er forespurt. Leseoperasjoner må ha lesetilgang og oppdateringsoperasjoner må ha skrivetilgang.
 
 | Kontroller masterdata status og oppdater data
-a| Datatilbyderen skal kun oppdatere data som hen er autoritativ for (masterdata). Datatilbyder verifiserer at kilden er autoritativ for data som skal oppdateres, og deretter utfører oppdateringen.
+a| Datatilbyderen skal kun oppdatere data som hen er autoritativ for (masterdata). Datatilbyder verifiserer at kilden er autoritativ for data som skal oppdateres, og deretter utfører oppdateringen. Dersom objektet ikke finnes kan operasjonen kan operasjonen medføre opprettelse av objektet.
 
 
 |===
