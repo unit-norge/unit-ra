@@ -19,6 +19,8 @@ mekanismer for gjenfinning og tilgang til data for konsumenter som har rett til 
 Datadelingsplattformen lagrer kun metadata og fungerer som en databroker. 
 Datasettene referert til gjennom metadata lagres og forvaltes hos datatilbyderne.
 Deling av data i domenene skjer mellom datatilbydere og datakonsumenter eksempelvis innen administrasjon, læringsgrupper, forskningsprosjekt og i samhandling med andre sektorer og næringsliv.
+Alle kan være datatilbydere og/eller datakonsumenter. 
+Plattformen realiserer prosessene som sikrer at alle kan finne datasett og at tilgang til data er begrenset til konsumenter som skal ha tilgang.
 
 Datadelingplattformen består av felleskomponenter som tilbyr fellestjenester for publisering, gjenfinning og formidling av tilgang. 
 Disse tjenestene er brukt for å realisere datautvekslingsmønstrene beskrevet i referansearkitekturen.
