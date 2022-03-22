@@ -14,15 +14,14 @@ endif::[]
 
 Datadeling i og mellom domener i økosystemet skjer ved bruk av
 datadelingsplattformen i høyere utdanning og forskning.
-Datadelingplattformen består av felleskomponenter som tilbyr fellestjenester. Disse tjenestene er brukt for
-å realisere datautvekslingsmønstrene beskrevet i referansearkitekturen.
-
+Plattformen skal støtte enkel publisering av data og effektive
+mekanismer for gjenfinning og tilgang til data for konsumenter som har rett til slik tilgang. 
+Datadelingsplattformen lagrer kun metadata og fungerer som en databroker. 
+Datasettene referert til gjennom metadata lagres og forvaltes hos datatilbyderne.
 Deling av data i domenene skjer mellom datatilbydere og datakonsumenter eksempelvis innen administrasjon, læringsgrupper, forskningsprosjekt og i samhandling med andre sektorer og næringsliv.
 
-Plattformen skal støtte enkel publisering av data og effektive
-mekanismer for gjenfinning og tilgang til data for konsumenter som har
-rett til slik tilgang. Referansearkitekturen definerer prosessene og
-IT-støttede samhandlingsmønstre for å realisere deling av data.
+Datadelingplattformen består av felleskomponenter som tilbyr fellestjenester for publisering, gjenfinning og formidling av tilgang. 
+Disse tjenestene er brukt for å realisere datautvekslingsmønstrene beskrevet i referansearkitekturen.
 
 Referansearkitekturen spesifiserer hvordan *datasett og API* skal:
 
