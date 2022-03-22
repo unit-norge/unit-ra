@@ -13,7 +13,7 @@ endif::[]
 :sectnumlevels: 9
 
 Notifikasjoner blir publisert i form av publisering/abonnering til en
-publisert meldingskø. Hendelseslister er en alternativ måte å beskrive
+notifikasjonskø. Hendelseslister er en alternativ måte å beskrive
 en slik strøm av hendelser.
 
 .Grunnleggende begreper for publisering av hendelser - Hendelsesliste, Publiser og Abonner UHF

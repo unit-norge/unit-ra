@@ -19,8 +19,8 @@ Datatilbyder publiserer en hendelse til en hendelsesstrøm. Datakonsument
 konsumerer hendelser fra hendelsesstrømmen og om nødvendig gjør
 oppdateringer av sine data.
 
-Hendelsestrømmer implementeres som en lettvekts notifikasjon i en
-publisert meldingskø (publiser/abonner). 
+Hendelsestrømmer implementeres som lettvekts notifikasjoner i en
+notifikasjonskø (publiser/abonner). 
  
 Alternative måter er blant annet hendelseslister, som beskrevet i
 Digitaliseringsdirektoratets referansearkitektur for datadeling og i

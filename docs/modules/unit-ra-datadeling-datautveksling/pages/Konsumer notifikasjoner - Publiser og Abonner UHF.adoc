@@ -13,7 +13,7 @@ endif::[]
 :sectnumlevels: 9
 
 Datakonsument lytter på emner som konsumenten abonnerer på hos
-Datatilbyder. Når en ny melding kommer i meldingskøen trigges
+Datatilbyder. Når en ny notifikasjon kommer i notifikasjonskøen trigges
 konsumering av notifikasjonen.
 
 Datakonsumenten vurderer relevans med basis i regler definert for
