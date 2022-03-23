@@ -50,7 +50,7 @@ a| En representasjon av _endringen_ som ble gjort på datagrunnlaget.
 a| Informasjon som identifiserer når forretningshendelsen ble utført. Tidsfesting av hendelser kan benyttes til å sikre at notifikasjoner behandles i riktig rekkefølge.
 
 | Minimum notifikasjonsinnhold
-a| En notifikasjon består (minst) av en identifikator for notifikasjonen, samt informasjon om hvilke data som har blitt endret (referanse til data).
+a| En notifikasjon består (minst) av en identifikator for notifikasjonen, samt informasjon om hvilke data som har blitt endret (referanse til data) omtalt som «subjekt for hendelse».
 
 | Identifikator for notifikasjon
 a| Unik identifikator som kan brukes for å referere til selve notifikasjonen, for eksempel i forbindelse med deduplisering.
