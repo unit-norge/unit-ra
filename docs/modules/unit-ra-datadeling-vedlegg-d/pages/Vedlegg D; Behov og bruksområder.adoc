@@ -35,13 +35,7 @@ læring og forskning enkelt kunne gjenbruke dataressurser nasjonalt.
 Disse dataressurser inkluderer læringsressurser, undervisningsressurser,
 datasett og forskingspublikasjoner. +
  +
-Når dataressurser er lett tilgjengelig, kan sektoren oppnå mer brukernær
-innovasjon. +
-Det innebærer at blant annet studenter, lokale IT-avdelinger og Ed Tech
-leverandører, gis mulighet til å bygge lettvekts brukerapplikasjoner
-gjennom tilgang til data. +
-Dette kan være både fra de tunge tjenestene og mer smale tjenester som
-timeplan-/bookingsystem, posisjonsdata, etc. 
+
 
 === Administrative prosesser
 
@@ -75,6 +69,14 @@ har behov for dem. I tillegg til de mest sentrale virksomhetsprosesser,
 blir data fra masterdatakilder også brukt på nye måter (viderebrukt).
 Disse kan være spesifikke for enkeltbrukere, som for eksempel evaluering
 av et emne.
+
+Når dataressurser er lett tilgjengelig, kan sektoren oppnå mer brukernær
+innovasjon. +
+Det innebærer at blant annet studenter, lokale IT-avdelinger og Ed Tech
+leverandører, gis mulighet til å bygge lettvekts brukerapplikasjoner
+gjennom tilgang til data. +
+Dette kan være både fra de tunge tjenestene og mer smale tjenester som
+timeplan-/bookingsystem, posisjonsdata, etc. 
 
 === Datakonsumenter
 
