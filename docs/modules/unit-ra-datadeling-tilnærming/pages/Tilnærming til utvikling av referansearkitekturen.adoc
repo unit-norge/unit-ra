@@ -20,7 +20,7 @@ løsningene i visjonen.
 
 :leveloffset: +1
 include::main@unit-ra:unit-ra-datadeling-tilnærming:page$Hva er datadeling.adoc[]
-include::main@unit-ra:unit-ra-datadeling-tilnærming:page$Økosystem.adoc[]
+include::main@unit-ra:unit-ra-datadeling-tilnærming:page$Et økosystem for datadeling.adoc[]
 include::main@unit-ra:unit-ra-datadeling-tilnærming:page$Domener.adoc[]
 include::main@unit-ra:unit-ra-datadeling-tilnærming:page$Hva er felles.adoc[]
 include::main@unit-ra:unit-ra-datadeling-tilnærming:page$Samhandling og datadeling.adoc[]

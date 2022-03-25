@@ -1,0 +1,36 @@
+= Et økosystem for datadeling
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-tilnærming:
+endif::[]
+:toc: left
+:experimental:
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 9
+
+I arbeidet med denne referansearkitekturen har vi tatt utgangspunkt i en
+idé om samhandling mellom ulike parter i et større hele. Dette er basert
+på visjonen om et økosystem, der aktører utfyller hverandre og
+samhandlingen skaper større verdi enn de enkelte aktører kan klare hver
+for seg. Studenter, undervisere, forskere og tjenestetilbydere med flere
+skal både skape, tilby, bearbeide og konsumere data på nye måter som gir
+alle insentiv og gevinst. I økosystemet for deling av data i høyere
+utdanning og forskning ser vi for oss de forskjellige aktørene i
+forskjellig kontekst kalt domener (se seksjonen under). Økosystemet skal
+etableres opp på en datadelingsplattform, og elementene i plattformen er
+spesifisert i referansearkitekturen.
+
+.Et økosystem for deling av data i høyere utdannings- og forskningssektorene
+image::{imagepath}økosystem.png[]
+
+Figuren viser datadeling i og mellom domener. Dataprodukter tilgjengeliggjøres og deles mellom
+domenene i økosystemet. Domenene kan opptre som datatilbydere (tilbyr
+dataprodukt) og datakonsumenter (datakonsum). Datadelingsplattformen og
+fellestjenestene i den muliggjør datadelingen i
+økosystemet.
+
+

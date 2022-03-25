@@ -64,7 +64,7 @@ https://martinfowler.com/articles/data-monolith-to-mesh.html#DomainDataAsAProduc
 to Move Beyond a Monolithic Data Lake to a Distributed Data Mesh, Domain Data as a Product]] av
 https://twitter.com/zhamakd[Zhamak Dehghani]. Arkitekturen påvirker
 rutiner for utvikling av API, datasett og notifikasjoner beskrevet i
-seksjonen Rutiner for utvikling av API, notifikasjoner og datasett samt
-roller og ansvar beskrevet i seksjonen Roller og ansvar for datadeling
-og informasjonsforvaltning.
+seksjonen https://unit-norge.github.io/unit-ra/main/unit-ra-datadeling-rutiner/Rutiner.html[Rutiner] samt
+roller og ansvar beskrevet i seksjonen https://unit-norge.github.io/unit-ra/main/unit-ra-datadeling-roller/Roller%20og%20ansvar%20for%20informasjonsforvaltning.html[Roller og ansvar for datadeling
+og informasjonsforvaltning].
 
