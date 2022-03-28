@@ -137,8 +137,6 @@ Kvalitet og sikkerhet 
 * Sørge for at utvikling av tjenesten skjær iht. referansearkitekturen
 og evt. andre (for eks. institusjonelle eller sektorielle)
 retningslinjer som gjelder.
-* Sørge for oppdatert dokumentasjon om tjenesten+++, internt og
-eksternt+++ 
 * Sørge for nødvendige sikkerhets- og risikovurderinger rundt tjenesten
 (minimum ROS-analyse) 
 * Oppfølging av evt. eksterne leverandører 
