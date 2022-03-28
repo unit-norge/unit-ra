@@ -266,6 +266,7 @@ Tjenesteansvar
 
 * Etablere og forvalte en felles metadatakatalog for alle data i
 kunnskapssektoren for viderebruk
+* Felles tjeneste for tilgjengeliggjøring og publisering av datasett 
 * Felles søknadstjeneste ved behov for tilgang til data med begrenset
 offentlighet, på tvers av dataprodusentene som gir økt grad av
 selvbetjening
