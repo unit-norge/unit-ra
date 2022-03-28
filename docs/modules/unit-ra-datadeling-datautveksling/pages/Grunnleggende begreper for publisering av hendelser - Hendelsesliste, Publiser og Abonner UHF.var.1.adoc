@@ -30,14 +30,8 @@ TIP: Gå tilbake til standardvisning ved å klikke 'tilbake' (eller lukk dette v
 | Element
 | Beskrivelse
 
-| Hendelsesliste
-a| 
-
-| Hendelsesliste
-a| 
-
-| Publiser/Abonner Melding
-a| 
+| Publiser/Abonner emne
+a| En datatilbyder publiserer hendelser relatert til et emne i en notifikasjonskø hos de konsumenter som har abonnert på emnet. 
 
 | Notifikasjonskø
 a| Notifikasjonskø som inneholder notifikasjoner publisert for en gitt abonnent av notifikasjoner om en gitt topic.
@@ -51,21 +45,25 @@ a| Mengden av notifikasjoner om endringer hos Datatilbyder.
 
 
 | Hendelse
-a| En hendelse som resulterer i endring av et datagrunnlag.
+a| Hendelser er det som skjer i den virkelige i verden, som resulterer i endring av et datagrunnlag.
+
 
 
 
 | Subjekt
-a| 
+a| Subjekt er hvem eller hva hendelsen omhandler, slik dette er å oppfatte i den aktuelle konteksten. Dette kan f.eks. være et fysisk objekt (eks. bil), en person, en virksomhet eller et konsept (eks. politikk). Det kan også være en samling av underordnede subjekter, slik som f.eks. en befolkningsgruppe eller alle virksomheter som har et navn som begynner på A.
 
 | Datagrunnlag
-a| 
+a| Assosiert med hver hendelse finnes et datagrunnlag som tilsvarer tilstanden før hendelsen inntraff.
 
 | Oppdatert datagrunnlag
-a| 
+a| Assosiert med hver hendelse finnes et oppdatert datagrunnlag som tilsvarer tilstanden etter hendelsen inntraff og reslutert i en endring i datagrunnlaget.
 
 | Hendelsesrelaterte data
-a| Dataobjektene som notifikasjoner melder fra om endringer i.
+a| Dataobjektene som notifikasjoner melder fra om endringer i. Dette kan være små eller store datasett som beskriver datagrunnlaget og aktuelle endringer. 
+
+| Hendelsesliste
+a| Hendelsesliste er løpende varsling om endringer
 
 |===
 ****

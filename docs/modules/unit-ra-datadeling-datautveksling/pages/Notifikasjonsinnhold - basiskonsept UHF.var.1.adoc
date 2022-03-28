@@ -29,7 +29,7 @@ TIP: Gå tilbake til standardvisning ved å klikke 'tilbake' (eller lukk dette v
 | Beskrivelse
 
 | Hendelsesrelaterte data
-a| Dataobjektene som notifikasjoner melder fra om endringer i.
+a| Dataobjektene som notifikasjoner melder fra om endringer i. Dette kan være små eller store datasett som beskriver datagrunnlaget og aktuelle endringer. 
 
 | Notifikasjon
 a| Notifikasjonen bærer informasjon om en endring i et datagrunnlag. Notifikasjonen har et innhold, som identifiserer hva som er endret, og eventuelt hvordan det er endret.
