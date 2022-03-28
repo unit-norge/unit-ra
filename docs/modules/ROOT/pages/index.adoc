@@ -14,10 +14,10 @@ endif::[]
 Direktoratat for høyere utdanning og kompetanse har ansvar for forvaltning av referansearkitekturer i høyere utdanning og forskning. Vår intensjon er at referansearkitekturene videreutvikles kontinuerlig etter behov.
 
 Arbeidsgrupper i med representasjon fra institusjonene i høyere utdanning 
-har samarbeidet i utformingen av
+har samarbeidet i
+https://www.unit.no/prosjekter/datadeling-i-hoyere-utdanning-og-forskning[Datadelingsprosjektet hos Sikt] om utformingen av
 Referansearkitekturen for deling av data i høyere utdanning og forskning
-(UHF) i
-https://www.unit.no/prosjekter/datadeling-i-hoyere-utdanning-og-forskning[Datadelingsprosjektet hos Sikt]  presenert på disse websidene. 
+(UHF) presentert på disse websidene. 
 Denne referansearkitekturen vil danne grunnlag for
 videreutvikling av Datadelingstjenesten - UH:IntArk i fase 2. 
 Mange element i målbildet kan med fordel rulles ut så tidlig som mulig, for eksempel tiltak rettet mot forbedret informasjonsforvaltning og orden i eget hus.

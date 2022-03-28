@@ -67,7 +67,7 @@ a| Tjenesten mottar notifikasjoner fra tilbyder og distribuerer notifikasjoner t
 
 
 | Notifikasjonskø
-a| Notifikasjonskø som inneholder notifikasjoner publisert for en gitt abonnent av notifikasjoner om en gitt topic.
+a| Notifikasjonskø som inneholder notifikasjoner publisert for en gitt abonnent av notifikasjoner om et gitt emne.
 
 | Meldingsformidler
 a| Message broker

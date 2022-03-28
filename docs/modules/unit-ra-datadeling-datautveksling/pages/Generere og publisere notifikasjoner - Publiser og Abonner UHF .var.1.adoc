@@ -82,7 +82,7 @@ autoritativt for
 
 
 | Notifikasjonskø
-a| Notifikasjonskø som inneholder notifikasjoner publisert for en gitt abonnent av notifikasjoner om en gitt topic.
+a| Notifikasjonskø som inneholder notifikasjoner publisert for en gitt abonnent av notifikasjoner om et gitt emne.
 
 | Tynn notifikasjon
 a| Notifikasjon med beskjed om hva som har skjedd og hvor man finner resultatet, dvs peker mot datagrunnlaget.

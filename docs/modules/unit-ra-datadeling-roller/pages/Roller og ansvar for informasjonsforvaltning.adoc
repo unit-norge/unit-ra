@@ -128,8 +128,9 @@ og nye)​ 
 databehandleravtaler​ 
 * Avtaleoppfølging mot brukerinstitusjoner og
 underleverandører/leverandører​ 
-* +++Sørge for tilstrekkelig dokumentasjon, brukerstøtte og
-opplæring+++ 
+* Sørge for relevante SLAer og tjenestenivåavtaler for tjenesten 
+* Sørge for tilstrekkelig dokumentasjon, brukerstøtte og
+opplæring
 
 Kvalitet og sikkerhet 
 
@@ -140,9 +141,7 @@ retningslinjer som gjelder.
 eksternt+++ 
 * Sørge for nødvendige sikkerhets- og risikovurderinger rundt tjenesten
 (minimum ROS-analyse) 
-* Brukerstøtte og opplæring 
 * Oppfølging av evt. eksterne leverandører 
-* Sørge for relevante SLAer og +++tjenestenivåavtaler +++for tjenesten 
 * Sørge for overvåking, varsling og oppfølging av avvik 
 * Sørge for måling, analyse og oppfølging av relevante måleparametere
 * Gjøre løpende vurderinger av behov og tiltak for tjenesten 

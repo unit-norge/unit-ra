@@ -34,7 +34,7 @@ TIP: Gå tilbake til standardvisning ved å klikke 'tilbake' (eller lukk dette v
 a| En datatilbyder publiserer hendelser relatert til et emne i en notifikasjonskø hos de konsumenter som har abonnert på emnet. 
 
 | Notifikasjonskø
-a| Notifikasjonskø som inneholder notifikasjoner publisert for en gitt abonnent av notifikasjoner om en gitt topic.
+a| Notifikasjonskø som inneholder notifikasjoner publisert for en gitt abonnent av notifikasjoner om et gitt emne.
 
 | Notifikasjon
 a| Notifikasjonen bærer informasjon om en endring i et datagrunnlag. Notifikasjonen har et innhold, som identifiserer hva som er endret, og eventuelt hvordan det er endret.
