@@ -25,7 +25,7 @@ notifikasjonene til de konsumenter som abonnerer på hendelsestypen, samtidig
 som den sørger for at eventuell leveransegaranti overholdes.
 
 I likhet med behovet for en _API katalog_ som beskriver hvilke APIer som
-finnes, er det nødvendig med en Notifikasjonskatalog som gir et
+finnes, er det nødvendig med en notifikasjonskatalog som gir et
 overblikk over hvilke datatilbydere som publiserer notifikasjoner om
 endring i datagrunnlag.
 

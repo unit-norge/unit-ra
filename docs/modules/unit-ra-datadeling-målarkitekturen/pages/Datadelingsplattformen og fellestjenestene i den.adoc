@@ -25,7 +25,7 @@ Plattformen realiserer prosessene som sikrer at alle kan finne datasett og at ti
 Datadelingplattformen består av felleskomponenter som tilbyr fellestjenester for publisering, gjenfinning og formidling av tilgang. 
 Disse tjenestene er brukt for å realisere datautvekslingsmønstrene beskrevet i referansearkitekturen.
 
-Referansearkitekturen spesifiserer hvordan *datasett og API* skal:
+Referansearkitekturen spesifiserer hvordan *datasett, API og notifikasjoner* skal:
 
 * defineres
 * brukes
@@ -35,14 +35,14 @@ Referansearkitekturen spesifiserer hvordan *datasett og API* skal:
 
 Data skal forvaltes i autoritative kilde der ansvar er definert.
 Datasett til nye formål kan være satt sammen av data fra flere andre API. 
-Deler av delingsplattformen skal inngå i Kunnskapsdepartementets
+Datadelingsplattformen skal inngå i Kunnskapsdepartementets
 datafellesskap der det skal bygges et økosystem for bruk av data rundt
 plattformen.
 
 Virksomhetene i høyere utdanning og forskning må etablere tillit til
 hverandre for å kunne dele data. Datadelingsplattformen realiserer
 tilgangsstyring til sektorenes data på en enhetlig måte gjennom bruk av
-fellestjenester tilbudt i plattformen. Hovedmetoden for tilgangsstyring i
+fellestjenester tilbudt i plattformen i felles datadelingsprosesser beskrevet i referansearkitekturen. Hovedmetoden for tilgangsstyring i
 plattformen er API Management.
 
 Referansearkitekturen definerer hvordan det varsles om endringer i
