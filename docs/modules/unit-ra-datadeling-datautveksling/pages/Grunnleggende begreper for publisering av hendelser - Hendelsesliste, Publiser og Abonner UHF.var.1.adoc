@@ -63,7 +63,7 @@ a| Assosiert med hver hendelse finnes et oppdatert datagrunnlag som tilsvarer ti
 a| Dataobjektene som notifikasjoner melder fra om endringer i. Dette kan være små eller store datasett som beskriver datagrunnlaget og aktuelle endringer. 
 
 | Hendelsesliste
-a| Hendelsesliste er løpende varsling om endringer
+a| Hendelsesliste er løpende varsling om endringer.
 
 |===
 ****
