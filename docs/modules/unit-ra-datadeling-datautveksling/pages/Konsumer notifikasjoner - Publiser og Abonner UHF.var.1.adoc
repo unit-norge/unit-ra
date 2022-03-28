@@ -55,7 +55,7 @@ a| Prosess med å forkaste notifikasjon som ikke er relevant for virksomheten. A
 | Videre behandling av notifikasjon
 a| Prosess med videre behandling av en notifikasjon som normalt vil være å innhente mer informasjon om hendelsen eller subjektet notifikasjonen er knyttet til og eventuelt agere ut ifra denne.
 
-| Lytt på abonnert meldingskø/emne
+| Lytt på abonnert notifikasjonskø/emne
 a| Prosess der notifikasjoner innhentes fra tilbyder av notifikasjoner.
 
 | Kriterier og regler for å vurdere relevans av notifikasjoner
