@@ -35,7 +35,7 @@ samtykke. Men da vi ikke kan godkjenne tokens på tvers, har vi
 utfordringer med å benytte Altinn autorisasjon direkte. I hvert fall
 dekker ikke tjenesten «scopes» vi har anvar for i UHF autorisasjonstjeneren.
 .. Kan «User Managed Access (UMA)» være et alternativ her?
-. Delegering av authorisasjons-rettigheter: Altinn har per i dag ingen god
+. Delegering av authorisasjons-rettigheter: Altinn har per i skrivende stund (mai 2021) ingen god
 mekanisme for å delegere rettigheter under organisasjonsgranulariteten i
 Enhetsregisteret. UHF sektorene arbeider med mekanismer for authorisasjon og tilgangsstyring i sektorene våre. Det er ønskelig med en helhetlig nasjonal modell for authorisasjon og tilgangsstyring som fungerer på tvers av sektorer.
 
