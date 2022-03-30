@@ -12,7 +12,7 @@ endif::[]
 :sectnums:
 :sectnumlevels: 9
 
-Hendelser er endringer som oppstår hos en Datatilbyder og som
+Hendelser er endringer som oppstår hos en datatilbyder og som
 nødvendiggjør at Datatilbyder deler denne endringen med andre.
 
 Datatilbyder publiserer en hendelse til en hendelsesstrøm. Datakonsument

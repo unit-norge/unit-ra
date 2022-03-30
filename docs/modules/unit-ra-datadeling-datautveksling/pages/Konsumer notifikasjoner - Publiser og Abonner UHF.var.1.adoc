@@ -70,9 +70,7 @@ a| Tjenesten mottar notifikasjoner fra tilbyder og distribuerer notifikasjoner t
 a| Notifikasjonskø som inneholder notifikasjoner publisert for en gitt abonnent av notifikasjoner om et gitt emne.
 
 | Meldingsformidler
-a| Message broker
-
-Når en meldingsformidler skiver en notifikasjon i meldingskø plasseres det i meldingskø hos alle abonnenter (i hver sin kø).
+a| Når en meldingsformidler skiver en notifikasjon i meldingskø plasseres det i meldingskø hos alle abonnenter (i hver sin kø).
 
 
 |===

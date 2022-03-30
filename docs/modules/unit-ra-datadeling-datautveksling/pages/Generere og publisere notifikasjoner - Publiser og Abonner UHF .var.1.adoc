@@ -88,9 +88,7 @@ a| Notifikasjonskø som inneholder notifikasjoner publisert for en gitt abonnent
 a| Notifikasjon med beskjed om hva som har skjedd og hvor man finner resultatet, dvs peker mot datagrunnlaget.
 
 | Meldingsformidler
-a| Message broker
-
-Når en meldingsformidler skiver en notifikasjon i meldingskø plasseres det i meldingskø hos alle abonnenter (i hver sin kø).
+a| Når en meldingsformidler skiver en notifikasjon i meldingskø plasseres det i meldingskø hos alle abonnenter (i hver sin kø).
 
 
 |===

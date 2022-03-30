@@ -12,14 +12,12 @@ endif::[]
 :sectnums:
 :sectnumlevels: 9
 
-For publisering av hendelser er det etablert et mønster der datatilbyder
-utsteder et emne som tilbyr lettvektsnotifikasjoner om hendelser som medfører endringer i datagrunnslaget som datakonsumenten kan abonnere på.
-Lettvektsnotifikasjonen inneholder en lenke til et API der
-datakonsumenten kan hente data relatert til notifikasjonen. Dette
+For publisering av hendelser er det etablert et mønster der datatilbyder tilbyr lettvektsnotifikasjoner om hendelser som medfører endringer i datagrunnslaget som datakonsumenten kan abonnere på.
+Lettvektsnotifikasjonen inneholder en identifikator som peker til hvilke data som er relatert til notifikasjonen. Dette
 mønsteret er allerede i bruk i høyere utdannings- og forskningssektorene.
 
 Lettvektsnotifikasjonen i en eNotifikasjon blir overført mellom
-datatilbyder og konsument av en meldingsformidler (_event broker)_.
+datatilbyder og konsument av en meldingsformidler (_message broker)_.
 Meldingsformidleren tar imot notifikasjoner om hendelser fra produsenter, og overfører
 notifikasjonene til de konsumenter som abonnerer på hendelsestypen, samtidig
 som den sørger for at eventuell leveransegaranti overholdes.
