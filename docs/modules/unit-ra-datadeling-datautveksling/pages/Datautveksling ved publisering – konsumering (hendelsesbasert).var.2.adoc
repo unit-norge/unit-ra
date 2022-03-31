@@ -1,0 +1,30 @@
+= Datautveksling ved publisering – konsumering (hendelsesbasert)
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-datautveksling:
+endif::[]
+:toc: left
+:experimental:
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 0
+
+Datautveksling ved publisering og konsumering av hendelser er basert på
+https://nasjonal-arkitektur.github.io/architecture-repository/publish-subscribe/book-publish-subscribe.html[publisering-konsumering]
+i
+https://nasjonal-arkitektur.github.io/architecture-repository/data-exchange-ra/book-data-exchange-ra.html[Referansearkitektur
+for datautveksling fra Digitaliseringsdirektoratet].
+
+:leveloffset: +1
+include::main@unit-ra:unit-ra-datadeling-datautveksling:page$Publisering av hendelser - basiskonsept UHF.var.2.adoc[]
+include::main@unit-ra:unit-ra-datadeling-datautveksling:page$eNotifikasjon - oversikt over verdistrømmer UHF.var.2.adoc[]
+include::main@unit-ra:unit-ra-datadeling-datautveksling:page$Grunnleggende begreper for publisering av hendelser - Hendelsesliste, Publiser og Abonner UHF.var.2.adoc[]
+include::main@unit-ra:unit-ra-datadeling-datautveksling:page$Notifikasjonsinnhold - basiskonsept UHF.var.2.adoc[]
+include::main@unit-ra:unit-ra-datadeling-datautveksling:page$Inngå avtaler om tilgang og levering av hendelsesstrømmer - Publiser og Abonner UHF .var.2.adoc[]
+include::main@unit-ra:unit-ra-datadeling-datautveksling:page$Inngå avtaler om tilgang og innhenting av hendelsesstrømmer - Hendelsesliste og Publiser og Abonner UHF.var.2.adoc[]
+include::main@unit-ra:unit-ra-datadeling-datautveksling:page$Generere og publisere notifikasjoner - Publiser og Abonner UHF .var.2.adoc[]
+include::main@unit-ra:unit-ra-datadeling-datautveksling:page$Konsumer notifikasjoner - Publiser og Abonner UHF.var.2.adoc[]
+:leveloffset: -1

@@ -1,0 +1,29 @@
+= Publisering av hendelser
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-målarkitekturen:
+endif::[]
+:toc: left
+:experimental:
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 0
+
+For publisering av hendelser er det etablert et mønster der datatilbyder tilbyr lettvektsnotifikasjoner om hendelser som medfører endringer i datagrunnslaget som datakonsumenten kan abonnere på.
+Lettvektsnotifikasjonen inneholder en identifikator som peker til hvilke data som er relatert til notifikasjonen. Dette
+mønsteret er allerede i bruk i høyere utdannings- og forskningssektorene.
+
+Lettvektsnotifikasjonen i en eNotifikasjon blir overført mellom
+datatilbyder og konsument av en meldingsformidler (_message broker)_.
+Meldingsformidleren tar imot notifikasjoner om hendelser fra produsenter, og overfører
+notifikasjonene til de konsumenter som abonnerer på hendelsestypen, samtidig
+som den sørger for at eventuell leveransegaranti overholdes.
+
+I likhet med behovet for en _API katalog_ som beskriver hvilke APIer som
+finnes, er det nødvendig med en notifikasjonskatalog som gir et
+overblikk over hvilke datatilbydere som publiserer notifikasjoner om
+endring i datagrunnlag.
+

@@ -1,0 +1,25 @@
+= Datautveksling ved oppslag
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-datautveksling:
+endif::[]
+:toc: left
+:experimental:
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 0
+
+
+
+:leveloffset: +1
+include::main@unit-ra:unit-ra-datadeling-datautveksling:page$Datautvekslingsmønster.var.2.adoc[]
+include::main@unit-ra:unit-ra-datadeling-datautveksling:page$eOppslag Verdistrøm med kapabiliteter for tilbyder og konsument - UHF  .var.2.adoc[]
+include::main@unit-ra:unit-ra-datadeling-datautveksling:page$Publiser API.var.2.adoc[]
+include::main@unit-ra:unit-ra-datadeling-datautveksling:page$Tilgjengeliggjøre data etter forespørsel - løsningsmønster UHF.var.2.adoc[]
+include::main@unit-ra:unit-ra-datadeling-datautveksling:page$Få tilgang til data - løsningsmønster UHF.var.2.adoc[]
+include::main@unit-ra:unit-ra-datadeling-datautveksling:page$Innhente data - løsningsmønster UHF.var.2.adoc[]
+include::main@unit-ra:unit-ra-datadeling-datautveksling:page$Avgi data - løsningsmønster UHF.var.2.adoc[]
+:leveloffset: -1

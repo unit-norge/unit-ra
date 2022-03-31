@@ -1,0 +1,22 @@
+= Indre API
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-rutiner:
+endif::[]
+:toc: left
+:experimental:
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 0
+
+Indre API eksponerer masterdata (informasjon om objekter i domenet) som
+er strukturert i henhold til semantikk i domenet den tilhører, og må ta
+ansvar for den semantiske validiteten til data den eksponerer. Indre API
+er laget for å være mest mulig generell og ikke laget for noen spesifikk
+prosesskontekst.
+
+{empty}[Vi tenker å utdype her på et senere tidspunkt.]
+

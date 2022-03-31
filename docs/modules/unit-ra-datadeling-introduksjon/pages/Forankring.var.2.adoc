@@ -1,0 +1,20 @@
+= Forankring
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-introduksjon:
+endif::[]
+:toc: left
+:experimental:
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 0
+
+Referansearkitekturen er utarbeidet i et samarbeidsprosjekt Datadeling
+med prosjektdeltagelse fra NTNU, Universitetet i Oslo, daværende Unit og Uninett (per januar 2022 HK-dir og Sikt).
+Styringsgruppen består av medlemmer fra Sikt, Universitetet i Bergen,
+OsloMet, Universitetet i Oslo, Norges Miljø- og Biovitenskaplige
+universitet.
+

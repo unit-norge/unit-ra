@@ -10,30 +10,30 @@ endif::[]
 :experimental:
 :toclevels: 4
 :sectnums:
-:sectnumlevels: 9
+:sectnumlevels: 0
 
 
 
 image:{imagepath}image1.jpeg[]
 
 ----
-Thu Mar 31 2022 14:15:10 GMT+0200 (CEST)
+Thu Mar 31 2022 15:57:09 GMT+0200 (CEST)
 ----
 
 
 :leveloffset: +1
-include::main@unit-ra:unit-ra-datadeling-introduksjon:page$Introduksjon.adoc[]
-include::main@unit-ra:unit-ra-datadeling-tilnærming:page$Tilnærming til utvikling av referansearkitekturen.adoc[]
-include::main@unit-ra:unit-ra-datadeling-roller:page$Roller og ansvar for informasjonsforvaltning.adoc[]
-include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Datadelingsplattformen og fellestjenestene i den.adoc[]
-include::main@unit-ra:unit-ra-datadeling-datautveksling:page$Datautveksling.adoc[]
-include::main@unit-ra:unit-ra-datadeling-rutiner:page$Rutiner.adoc[]
-include::main@unit-ra:unit-ra-datadeling-vedlegg-a:page$Vedlegg A; Definisjoner.adoc[]
-include::main@unit-ra:unit-ra-datadeling-vedlegg-b:page$Vedlegg B; Behov for avklaringer og utfordringer i sektorenes kontekst.adoc[]
-include::main@unit-ra:unit-ra-datadeling-vedlegg-c:page$Vedlegg C; Integrasjonsprinsipper.adoc[]
-include::main@unit-ra:unit-ra-datadeling-vedlegg-d:page$Vedlegg D; Behov og bruksområder.adoc[]
-include::main@unit-ra:unit-ra-datadeling-vedlegg-e:page$Vedlegg E; Føringer.adoc[]
-include::main@unit-ra:unit-ra-datadeling-vedlegg-f:page$Vedlegg F; Bruk av Archimate.adoc[]
+include::main@unit-ra:unit-ra-datadeling-introduksjon:page$Introduksjon.var.2.adoc[]
+include::main@unit-ra:unit-ra-datadeling-tilnærming:page$Tilnærming til utvikling av referansearkitekturen.var.2.adoc[]
+include::main@unit-ra:unit-ra-datadeling-roller:page$Roller og ansvar for informasjonsforvaltning.var.2.adoc[]
+include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Datadelingsplattformen og fellestjenestene i den.var.2.adoc[]
+include::main@unit-ra:unit-ra-datadeling-datautveksling:page$Datautveksling.var.2.adoc[]
+include::main@unit-ra:unit-ra-datadeling-rutiner:page$Rutiner.var.2.adoc[]
+include::main@unit-ra:unit-ra-datadeling-vedlegg-a:page$Vedlegg A; Definisjoner.var.2.adoc[]
+include::main@unit-ra:unit-ra-datadeling-vedlegg-b:page$Vedlegg B; Behov for avklaringer og utfordringer i sektorenes kontekst.var.2.adoc[]
+include::main@unit-ra:unit-ra-datadeling-vedlegg-c:page$Vedlegg C; Integrasjonsprinsipper.var.2.adoc[]
+include::main@unit-ra:unit-ra-datadeling-vedlegg-d:page$Vedlegg D; Behov og bruksområder.var.2.adoc[]
+include::main@unit-ra:unit-ra-datadeling-vedlegg-e:page$Vedlegg E; Føringer.var.2.adoc[]
+include::main@unit-ra:unit-ra-datadeling-vedlegg-f:page$Vedlegg F; Bruk av Archimate.var.2.adoc[]
 :leveloffset: -1
 
 ifeval::[{wysiwig_editing} == 0]

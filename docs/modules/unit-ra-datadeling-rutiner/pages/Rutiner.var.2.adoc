@@ -1,0 +1,34 @@
+= Rutiner
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-rutiner:
+endif::[]
+:toc: left
+:experimental:
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 0
+
+Vi forutsetter og bygger på en viss fremgang i arbeid med
+https://data.norge.no/guide/veileder-orden-i-eget-hus/[orden i eget hus]
+hos deltagende virksomheter der noen datasett er dokumentert i en
+datakatalog. Dette kan enten være Digitaliseringsdirektoratets
+https://data.norge.no/[Felles datakatalog], eller en fremtidig katalog
+for høyere utdanning og forskningssektoren som høstes inn i Felles
+datakatalogen.
+
+Vi skisserer en tilnærming til indre og ytre API basert på Gartners MASA
+arkitekturfootnote:[MASA: How to Create an Agile Application
+Architecture With Apps, APIs and Services Published 3 February 2020 - ID
+G00451136; Gartner] som var brukt i evalueringen av Felles Studentsystem
+i 2020
+
+
+:leveloffset: +1
+include::main@unit-ra:unit-ra-datadeling-rutiner:page$Indre API.var.2.adoc[]
+include::main@unit-ra:unit-ra-datadeling-rutiner:page$Ytre API.var.2.adoc[]
+include::main@unit-ra:unit-ra-datadeling-rutiner:page$Notifikasjoner.var.2.adoc[]
+:leveloffset: -1

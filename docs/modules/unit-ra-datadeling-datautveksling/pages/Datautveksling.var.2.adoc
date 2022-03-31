@@ -1,0 +1,25 @@
+= Datautveksling
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-datautveksling:
+endif::[]
+:toc: left
+:experimental:
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 0
+
+Fellestjenestene i datadelingsplattformen brukes i felles prosesser for å dele data. Gjennom å utføre en fellesprosess, vil en datakonsument eller en datatilbyder oppnå en evne (kapabilitet). Dette kapittelet beskriver de fellesprosessene som er definert for deling av data, og de evnene som oppnås ved å benytte dem. Prosessbeskrivelsen viser hvilke tjenester støtter prosessen, og hvilke komponenter realiserer tjenestene. Prosessbeskrivelsen viser også de sentrale forretningsobjekter og dataobjekter som benyttes og produseres underveis. Både tjenester og komponenter kan aksessere dataobjekter. 
+
+Prosessbeskrivelsene er presentert i https://www.opengroup.org/archimate-forum/archimate-overview[ArchiMate modelleringsspråk]. Vår bruk av Archimate er beskrevet i Vedlegg F. Prosesstegningene er definert for høyere utdanning og forskning, omtalt som "UHF".
+
+
+:leveloffset: +1
+include::main@unit-ra:unit-ra-datadeling-datautveksling:page$Delegere rettigheter til databehandler - UHF.var.2.adoc[]
+include::main@unit-ra:unit-ra-datadeling-datautveksling:page$Datautveksling ved oppslag.var.2.adoc[]
+include::main@unit-ra:unit-ra-datadeling-datautveksling:page$Datautveksling ved publisering – konsumering (hendelsesbasert).var.2.adoc[]
+include::main@unit-ra:unit-ra-datadeling-datautveksling:page$Oppdatering.var.2.adoc[]
+:leveloffset: -1

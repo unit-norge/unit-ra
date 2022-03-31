@@ -1,0 +1,227 @@
+= Felleskomponenter tilbyr fellestjenester
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-målarkitekturen:
+endif::[]
+:toc: left
+:experimental:
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 0
+
+Datadelingsplattformen består av felleskomponentene beskrevet under. Disse komponentene tilbyr fellestjenestene benyttet i datadelingsprosessene som detaljeres i neste kapittel. De fleste felleskomponenter skal realiseres med en delt instans for  høyere utdannings- og forskningssektorene. API gateway er en funksjonell beskrivelse av en komponent som skal realiseres med instanser nær datakildene som skal beskyttes.
+
+
+
+.Felleskomponenter tilbyr fellestjenester
+image::{imagepath}FelleskomponenterUHF.png[alt=Felleskomponenter tilbyr fellestjenester image]
+
+
+
+
+[cols ="1,3", options="header"]
+.Elementer i view for Felleskomponenter tilbyr fellestjenester
+|===
+
+| Element
+| Beskrivelse
+
+| Identitetstilbyder
+a| En part som kan autentisere en person eller
+virksomhet. Eksempler på dette er BankID, MinID for personer og utsteder
+av virksomhetssertifikat for virksomheter. Dette er en tjeneste som ikke
+omfattes av denne referansearkitekturen
+
+
+| Ressursportal
+a| Ressursportalen tildeler og holder oversikt over tilganger til beskyttede ressurser i høyere utdanning og forskningssektoren i henhold til føringer fra eierne av disse
+ressursene. Tilganger er gitt i form av sikkerhetsbilletter.
+Ressursportalen er en del av den felles infrastrukturen for føderert API
+management for høyere utdanning og forskning. Den registrerer og holder
+oversikt over API og meldingsbaserte notifikasjoner, holder oversikt
+over klienter som har blitt tildelt tilgang til disse og hvilke
+tilganger det gjelder. Ressursportalen benytter JSON Web Token
+formattert OAuth2 sikkerhetsbilletter for å gi tilgang til ressurser
+gjennom API gateway og meldingstjenester nær de beskyttede ressursene.
+
+
+| UHF Autorisasjonstjener
+a| Autorisasjonstjenester realiserer tilgangskontroll
+gjennom å utstede sikkerhetsbilletter. En autorisasjonstjener er også
+brukt til å realisere autorisasjonspolicy for tilgang og roller.
+
+
+
+
+| UHF Konsumentregister
+a| Oversikt over alle datakonsumenter som er blitt tildelt tilgang til
+ressurser.
+
+Oversikten over konsumenters bruk av API fra datatilbydere er
+autoritativt for
+
+* hvilke OAuth2 scopes knyttet til hvilke API som konsumenten har fått
+tilgang til
+
+Oversikten over konsumenters bruk av notifikasjoner fra datatilbydere er
+autoritativt for
+
+* datakonsumentens abonnement for notifikasjoner
+
+
+| Roller og tilgangsregler
+a| Definisjon av roller som blir brukt til å styre
+autorisasjon for å gi tilgang for en klient til et eller flere API.
+Definisjon av regler for tilgang til et eller flere API
+
+| UHF API manager 
+a| API Management omfatter en administrativ komponent, API Manager, som
+kontrollerer policy og livssyklus for definisjon og forvaltning av API
+og en katalog over tilgjengelige API, API-Katalog (se under). +
+Tilganger gjennom et API defineres i API manager og tildeles av
+autorisasjonstjener.
+
+Ansvaret til API manager inkluderer:
+
+* Sentralisert administrasjon av sikkerhetsretningslinjer for API
+* Sentralisert publisering av API spesifikasjon, for eksempel
+OpenAPI/RAML, dokumentasjon
+* Sentralisert API administrasjon og forvaltning av API-katalogen
+* Håndtering av registrerings- og introduksjonsprosesser for API
+utviklere
+* Håndtere livssyklusen til et API, utvikling, test, utrulling, nye
+versjoner og nedlegging
+* Ivareta registrering, forvaltning og utvikling av konsumentrettigheter
+* Rapportering og analyse for å overvåke bruk og last
+
+| UHF API katalog
+a| Oversikt over alle API som er registrert i UH/F sektoren
+
+UH/F API katalog kan inneholde
+
+  * Navn på API
+  * Tekstlig beskrivelse av API
+  * Informasjonsmodell / Datamodell for API som tilbys 
+  * Kildeinformasjon for data, begrepsinformasjon
+  * Eksempelkode, interaktiv API-konsoll og sandkasse for test
+  * Informasjon om hvordan få support og hjelp fra utsteder
+ * Informasjon om tilgang, juridiske og tekniske begrensinger for bruk. Inkluderer hvilke rettighetter (OAuth2 scopes) en konsument kan få til et API.
+ * Grensesnitt for å presentere APIer
+ * Grensesnitt for å søke etter APIer
+
+| Notifikasjonsforvalter
+a| Notifikasjonsforvalteren er en administrativ komponent som kontrollerer
+policy og livssyklus for definisjon og forvaltning av notifikasjoner, og
+omfatter en katalog over tilgjengelige notifikasjoner (se
+Notifikasjonskatalog under). +
+Tilganger til notifikasjoner defineres i Notifikasjonsforvalteren og
+tildeles av autorisasjonstjener.
+
+Ansvaret til Notifikasjonsforvalteren inkluderer:
+
+* Sentralisert administrasjon av sikkerhetsretningslinjer for
+notifikasjoner
+* Sentralisert publisering av notifikasjonsspesifikasjon og
+dokumentasjon
+* Sentralisert notifikasjonsadministrasjon og forvaltning av
+notifikasjonskatalogen
+* Håndtering av registrerings- og introduksjonsprosesser for utviklere
+av notifikasjoner
+* Håndtere livssyklusen til en notifikasjon, utvikling, test, utrulling,
+nye versjoner og nedlegging
+* Ivareta registrering, forvaltning og utvikling av konsumentrettigheter
+* Rapportering og analyse for å overvåke bruk og last
+
+| Notifikasjonskatalog
+a| Oversikt over alle notifikasjoner som er registrert i UHF sektoren
+
+Notifikasjonskatalogen bør tilby et selvbetjeningsgrensesnitt der
+
+* tjenesteeiere kan registrere og dokumentere systemer som sender
+_notifikasjoner_
+* tjenesteeiere kan registrere og dokumentere systemer som mottar
+notifikasjoner
+* tjenesteeiere kan opprette abonnement på notifikasjoner
+* drift- og utviklingspersonell kan hente tilkoblingsinformasjon
+
+Notifikasjonskatalogen kan inneholde
+
+* Navn på notifikasjon
+* Tekstlig beskrivelse av notifikasjon
+* Informasjonsmodell / Datamodell for notifikasjonen som tilbys
+* Kildeinformasjon for data, begrepsinformasjon
+* Informasjon om tilgang, juridiske og tekniske begrensinger for bruk
+* Eksempelkode, interaktiv notifikasjonskonsoll (for å se og enkel
+debugge notifikasjoner) og sandkasse for test (testmiljø)
+* Informasjon om hvordan få support og hjelp fra utsteder
+
+| IAM Autentiseringstjeneste
+a| Identitets- og tilgangsstyring (IAM) handler om å gi studenter, forskere og ansatte
+riktig tilgang til digitale systemer, tjenester og ressurser, samt
+avslutte tilgang for brukere som ikke lenger skal ha det. Dette er en ekstern tjeneste som referansearkitekturen forutsetter og som den må samvirke med.
+
+| Tildel rettigheter til konsument
+a| Datakonsument skal kunne finne
+tilgjengelige ressurser og be om tilgang til disse. Tilgang kan gis på
+grunnlag av eksisterende tillit til datakonsumenten eller per
+tilgangsforespørsel der ressurseieren beslutter tilgang.
+
+| Datatilbyder
+a| Tilbyder av data til andre aktører.
+
+| API Gateway 
+a| API gateway er en tjeneste som tilgjengeliggjør, beskytter og overvåker
+tilgang til API-ressurser hos datatilbyder. Den håndhever
+tilgangsstyring ved å validere sikkerhetsbilletter og utfører eventuell
+fin-granulert tilgangskontroll. Den håndhever også volumbegrensninger og
+samler data om bruken av API-er (logging).
+
+Komponent som beskytter ressursene og overvåker tilgang inklusivt:
+
+* Validere sikkerhetsbillett
+* Beskytte mot inntrenging og andre trusler
+* Håndtere volumbegrensninger
+* Håndheve tilgangsstyring
+* Samle inn data om bruken av API-er
+* Orkestrering mellom interntjenester
+
+| Notifikasjon meldingsformidler
+a| Meldingsformidler er en tjeneste som tilgjengeliggjør, beskytter og
+overvåker tilgang til notifikasjoner i form av meldinger hos
+datatilbyder. Den håndhever tilgangsstyring ved å validere
+sikkerhetsbilletter og utfører eventuell fin-granulert tilgangskontroll.
+Den håndhever også volumbegrensninger og samler data om bruken av
+notifikasjoner (logging).
+
+Meldingsformidleren som benyttes bør kunne tilby
+
+* leveransegaranti; når en hendelse er mottatt fra en produsent, så skal
+den leveres hos en konsument
+* sikkerhet; autentisering og autorisasjon av produsenter og konsumenter
+* fleksibel distribuering av hendelser; en «event mesh» må kunne endres
+raskt uten nedetid
+* støtte for flere åpne _protokoller_
+
+| Datakonsument
+a| Den som innhenter eller mottar data fra andre aktører.
+
+| Beskyttet tjeneste / klient hos datakonsument 
+a| Tjeneste som IAM beskytter tilgang til. Tjenesten kan også være en konsument av data gjennom API, det vil si Universitet, Høyskole eller andre som gir tilgang til data fra datatilbyder.
+
+Komponenten tilbyr:
+
+  * autentisering  gjennom en Autentiseringstjeneste
+  * oppslag i felleskomponenter for tilgang til datatilbyders dataprodukter
+  * tilgang til ressurser hos datatilbyder 
+
+| Administrere tilgjengelige ressurser
+a| Datatilbyder skal ha adgang til å
+definere og administrere sine egne ressurser som gjøres tilgjengelig
+gjennom den felles infrastrukturen i Ressursportalen.
+
+|===
+
+

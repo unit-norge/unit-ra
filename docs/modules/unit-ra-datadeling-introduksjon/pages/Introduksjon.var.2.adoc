@@ -1,0 +1,21 @@
+= Introduksjon
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-introduksjon:
+endif::[]
+:toc: left
+:experimental:
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 0
+
+
+
+:leveloffset: +1
+include::main@unit-ra:unit-ra-datadeling-introduksjon:page$Bakgrunn.var.2.adoc[]
+include::main@unit-ra:unit-ra-datadeling-introduksjon:page$Forankring.var.2.adoc[]
+include::main@unit-ra:unit-ra-datadeling-introduksjon:page$Målgruppe.var.2.adoc[]
+:leveloffset: -1

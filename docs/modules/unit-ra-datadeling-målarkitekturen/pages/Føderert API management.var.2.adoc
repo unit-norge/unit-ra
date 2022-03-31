@@ -1,0 +1,54 @@
+= Føderert API management
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-målarkitekturen:
+endif::[]
+:toc: left
+:experimental:
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 0
+
+Føderert API Management innebærer at et domene kan gi brukere i andre
+domener som man har et tillitsforhold til, ofte kalt
+fødereringspartnere, tilgang til sine egne data gjennom API. Det er
+flere grunner for å gjøre dette. Mange virksomheter har i dag sine
+virksomhetsdata lagret distribuert, fordelt mellom systemer som kjører
+på lokale servere («on-premise») og i skybaserte-løsninger.
+
+Det er et sterkt politisk ønske om deling av data mellom domener. Flere
+initiativer, slik som Digitaliseringsdirektoratets "Orden i eget hus" og
+andre nasjonale og sektorvise digitaliseringsstrategier skal understøtte
+deling av data. I en slik sammenheng ser vi behovet for et felles dataforvaltnings, masterdata og API
+Management-regime i høyere utdannings- og  forskningssektorene.
+
+Et slikt regime muliggjør deling av data for å oppnå sammenhengende
+brukerreiser, eksemplifisert ved de syv livshendelser og tjenestekjeder.
+Det er en forutsetning at data kan deles mellom virksomheter som
+betjener slike brukerreiser.
+
+3.parts aktører kan bruke data fra høyere utdannings- og forskningssektorene for innovasjon. Dataforvaltning og API
+management kan medvirke til deling av data til 3. part ved å gjøre data
+gjenfinnbart, tilgjengelig og dokumentert.
+
+Virksomheter i høyere utdanning og forskning har mange fellestrekk og
+noen fellestjenester på tvers. Deres autonomi gjør likevel at de er
+ulike på enkelte områder, for eksempel når det gjelder teknisk
+infrastruktur. Disse likhetene og forskjellene understreker behovet for
+en føderert API Management-løsning. En slik løsning er mer fleksibel med
+tanke på tekniske løsninger og produktvalg lokalt.
+
+Felleskomponentene relatert til API-management i referansearkitekturen
+(se under) er laget for å støtte følgende karakteristikk:
+
+* Institusjonene er sikret råderett over egne data gjennom
+tilgangstjeneste i ressursportalen og API gateway hos institusjonen som
+kan styre og holde oversikt over datatilgang
+* Institusjonene har valgfrihet for API Gateway så lenge funksjoner og
+grensesnitt er ivaretatt
+* Deling av data på tvers av institusjoner er støttet gjennom felles
+ressursportal
+

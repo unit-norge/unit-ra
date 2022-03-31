@@ -1,0 +1,30 @@
+= Tilnærming til utvikling av referansearkitekturen
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-tilnærming:
+endif::[]
+:toc: left
+:experimental:
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 0
+
+Denne referansearkitekturen skal gi veiledning til utforming av digitale
+samhandlingsløsninger for deling av data i høyere utdanning og
+forskning. Denne seksjonen gir veiledning om hva som skal oppnås gjennom en presentasjon av hva datadeling er, en visjon om hva vi skal
+bruke det til, og modellene som skal skape fundament for utforming av
+løsningene i visjonen.
+
+:leveloffset: +1
+include::main@unit-ra:unit-ra-datadeling-tilnærming:page$Hva er datadeling.var.2.adoc[]
+include::main@unit-ra:unit-ra-datadeling-tilnærming:page$Et økosystem for datadeling.var.2.adoc[]
+include::main@unit-ra:unit-ra-datadeling-tilnærming:page$Domener.var.2.adoc[]
+include::main@unit-ra:unit-ra-datadeling-tilnærming:page$Hva er felles.var.2.adoc[]
+include::main@unit-ra:unit-ra-datadeling-tilnærming:page$Samhandling og datadeling.var.2.adoc[]
+include::main@unit-ra:unit-ra-datadeling-tilnærming:page$Verktøykassen for deling av data.var.2.adoc[]
+include::main@unit-ra:unit-ra-datadeling-tilnærming:page$Muliggjørende kapabiliteter.var.2.adoc[]
+include::main@unit-ra:unit-ra-datadeling-tilnærming:page$Organisering og forvaltning av informasjon i domener for høyskoler, universiteter og forskning.var.2.adoc[]
+:leveloffset: -1

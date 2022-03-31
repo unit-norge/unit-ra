@@ -1,0 +1,61 @@
+= Datadelingsplattformen og fellestjenestene i den
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-målarkitekturen:
+endif::[]
+:toc: left
+:experimental:
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 0
+
+Datadeling i og mellom domener i økosystemet skjer ved bruk av
+datadelingsplattformen i høyere utdanning og forskning.
+Plattformen skal støtte enkel publisering av data og effektive
+mekanismer for gjenfinning og tilgang til data for konsumenter som har rett til slik tilgang. 
+Datadelingsplattformen lagrer kun metadata og fungerer som en databroker. 
+Datasettene referert til gjennom metadata lagres og forvaltes hos datatilbyderne.
+Deling av data i domenene skjer mellom datatilbydere og datakonsumenter eksempelvis innen administrasjon, læringsgrupper, forskningsprosjekt og i samhandling med andre sektorer og næringsliv.
+Alle kan være datatilbydere og/eller datakonsumenter. 
+Plattformen realiserer prosessene som sikrer at alle kan finne datasett og at tilgang til data er begrenset til konsumenter som skal ha tilgang.
+
+Datadelingplattformen består av felleskomponenter som tilbyr fellestjenester for publisering, gjenfinning og formidling av tilgang. 
+Disse tjenestene er brukt for å realisere datautvekslingsmønstrene beskrevet i referansearkitekturen.
+
+Referansearkitekturen spesifiserer hvordan *datasett, API og notifikasjoner* skal:
+
+* defineres
+* brukes
+* gjenbrukes av nye konsumenter
+* brukes til nye oppgaver
+* forvaltes
+
+Data skal forvaltes i autoritative kilde der ansvar er definert.
+Datasett til nye formål kan være satt sammen av data fra flere andre API. 
+Datadelingsplattformen skal inngå i Kunnskapsdepartementets
+datafellesskap der det skal bygges et økosystem for bruk av data rundt
+plattformen.
+
+Virksomhetene i høyere utdanning og forskning må etablere tillit til
+hverandre for å kunne dele data. Datadelingsplattformen realiserer
+tilgangsstyring til sektorenes data på en enhetlig måte gjennom bruk av
+fellestjenester tilbudt i plattformen i felles datadelingsprosesser beskrevet i referansearkitekturen. Hovedmetoden for tilgangsstyring i
+plattformen er API Management.
+
+Referansearkitekturen definerer hvordan det varsles om endringer i
+datasett gjennom notifikasjoner. Varslene brukes til å reagere på
+endringene i datasettet, uten at hele datasettet konsumeres. Muligheten
+til å reagere på varsler om endringer tilrettelegger for hurtig
+behandling av data i situasjoner der tidsbruk er et sentralt kriterium
+for bruksmønsteret.
+
+:leveloffset: +1
+include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Føderert API management.var.2.adoc[]
+include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Publisering av hendelser.var.2.adoc[]
+include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Felleskomponenter tilbyr fellestjenester.var.2.adoc[]
+include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Datadeling integrert med IAM.var.2.adoc[]
+include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Datadeling på tvers av sektorer.var.2.adoc[]
+:leveloffset: -1

@@ -1,0 +1,116 @@
+= Publiser API
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-datautveksling:
+endif::[]
+:toc: left
+:experimental:
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 0
+
+En prosessflyt som datatilbyder må gjennomføre for å gjøre et API synlig
+og tilgjengelig gjennom kataloger og søkeløsninger. Metadata om APIet
+blir registrert i API-katalogen. Metadata inkluderer begreper og
+datamodeller omfattet av datasettet som APIet tilgjengeliggjør, samt
+tilganger (scopes) knyttet til APIet som kan tildeles konsumenter.
+
+APIet registrert i UHF API katalog blir høstet inn i Felles API katalog.
+Vi ønsker at tilganger (scopes) i tillegg skal registreres i
+Maskinporten slik at konsumenter utenfor UHF sektoren kan oppdage APIet
+og be om tilgang på et senere tidspunkt.
+
+.Publiser API
+image::{imagepath}Publiser API.png[alt=Publiser API image]
+
+
+
+
+[cols ="1,3", options="header"]
+.Elementer i view for Publiser API
+|===
+
+| Element
+| Beskrivelse
+
+| OAUTH scopes
+a| Dataobjekt som som kan beskrives som en ressurs-definisjon, og et token er som regel knyttet til ett eller flere scopes. Scopes benyttes til å styre tilganger til API-er og operasjoner, samt eventuelt hva slags responser man får fra API-er.
+
+| Token-egenskaper
+a| Egenskaper som f.eks. gyldighetstid ved tilgangstoken som er Maskinportens variant av sikkerhetsbillett.
+
+| Datatilbyder
+a| Tilbyder av data til andre aktører.
+
+| Maskinporten
+a| Maskinporten sørger for sikker autentisering og tilgangskontroll for datautveksling mellom
+virksomheter, maskin til maskin. Dette gir teknisk og organisatorisk samhandlingsevne.
+
+Mer om Maskinporten:
+https://www.digdir.no/digitale-felleslosninger/maskinporten/869
+
+| Registrere API i UH/F sektoren
+a| Programtjeneste for å registrere og vedlikeholde API som er tilgjengelige i Universitets og Høyskole-sektoren
+
+| API Beskrivelse 
+a| Open API spesifikasjon (har vi føringer på format her)?
+
+Vi har behov for en beskrivelse av datamodell og begreper som finnes i begrepskatalog og datamodell katalog. Vi vil bruker det nasjonale om den har funksjonaliteten vi trenger, men det er mulig vi må bruke noe for sektoren om ikke funksjonalitet er dekket.
+
+
+| UHF definer rettighetter knyttet til APIer
+a| UHF sentralisert selvbetjeningstjeneste for administrasjon av integrasjoner og APIer.
+Tjeneste "administrasjonssentre" vil ha rettigheter til å registrere på vegne av andre f.eks. API-katalogen
+Definere hvilke scopes finnes koblet til et API
+
+| Publiser API
+a|  Evnen til å gjøre et API synlig og tilgjengelig gjennom kataloger og søkeløsninger slik at det kan oppdages av potensielle konsumenter.
+
+| Registrere API
+a| Prosess for å registere API og tilhørende OAUTH scopes i API-katalog, og høste disse opplysningene til Maskinporten.
+
+
+| Felles API-katalog
+a| Del av Felles datakatalog som gir mulighet for å søke etter API-er og lese API-spesifikasjoner https://fellesdatakatalog.brreg.no/apis
+
+| UHF API manager 
+a| API Management omfatter en administrativ komponent, API Manager, som
+kontrollerer policy og livssyklus for definisjon og forvaltning av API
+og en katalog over tilgjengelige API, API-Katalog (se under). +
+Tilganger gjennom et API defineres i API manager og tildeles av
+autorisasjonstjener.
+
+Ansvaret til API manager inkluderer:
+
+* Sentralisert administrasjon av sikkerhetsretningslinjer for API
+* Sentralisert publisering av API spesifikasjon, for eksempel
+OpenAPI/RAML, dokumentasjon
+* Sentralisert API administrasjon og forvaltning av API-katalogen
+* Håndtering av registrerings- og introduksjonsprosesser for API
+utviklere
+* Håndtere livssyklusen til et API, utvikling, test, utrulling, nye
+versjoner og nedlegging
+* Ivareta registrering, forvaltning og utvikling av konsumentrettigheter
+* Rapportering og analyse for å overvåke bruk og last
+
+| UHF API katalog
+a| Oversikt over alle API som er registrert i UH/F sektoren
+
+UH/F API katalog kan inneholde
+
+  * Navn på API
+  * Tekstlig beskrivelse av API
+  * Informasjonsmodell / Datamodell for API som tilbys 
+  * Kildeinformasjon for data, begrepsinformasjon
+  * Eksempelkode, interaktiv API-konsoll og sandkasse for test
+  * Informasjon om hvordan få support og hjelp fra utsteder
+ * Informasjon om tilgang, juridiske og tekniske begrensinger for bruk. Inkluderer hvilke rettighetter (OAuth2 scopes) en konsument kan få til et API.
+ * Grensesnitt for å presentere APIer
+ * Grensesnitt for å søke etter APIer
+
+|===
+
+

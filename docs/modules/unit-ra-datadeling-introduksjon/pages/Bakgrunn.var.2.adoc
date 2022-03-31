@@ -1,0 +1,81 @@
+= Bakgrunn
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-introduksjon:
+endif::[]
+:toc: left
+:experimental:
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 0
+
+Denne referansearkitekturen er utarbeidet med det som mål at høyere
+utdanning og forskning skal få en felles datadelingsplattform, digital
+samhandlingspraksis og informasjonsforvaltningspraksis. 
+
+Økt deling av data er en forutsetning for å realisere flere av
+initiativene i ‘Handlingsplan for digitalisering i høyere utdanning og
+forskning’ innenfor de funksjonelle områdene utdanning, forskning og
+administrasjon.
+
+== Behov og bruksområder
+
+Referansearkitekturen skal skape samhandling gjennom datadeling, bidra
+til å støtte bruksområder og dekke tilhørende behov i høyere utdannings- og forskningssektorene.
+
+De viktigste funksjonelle behovene er:
+
+* Videreutvikle datadeling for læring og forskning
+* Tilrettelegge for fleksibel læring gjennom hele livet
+* Gjøre forskning og forskningsresultater lettere tilgjengelig
+* Muliggjøre brukernær innovasjon
+* Forbedre deling av data mellom administrative tjenester for å støtte
+administrative prosesser
+* Fremme automatisering av saksbehandling
+* Tilrettelegge for «orden i eget hus» gjennom å bygge opp under felles
+praksis for informasjonsforvaltning
+* Skape trygge og sikker rammer for datadeling
+* Effektivisere forvaltning av informasjon
+
+Tekniske behov som ønskes løst gjennom bruk av en referansearkitektur:
+
+* Forbedre evne til endring i IT-systemporteføljen
+* Felles integrasjonspraksis mellom IT-systemer
+* Skape felles kontekst for kravstilling i anskaffelser samt utvikling,
+drift og forvaltning av integrasjoner
+* Støtte implementasjonen av felles identitets- og tilgangsstyring
+* Tilby en felles begrepskatalog, datakatalog, API-katalog og
+notifikasjonskatalog med autorisasjon
+* Gi veiledning for definisjon av datakilder, datasett, API og
+notifikasjoner
+* Definere felles roller for tjenesteforvaltning, dataforvaltning og
+informasjonsforvaltning
+* Sørge for at høyere utdannings- og forskningssektorene følger de nasjonale og sektorspesifikke retningslinjer som Digitaliseringsdirektoratet og andre spesifiserer
+
+Disse behovene er beskrevet mer detaljert i Vedlegg D Behov og
+bruksområder som skal dekkes av referansearkitekturen
+
+== Gevinst
+ 
+En felles referansearkitektur legger til rette for at utdanning,
+forskning og administrasjon kan dekke sine datadelingsbehov på en måte
+som gir følgende gevinst. Effektiviteten økes når økt oversikt og
+forbedret samhandling muliggjør fjerning av unødvendige kopier av data
+og unødvendige varianter av begreper. Disse forbedringer reduserer
+administrativt byrde. Endringsevne og innovasjon økes når bruksnære
+kontekster får tilgang til forenklet og tilpasset datasett av høy kvalitet
+til sitt bruk. En forbedret informasjonsforvaltningspraksis og
+datadelingsplattform vil gi økt tilgang til data av høy kvalitet, som
+igjen muliggjør datadrevne beslutninger.
+
+== Føringer, pågående og videre arbeid
+
+Referansearkitekturen beskrevet i dette dokumentet tar utgangspunkt i pågående
+arbeid og førende strategier og prinsipper nasjonalt, innen høyere utdannings- og forskningssektorene og internasjonalt.
+
+Dette er beskrevet i Vedlegg E Føringer, samt "Om våre referansearkitekturer" for videre arbeid.
+
+

@@ -1,0 +1,62 @@
+= Notifikasjonsinnhold - basiskonsept UHF
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-datautveksling:
+endif::[]
+:toc: left
+:experimental:
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 0
+
+Som et minimum må en notifikasjon inneholde en identifikator. Anbefalt innhold er basert på standarden CloudEvents (se Utvikling av ytre API i dette dokumentet)
+
+.Notifikasjonsinnhold - basiskonsept UHF
+image::{imagepath}Notifikasjonsinnhold - basiskonsept UHF.png[alt=Notifikasjonsinnhold - basiskonsept UHF image]
+
+
+
+
+[cols ="1,3", options="header"]
+.Elementer i view for Notifikasjonsinnhold - basiskonsept UHF
+|===
+
+| Element
+| Beskrivelse
+
+| Hendelsesrelaterte data
+a| Dataobjektene som notifikasjoner melder fra om endringer i. Dette kan være små eller store datasett som beskriver datagrunnlaget og aktuelle endringer. 
+
+| Notifikasjon
+a| Notifikasjonen bærer informasjon om en endring i et datagrunnlag. Notifikasjonen har et innhold, som identifiserer hva som er endret, og eventuelt hvordan det er endret.
+
+| Mulige notifikasjonsinnhold
+a| Mulige utvidelser av notifikasjonsinnhold utover _Minimum notifikasjonsinnhold_.
+
+| Type hendelse
+a| Identifikasjon av type hendelse. Dette kan være et entydig element i et kontrollert vokabular, men det kan også være "fritekst".
+
+| Øyeblikkbilde etter hendelse
+a| De endrede dataenes verdier etter hendelsen.
+
+| Inkrementell endring i øyeblikksbilde av subjekt
+a| En representasjon av _endringen_ som ble gjort på datagrunnlaget.
+
+| Tidsstempel
+a| Informasjon som identifiserer når forretningshendelsen ble utført. Tidsfesting av hendelser kan benyttes til å sikre at notifikasjoner behandles i riktig rekkefølge.
+
+| Minimum notifikasjonsinnhold
+a| En notifikasjon består (minst) av en identifikator for notifikasjonen, samt informasjon om hvilke data som har blitt endret (referanse til data) omtalt som «subjekt for hendelse».
+
+| Identifikator for notifikasjon
+a| Unik identifikator som kan brukes for å referere til selve notifikasjonen, for eksempel i forbindelse med deduplisering.
+
+| Subjekt for hendelse
+a| Subjekt for hendelse er den entiteten som hendelsen gjelder; f.eks. en person. Kan være en samling av entiteter, f.eks en angitt befolkningsgruppe.
+
+|===
+
+

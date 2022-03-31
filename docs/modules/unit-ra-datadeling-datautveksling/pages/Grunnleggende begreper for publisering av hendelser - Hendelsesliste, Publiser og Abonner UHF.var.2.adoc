@@ -1,0 +1,69 @@
+= Grunnleggende begreper for publisering av hendelser - Hendelsesliste, Publiser og Abonner UHF
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-datautveksling:
+endif::[]
+:toc: left
+:experimental:
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 0
+
+Notifikasjoner blir publisert i form av publisering/abonnering til en
+notifikasjonskø. Hendelseslister er en alternativ måte å beskrive
+en slik strøm av hendelser.
+
+.Grunnleggende begreper for publisering av hendelser - Hendelsesliste, Publiser og Abonner UHF
+image::{imagepath}Grunnleggende begreper for publisering av hendelser - Hendelsesliste, Publiser og Abonner UHF.png[alt=Grunnleggende begreper for publisering av hendelser - Hendelsesliste, Publiser og Abonner UHF image]
+
+
+
+
+[cols ="1,3", options="header"]
+.Elementer i view for Grunnleggende begreper for publisering av hendelser - Hendelsesliste, Publiser og Abonner UHF
+|===
+
+| Element
+| Beskrivelse
+
+| Publiser/Abonner emne
+a| En datatilbyder publiserer hendelser relatert til et emne i en notifikasjonskø hos de konsumenter som har abonnert på emnet. 
+
+| Notifikasjonskø
+a| Notifikasjonskø som inneholder notifikasjoner publisert for en gitt abonnent av notifikasjoner om et gitt emne.
+
+| Notifikasjon
+a| Notifikasjonen bærer informasjon om en endring i et datagrunnlag. Notifikasjonen har et innhold, som identifiserer hva som er endret, og eventuelt hvordan det er endret.
+
+| Hendelsesstrøm
+a| Mengden av notifikasjoner om endringer hos Datatilbyder.
+
+
+
+| Hendelse
+a| Hendelser er det som skjer i den virkelige i verden, som resulterer i endring av et datagrunnlag.
+
+
+
+
+| Subjekt
+a| Subjekt er hvem eller hva hendelsen omhandler, slik dette er å oppfatte i den aktuelle konteksten. Dette kan f.eks. være et fysisk objekt (eks. bil), en person, en virksomhet eller et konsept (eks. politikk). Det kan også være en samling av underordnede subjekter, slik som f.eks. en befolkningsgruppe eller alle virksomheter som har et navn som begynner på A.
+
+| Datagrunnlag
+a| Assosiert med hver hendelse finnes et datagrunnlag som tilsvarer tilstanden før hendelsen inntraff.
+
+| Oppdatert datagrunnlag
+a| Assosiert med hver hendelse finnes et oppdatert datagrunnlag som tilsvarer tilstanden etter hendelsen inntraff og reslutert i en endring i datagrunnlaget.
+
+| Hendelsesrelaterte data
+a| Dataobjektene som notifikasjoner melder fra om endringer i. Dette kan være små eller store datasett som beskriver datagrunnlaget og aktuelle endringer. 
+
+| Hendelsesliste
+a| Hendelsesliste er løpende varsling om endringer.
+
+|===
+
+

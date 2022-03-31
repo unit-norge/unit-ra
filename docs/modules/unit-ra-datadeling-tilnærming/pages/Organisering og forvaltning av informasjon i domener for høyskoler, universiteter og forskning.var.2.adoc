@@ -1,0 +1,136 @@
+= Organisering og forvaltning av informasjon i domener for høyskoler, universiteter og forskning
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-tilnærming:
+endif::[]
+:toc: left
+:experimental:
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 0
+
+Hvert domene har sin egen informasjon som må forvaltes. Referansearkitekturen foreslår roller som har dette ansvaret i seksjonen
+_Roller og ansvar for informasjonsforvaltning_. 
+Informasjonsforvaltning basert på domeneansvar forutsetter at høyere utdannings- og forskningssektorene blir enige om hvilke domener de skal forholde seg til og hvem som skal bekle rollene koblet til dem. Sektorene er allerede i gang med å definere funksjonsområder som kan være utgangspunktet for definisjon av informasjonsdomener. Arbeidet skjer både som analyse av evner (kapabiliteter) som virksomhetene skal ha og som en kartlegging av sektorenes kjernevirksomhet i en «funksjonsanalyse» for saksbehandlings- og arkiveringsformål.
+
+Europeiske universiteter har modellert sine kapabiliteter i https://app.powerbi.com/view?r=eyJrIjoiMThhNjkzNmItOGQ4NC00MDkzLWI3MDQtNzY0ZjA1MjQ5MzViIiwidCI6ImFlMWE3NzI0LTQwNDEtNDQ2Mi1hNmRjLTUzOGNiMTk5NzA3ZSIsImMiOjh9[EUNIS kapabilitetsmodellen], en modell som nå gradvis https://www.caudit.edu.au/news/higher-education-reference-models-updated[migreres] inn i https://www.caudit.edu.au/EA-Framework[HERM fra Caudit], støttet av Educause og Ucisa. Disse modellene er brukt  som utgangspunkt for å foreslå noen informasjonsforvaltningsdomener for data som institusjonene ønsker å dele. De foreslåtte domenene er vist i figuren under. Innenfor hver domene har fageksperter eierskap til begrepsdefinisjoner i domenen.
+
+Arbeidet med funksjonsanalyse for arkiveringsformål er en annen kilde til definisjon av informasjonsdomener. https://app.ardoq.com/presentation/ntnusandbox/2827eafaf53bc053131585e7/slide/52d7ab22765dde7928979b84[NTNUs representasjon av HERM fra Caudit med mapping til funksjonsanalysen er tilgjengelig her.]
+
+
+.Organisering og forvaltning av informasjon i domener for høyskoler, universiteter og forskning
+image::{imagepath}Organisering og forvaltning av informasjon i domener for høyskoler, universiteter og forskning.png[alt=Organisering og forvaltning av informasjon i domener for høyskoler, universiteter og forskning image]
+
+
+
+
+[cols ="1,3", options="header"]
+.Elementer i view for Organisering og forvaltning av informasjon i domener for høyskoler, universiteter og forskning
+|===
+
+| Element
+| Beskrivelse
+
+| Organisering og forvaltning av informasjon i domener for høyskoler, universiteter og forskning
+a| En samlet aktivitet i UH-sektoren, fasilitert av Koordinerende aktør, Direktoratet for høyere utdanning og kompetanse.
+
+| Kommersiell aktivitet
+a| Alle egenskaper som kreves for å sikre at organisasjonen er i stand til å utvikle, levere, støtte og administrere kommersiell aktivitet.
+
+HERM: EUNIS: Commercial activity 
+
+| Undervisning og læring
+a| Alle kapabiliteter som kreves for å sikre at organisasjonen er i stand til å utvikle, levere, støtte og administrere undervisning og læring og studentopplevelsen.
+
+EUNIS: Teaching and learning
+
+| Leveranse av undervisning og læring
+a| Alle aktiviteter som har som mål å levere en god læringsopplevelse til studentene i organisasjonen. Dette inkluderer formidling av undervisningsaktiviteter, så vel som andre aktiviteter som støtter et meningsfullt læringsmiljø.
+
+EUNIS: Teaching and Learning Delivery
+
+| Undervisnings- og læringsinnhold
+a| Ressurser i et bredt spekter av formater for å støtte læring og undervisning i organisasjonen. Dette inkluderer fysiske og digitale ressurser som virtuelle læringsmiljø og forelesningsfangst, tilgang til spesialiserte rom, bibliotek og andre relaterte fysiske og digitale tjenester.
+
+EUNIS: Teaching and Learning Content
+
+| Studieadministrasjon
+a| Alle aktiviteter som er rettet mot å håndtere faglige retningslinjer, forskrifter, planlegging og tilhørende tilbakemeldinger fra kunder.
+
+EUNIS: Student Administration
+
+| Studieplanlegging
+a| Alle aktiviteter rettet mot lærere og administratorer som samarbeider om opprettelse, utvikling, konstruksjon, gjennomgang, godkjenning, vurdering og foredling av pensuminnhold for å oppnå ønskede studentresultater.
+
+EUNIS: Curriculum Management
+
+| Student-vurdering
+a| Alle aktiviteter som har som mål å vurdere om en student har oppnådd læringsmålene.
+
+| Forskning
+a| Alle egenskaper som kreves for å sikre at organisasjonen er i stand til å utvikle, levere, støtte og administrere forskning.
+
+EUNIS: Research
+
+| Forskningsproduksjon
+a| Alle aktiviteter rettet mot å gjennomføre og levere selve forskningen.
+
+EUNIS: Research Delivery
+
+| Kuratering av forskningsdata 
+a| Hva organisasjonen gjør for å lagre, dele, bruke og gjenbruke datasett produsert fra forskningsprosjekter, inkludert datasettstyringsplanlegging og kuratering av datasett utover levetiden til enkeltprosjekter.
+
+EUNIS: Dataset management
+
+| Forskningsforvaltning og prioritering
+a| Hva organisasjonen gjør for å forvalte resultatene fra forskningsprosjekter, inkludert bevaring utover levetiden til enkeltprosjekter.
+
+EUNIS: Output Management
+
+| Forskningsproduksjon i prosjekt
+a| Hva organisasjonen gjør for å produsere forskning. Dette er utførelsen av forskningsprosjektet.
+
+| Forskningspublisering
+a| Alle aktiviteter rettet mot å publisere forskningsresultater og rapportere resultater.
+
+| Rapportering av forskningsresultater
+a| Hva organisasjonen gjør for å utvikle og produsere rapporter om forskningsresultater, inkludert de som er nødvendige for å oppfylle kravene fra finansieringsorganer.
+
+EUNIS: Output Reporting
+
+| Publiseringsforvaltning
+a| Hva organisasjonen gjør for å publisere og fremme forskningsresultater, og administrere publikasjonssamlingene sine helhetlig for å maksimere virkningen av dem.
+
+EUNIS: Publication Management
+
+| Forskningsfinansiering
+a| Alle aktiviteter rettet mot å skaffe og forvalte midler til å gjennomføre forskningsprosjekter.
+
+EUNIS: Research funding
+
+| Personadministrasjon
+a| What the organization does to ensure a positive work environment, focus on individual and collective relationsships, indlucding unions, resolve workplace issues through intervention when necessary.
+
+EUNIS: Human Resource Management
+
+| Identitets-håndtering og tilgangsstyring
+a| Hva en organisasjon gjør for å forvalte data om brukere i IT systemer og applikasjoner. Brukerdata inkluderer objekter som brukeridentiteter, sikkerhetstilganger og autentiseringsmekanismer.
+
+
+
+| Økonomistyring
+a| Alle aktiviteter som er rettet mot effektiv styring av penger (midler) på en slik måte at organisasjonen kan oppnå sine mål.
+
+EUNIS: Finance Management
+
+| Strategiledelse
+a| Strategiledelse definerer retning og strategiske initiativer 
+
+HERM: Strategy Management 
+
+|===
+
+

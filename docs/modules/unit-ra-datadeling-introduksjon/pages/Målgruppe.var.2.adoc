@@ -1,0 +1,16 @@
+= Målgruppe
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-introduksjon:
+endif::[]
+:toc: left
+:experimental:
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 0
+
+Målgruppen for referansearkitekturen er primært arkitekter og tekniske prosjektledere. De delene av dokumentet som omhandler informasjonsforvaltning er også relevant for domeneansvarlige, begrepsansvarlige, tjenesteeiere, tjenesteansvarlige, utviklere og datakonsumenter (disse rollene er definert i dette dokumentet).
+

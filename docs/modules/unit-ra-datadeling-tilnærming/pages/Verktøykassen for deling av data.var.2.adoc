@@ -1,0 +1,52 @@
+= Verktøykassen for deling av data
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-tilnærming:
+endif::[]
+:toc: left
+:experimental:
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 0
+
+https://www.digdir.no/apne-data/nasjonal-verktoykasse-deling-av-data/2243[Verktøykasse for deling av
+data]
+fra Digitaliseringsdirektoratet gir veiledning for de som skal bruke
+data fra andre (datakonsumenter) og de som skal dele data med andre
+(datatilbydere). Den overordnede prosessen brukt av datakonsumenter og
+datatilbydere for å dele data er beskrevet i verktøykassen og avbildet
+under.
+
+Modellen beskriver verdistrømmer for både de som skal bruke data fra
+andre (datakonsumenter) og for de som skal dele data med andre
+(datatilbydere), samt forholdet mellom disse to verdistrømmene.
+
+Verdistrømmene viser hvilke steg en datakonsument må gjennom for å motta
+data, og hvilke steg en datatilbyder må gjennom for å avgi data. Enkelte
+steg i verdistrømmene er tilpasset høyere utdannings- og forkninssektorene i referansearkitekturen. Dette er beskrevet senere i
+dokumentet
+
+Før datatilbyderen kan utføre det første steget i verdistrømmen for
+datadeling må organisasjonen ha oversikt over egne data som skal deles.
+For å kunne utføre det andre steget i verdistrømmen må datatilbyderen ha
+evnen til å publisere datasettene slik at andre kan benytte disse. Disse
+stegene er sentrale i
+https://data.norge.no/guide/veileder-orden-i-eget-hus/[«orden i eget
+hus»]. For at datadeling skal fungere etter hensikten, må dataene også ha
+god kvalitet. Dette krever kapabiliteter innen informasjonsforvaltning.
+ Vi har modellert disse evner som «muliggjørende kapabiliteter» i
+referansearkitekturen for høyere utdanning og forskning med utgangspunkt
+i
+https://app.powerbi.com/view?r=eyJrIjoiMThhNjkzNmItOGQ4NC00MDkzLWI3MDQtNzY0ZjA1MjQ5MzViIiwidCI6ImFlMWE3NzI0LTQwNDEtNDQ2Mi1hNmRjLTUzOGNiMTk5NzA3ZSIsImMiOjh9[EUNIS
+sin kapabilitetsmodell for europeiske universiteter] som vist under.
+EUNIS modellen er utviklet gjennom som et samarbeid mellom europeiske
+universiteter.
+
+
+.Verktøykassen for deling av data
+image::{imagepath}verdistrøm med orden i eget hus.png[]
+ 
+

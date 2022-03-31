@@ -1,0 +1,77 @@
+= Vedlegg F; Bruk av Archimate
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:unit-ra-datadeling-vedlegg-f:
+endif::[]
+:toc: left
+:experimental:
+:toclevels: 4
+:sectnums:
+:sectnumlevels: 0
+
+https://www.opengroup.org/archimate-forum/archimate-overview[The ArchiMate Enterprise Architecture Modeling Language] is used by this refererence architecture. 
+
+Selected symbols from the language that are used in this architecture are described in the element table below. Obects are represented as "architectural building blocks" (ABBs) and Solution Building Blocks (SBBs). The ABBs have a lighter color than the SBBs.
+
+Architecture Building Blocks (ABBs) define what functionality will be implemented. 
+
+Solution Building Blocks (SBBs) define what products and components will implement the functionality. SBBs are product or vendor-aware.
+
+Many of the diagrams in this architecture are organized as indicated in the figure below. An actor performing a particular business role creates the described capability through a business process. This business process will typically be supported by application services which are realized through application components. Both applications services and application components may access data objects.
+
+.Vedlegg F; Bruk av Archimate
+image::{imagepath}Vedlegg F; Bruk av Archimate.png[alt=Vedlegg F; Bruk av Archimate image]
+
+
+
+
+[cols ="1,3", options="header"]
+.Elementer i view for Vedlegg F; Bruk av Archimate
+|===
+
+| Element
+| Beskrivelse
+
+| Capability
+a| A Capability represents an ability that an active structure element, such as an organization, person, or system, possesses.
+
+| Value Stream
+a| A Value Stream represents a sequence of activities that create an overall result for a customer, stakeholder, or end user.
+
+| Business Object
+a| A Business Object represents a concept used within a particular business domain.
+
+| Business Process
+a| A Business Process represents a sequence of business behaviors that achieves a specific result such as a defined set of products or business services.
+
+| Data Object
+a| A Data Object represents data structured for automated processing.
+
+| System Software
+a| System Software represents software that provides or contributes to an environment for storing, executing, and using software or data deployed within it.
+
+| Application Component
+a| An Application Component represents an encapsulation of application functionality aligned to implementation structure, which is modular and replaceable.
+
+| Application Component Solution Building Block
+a| An application component that specifies the implementation, "Solutuion Building Block" (SBB). Solution Building Blocks (SBBs) define what products and components will implement the functionality. SBBs are product or vendor-aware.
+
+An Application Component represents an encapsulation of application functionality aligned to implementation structure, which is modular and replaceable.
+
+
+
+| Business Role
+a| A Business Role represents the responsibility for performing specific behavior, to which an actor can be assigned, or the part an actor plays in a particular action or event.
+
+| Application Service
+a| An Application Service represents an explicitly defined exposed application behaviour.
+
+| Business Event
+a| A Business Event represents an organizational state change.
+
+|===
+
+
