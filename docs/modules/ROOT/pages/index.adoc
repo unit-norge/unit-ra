@@ -4,7 +4,7 @@ ifeval::[{wysiwig_editing} == 1]
 :imagepath: ../images/
 endif::[]
 ifeval::[{wysiwig_editing} == 0]
-:imagepath: master@unit-ra:ROOT:
+:imagepath: main@unit-ra:ROOT:
 endif::[]
 #:toc: left
 #:toclevels: 3
