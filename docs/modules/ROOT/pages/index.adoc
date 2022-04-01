@@ -11,9 +11,9 @@ endif::[]
 :sectnums:
 :sectnumlevels: 9
 
-Innledende tekst
+image:{imagepath}image1.png[]
 
-bilde fra refark
+Direktoratat for høyere utdanning og kompetanse har ansvar for forvaltning av referansearkitekturer i høyere utdanning og forskning. Vår intensjon er at referansearkitekturene videreutvikles kontinuerlig etter behov.
 
 * xref:om-hkdir-referansearkitekturer.adoc[Om våre referansearkitekturer]
 * xref:main@unit-ra:unit-ra-datadeling-sammendrag:page$Sammendrag.adoc[Sammendrag av referansearkitekturen]
