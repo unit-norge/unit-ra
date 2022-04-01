@@ -1,0 +1,61 @@
+= Om referansearkitekturene i høyere utdanning og forskning og ønsket videreutvikling
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: master@unit-ra:ROOT:
+endif::[]
+#:toc: left
+#:toclevels: 3
+:sectnums:
+:sectnumlevels: 9
+
+Direktoratat for høyere utdanning og kompetanse har ansvar for forvaltning av referansearkitekturer i høyere utdanning og forskning. Vår intensjon er at referansearkitekturene videreutvikles kontinuerlig etter behov.
+
+Arbeidsgrupper i med representasjon fra institusjonene i høyere utdanning 
+har samarbeidet i
+https://www.unit.no/prosjekter/datadeling-i-hoyere-utdanning-og-forskning[Datadelingsprosjektet hos Sikt] om utformingen av
+Referansearkitekturen for deling av data i høyere utdanning og forskning
+(UHF) presentert på disse websidene. 
+Denne referansearkitekturen vil danne grunnlag for
+videreutvikling av Datadelingstjenesten - UH:IntArk i fase 2. 
+Mange element i målbildet kan med fordel rulles ut så tidlig som mulig, for eksempel tiltak rettet mot forbedret informasjonsforvaltning og orden i eget hus.
+Arbeidsgruppene har i sitt arbeid tatt utgangspunkt i den nasjonale https://www.digdir.no/datadeling/nasjonal-verktoykasse-deling-av-data/2243[Verktøykassen for deling av data] samt https://nasjonal-arkitektur.github.io/architecture-repository/data-exchange-ra/book-data-exchange-ra.html[Referansearkitektur for datautveksling] og tilpasset
+denne til Høyere utdanning og forskning.
+
+Referansearkitekturen beskrevet her vil inngå i
+referansearkitekturen for https://kunnskapsdata.no[Kunnskapssektorens datafellesskap] (KUDAF, en
+infrastruktur for deling av data til sekundær- og viderebruk fra hele
+KDs sektor), og arbeidet er koordinert med dette tiltaket.
+
+Referansearkitekturer gir mønstre og veiledning til utforming av
+løsninger. Denne referansearkitekturen beskriver både eksisterende
+samhandling formulert som beste praksis og nødvendig neste steg i
+generelle datadelingsmønster som kan gjenbrukes i høyere utdannings- og forskningssektorene. Disse
+mønstrene er dokumentert gjennom videreutvikling av
+referansearkitekturene fra Digitaliseringsdirektoratet. Hensikten med
+arbeidet er å fremme en koordinert utvikling av informasjonsforvaltning
+og datadeling som resulterer i «orden i eget hus», økt gjenbruk av data
+«kun en gang» og nye, innovative anvendelser av data i sektorene.
+
+Innholdet i referansearkitekturen nå er ment som et "minimum viable product" som er tilstrekkelig til å føre til gevinst. 
+Vi forventer at referansearkitekturen vil videreutvikles over tid etter behov,
+og vi ønsker at følgdende forbedringer skal være utviklet så snart som praktisk mulig:
+
+* Definere prosessen for å forvalte fellesføringer for datadeling.
+* Føringer for forvaltning av informasjon bør utvides til å inkluderere prosesser for å registrere (opprette), godkjenne der nødvendig, splitte og slå sammen dataobjekter.
+* Definerere støtte for historikk i datasett og API
+* Støtte for datakvalitet må utdypes og styrkes
+* Rutinen for utvikling av indre API burde være detaljert.
+* Retningslinjer for spesifikasjon av API burde vært definert. Vi tenker
+å benytte Open API spesifikasjon som en del av retningslinjene for REST
+APIene. GraphQL vurderes i tillegg.
+* Prosesser for rettighetsklarering av dataprodukter bør defineres.
+* Føringer for beskrivelser av dataprodukter bør defineres. Det er et
+mål at dataprodukter skal være mest mulig selvbeskrivende.
+* Begrepsdefinisjoner bør suppleres og publiseres i et begrepskatalog.
+* Notifikasjoner som er realisert ved bruk av hendelseslister vurderes
+ut fra behov.
+* Det bør defineres hvordan man refererer unikt til data.
+* Det bør utføres brukertesting av referansearkitekturen hos målgruppene for de definerte rollene
