@@ -13,7 +13,7 @@ endif::[]
 
 image:{imagepath}image1.png[]
 
-Direktoratat for høyere utdanning og kompetanse har ansvar for forvaltning av referansearkitekturer i høyere utdanning og forskning. Vår intensjon er at referansearkitekturene videreutvikles kontinuerlig etter behov.
+Direktoratat for høyere utdanning og kompetanse har ansvar for forvaltning av referansearkitekturer i høyere utdanning og forskning. 
 
 * xref:om-hkdir-referansearkitekturer.adoc[Om våre referansearkitekturer]
 * xref:main@unit-ra:unit-ra-datadeling-sammendrag:page$Sammendrag.adoc[Sammendrag av referansearkitekturen]
