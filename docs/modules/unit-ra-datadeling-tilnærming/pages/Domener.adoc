@@ -37,7 +37,7 @@ utviklet for spesielle brukstilfeller som avbildet under.
 image::{imagepath}DomenerUHF.png[]
 
 De *_grunnleggende domenene_* inneholder kontekst som støtter de sentrale
-prosessene for læring, forskning og administrasjon hos institusjonene.  Denne kontekten vil omfatte begreper, informasjonsmodeller, proesesser og dersom det er hensiktsmessig, også data.
+prosessene for læring, forskning og administrasjon hos institusjonene.  Denne konteksten vil omfatte begreper, informasjonsmodeller, prosesser og dersom det er hensiktsmessig, også data.
 
 Disse domenene inneholder blant annet *_masterdatakilder_* med
 informasjon om, for eksempel, studenter, ansatte, forskningsprosjekt,
@@ -50,7 +50,7 @@ API og datasett definert i grunnleggende domener blir gjerne gjenbrukt
 av bruksnære domener.
 
 De *_bruksnære domenene_* er definert til å støtte en spesifikk
-brrukskontekst. Domener for brukskontekst inkluderer for eksempel
+brukskontekst. Domener for brukskontekst inkluderer for eksempel
 situasjoner der studenter evaluerer emner, der studenter får
 automatisert tilbakemeldinger for å forbedre læringsprosessen
 (læringsanalyse) og der deltagere i forskningsprosjekt samler data.

@@ -58,7 +58,7 @@ a| System Software represents software that provides or contributes to an enviro
 a| An Application Component represents an encapsulation of application functionality aligned to implementation structure, which is modular and replaceable.
 
 | Application Component Solution Building Block
-a| An application component that specifies the implementation, "Solutuion Building Block" (SBB). Solution Building Blocks (SBBs) define what products and components will implement the functionality. SBBs are product or vendor-aware.
+a| An application component that specifies the implementation, "Solution Building Block" (SBB). Solution Building Blocks (SBBs) define what products and components will implement the functionality. SBBs are product or vendor-aware.
 
 An Application Component represents an encapsulation of application functionality aligned to implementation structure, which is modular and replaceable.
 
@@ -68,7 +68,7 @@ An Application Component represents an encapsulation of application functionalit
 a| A Business Role represents the responsibility for performing specific behavior, to which an actor can be assigned, or the part an actor plays in a particular action or event.
 
 | Application Service
-a| An Application Service represents an explicitly defined exposed application behaviour.
+a| An Application Service represents an explicitly defined exposed application behavior.
 
 | Business Event
 a| A Business Event represents an organizational state change.

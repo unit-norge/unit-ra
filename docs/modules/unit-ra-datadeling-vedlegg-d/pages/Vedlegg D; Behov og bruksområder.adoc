@@ -15,7 +15,7 @@ endif::[]
 === Forskning og læring
 
 Det er behov for å videreutvikle datadeling for læring og forskning. I
-henhold til https://www.regjeringen.no/no/dokumenter/strategi-for-digital-omstilling-i-universitets-og-hoyskolesektoren/id2870981/[ny digitaliseringsstragegi] skal
+henhold til https://www.regjeringen.no/no/dokumenter/strategi-for-digital-omstilling-i-universitets-og-hoyskolesektoren/id2870981/[ny digitaliseringsstrategi] skal
 studenter tilbys fleksible og studentaktive undervisningsformer. 
 Data om studentenes læring forvaltes hos og tilbys fra den enkelte institusjonen. 
 Institusjonen er ansvarlig for at data opprettholder nødvendig kvalitet, inklusivt samordning med relaterte datakilder.

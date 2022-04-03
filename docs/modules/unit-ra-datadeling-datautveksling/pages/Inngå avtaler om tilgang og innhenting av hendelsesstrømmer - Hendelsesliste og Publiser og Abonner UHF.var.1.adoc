@@ -30,7 +30,7 @@ TIP: Gå tilbake til standardvisning ved å klikke 'tilbake' (eller lukk dette v
 | Beskrivelse
 
 | Beskrive behov og tilganger
-a| Prosessen med å beskrive hvilke tilganger konsument har rettigeheter til og hvilken type notifikasjoner som er aktuelle. 
+a| Prosessen med å beskrive hvilke tilganger konsument har rettigheter til og hvilken type notifikasjoner som er aktuelle. 
 
 | Datakonsument
 a| Den som innhenter eller mottar data fra andre aktører.

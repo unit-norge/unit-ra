@@ -38,7 +38,7 @@ TIP: Gå tilbake til standardvisning ved å klikke 'tilbake' (eller lukk dette v
 | Beskrivelse
 
 | OAUTH scopes
-a| Dataobjekt som som kan beskrives som en ressurs-definisjon, og et token er som regel knyttet til ett eller flere scopes. Scopes benyttes til å styre tilganger til API-er og operasjoner, samt eventuelt hva slags responser man får fra API-er.
+a| Dataobjekt som kan beskrives som en ressurs-definisjon, og et token er som regel knyttet til ett eller flere scopes. Scopes benyttes til å styre tilganger til API-er og operasjoner, samt eventuelt hva slags responser man får fra API-er.
 
 | Token-egenskaper
 a| Egenskaper som f.eks. gyldighetstid ved tilgangstoken som er Maskinportens variant av sikkerhetsbillett.
@@ -71,7 +71,7 @@ Definere hvilke scopes finnes koblet til et API
 a|  Evnen til å gjøre et API synlig og tilgjengelig gjennom kataloger og søkeløsninger slik at det kan oppdages av potensielle konsumenter.
 
 | Registrere API
-a| Prosess for å registere API og tilhørende OAUTH scopes i API-katalog, og høste disse opplysningene til Maskinporten.
+a| Prosess for å registrere API og tilhørende OAUTH scopes i API-katalog, og høste disse opplysningene til Maskinporten.
 
 
 | Felles API-katalog
@@ -108,7 +108,7 @@ UH/F API katalog kan inneholde
   * Kildeinformasjon for data, begrepsinformasjon
   * Eksempelkode, interaktiv API-konsoll og sandkasse for test
   * Informasjon om hvordan få support og hjelp fra utsteder
- * Informasjon om tilgang, juridiske og tekniske begrensinger for bruk. Inkluderer hvilke rettighetter (OAuth2 scopes) en konsument kan få til et API.
+ * Informasjon om tilgang, juridiske og tekniske begrensinger for bruk. Inkluderer hvilke rettigheter (OAuth2 scopes) en konsument kan få til et API.
  * Grensesnitt for å presentere APIer
  * Grensesnitt for å søke etter APIer
 

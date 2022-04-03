@@ -198,7 +198,7 @@ Oppgaver:
 |===
 |*Rolle:* |Domeneansvarlig
 |*Beskrivelse av rollen:* |Har ansvar for aktiviteter og tiltak innen
-domenet for å sikre både at begreper og informasjonsmodeller er definert i domenen og for riktig kvalitet, utnytting og sikring av informasjon
+domenet for å sikre både at begreper og informasjonsmodeller er definert i domenet og for riktig kvalitet, utnytting og sikring av informasjon
 i domenet.
 
 |*Ansvars-områder og oppgaver:* a|

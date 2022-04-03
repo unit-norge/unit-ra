@@ -73,13 +73,13 @@ Konsumenten som forespurte tilgang til data må ha en "authentication grant" som
 a| Prosessen med å autentisere en konsument.
 
 | Datautvekslings-tjeneste
-a| Tjeneste for utveksling av data over aktuell transportprotokoll, f.eks, gjennom asynkrone medlinger eller synkrone API-oppslag.
+a| Tjeneste for utveksling av data over aktuell transportprotokoll, f.eks, gjennom asynkrone meldinger eller synkrone API-oppslag.
 
 | Tokenvaliderings-tjeneste
 a| Tjeneste som benyttes av tilbyder for å validere og kontrollere autentisiteten til et OAUTH2 token fra Maskinporten
 
 | Avgi data
-a| Evne til å avgi data på forespørsel. Data som avgis er klargjort for dette gjennom en API som er publisert, og en API gateway som håndhever tilgangskontroll basert på at tilgang til data er gitt på på forhånd for den aktuelle konsumenten.
+a| Evne til å avgi data på forespørsel. Data som avgis er klargjort for dette gjennom en API som er publisert, og en API gateway som håndhever tilgangskontroll basert på at tilgang til data er gitt på forhånd for den aktuelle konsumenten.
 
 | API Gateway 
 a| API gateway er en tjeneste som tilgjengeliggjør, beskytter og overvåker
@@ -98,7 +98,7 @@ Komponent som beskytter ressursene og overvåker tilgang inklusivt:
 * Orkestrering mellom interntjenester
 
 | Gi konsument adgang til data
-a| Tjeneste for å gi datakonsument adgang til data. Tjenesten kan realiseres gjennom utveksling av data over aktuell transportprotokoll, f.eks, gjennom asynkrone medlinger eller synkrone API-oppslag. Tjenesten kan også realiseres ved å gi konsumenten adgang til data er de ligger, f.eks, innen forskning for analyse av store datamengder.
+a| Tjeneste for å gi datakonsument adgang til data. Tjenesten kan realiseres gjennom utveksling av data over aktuell transportprotokoll, f.eks, gjennom asynkrone meldinger eller synkrone API-oppslag. Tjenesten kan også realiseres ved å gi konsumenten adgang til data er de ligger, f.eks, innen forskning for analyse av store datamengder.
 
 |===
 ****

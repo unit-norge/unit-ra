@@ -57,7 +57,7 @@ a| Subjekt er hvem eller hva hendelsen omhandler, slik dette er å oppfatte i de
 a| Assosiert med hver hendelse finnes et datagrunnlag som tilsvarer tilstanden før hendelsen inntraff.
 
 | Oppdatert datagrunnlag
-a| Assosiert med hver hendelse finnes et oppdatert datagrunnlag som tilsvarer tilstanden etter hendelsen inntraff og reslutert i en endring i datagrunnlaget.
+a| Assosiert med hver hendelse finnes et oppdatert datagrunnlag som tilsvarer tilstanden etter hendelsen inntraff og resultert i en endring i datagrunnlaget.
 
 | Hendelsesrelaterte data
 a| Dataobjektene som notifikasjoner melder fra om endringer i. Dette kan være små eller store datasett som beskriver datagrunnlaget og aktuelle endringer. 

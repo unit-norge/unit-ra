@@ -109,7 +109,7 @@ UH/F API katalog kan inneholde
   * Kildeinformasjon for data, begrepsinformasjon
   * Eksempelkode, interaktiv API-konsoll og sandkasse for test
   * Informasjon om hvordan få support og hjelp fra utsteder
- * Informasjon om tilgang, juridiske og tekniske begrensinger for bruk. Inkluderer hvilke rettighetter (OAuth2 scopes) en konsument kan få til et API.
+ * Informasjon om tilgang, juridiske og tekniske begrensinger for bruk. Inkluderer hvilke rettigheter (OAuth2 scopes) en konsument kan få til et API.
  * Grensesnitt for å presentere APIer
  * Grensesnitt for å søke etter APIer
 

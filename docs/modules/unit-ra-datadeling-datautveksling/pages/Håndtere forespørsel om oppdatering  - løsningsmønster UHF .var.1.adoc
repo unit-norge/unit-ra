@@ -59,7 +59,7 @@ Eksempler på rettigheter kan komme av samtykker fra person eller virksomhet, el
 Konsumenten som forespurte tilgang til data må ha en "authentication grant" som gir rett til operasjonen som er forespurt. Leseoperasjoner må ha lesetilgang og oppdateringsoperasjoner må ha skrivetilgang til data spesifisert.
 
 | Datautvekslings-tjeneste
-a| Tjeneste for utveksling av data over aktuell transportprotokoll, f.eks, gjennom asynkrone medlinger eller synkrone API-oppslag.
+a| Tjeneste for utveksling av data over aktuell transportprotokoll, f.eks, gjennom asynkrone meldinger eller synkrone API-oppslag.
 
 | Tokenvaliderings-tjeneste
 a| Tjeneste som benyttes av tilbyder for å validere og kontrollere autentisiteten til et OAUTH2 token fra Maskinporten
