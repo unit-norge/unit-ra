@@ -43,7 +43,7 @@ a| Tilbyder av data til andre aktører.
 a| Prosessen med å dele informasjon om hendelser.
 
 | Generer notifikasjon ut fra hendelse
-a| Prosessen med å generere en notifikasjon på bakgrunn av en hendelse(endring i datagrunnlaget).
+a| Prosessen med å generere en notifikasjon på bakgrunn av en hendelse (endring i datagrunnlaget).
 
 | Publiser notifikasjon - Publiser/Abonner
 a| Prosess der notifikasjonen fra "Generer notifikasjon ut fra hendelse” overleveres Notifikasjonsdistribusjon for eventuell levering til konsumenter.
