@@ -40,7 +40,7 @@ a| Mulige utvidelser av notifikasjonsinnhold utover _Minimum notifikasjonsinnhol
 | Type hendelse
 a| Identifikasjon av type hendelse. Dette kan være et entydig element i et kontrollert vokabular, men det kan også være "fritekst".
 
-| Øyeblikkbilde etter hendelse
+| Øyeblikksbilde etter hendelse
 a| De endrede dataenes verdier etter hendelsen.
 
 | Inkrementell endring i øyeblikksbilde av subjekt
