@@ -22,18 +22,18 @@ Sun Apr 03 2022 14:16:48 GMT+0200 (CEST)
 
 
 :leveloffset: +1
-include::main@unit-ra:unit-ra-datadeling-introduksjon:page$Introduksjon.adoc[]
-include::main@unit-ra:unit-ra-datadeling-tilnærming:page$Tilnærming til utvikling av referansearkitekturen.adoc[]
-include::main@unit-ra:unit-ra-datadeling-roller:page$Roller og ansvar for informasjonsforvaltning.adoc[]
-include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Datadelingsplattformen og fellestjenestene i den.adoc[]
-include::main@unit-ra:unit-ra-datadeling-datautveksling:page$Datautveksling.adoc[]
-include::main@unit-ra:unit-ra-datadeling-rutiner:page$Rutiner.adoc[]
-include::main@unit-ra:unit-ra-datadeling-vedlegg-a:page$Vedlegg A; Definisjoner.adoc[]
-include::main@unit-ra:unit-ra-datadeling-vedlegg-b:page$Vedlegg B; Behov for avklaringer og utfordringer i sektorenes kontekst.adoc[]
-include::main@unit-ra:unit-ra-datadeling-vedlegg-c:page$Vedlegg C; Integrasjonsprinsipper.adoc[]
-include::main@unit-ra:unit-ra-datadeling-vedlegg-d:page$Vedlegg D; Behov og bruksområder.adoc[]
-include::main@unit-ra:unit-ra-datadeling-vedlegg-e:page$Vedlegg E; Føringer.adoc[]
-include::main@unit-ra:unit-ra-datadeling-vedlegg-f:page$Vedlegg F; Bruk av Archimate.adoc[]
+include::ver1.0@unit-ra:unit-ra-datadeling-introduksjon:page$Introduksjon.adoc[]
+include::ver1.0@unit-ra:unit-ra-datadeling-tilnærming:page$Tilnærming til utvikling av referansearkitekturen.adoc[]
+include::ver1.0@unit-ra:unit-ra-datadeling-roller:page$Roller og ansvar for informasjonsforvaltning.adoc[]
+include::ver1.0@unit-ra:unit-ra-datadeling-målarkitekturen:page$Datadelingsplattformen og fellestjenestene i den.adoc[]
+include::ver1.0@unit-ra:unit-ra-datadeling-datautveksling:page$Datautveksling.adoc[]
+include::ver1.0@unit-ra:unit-ra-datadeling-rutiner:page$Rutiner.adoc[]
+include::ver1.0@unit-ra:unit-ra-datadeling-vedlegg-a:page$Vedlegg A; Definisjoner.adoc[]
+include::ver1.0@unit-ra:unit-ra-datadeling-vedlegg-b:page$Vedlegg B; Behov for avklaringer og utfordringer i sektorenes kontekst.adoc[]
+include::ver1.0@unit-ra:unit-ra-datadeling-vedlegg-c:page$Vedlegg C; Integrasjonsprinsipper.adoc[]
+include::ver1.0@unit-ra:unit-ra-datadeling-vedlegg-d:page$Vedlegg D; Behov og bruksområder.adoc[]
+include::ver1.0@unit-ra:unit-ra-datadeling-vedlegg-e:page$Vedlegg E; Føringer.adoc[]
+include::ver1.0@unit-ra:unit-ra-datadeling-vedlegg-f:page$Vedlegg F; Bruk av Archimate.adoc[]
 :leveloffset: -1
 
 ifeval::[{wysiwig_editing} == 0]
