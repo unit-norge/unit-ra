@@ -162,7 +162,7 @@ Dataforvalter.
 |*Beskrivelse av rollen:* a|
 Den som har overordnet ansvar hos en datatilbyder for å administrere
 informasjon/data som skal deles (evt. kan ansvaret/rollen fordeles
-videre og knyttes til, for eksempel, et domene innenfor datatilbyder sin organisasjonen).
+videre og knyttes til, for eksempel, et domene innenfor datatilbyder sin organisasjon).
 
 |*Ansvars-områder og oppgaver:* a|
 Leveranse og forvalting av data. Datakvalitet, sikkerhet,

@@ -11,7 +11,7 @@ endif::[]
 :sectnums:
 :sectnumlevels: 9
 
-Direktoratat for høyere utdanning og kompetanse har ansvar for forvaltning av referansearkitekturer i høyere utdanning og forskning. Vår intensjon er at referansearkitekturene videreutvikles kontinuerlig etter behov.
+Direktoratatet for høyere utdanning og kompetanse har ansvar for forvaltning av referansearkitekturer i høyere utdanning og forskning. Vår intensjon er at referansearkitekturene videreutvikles kontinuerlig etter behov.
 
 Arbeidsgrupper i med representasjon fra institusjonene i høyere utdanning 
 har samarbeidet i
@@ -41,11 +41,11 @@ og datadeling som resulterer i «orden i eget hus», økt gjenbruk av data
 
 Innholdet i referansearkitekturen nå er ment som et "minimum viable product" som er tilstrekkelig til å føre til gevinst. 
 Vi forventer at referansearkitekturen vil videreutvikles over tid etter behov,
-og vi ønsker at følgdende forbedringer skal være utviklet så snart som praktisk mulig:
+og vi ønsker at følgende forbedringer skal være utviklet så snart som praktisk mulig:
 
 * Definere prosessen for å forvalte fellesføringer for datadeling.
-* Føringer for forvaltning av informasjon bør utvides til å inkluderere prosesser for å registrere (opprette), godkjenne der nødvendig, splitte og slå sammen dataobjekter.
-* Definerere støtte for historikk i datasett og API
+* Føringer for forvaltning av informasjon bør utvides til å inkludere prosesser for å registrere (opprette), godkjenne der nødvendig, splitte og slå sammen dataobjekter.
+* Definere støtte for historikk i datasett og API
 * Støtte for datakvalitet må utdypes og styrkes
 * Rutinen for utvikling av indre API burde være detaljert.
 * Retningslinjer for spesifikasjon av API burde vært definert. Vi tenker
@@ -54,7 +54,7 @@ APIene. GraphQL vurderes i tillegg.
 * Prosesser for rettighetsklarering av dataprodukter bør defineres.
 * Føringer for beskrivelser av dataprodukter bør defineres. Det er et
 mål at dataprodukter skal være mest mulig selvbeskrivende.
-* Begrepsdefinisjoner bør suppleres og publiseres i et begrepskatalog.
+* Begrepsdefinisjoner bør suppleres og publiseres i en begrepskatalog.
 * Notifikasjoner som er realisert ved bruk av hendelseslister vurderes
 ut fra behov.
 * Det bør defineres hvordan man refererer unikt til data.

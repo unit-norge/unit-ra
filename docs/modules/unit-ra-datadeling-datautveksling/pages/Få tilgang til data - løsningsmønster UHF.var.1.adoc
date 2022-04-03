@@ -40,7 +40,7 @@ a| Prosessen med å skaffe seg tilgang til tilbudte data fra annen aktør. Omfat
 a| Prosess for å inngå avtale om tilgang og bruk av data.
 
 | Registrer klient med tildelt tilgang
-a| Prosess for konsument å registerere (provisjonering av) den klienten som skal ha tilgang til API-et ved bruk av sikkerhetsbillett. Dette forutsetter at konsumenten har avtale om bruk av sikkerhetsbillettjenesten og at tilbyder har gitt konsumenten tilgang.
+a| Prosess for konsument å registrere (provisjonering av) den klienten som skal ha tilgang til API-et ved bruk av sikkerhetsbillett. Dette forutsetter at konsumenten har avtale om bruk av sikkerhetsbillettjenesten og at tilbyder har gitt konsumenten tilgang.
 
 Dersom det er en leverandør som har blitt delegert rettigheter som databehandler på vegne av konsument er det leverandøren som registrer sin klient.
 

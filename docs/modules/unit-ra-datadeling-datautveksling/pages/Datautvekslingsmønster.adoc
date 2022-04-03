@@ -32,7 +32,7 @@ utføres sjelden. Denne metoden blir ofte kalt _batch-provisjonering_.
 *Provisjonering via lettvekts eNotifikasjoner*
 
 I de tilfellene provisjonering via synkrone oppslag ikke kan besørge en
-propageringshastighet som understøtter brukerenes behov, kan lette
+propageringshastighet som understøtter brukernes behov, kan lette
 eNotifikasjoner benyttes i kombinasjon med eOppslag. De lette
 eNotifikasjonene bærer informasjon om _hvilke_ data som har endret seg i
 datakilden, og leveres umiddelbart til de som måtte være interessert i
