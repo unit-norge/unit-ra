@@ -72,7 +72,7 @@ Mer om Altinn autorisasjon:
 https://www.altinndigital.no/produkter/styring-av-tilgang/
 
 | Registrere samtykkebasert tilgang
-a| Tjeneste for å registrere konsumenter som ma innhente samtykke som gir grunnlag for utlevering fra datatilbyder.
+a| Tjeneste for å registrere konsumenter som må innhente samtykke som gir grunnlag for utlevering fra datatilbyder.
 
 | Aktører som kan innhente samtykke for bruk av API
 a| Oversikt over aktører som skal ha mulighet til å innhente samtykke som grunnlag for å få tilgang til data gjennom et API. 
