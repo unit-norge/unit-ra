@@ -11,7 +11,7 @@ endif::[]
 :sectnums:
 :sectnumlevels: 9
 
-Direktoratatet for høyere utdanning og kompetanse har ansvar for forvaltning av referansearkitekturer i høyere utdanning og forskning. Vår intensjon er at referansearkitekturene videreutvikles kontinuerlig etter behov.
+Direktoratet for høyere utdanning og kompetanse har ansvar for forvaltning av referansearkitekturer i høyere utdanning og forskning. Vår intensjon er at referansearkitekturene videreutvikles kontinuerlig etter behov.
 
 Arbeidsgrupper i med representasjon fra institusjonene i høyere utdanning 
 har samarbeidet i
