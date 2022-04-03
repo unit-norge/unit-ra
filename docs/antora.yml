@@ -1,6 +1,6 @@
 name: unit-ra
 title: Referansearkitekturer i høyere utdanning og forskning
-version: main
+version: Høringsversjon 1.0
 start_page: ROOT:index.adoc 
 nav:
 - modules/ROOT/nav-unit-ra.adoc
