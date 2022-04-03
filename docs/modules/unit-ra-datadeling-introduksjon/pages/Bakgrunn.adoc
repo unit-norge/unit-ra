@@ -12,8 +12,6 @@ endif::[]
 :sectnums:
 :sectnumlevels: 9
 
-Testmelding fra MAIN
-
 Denne referansearkitekturen er utarbeidet med det som mål at høyere
 utdanning og forskning skal få en felles datadelingsplattform, digital
 samhandlingspraksis og informasjonsforvaltningspraksis. 
