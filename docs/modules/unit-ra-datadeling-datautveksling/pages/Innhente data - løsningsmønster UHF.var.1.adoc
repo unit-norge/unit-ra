@@ -32,7 +32,7 @@ TIP: Gå tilbake til standardvisning ved å klikke 'tilbake' (eller lukk dette v
 | UHF Infrastruktur
 a| 
 
-| Samtykkeregistererings-tjeneste
+| Samtykkeregistrerings-tjeneste
 a| Tjeneste for å innhente samtykke fra den registrert som dataene gjelder. Dette kan være en person eller en virksomhet.
 
 | Adressetjeneste
